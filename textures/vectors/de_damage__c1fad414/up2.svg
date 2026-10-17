@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="bg3118" cx="50%" cy="38%" r="48%">
+      <stop offset="0%" stop-color="#8b8828"/>
+      <stop offset="55%" stop-color="#484614"/>
+      <stop offset="85%" stop-color="#141406"/>
+      <stop offset="100%" stop-color="#050502"/>
+    </radialGradient>
+    <pattern id="hatch3118" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#333430"/>
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#0b0c0a" stroke-width="3"/>
+    </pattern>
+    <filter id="glow3118" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="1.1" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+    <circle cx="64" cy="64" r="62" fill="#040404" stroke="#181a16" stroke-width="2"/>
+  <circle cx="64" cy="64" r="55" fill="none" stroke="#141613" stroke-width="3"/>
+  <circle cx="64" cy="64" r="50" fill="url(#bg3118)" stroke="#26271c" stroke-width="1.5"/>
+  <g>
+    <circle cx="64" cy="64" r="46.5" fill="none" stroke="#787752" stroke-width="5" stroke-dasharray="1.5 3.37" />
+    <circle cx="64" cy="64" r="45" fill="none" stroke="#c4c09e" stroke-width="8" stroke-dasharray="2.5 21.06" stroke-dashoffset="1.25"/>
+  </g>
+  <g fill="url(#hatch3118)" stroke="#c8c59e" stroke-width="2.3" stroke-linejoin="round" filter="url(#glow3118)">
+    <polygon points="61,26 46,27.5 45,34.5 61,36" />
+    <polygon points="67,26 82,27.5 83,34.5 67,36" />
+    <polygon points="61,59 24,71 24,73 18,75 18,82 32,84.5 61,82" />
+    <polygon points="67,59 104,71 104,73 110,75 110,82 96,84.5 67,82" />
+    <path d="M 64 21 C 66 22, 67 25, 67 28 L 67 58 L 61 58 L 61 28 C 61 25, 62 22, 64 21 Z" />
+    <rect x="61" y="58" width="6" height="28" />
+    <path d="M 61 86 L 67 86 L 67 91 C 67 95, 65.5 97.5, 64 98.5 C 62.5 97.5, 61 95, 61 91 Z" />
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "custom:1",
+      "file": "up1.png",
+      "rgba": true,
+      "alpha": "vector drawing (SVG), own transparency",
+      "size": [
+        1024,
+        1024
+      ],
+      "ts": 1792116914.868774,
+      "replaces": "klein:1",
+      "svg": "up1.svg",
+      "label": "Vector SVG (v1)"
+    },
+    {
+      "id": "custom:2",
+      "file": "up2.png",
+      "rgba": true,
+      "alpha": "vector drawing (SVG), transparent corners",
+      "size": [
+        1024,
+        1024
+      ],
+      "ts": 1792119940.8572695,
+      "replaces": "custom:1",
+      "svg": "up2.svg",
+      "label": "Pasted SVG 3121 (v2)"
+    }
+  ]
+}

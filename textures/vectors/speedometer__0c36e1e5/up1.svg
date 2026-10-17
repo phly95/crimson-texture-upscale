@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="edge" gradientUnits="userSpaceOnUse" cx="64.5" cy="64.0" r="61">
+      <stop offset="0.91" stop-color="#040504"/>
+      <stop offset="0.945" stop-color="#060706" stop-opacity="0.85"/>
+      <stop offset="0.975" stop-color="#0a0b0a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0a0b0a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edgetint" gradientUnits="userSpaceOnUse" x1="0" y1="4" x2="0" y2="124">
+      <stop offset="0" stop-color="#4c4d4c" stop-opacity="0.9"/>
+      <stop offset="0.12" stop-color="#3a3b3a" stop-opacity="0.7"/>
+      <stop offset="0.3" stop-color="#202220" stop-opacity="0"/>
+      <stop offset="1" stop-color="#202220" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lip" gradientUnits="userSpaceOnUse" x1="0" y1="8" x2="0" y2="121">
+      <stop offset="0" stop-color="#060806"/>
+      <stop offset="0.6" stop-color="#070807"/>
+      <stop offset="0.8" stop-color="#1e201e"/>
+      <stop offset="0.92" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#6a686a"/>
+    </linearGradient>
+    <radialGradient id="face" gradientUnits="userSpaceOnUse" cx="80" cy="40" r="70">
+      <stop offset="0" stop-color="#454335"/>
+      <stop offset="0.5" stop-color="#3a392e"/>
+      <stop offset="0.85" stop-color="#2b2a22"/>
+      <stop offset="1" stop-color="#29281f"/>
+    </radialGradient>
+    <radialGradient id="spot" gradientUnits="userSpaceOnUse" cx="66" cy="25" r="36">
+      <stop offset="0" stop-color="#57553e" stop-opacity="1"/>
+      <stop offset="0.35" stop-color="#53513c" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#4a4836" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#454335" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vign" gradientUnits="userSpaceOnUse" cx="64.5" cy="63.5" r="51">
+      <stop offset="0.78" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.22"/>
+    </radialGradient>
+    <linearGradient id="tick" gradientUnits="userSpaceOnUse" x1="0" y1="13" x2="0" y2="114">
+      <stop offset="0" stop-color="#949273"/>
+      <stop offset="0.27" stop-color="#949273"/>
+      <stop offset="0.42" stop-color="#94967b"/>
+      <stop offset="0.60" stop-color="#94968c"/>
+      <stop offset="0.74" stop-color="#9c9a94"/>
+      <stop offset="0.86" stop-color="#9c9a9c"/>
+      <stop offset="1" stop-color="#9c9a9c"/>
+    </linearGradient>
+
+    <linearGradient id="warnArc" gradientUnits="userSpaceOnUse" x1="90" y1="98" x2="38" y2="98">
+      <stop offset="0" stop-color="#5a180e" stop-opacity="0.6"/>
+      <stop offset="0.35" stop-color="#7a1e10" stop-opacity="0.8"/>
+      <stop offset="0.75" stop-color="#b03014" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#cc3816" stop-opacity="1.0"/>
+    </linearGradient>
+    <radialGradient id="stallLens" cx="63" cy="42" r="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#760c08"/>
+      <stop offset="0.65" stop-color="#550606"/>
+      <stop offset="1" stop-color="#320202"/>
+    </radialGradient>
+    <radialGradient id="hubGrad" cx="66.0" cy="62.0" r="4.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#726c52"/>
+      <stop offset="0.4" stop-color="#504c3a"/>
+      <stop offset="0.85" stop-color="#2a2820"/>
+      <stop offset="1" stop-color="#141410"/>
+    </radialGradient>
+    <linearGradient id="markColor" gradientUnits="userSpaceOnUse" x1="0" y1="20" x2="0" y2="100">
+      <stop offset="0" stop-color="#dedbb8"/>
+      <stop offset="0.6" stop-color="#d8d4ae"/>
+      <stop offset="1" stop-color="#cec9a2"/>
+    </linearGradient>
+
+  </defs>
+  <g transform="scale(4)">
+    <circle cx="64.5" cy="64.0" r="61" fill="url(#edge)"/>
+    <circle cx="64.5" cy="64.0" r="57.6" fill="none" stroke="url(#edgetint)" stroke-width="2.4"/>
+    <circle cx="64.5" cy="64.0" r="56.3" fill="url(#lip)"/>
+    <circle cx="64.5" cy="63.5" r="52.6" fill="#030403"/>
+    <circle cx="64.5" cy="63.5" r="50.6" fill="url(#face)"/>
+    <circle cx="64.5" cy="63.5" r="50.6" fill="url(#spot)"/>
+    <circle cx="64.5" cy="63.5" r="50.6" fill="url(#vign)"/>
+    <!-- Warning Arc (200 to 300 MPH) -->
+    <path d="M 87.19,94.73 A 38.60,38.60 0 0,1 41.81,94.73 L 38.99,98.61 A 43.40,43.40 0 0,0 90.01,98.61 Z" fill="url(#warnArc)" stroke="#3a0a04" stroke-width="0.3"/>
+    <!-- Radial Ticks (Clockwise 0 to 300) -->
+    <g stroke="url(#tick)" stroke-linecap="butt">
+      <line x1="64.50" y1="21.70" x2="64.50" y2="13.10" stroke-width="3.0"/>
+      <line x1="70.05" y1="19.55" x2="70.82" y2="13.50" stroke-width="2.0"/>
+      <line x1="75.52" y1="20.59" x2="77.03" y2="14.68" stroke-width="2.0"/>
+      <line x1="80.81" y1="22.31" x2="83.05" y2="16.64" stroke-width="2.0"/>
+      <line x1="85.84" y1="24.68" x2="88.78" y2="19.33" stroke-width="2.0"/>
+      <line x1="89.07" y1="29.68" x2="94.12" y2="22.73" stroke-width="3.0"/>
+      <line x1="94.83" y1="31.21" x2="99.00" y2="26.76" stroke-width="2.0"/>
+      <line x1="98.63" y1="35.26" x2="103.33" y2="31.37" stroke-width="2.0"/>
+      <line x1="101.90" y1="39.76" x2="107.05" y2="36.49" stroke-width="2.0"/>
+      <line x1="104.58" y1="44.64" x2="110.10" y2="42.04" stroke-width="2.0"/>
+      <line x1="104.25" y1="50.58" x2="112.43" y2="47.93" stroke-width="3.0"/>
+      <line x1="108.02" y1="55.20" x2="114.01" y2="54.06" stroke-width="2.0"/>
+      <line x1="108.71" y1="60.72" x2="114.80" y2="60.34" stroke-width="2.0"/>
+      <line x1="108.71" y1="66.28" x2="114.80" y2="66.66" stroke-width="2.0"/>
+      <line x1="108.02" y1="71.80" x2="114.01" y2="72.94" stroke-width="2.0"/>
+      <line x1="104.25" y1="76.42" x2="112.43" y2="79.07" stroke-width="3.0"/>
+      <line x1="104.58" y1="82.36" x2="110.10" y2="84.96" stroke-width="2.0"/>
+      <line x1="101.90" y1="87.24" x2="107.05" y2="90.51" stroke-width="2.0"/>
+      <line x1="98.63" y1="91.74" x2="103.33" y2="95.63" stroke-width="2.0"/>
+      <line x1="94.83" y1="95.79" x2="99.00" y2="100.24" stroke-width="2.0"/>
+      <line x1="89.07" y1="97.32" x2="94.12" y2="104.27" stroke-width="3.0"/>
+      <line x1="85.84" y1="102.32" x2="88.78" y2="107.67" stroke-width="2.0"/>
+      <line x1="80.81" y1="104.69" x2="83.05" y2="110.36" stroke-width="2.0"/>
+      <line x1="75.52" y1="106.41" x2="77.03" y2="112.32" stroke-width="2.0"/>
+      <line x1="70.05" y1="107.45" x2="70.82" y2="113.50" stroke-width="2.0"/>
+      <line x1="64.50" y1="105.30" x2="64.50" y2="113.90" stroke-width="3.0"/>
+      <line x1="58.95" y1="107.45" x2="58.18" y2="113.50" stroke-width="2.0"/>
+      <line x1="53.48" y1="106.41" x2="51.97" y2="112.32" stroke-width="2.0"/>
+      <line x1="48.19" y1="104.69" x2="45.95" y2="110.36" stroke-width="2.0"/>
+      <line x1="43.16" y1="102.32" x2="40.22" y2="107.67" stroke-width="2.0"/>
+      <line x1="39.93" y1="97.32" x2="34.88" y2="104.27" stroke-width="3.0"/>
+    </g>
+    <!-- STALL Warning Light Box -->
+    <rect x="47.5" y="36.5" width="31.0" height="11.2" rx="0.8" fill="#080808" stroke="#040404" stroke-width="0.8"/>
+    <rect x="48.5" y="37.5" width="29.0" height="8.8" rx="0.5" fill="url(#stallLens)"/>
+    <g fill="none" stroke="#050101" stroke-width="1.3" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M 54.6,39.6 L 51.5,39.6 L 51.5,42.2 L 54.6,42.2 L 54.6,45.0 L 51.4,45.0"/>
+      <path d="M 56.4,39.6 L 61.2,39.6 M 58.8,39.6 L 58.8,45.0"/>
+      <path d="M 62.4,45.0 L 64.0,39.6 L 65.6,45.0 M 62.9,43.2 L 65.1,43.2"/>
+      <path d="M 68.2,39.6 L 68.2,45.0 L 71.8,45.0"/>
+      <path d="M 73.2,39.6 L 73.2,45.0 L 76.8,45.0"/>
+    </g>
+    <line x1="47.5" y1="47.2" x2="78.5" y2="47.2" stroke="url(#markColor)" stroke-width="1.1"/>
+    <line x1="48.0" y1="48.2" x2="78.0" y2="48.2" stroke="#0a0a08" stroke-width="0.8"/>
+    <!-- Center Needle Mount Hub -->
+    <circle cx="64.5" cy="63.5" r="5.8" fill="#040504"/>
+    <circle cx="64.5" cy="63.5" r="5.0" fill="#181a18" stroke="#080908" stroke-width="0.5"/>
+    <circle cx="64.5" cy="63.5" r="4.4" fill="url(#hubGrad)"/>
+    <circle cx="64.5" cy="63.5" r="1.6" fill="#0c0d0c" stroke="#222018" stroke-width="0.4"/>
+    <!-- Numerals & Legends (Precision Vector Paths) -->
+    <g fill="url(#markColor)" fill-rule="evenodd">
+      <path d="M 62.39,25.7 L 64.01,25.7 Q 65.9,25.7 65.9,27.22 L 65.9,31.779999999999998 Q 65.9,33.3 64.01,33.3 L 62.39,33.3 Q 60.5,33.3 60.5,31.779999999999998 L 60.5,27.22 Q 60.5,25.7 62.39,25.7 Z M 62.7,27.2 Q 62.2,27.2 62.2,28.119999999999997 L 62.2,30.880000000000003 Q 62.2,31.8 62.7,31.8 L 63.7,31.8 Q 64.2,31.8 64.2,30.880000000000003 L 64.2,28.119999999999997 Q 64.2,27.2 63.7,27.2 Z"/>
+      <path d="M 86.6,57.3 L 85.0,57.3 L 85.0,51.5 L 83.6,51.5 L 85.0,49.7 L 86.6,49.7 Z"/>
+      <path d="M 90.69,49.7 L 92.31,49.7 Q 94.2,49.7 94.2,51.220000000000006 L 94.2,55.779999999999994 Q 94.2,57.3 92.31,57.3 L 90.69,57.3 Q 88.8,57.3 88.8,55.779999999999994 L 88.8,51.220000000000006 Q 88.8,49.7 90.69,49.7 Z M 90.95,51.2 Q 90.4,51.2 90.4,52.120000000000005 L 90.4,54.879999999999995 Q 90.4,55.8 90.95,55.8 L 92.05,55.8 Q 92.6,55.8 92.6,54.879999999999995 L 92.6,52.120000000000005 Q 92.6,51.2 92.05,51.2 Z"/>
+      <path d="M 96.69,49.7 L 98.31,49.7 Q 100.2,49.7 100.2,51.220000000000006 L 100.2,55.779999999999994 Q 100.2,57.3 98.31,57.3 L 96.69,57.3 Q 94.8,57.3 94.8,55.779999999999994 L 94.8,51.220000000000006 Q 94.8,49.7 96.69,49.7 Z M 96.95,51.2 Q 96.4,51.2 96.4,52.120000000000005 L 96.4,54.879999999999995 Q 96.4,55.8 96.95,55.8 L 98.05,55.8 Q 98.6,55.8 98.6,54.879999999999995 L 98.6,52.120000000000005 Q 98.6,51.2 98.05,51.2 Z"/>
+      <path d="M 73.5,87.8 Q 73.5,86.0 76.2,86.0 Q 78.9,86.0 78.9,88.0 C 78.9,89.6 75.1,92.0 73.5,92.0 L 73.5,93.6 L 78.9,93.6 L 78.9,92.0 L 75.7,92.0 C 77.1,91.0 77.30000000000001,89.0 77.30000000000001,88.0 Q 77.30000000000001,87.6 76.2,87.6 Q 75.1,87.6 75.1,87.8 Z"/>
+      <path d="M 81.59,86.0 L 83.21000000000001,86.0 Q 85.10000000000001,86.0 85.10000000000001,87.52 L 85.10000000000001,92.08 Q 85.10000000000001,93.6 83.21000000000001,93.6 L 81.59,93.6 Q 79.7,93.6 79.7,92.08 L 79.7,87.52 Q 79.7,86.0 81.59,86.0 Z M 81.85000000000001,87.39999999999999 Q 81.30000000000001,87.39999999999999 81.30000000000001,88.35999999999999 L 81.30000000000001,91.24000000000001 Q 81.30000000000001,92.2 81.85000000000001,92.2 L 82.95,92.2 Q 83.5,92.2 83.5,91.24000000000001 L 83.5,88.35999999999999 Q 83.5,87.39999999999999 82.95,87.39999999999999 Z"/>
+      <path d="M 87.59,86.0 L 89.21000000000001,86.0 Q 91.10000000000001,86.0 91.10000000000001,87.52 L 91.10000000000001,92.08 Q 91.10000000000001,93.6 89.21000000000001,93.6 L 87.59,93.6 Q 85.7,93.6 85.7,92.08 L 85.7,87.52 Q 85.7,86.0 87.59,86.0 Z M 87.85000000000001,87.39999999999999 Q 87.30000000000001,87.39999999999999 87.30000000000001,88.35999999999999 L 87.30000000000001,91.24000000000001 Q 87.30000000000001,92.2 87.85000000000001,92.2 L 88.95,92.2 Q 89.5,92.2 89.5,91.24000000000001 L 89.5,88.35999999999999 Q 89.5,87.39999999999999 88.95,87.39999999999999 Z"/>
+      <path d="M 34.8,87.6 Q 34.8,86.0 37.5,86.0 Q 40.2,86.0 40.2,88.0 Q 40.2,89.6 37.9,89.6 L 37.9,89.8 Q 40.2,89.89999999999999 40.2,91.6 Q 40.2,93.6 37.5,93.6 Q 34.8,93.6 34.8,92.0 L 36.4,92.0 Q 36.4,92.0 37.5,92.0 Q 38.6,92.0 38.6,91.6 Q 38.6,90.24 37.5,90.24 L 37.5,88.96 Q 38.6,88.96 38.6,88.0 Q 38.6,87.6 37.5,87.6 Q 36.4,87.6 36.4,87.6 Z"/>
+      <path d="M 42.69,86.0 L 44.31,86.0 Q 46.2,86.0 46.2,87.52 L 46.2,92.08 Q 46.2,93.6 44.31,93.6 L 42.69,93.6 Q 40.8,93.6 40.8,92.08 L 40.8,87.52 Q 40.8,86.0 42.69,86.0 Z M 42.949999999999996,87.39999999999999 Q 42.4,87.39999999999999 42.4,88.35999999999999 L 42.4,91.24000000000001 Q 42.4,92.2 42.949999999999996,92.2 L 44.050000000000004,92.2 Q 44.6,92.2 44.6,91.24000000000001 L 44.6,88.35999999999999 Q 44.6,87.39999999999999 44.050000000000004,87.39999999999999 Z"/>
+      <path d="M 48.69,86.0 L 50.31,86.0 Q 52.2,86.0 52.2,87.52 L 52.2,92.08 Q 52.2,93.6 50.31,93.6 L 48.69,93.6 Q 46.8,93.6 46.8,92.08 L 46.8,87.52 Q 46.8,86.0 48.69,86.0 Z M 48.949999999999996,87.39999999999999 Q 48.4,87.39999999999999 48.4,88.35999999999999 L 48.4,91.24000000000001 Q 48.4,92.2 48.949999999999996,92.2 L 50.050000000000004,92.2 Q 50.6,92.2 50.6,91.24000000000001 L 50.6,88.35999999999999 Q 50.6,87.39999999999999 50.050000000000004,87.39999999999999 Z"/>
+      <path d="M 30.2,61.5 L 32.0,61.5 L 32.0,53.8 L 33.9,61.5 L 34.699999999999996,61.5 L 36.6,53.8 L 36.6,61.5 L 38.4,61.5 L 38.4,51.0 L 36.42,51.0 L 34.3,57.9 L 32.18,51.0 L 30.2,51.0 Z"/>
+      <path d="M 40.2,61.5 L 42.0,61.5 L 42.0,57.2 L 44.2,57.2 Q 45.800000000000004,57.2 45.800000000000004,55.6 L 45.800000000000004,52.6 Q 45.800000000000004,51.0 44.2,51.0 L 40.2,51.0 Z M 42.0,52.8 L 43.20000000000001,52.8 Q 44.00000000000001,52.8 44.00000000000001,53.599999999999994 L 44.00000000000001,54.60000000000001 Q 44.00000000000001,55.400000000000006 43.20000000000001,55.400000000000006 L 42.0,55.400000000000006 Z"/>
+      <path d="M 47.2,61.5 L 49.0,61.5 L 49.0,57.15 L 52.00000000000001,57.15 L 52.00000000000001,61.5 L 53.800000000000004,61.5 L 53.800000000000004,51.0 L 52.00000000000001,51.0 L 52.00000000000001,55.35 L 49.0,55.35 L 49.0,51.0 L 47.2,51.0 Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="bg3119" cx="50%" cy="38%" r="50%">
+      <stop offset="0%" stop-color="#585947"/>
+      <stop offset="65%" stop-color="#38392e"/>
+      <stop offset="100%" stop-color="#1e1f18"/>
+    </radialGradient>
+    <pattern id="hatch3119" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#2c2d26"/>
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#0d0e0b" stroke-width="3"/>
+    </pattern>
+  </defs>
+    <circle cx="64" cy="64" r="62" fill="#050505" stroke="#1a1c18" stroke-width="2"/>
+  <circle cx="64" cy="64" r="55" fill="none" stroke="#161816" stroke-width="3"/>
+  <circle cx="64" cy="64" r="50" fill="url(#bg3119)" stroke="#47483f" stroke-width="1.5"/>
+  <g stroke="#8e907e" stroke-linecap="butt">
+    <circle cx="64" cy="64" r="46.5" fill="none" stroke="#7d7f6d" stroke-width="5" stroke-dasharray="1.5 3.37" />
+    <circle cx="64" cy="64" r="45" fill="none" stroke="#9fa18e" stroke-width="8" stroke-dasharray="2.6 20.96" stroke-dashoffset="1.3"/>
+  </g>
+  <g fill="url(#hatch3119)" stroke="#9ea08c" stroke-width="2.5" stroke-linejoin="round">
+    <polygon points="54,67 35,76.5 35,96 59,90 59,74" />
+    <polygon points="74,67 93,76.5 93,96 69,90 69,74" />
+    <polygon points="54,56 74,56 74,67 69,74 69,90 59,90 59,74 54,67" />
+    <path d="M 64 22 C 69 25, 74 33, 74 42 L 74 56 L 54 56 L 54 42 C 54 33, 59 25, 64 22 Z" />
+  </g>
+</svg>

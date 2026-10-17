@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="bg3124" cx="50%" cy="38%" r="50%">
+      <stop offset="0%" stop-color="#585947"/>
+      <stop offset="65%" stop-color="#38392e"/>
+      <stop offset="100%" stop-color="#1e1f18"/>
+    </radialGradient>
+    <pattern id="hatch3124" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#2c2d26"/>
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#0d0e0b" stroke-width="3"/>
+    </pattern>
+  </defs>
+    <circle cx="64" cy="64" r="62" fill="#050505" stroke="#1a1c18" stroke-width="2"/>
+  <circle cx="64" cy="64" r="55" fill="none" stroke="#161816" stroke-width="3"/>
+  <circle cx="64" cy="64" r="50" fill="url(#bg3124)" stroke="#47483f" stroke-width="1.5"/>
+  <g stroke="#8e907e" stroke-linecap="butt">
+    <circle cx="64" cy="64" r="46.5" fill="none" stroke="#7d7f6d" stroke-width="5" stroke-dasharray="1.5 3.37" />
+    <circle cx="64" cy="64" r="45" fill="none" stroke="#9fa18e" stroke-width="8" stroke-dasharray="2.6 20.96" stroke-dashoffset="1.3"/>
+  </g>
+  <g stroke="#c2c2ae" stroke-width="2.5" stroke-linecap="butt" fill="none">
+    <line x1="39" y1="53" x2="39" y2="38" />
+    <line x1="43" y1="52" x2="43" y2="36.5" />
+    <line x1="47.5" y1="51" x2="47.5" y2="35" />
+    <line x1="52" y1="50" x2="52" y2="34" />
+    <line x1="76" y1="50" x2="76" y2="34" />
+    <line x1="80.5" y1="51" x2="80.5" y2="35" />
+    <line x1="85" y1="52" x2="85" y2="36.5" />
+    <line x1="89" y1="53" x2="89" y2="38" />
+  </g>
+  <g fill="url(#hatch3124)" stroke="#c2c2ae" stroke-width="2.3" stroke-linejoin="round">
+    <polygon points="59,50 47,51 16,62 16,71 21,72 55,68 56,62 59,66" />
+    <polygon points="69,50 81,51 112,62 112,71 107,72 73,68 72,62 69,66" />
+    <path d="M 59,77 L 49,78.5 C 44,79.5 44,88.5 49,89 L 79,89 C 84,88.5 84,79.5 79,78.5 L 69,77 Z" />
+    <polygon points="58,22 70,22 70,30 68.5,30 69.5,67 58.5,67 59.5,30 58,30" />
+    <polygon points="59,67 69,67 68,80 64,89 60,80" />
+    <path d="M 61,58 C 61,52 67,52 67,58 L 67,65 L 61,65 Z" fill="#3a3b2e" />
+  </g>
+</svg>

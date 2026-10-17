@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="bg3122" cx="50%" cy="38%" r="48%">
+      <stop offset="0%" stop-color="#8b8828"/>
+      <stop offset="55%" stop-color="#484614"/>
+      <stop offset="85%" stop-color="#141406"/>
+      <stop offset="100%" stop-color="#050502"/>
+    </radialGradient>
+    <pattern id="hatch3122" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#333430"/>
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#0b0c0a" stroke-width="3"/>
+    </pattern>
+    <filter id="glow3122" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="1.1" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+    <circle cx="64" cy="64" r="62" fill="#040404" stroke="#181a16" stroke-width="2"/>
+  <circle cx="64" cy="64" r="55" fill="none" stroke="#141613" stroke-width="3"/>
+  <circle cx="64" cy="64" r="50" fill="url(#bg3122)" stroke="#26271c" stroke-width="1.5"/>
+  <g>
+    <circle cx="64" cy="64" r="46.5" fill="none" stroke="#787752" stroke-width="5" stroke-dasharray="1.5 3.37" />
+    <circle cx="64" cy="64" r="45" fill="none" stroke="#c4c09e" stroke-width="8" stroke-dasharray="2.5 21.06" stroke-dashoffset="1.25"/>
+  </g>
+  <g stroke="#c8c59e" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow3122)">
+    <path d="M 44,53 L 44,47 M 42.5,41 L 42.5,47 L 45.5,47 L 45.5,41" />
+    <path d="M 51,51 L 51,45 M 49.5,38.5 L 49.5,45 L 52.5,45 L 52.5,38.5" />
+    <path d="M 77,51 L 77,45 M 75.5,38.5 L 75.5,45 L 78.5,45 L 78.5,38.5" />
+    <path d="M 84,53 L 84,47 M 82.5,41 L 82.5,47 L 85.5,47 L 85.5,41" />
+    <path d="M 58,89 L 58,108 M 56,102 L 60,102" />
+    <path d="M 70,89 L 70,108 M 68,102 L 72,102" />
+    <path d="M 59,89 L 62,101 L 66,101 L 69,89" />
+  </g>
+  <g fill="url(#hatch3122)" stroke="#c8c59e" stroke-width="2.2" stroke-linejoin="round" filter="url(#glow3122)">
+    <polygon points="59,49 38,54.5 16,55.5 14,59 14,64 16,66.5 59,73" />
+    <polygon points="69,49 90,54.5 112,55.5 114,59 114,64 112,66.5 69,73" />
+    <polygon points="57,31 71,31 71,36 68,36 69,77 78,80 78,89 69,91 59,91 50,89 50,80 59,77 60,36 57,36" />
+    <path d="M 64,50 L 67,56 L 67,69 L 61,69 L 61,56 Z" fill="#464514" />
+  </g>
+</svg>

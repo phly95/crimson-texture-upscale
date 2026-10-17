@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "id": "custom:1",
+      "file": "up1.png",
+      "rgba": false,
+      "alpha": "vector drawing (SVG), opaque",
+      "size": [
+        128,
+        352
+      ],
+      "ts": 1792187366.5066261,
+      "replaces": "klein:1",
+      "svg": "up1.svg"
+    }
+  ]
+}

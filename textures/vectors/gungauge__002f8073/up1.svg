@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="edge" gradientUnits="userSpaceOnUse" cx="64.5" cy="64.0" r="61">
+      <stop offset="0.91" stop-color="#040504"/>
+      <stop offset="0.945" stop-color="#060706" stop-opacity="0.85"/>
+      <stop offset="0.975" stop-color="#0a0b0a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0a0b0a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edgetint" gradientUnits="userSpaceOnUse" x1="0" y1="4" x2="0" y2="124">
+      <stop offset="0" stop-color="#4c4d4c" stop-opacity="0.9"/>
+      <stop offset="0.12" stop-color="#3a3b3a" stop-opacity="0.7"/>
+      <stop offset="0.3" stop-color="#202220" stop-opacity="0"/>
+      <stop offset="1" stop-color="#202220" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lip" gradientUnits="userSpaceOnUse" x1="0" y1="8" x2="0" y2="121">
+      <stop offset="0" stop-color="#060806"/>
+      <stop offset="0.6" stop-color="#070807"/>
+      <stop offset="0.8" stop-color="#1e201e"/>
+      <stop offset="0.92" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#6a686a"/>
+    </linearGradient>
+    <!-- Gun Gauge Face Shading -->
+    <radialGradient id="face" gradientUnits="userSpaceOnUse" cx="72" cy="38" r="70">
+      <stop offset="0" stop-color="#444636"/>
+      <stop offset="0.5" stop-color="#36382c"/>
+      <stop offset="0.85" stop-color="#272820"/>
+      <stop offset="1" stop-color="#22231c"/>
+    </radialGradient>
+    <radialGradient id="spot" gradientUnits="userSpaceOnUse" cx="64.5" cy="24" r="36">
+      <stop offset="0" stop-color="#5a563c" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#524e36" stop-opacity="0.75"/>
+      <stop offset="0.75" stop-color="#423e2a" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#36382c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vign" gradientUnits="userSpaceOnUse" cx="64.5" cy="63.5" r="51">
+      <stop offset="0.78" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="hubGrad" cx="66.0" cy="62.0" r="5.0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#726e54"/>
+      <stop offset="0.4" stop-color="#504c3a"/>
+      <stop offset="0.85" stop-color="#2a2820"/>
+      <stop offset="1" stop-color="#141410"/>
+    </radialGradient>
+    <linearGradient id="markColor" gradientUnits="userSpaceOnUse" x1="0" y1="20" x2="0" y2="40">
+      <stop offset="0" stop-color="#f0eed8"/>
+      <stop offset="1" stop-color="#dedabe"/>
+    </linearGradient>
+    <!-- Window Recess Shadow -->
+    <linearGradient id="windowBevel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#060706"/>
+      <stop offset="0.15" stop-color="#0e100e"/>
+      <stop offset="0.85" stop-color="#121412"/>
+      <stop offset="1" stop-color="#282a26"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(4)">
+    <!-- 1. Bezel Assembly -->
+    <circle cx="64.5" cy="64.0" r="61" fill="url(#edge)"/>
+    <circle cx="64.5" cy="64.0" r="57.6" fill="none" stroke="url(#edgetint)" stroke-width="2.4"/>
+    <circle cx="64.5" cy="64.0" r="56.3" fill="url(#lip)"/>
+    <circle cx="64.5" cy="63.5" r="52.6" fill="#030403"/>
+
+    <!-- 2. Dial Face & Lighting -->
+    <circle cx="64.5" cy="63.5" r="50.6" fill="url(#face)"/>
+    <circle cx="64.5" cy="63.5" r="50.6" fill="url(#spot)"/>
+    <circle cx="64.5" cy="63.5" r="50.6" fill="url(#vign)"/>
+
+    <!-- 3. Rim Calibration Ticks -->
+    <g stroke-linecap="butt">
+            <line x1="72.63" y1="17.41" x2="73.10" y2="14.75" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="80.51" y1="19.52" x2="81.43" y2="16.99" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="87.00" y1="24.53" x2="89.25" y2="20.63" stroke="#dedcb8" stroke-width="2.0"/>
+      <line x1="94.58" y1="27.65" x2="96.32" y2="25.58" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="100.35" y1="33.42" x2="102.42" y2="31.68" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="103.47" y1="41.00" x2="107.37" y2="38.75" stroke="#dedcb8" stroke-width="2.0"/>
+      <line x1="108.48" y1="47.49" x2="111.01" y2="46.57" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="110.59" y1="55.37" x2="113.25" y2="54.90" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="110.59" y1="71.63" x2="113.25" y2="72.10" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="108.48" y1="79.51" x2="111.01" y2="80.43" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="103.47" y1="86.00" x2="107.37" y2="88.25" stroke="#dedcb8" stroke-width="2.0"/>
+      <line x1="100.35" y1="93.58" x2="102.42" y2="95.32" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="94.58" y1="99.35" x2="96.32" y2="101.42" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="87.00" y1="102.47" x2="89.25" y2="106.37" stroke="#dedcb8" stroke-width="2.0"/>
+      <line x1="80.51" y1="107.48" x2="81.43" y2="110.01" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="72.63" y1="109.59" x2="73.10" y2="112.25" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="56.37" y1="109.59" x2="55.90" y2="112.25" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="48.49" y1="107.48" x2="47.57" y2="110.01" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="42.00" y1="102.47" x2="39.75" y2="106.37" stroke="#dedcb8" stroke-width="2.0"/>
+      <line x1="34.42" y1="99.35" x2="32.68" y2="101.42" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="28.65" y1="93.58" x2="26.58" y2="95.32" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="25.53" y1="86.00" x2="21.63" y2="88.25" stroke="#dedcb8" stroke-width="2.0"/>
+      <line x1="20.52" y1="79.51" x2="17.99" y2="80.43" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="18.41" y1="71.63" x2="15.75" y2="72.10" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="18.41" y1="55.37" x2="15.75" y2="54.90" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="20.52" y1="47.49" x2="17.99" y2="46.57" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="25.53" y1="41.00" x2="21.63" y2="38.75" stroke="#dedcb8" stroke-width="2.0"/>
+      <line x1="28.65" y1="33.42" x2="26.58" y2="31.68" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="34.42" y1="27.65" x2="32.68" y2="25.58" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="42.00" y1="24.53" x2="39.75" y2="20.63" stroke="#dedcb8" stroke-width="2.0"/>
+      <line x1="48.49" y1="19.52" x2="47.57" y2="16.99" stroke="#b0ad8a" stroke-width="1.2"/>
+      <line x1="56.37" y1="17.41" x2="55.90" y2="14.75" stroke="#b0ad8a" stroke-width="1.2"/>
+    </g>
+
+    <!-- 4. Mounting Screws at Cardinal Points -->
+        <circle cx="64.50" cy="16.50" r="2.2" fill="#141612" stroke="#484a3e" stroke-width="0.6"/>
+    <line x1="63.30" y1="16.50" x2="65.70" y2="16.50" stroke="#6e7060" stroke-width="0.5"/>
+    <circle cx="111.50" cy="63.50" r="2.2" fill="#141612" stroke="#484a3e" stroke-width="0.6"/>
+    <line x1="110.30" y1="63.50" x2="112.70" y2="63.50" stroke="#6e7060" stroke-width="0.5"/>
+    <circle cx="64.50" cy="110.50" r="2.2" fill="#141612" stroke="#484a3e" stroke-width="0.6"/>
+    <line x1="63.30" y1="110.50" x2="65.70" y2="110.50" stroke="#6e7060" stroke-width="0.5"/>
+    <circle cx="17.50" cy="63.50" r="2.2" fill="#141612" stroke="#484a3e" stroke-width="0.6"/>
+    <line x1="16.30" y1="63.50" x2="18.70" y2="63.50" stroke="#6e7060" stroke-width="0.5"/>
+
+    <!-- 5. Upper Drum Counter Cutout Window (x=24..104, y=38..54) -->
+    <rect x="23.5" y="37.5" width="82.0" height="17.0" rx="1.0" fill="url(#windowBevel)" stroke="#1a1c18" stroke-width="0.8"/>
+    <rect x="24.5" y="38.5" width="80.0" height="15.0" rx="0.5" fill="#030403"/>
+    <!-- Subtle drum slot dividers -->
+    <line x1="44.5" y1="38.5" x2="44.5" y2="53.5" stroke="#121410" stroke-width="0.6"/>
+    <line x1="64.5" y1="38.5" x2="64.5" y2="53.5" stroke="#121410" stroke-width="0.6"/>
+    <line x1="84.5" y1="38.5" x2="84.5" y2="53.5" stroke="#121410" stroke-width="0.6"/>
+
+    <!-- 6. Lower Drum Counter Cutout Window (x=43..85, y=73..85) -->
+    <rect x="42.5" y="72.5" width="44.0" height="13.0" rx="1.0" fill="url(#windowBevel)" stroke="#1a1c18" stroke-width="0.8"/>
+    <rect x="43.5" y="73.5" width="42.0" height="11.0" rx="0.5" fill="#030403"/>
+    <line x1="64.5" y1="73.5" x2="64.5" y2="84.5" stroke="#121410" stroke-width="0.6"/>
+
+    <!-- 7. GUNS Title Text -->
+    <g fill="url(#markColor)" fill-rule="evenodd">
+      <path d="M 57.5,25.5 L 53.5,25.5 Q 51.5,25.5 51.5,28.5 L 51.5,31.0 Q 51.5,34.0 54.0,34.0 L 57.5,34.0 L 57.5,29.5 L 54.5,29.5 L 54.5,31.2 L 56.0,31.2 L 56.0,32.5 L 54.0,32.5 Q 53.0,32.5 53.0,31.0 L 53.0,28.5 Q 53.0,27.0 54.0,27.0 L 57.5,27.0 Z"/>
+      <path d="M 59.5,25.5 L 61.2,25.5 L 61.2,31.5 Q 61.2,32.5 62.5,32.5 Q 63.8,32.5 63.8,31.5 L 63.8,25.5 L 65.5,25.5 L 65.5,31.5 Q 65.5,34.0 62.5,34.0 Q 59.5,34.0 59.5,31.5 Z"/>
+      <path d="M 67.5,34.0 L 69.2,34.0 L 69.2,28.0 L 72.3,34.0 L 73.8,34.0 L 73.8,25.5 L 72.1,25.5 L 72.1,31.5 L 69.0,25.5 L 67.5,25.5 Z"/>
+      <path d="M 75.5,32.5 L 77.0,32.5 Q 77.0,32.6 77.8,32.6 Q 78.8,32.6 78.8,31.8 Q 78.8,31.0 77.5,30.4 Q 75.5,29.5 75.5,27.8 Q 75.5,25.5 78.0,25.5 Q 79.5,25.5 80.5,26.2 L 79.8,27.4 Q 79.0,26.8 78.0,26.8 Q 77.0,26.8 77.0,27.6 Q 77.0,28.4 78.2,28.9 Q 80.5,29.8 80.5,31.6 Q 80.5,34.0 78.0,34.0 Q 76.5,34.0 75.5,33.2 Z"/>
+    </g>
+
+    <!-- 8. Center Raised Pivot Boss / Hub -->
+    <circle cx="64.5" cy="63.5" r="5.8" fill="#040504"/>
+    <circle cx="64.5" cy="63.5" r="5.0" fill="#181a18" stroke="#080908" stroke-width="0.5"/>
+    <circle cx="64.5" cy="63.5" r="4.4" fill="url(#hubGrad)"/>
+    <circle cx="64.5" cy="63.5" r="1.6" fill="#0c0d0c" stroke="#222018" stroke-width="0.4"/>
+  </g>
+</svg>

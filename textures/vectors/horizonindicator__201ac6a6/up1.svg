@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Outer Bezel Gradients -->
+    <radialGradient id="edge" gradientUnits="userSpaceOnUse" cx="64.5" cy="64.0" r="61">
+      <stop offset="0.91" stop-color="#040504"/>
+      <stop offset="0.945" stop-color="#060706" stop-opacity="0.85"/>
+      <stop offset="0.975" stop-color="#0a0b0a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0a0b0a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edgetint" gradientUnits="userSpaceOnUse" x1="0" y1="4" x2="0" y2="124">
+      <stop offset="0" stop-color="#4c4d4c" stop-opacity="0.9"/>
+      <stop offset="0.12" stop-color="#3a3b3a" stop-opacity="0.7"/>
+      <stop offset="0.3" stop-color="#202220" stop-opacity="0"/>
+      <stop offset="1" stop-color="#202220" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lip" gradientUnits="userSpaceOnUse" x1="0" y1="8" x2="0" y2="121">
+      <stop offset="0" stop-color="#060806"/>
+      <stop offset="0.6" stop-color="#070807"/>
+      <stop offset="0.8" stop-color="#1e201e"/>
+      <stop offset="0.92" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#6a686a"/>
+    </linearGradient>
+
+    <!-- Lower Crescent Base Gradient -->
+    <radialGradient id="baseGrad" cx="64" cy="90" r="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0" stop-color="#484a44"/>
+      <stop offset="0.5" stop-color="#343632"/>
+      <stop offset="0.85" stop-color="#202220"/>
+      <stop offset="1.0" stop-color="#161816"/>
+    </radialGradient>
+
+    <!-- Cutout Mask for Upper Window:
+         White = render, Black = transparent cutout for horizon window -->
+    <mask id="windowMask">
+      <!-- Full white frame -->
+      <rect x="0" y="0" width="128" height="128" fill="#ffffff"/>
+      <!-- Circular window cutout -->
+      <circle cx="64.0" cy="64.0" r="44.5" fill="#000000"/>
+    </mask>
+  </defs>
+
+  <g transform="scale(4)">
+    <!-- 1. Lower Crescent Base (fills y >= 64 up to bezel inner rim) -->
+    <!-- Lower base crescent at bottom of window (y >= 92) -->
+    <path d="M 28,93 A 44.5 44.5 0 0,0 100,93 L 100,95 Q 64,98 28,95 Z" fill="url(#baseGrad)"/>
+
+    <!-- 2. Mid-Height Reference Mark (Wings & Downward Step) -->
+    
+    <!-- Horizon Mid-Height Reference Wings & Center Step -->
+    <path d="M 39.0,63.5 L 52.0,63.5 L 52.0,66.0 L 49.5,66.0 L 49.5,65.2 L 39.0,65.2 Z" fill="#d8c7ad" stroke="#2a2818" stroke-width="0.3"/>
+    <path d="M 76.0,63.5 L 89.0,63.5 L 89.0,65.2 L 78.5,65.2 L 78.5,66.0 L 76.0,66.0 Z" fill="#d8c7ad" stroke="#2a2818" stroke-width="0.3"/>
+    <path d="M 52.0,66.0 L 57.0,66.0 L 58.0,67.5 L 70.0,67.5 L 71.0,66.0 L 76.0,66.0 L 76.0,67.5 L 69.5,69.0 L 58.5,69.0 L 52.0,67.5 Z" fill="#d8c7ad" stroke="#2a2818" stroke-width="0.3"/>
+    <circle cx="64.0" cy="67.5" r="1.4" fill="#a09078"/>
+
+
+    <!-- 3. Upper Pitch Ladder (Gold Bar & Olive Dashes) -->
+    <!-- Gold bar at top -->
+    <rect x="61.0" y="20.5" width="6.0" height="5.5" rx="0.5" fill="#c9af08" stroke="#3e380b" stroke-width="0.4"/>
+    <!-- Descending Olive Dashes -->
+    <g stroke-linecap="square">
+            <line x1="61.2" y1="28.5" x2="66.8" y2="28.5" stroke="#3e380b" stroke-width="1.8"/>
+      <line x1="61.2" y1="33.5" x2="66.8" y2="33.5" stroke="#3e380b" stroke-width="1.8"/>
+      <line x1="61.2" y1="38.5" x2="66.8" y2="38.5" stroke="#3e380b" stroke-width="1.8"/>
+      <line x1="61.2" y1="43.5" x2="66.8" y2="43.5" stroke="#3e380b" stroke-width="1.8"/>
+      <line x1="61.2" y1="48.5" x2="66.8" y2="48.5" stroke="#3e380b" stroke-width="1.8"/>
+      <line x1="61.2" y1="53.5" x2="66.8" y2="53.5" stroke="#3e380b" stroke-width="1.8"/>
+      <line x1="61.2" y1="58.5" x2="66.8" y2="58.5" stroke="#3e380b" stroke-width="1.8"/>
+    </g>
+
+    <!-- 4. Bezel Assembly (Masked so upper center is transparent window) -->
+    <!-- Bezel outer ring and rim are drawn outside the window (r > 47) -->
+    <!-- Bezel ring with cutout window for horizon sphere -->
+    <g mask="url(#windowMask)">
+      <circle cx="64.5" cy="64.0" r="61" fill="url(#edge)"/>
+      <circle cx="64.5" cy="64.0" r="57.6" fill="none" stroke="url(#edgetint)" stroke-width="2.4"/>
+      <circle cx="64.5" cy="64.0" r="56.3" fill="url(#lip)"/>
+      <circle cx="64.5" cy="64.0" r="52.6" fill="#030403"/>
+    </g>
+
+    <!-- 5. 12 Bank Angle Degree Scale Ticks along the rim -->
+    <g stroke-linecap="butt">
+            <line x1="64.00" y1="19.00" x2="64.00" y2="12.50" stroke="#e0dec8" stroke-width="2.4"/>
+      <line x1="87.75" y1="22.86" x2="89.75" y2="19.40" stroke="#e0dec8" stroke-width="1.4"/>
+      <line x1="105.14" y1="40.25" x2="108.60" y2="38.25" stroke="#e0dec8" stroke-width="1.4"/>
+      <line x1="109.00" y1="64.00" x2="115.50" y2="64.00" stroke="#e0dec8" stroke-width="2.4"/>
+      <line x1="105.14" y1="87.75" x2="108.60" y2="89.75" stroke="#e0dec8" stroke-width="1.4"/>
+      <line x1="87.75" y1="105.14" x2="89.75" y2="108.60" stroke="#e0dec8" stroke-width="1.4"/>
+      <line x1="64.00" y1="109.00" x2="64.00" y2="115.50" stroke="#e0dec8" stroke-width="2.4"/>
+      <line x1="40.25" y1="105.14" x2="38.25" y2="108.60" stroke="#e0dec8" stroke-width="1.4"/>
+      <line x1="22.86" y1="87.75" x2="19.40" y2="89.75" stroke="#e0dec8" stroke-width="1.4"/>
+      <line x1="19.00" y1="64.00" x2="12.50" y2="64.00" stroke="#e0dec8" stroke-width="2.4"/>
+      <line x1="22.86" y1="40.25" x2="19.40" y2="38.25" stroke="#e0dec8" stroke-width="1.4"/>
+      <line x1="40.25" y1="22.86" x2="38.25" y2="19.40" stroke="#e0dec8" stroke-width="1.4"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="edge" gradientUnits="userSpaceOnUse" cx="64.5" cy="64.0" r="61">
+      <stop offset="0.91" stop-color="#040504"/>
+      <stop offset="0.945" stop-color="#060706" stop-opacity="0.85"/>
+      <stop offset="0.975" stop-color="#0a0b0a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0a0b0a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edgetint" gradientUnits="userSpaceOnUse" x1="0" y1="4" x2="0" y2="124">
+      <stop offset="0" stop-color="#4c4d4c" stop-opacity="0.9"/>
+      <stop offset="0.12" stop-color="#3a3b3a" stop-opacity="0.7"/>
+      <stop offset="0.3" stop-color="#202220" stop-opacity="0"/>
+      <stop offset="1" stop-color="#202220" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lip" gradientUnits="userSpaceOnUse" x1="0" y1="8" x2="0" y2="121">
+      <stop offset="0" stop-color="#060806"/>
+      <stop offset="0.6" stop-color="#070807"/>
+      <stop offset="0.8" stop-color="#1e201e"/>
+      <stop offset="0.92" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#6a686a"/>
+    </linearGradient>
+    <radialGradient id="face" gradientUnits="userSpaceOnUse" cx="80" cy="40" r="70">
+      <stop offset="0" stop-color="#454335"/>
+      <stop offset="0.5" stop-color="#3a392e"/>
+      <stop offset="0.85" stop-color="#2b2a22"/>
+      <stop offset="1" stop-color="#29281f"/>
+    </radialGradient>
+    <radialGradient id="spot" gradientUnits="userSpaceOnUse" cx="66" cy="25" r="36">
+      <stop offset="0" stop-color="#57553e" stop-opacity="1"/>
+      <stop offset="0.35" stop-color="#53513c" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#4a4836" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#454335" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vign" gradientUnits="userSpaceOnUse" cx="64.5" cy="63.5" r="51">
+      <stop offset="0.78" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.22"/>
+    </radialGradient>
+    <linearGradient id="tick" gradientUnits="userSpaceOnUse" x1="0" y1="13" x2="0" y2="114">
+      <stop offset="0" stop-color="#949273"/>
+      <stop offset="0.27" stop-color="#949273"/>
+      <stop offset="0.42" stop-color="#94967b"/>
+      <stop offset="0.60" stop-color="#94968c"/>
+      <stop offset="0.74" stop-color="#9c9a94"/>
+      <stop offset="0.86" stop-color="#9c9a9c"/>
+      <stop offset="1" stop-color="#9c9a9c"/>
+    </linearGradient>
+    <pattern id="hatch" patternUnits="userSpaceOnUse" x="0" y="0" width="8" height="8">
+      <rect width="8" height="8" fill="#313531"/>
+      <polygon points="4.9,0 7.1,0 2.7,8 0.6,8" fill="#000000"/>
+      <polygon points="12.9,0 15.1,0 10.7,8 8.6,8" fill="#000000"/>
+    </pattern>
+  </defs>
+  <g transform="scale(4)">
+    <circle cx="64.5" cy="64.0" r="61" fill="url(#edge)"/>
+    <circle cx="64.5" cy="64.0" r="57.6" fill="none" stroke="url(#edgetint)" stroke-width="2.4"/>
+    <circle cx="64.5" cy="64.0" r="56.3" fill="url(#lip)"/>
+    <circle cx="64.5" cy="63.5" r="52.6" fill="#030403"/>
+    <circle cx="64.5" cy="63.5" r="50.6" fill="url(#face)"/>
+    <circle cx="64.5" cy="63.5" r="50.6" fill="url(#spot)"/>
+    <circle cx="64.5" cy="63.5" r="50.6" fill="url(#vign)"/>
+    <g stroke="url(#tick)" stroke-linecap="butt">
+      <line x1="64.50" y1="21.70" x2="64.50" y2="13.10" stroke-width="3.0"/>
+      <line x1="70.05" y1="19.55" x2="70.82" y2="13.50" stroke-width="2.0"/>
+      <line x1="75.52" y1="20.59" x2="77.03" y2="14.68" stroke-width="2.0"/>
+      <line x1="80.81" y1="22.31" x2="83.05" y2="16.64" stroke-width="2.0"/>
+      <line x1="85.84" y1="24.68" x2="88.78" y2="19.33" stroke-width="2.0"/>
+      <line x1="89.07" y1="29.68" x2="94.12" y2="22.73" stroke-width="3.0"/>
+      <line x1="94.83" y1="31.21" x2="99.00" y2="26.76" stroke-width="2.0"/>
+      <line x1="98.63" y1="35.26" x2="103.33" y2="31.37" stroke-width="2.0"/>
+      <line x1="101.90" y1="39.76" x2="107.05" y2="36.49" stroke-width="2.0"/>
+      <line x1="104.58" y1="44.64" x2="110.10" y2="42.04" stroke-width="2.0"/>
+      <line x1="104.25" y1="50.58" x2="112.43" y2="47.93" stroke-width="3.0"/>
+      <line x1="108.02" y1="55.20" x2="114.01" y2="54.06" stroke-width="2.0"/>
+      <line x1="108.71" y1="60.72" x2="114.80" y2="60.34" stroke-width="2.0"/>
+      <line x1="108.71" y1="66.28" x2="114.80" y2="66.66" stroke-width="2.0"/>
+      <line x1="108.02" y1="71.80" x2="114.01" y2="72.94" stroke-width="2.0"/>
+      <line x1="104.25" y1="76.42" x2="112.43" y2="79.07" stroke-width="3.0"/>
+      <line x1="104.58" y1="82.36" x2="110.10" y2="84.96" stroke-width="2.0"/>
+      <line x1="101.90" y1="87.24" x2="107.05" y2="90.51" stroke-width="2.0"/>
+      <line x1="98.63" y1="91.74" x2="103.33" y2="95.63" stroke-width="2.0"/>
+      <line x1="94.83" y1="95.79" x2="99.00" y2="100.24" stroke-width="2.0"/>
+      <line x1="89.07" y1="97.32" x2="94.12" y2="104.27" stroke-width="3.0"/>
+      <line x1="85.84" y1="102.32" x2="88.78" y2="107.67" stroke-width="2.0"/>
+      <line x1="80.81" y1="104.69" x2="83.05" y2="110.36" stroke-width="2.0"/>
+      <line x1="75.52" y1="106.41" x2="77.03" y2="112.32" stroke-width="2.0"/>
+      <line x1="70.05" y1="107.45" x2="70.82" y2="113.50" stroke-width="2.0"/>
+      <line x1="64.50" y1="105.30" x2="64.50" y2="113.90" stroke-width="3.0"/>
+      <line x1="58.95" y1="107.45" x2="58.18" y2="113.50" stroke-width="2.0"/>
+      <line x1="53.48" y1="106.41" x2="51.97" y2="112.32" stroke-width="2.0"/>
+      <line x1="48.19" y1="104.69" x2="45.95" y2="110.36" stroke-width="2.0"/>
+      <line x1="43.16" y1="102.32" x2="40.22" y2="107.67" stroke-width="2.0"/>
+      <line x1="39.93" y1="97.32" x2="34.88" y2="104.27" stroke-width="3.0"/>
+      <line x1="34.17" y1="95.79" x2="30.00" y2="100.24" stroke-width="2.0"/>
+      <line x1="30.37" y1="91.74" x2="25.67" y2="95.63" stroke-width="2.0"/>
+      <line x1="27.10" y1="87.24" x2="21.95" y2="90.51" stroke-width="2.0"/>
+      <line x1="24.42" y1="82.36" x2="18.90" y2="84.96" stroke-width="2.0"/>
+      <line x1="24.75" y1="76.42" x2="16.57" y2="79.07" stroke-width="3.0"/>
+      <line x1="20.98" y1="71.80" x2="14.99" y2="72.94" stroke-width="2.0"/>
+      <line x1="20.29" y1="66.28" x2="14.20" y2="66.66" stroke-width="2.0"/>
+      <line x1="20.29" y1="60.72" x2="14.20" y2="60.34" stroke-width="2.0"/>
+      <line x1="20.98" y1="55.20" x2="14.99" y2="54.06" stroke-width="2.0"/>
+      <line x1="24.75" y1="50.58" x2="16.57" y2="47.93" stroke-width="3.0"/>
+      <line x1="24.42" y1="44.64" x2="18.90" y2="42.04" stroke-width="2.0"/>
+      <line x1="27.10" y1="39.76" x2="21.95" y2="36.49" stroke-width="2.0"/>
+      <line x1="30.37" y1="35.26" x2="25.67" y2="31.37" stroke-width="2.0"/>
+      <line x1="34.17" y1="31.21" x2="30.00" y2="26.76" stroke-width="2.0"/>
+      <line x1="39.93" y1="29.68" x2="34.88" y2="22.73" stroke-width="3.0"/>
+      <line x1="43.16" y1="24.68" x2="40.22" y2="19.33" stroke-width="2.0"/>
+      <line x1="48.19" y1="22.31" x2="45.95" y2="16.64" stroke-width="2.0"/>
+      <line x1="53.48" y1="20.59" x2="51.97" y2="14.68" stroke-width="2.0"/>
+      <line x1="58.95" y1="19.55" x2="58.18" y2="13.50" stroke-width="2.0"/>
+    </g>
+    <path d="M64.0,30.5 L60.5,33.5 L58.5,41.5 L58.5,54.5 L47.0,50.0 L38.0,54.0 L29.0,60.0 L22.0,66.0 L22.0,75.5 L50.0,75.5 L50.0,78.5 L53.5,78.5 L53.5,75.5 L62.0,75.5 L62.0,78.5 L66.0,78.5 L66.0,75.5 L74.5,75.5 L74.5,78.5 L78.0,78.5 L78.0,75.5 L106.0,75.5 L106.0,66.0 L99.0,60.0 L90.0,54.0 L81.0,50.0 L69.5,54.5 L69.5,41.5 L67.5,33.5 Z" fill="url(#hatch)"/>
+    <g fill="none" stroke="url(#tick)" stroke-width="2.6" stroke-linejoin="miter" stroke-miterlimit="3">
+      <path d="M64.0,30.5 L60.5,33.5 L58.5,41.5 L58.5,54.5 L47.0,50.0 L38.0,54.0 L29.0,60.0 L22.0,66.0 L22.0,75.5 L50.0,75.5 L50.0,78.5 L53.5,78.5 L53.5,75.5 L62.0,75.5 L62.0,78.5 L66.0,78.5 L66.0,75.5 L74.5,75.5 L74.5,78.5 L78.0,78.5 L78.0,75.5 L106.0,75.5 L106.0,66.0 L99.0,60.0 L90.0,54.0 L81.0,50.0 L69.5,54.5 L69.5,41.5 L67.5,33.5 Z"/>
+      <path d="M58.5,41.5 L58.5,70.0 M69.5,41.5 L69.5,70.0 M58.5,54.5 L69.5,54.5 M22.0,75.5 L106.0,75.5"/>
+    </g>
+    <rect x="59.6" y="72.9" width="11.3" height="3.2" fill="url(#tick)"/>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Background Halo Glow -->
+    <radialGradient id="halo" cx="132.0" cy="124.0" r="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0" stop-color="#2100ff" stop-opacity="0.117"/>
+      <stop offset="0.45" stop-color="#2100ff" stop-opacity="0.090"/>
+      <stop offset="0.75" stop-color="#2100ff" stop-opacity="0.072"/>
+      <stop offset="0.90" stop-color="#2100ff" stop-opacity="0.027"/>
+      <stop offset="1.0" stop-color="#2100ff" stop-opacity="0.0"/>
+    </radialGradient>
+
+    <!-- Outer Beveled Metal Mounting Bezel -->
+    <linearGradient id="bezelCollar" x1="42.0" y1="34.0" x2="222.0" y2="214.0" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0" stop-color="#50545c" stop-opacity="0.30"/>
+      <stop offset="0.5" stop-color="#282a30" stop-opacity="0.15"/>
+      <stop offset="1.0" stop-color="#14161a" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <!-- Translucent Jewel Lens Dome -->
+    <radialGradient id="jewelLens" cx="122.0" cy="114.0" r="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0" stop-color="#4088ff" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#2550ff" stop-opacity="0.20"/>
+      <stop offset="1.0" stop-color="#2100ff" stop-opacity="0.08"/>
+    </radialGradient>
+
+    <!-- Central High-Intensity Radiance -->
+    <radialGradient id="bulb" cx="132.0" cy="124.0" r="27" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0" stop-color="#d0e8ff" stop-opacity="1.0"/>
+      <stop offset="0.3" stop-color="#4088ff" stop-opacity="0.95"/>
+      <stop offset="0.65" stop-color="#2100ff" stop-opacity="0.70"/>
+      <stop offset="0.85" stop-color="#2100ff" stop-opacity="0.30"/>
+      <stop offset="1.0" stop-color="#2100ff" stop-opacity="0.0"/>
+    </radialGradient>
+
+    <!-- Horizontal Flare Beam -->
+    <linearGradient id="hFlare" x1="10" y1="124.0" x2="246" y2="124.0" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0" stop-color="#2100ff" stop-opacity="0.0"/>
+      <stop offset="0.12" stop-color="#2100ff" stop-opacity="0.18"/>
+      <stop offset="0.26" stop-color="#2100ff" stop-opacity="0.48"/>
+      <stop offset="0.40" stop-color="#2550ff" stop-opacity="0.82"/>
+      <stop offset="0.48" stop-color="#d0e8ff" stop-opacity="1.0"/>
+      <stop offset="0.52" stop-color="#d0e8ff" stop-opacity="1.0"/>
+      <stop offset="0.60" stop-color="#2550ff" stop-opacity="0.82"/>
+      <stop offset="0.74" stop-color="#2100ff" stop-opacity="0.48"/>
+      <stop offset="0.88" stop-color="#2100ff" stop-opacity="0.18"/>
+      <stop offset="1.0" stop-color="#2100ff" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Vertical Flare Beam -->
+    <linearGradient id="vFlare" x1="132.0" y1="10" x2="132.0" y2="246" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0" stop-color="#2100ff" stop-opacity="0.0"/>
+      <stop offset="0.12" stop-color="#2100ff" stop-opacity="0.18"/>
+      <stop offset="0.26" stop-color="#2100ff" stop-opacity="0.48"/>
+      <stop offset="0.40" stop-color="#2550ff" stop-opacity="0.82"/>
+      <stop offset="0.48" stop-color="#d0e8ff" stop-opacity="1.0"/>
+      <stop offset="0.52" stop-color="#d0e8ff" stop-opacity="1.0"/>
+      <stop offset="0.60" stop-color="#2550ff" stop-opacity="0.82"/>
+      <stop offset="0.74" stop-color="#2100ff" stop-opacity="0.48"/>
+      <stop offset="0.88" stop-color="#2100ff" stop-opacity="0.18"/>
+      <stop offset="1.0" stop-color="#2100ff" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Ambient Background Halo -->
+  <circle cx="132.0" cy="124.0" r="116" fill="url(#halo)"/>
+
+  <!-- 2. Cockpit Mounting Bezel Collar -->
+  <circle cx="132.0" cy="124.0" r="96" fill="none" stroke="url(#bezelCollar)" stroke-width="4.0"/>
+  <circle cx="132.0" cy="124.0" r="92" fill="none" stroke="#080a0c" stroke-width="2.0" stroke-opacity="0.25"/>
+  <circle cx="132.0" cy="124.0" r="88" fill="url(#jewelLens)"/>
+
+  <!-- 3. Jewel Facet Rings & Cut Highlights -->
+  <circle cx="132.0" cy="124.0" r="78" fill="none" stroke="#4088ff" stroke-width="0.8" stroke-opacity="0.30"/>
+  <polygon points="132.0,42.0 190.0,66.0 214.0,124.0 190.0,182.0 132.0,206.0 74.0,182.0 50.0,124.0 74.0,66.0" fill="none" stroke="#4088ff" stroke-width="0.6" stroke-opacity="0.20"/>
+
+  <!-- 4. Horizontal 4-Point Flare Cross Bar -->
+  <path d="M 10,124.0 Q 77,115.5 132.0,112.5 Q 187,115.5 246,124.0 Q 187,132.5 132.0,135.5 Q 77,132.5 10,124.0 Z" fill="url(#hFlare)"/>
+
+  <!-- 5. Vertical 4-Point Flare Cross Bar -->
+  <path d="M 132.0,10 Q 123.5,69 120.5,124.0 Q 123.5,179 132.0,246 Q 140.5,179 143.5,124.0 Q 140.5,69 132.0,10 Z" fill="url(#vFlare)"/>
+
+  <!-- 6. Central Jewel Bulb Radiance -->
+  <circle cx="132.0" cy="124.0" r="27" fill="url(#bulb)"/>
+  <ellipse cx="132.0" cy="124.0" rx="14" ry="12" fill="#d0e8ff" fill-opacity="0.95"/>
+  <ellipse cx="130.0" cy="122.0" rx="5" ry="4" fill="#ffffff" fill-opacity="0.98"/>
+</svg>

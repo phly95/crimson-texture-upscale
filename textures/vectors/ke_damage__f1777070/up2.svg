@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="bg3125" cx="50%" cy="38%" r="48%">
+      <stop offset="0%" stop-color="#8b8828"/>
+      <stop offset="55%" stop-color="#484614"/>
+      <stop offset="85%" stop-color="#141406"/>
+      <stop offset="100%" stop-color="#050502"/>
+    </radialGradient>
+    <pattern id="hatch3125" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#333430"/>
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#0b0c0a" stroke-width="3"/>
+    </pattern>
+    <filter id="glow3125" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="1.1" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+    <circle cx="64" cy="64" r="62" fill="#040404" stroke="#181a16" stroke-width="2"/>
+  <circle cx="64" cy="64" r="55" fill="none" stroke="#141613" stroke-width="3"/>
+  <circle cx="64" cy="64" r="50" fill="url(#bg3125)" stroke="#26271c" stroke-width="1.5"/>
+  <g>
+    <circle cx="64" cy="64" r="46.5" fill="none" stroke="#787752" stroke-width="5" stroke-dasharray="1.5 3.37" />
+    <circle cx="64" cy="64" r="45" fill="none" stroke="#c4c09e" stroke-width="8" stroke-dasharray="2.5 21.06" stroke-dashoffset="1.25"/>
+  </g>
+  <g stroke="#c8c59e" stroke-width="2.5" stroke-linecap="round" fill="none" filter="url(#glow3125)">
+    <line x1="45.5" y1="49" x2="45.5" y2="39" />
+    <line x1="82.5" y1="49" x2="82.5" y2="39" />
+    <line x1="52.5" y1="93" x2="52.5" y2="103" />
+    <line x1="75.5" y1="93" x2="75.5" y2="103" />
+  </g>
+  <g fill="url(#hatch3125)" stroke="#c8c59e" stroke-width="2.3" stroke-linejoin="round" filter="url(#glow3125)">
+    <polygon points="49,49 20,52 20,62.5 49,64" />
+    <polygon points="79,49 108,52 108,62.5 79,64" />
+    <rect x="56" y="42" width="16" height="19" fill="#9e9b75" />
+    <rect x="61" y="21" width="6" height="33" rx="1" />
+    <polygon points="52.5,31 56,42 49,42" />
+    <rect x="49" y="42" width="7" height="16" />
+    <polygon points="49,58 56,58 54,93 51,93" />
+    <polygon points="75.5,31 79,42 72,42" />
+    <rect x="72" y="42" width="7" height="16" />
+    <polygon points="72,58 79,58 77,93 74,93" />
+    <rect x="53.5" y="82" width="21" height="11" />
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+{"items": [{"id": "custom:1", "file": "up1.png", "rgba": true, "alpha": "transparency of the version it replaces", "size": [2048, 2048], "ts": 1792095021.7961817, "replaces": "klein:1"}, {"id": "custom:2", "file": "up2.png", "rgba": false, "alpha": "opaque", "size": [2048, 2048], "ts": 1792095085.4853015, "replaces": "custom:1"}]}

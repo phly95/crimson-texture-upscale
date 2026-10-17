@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Layer 1: White silhouette backing and outer keyline -->
+  <g fill="#FFFFFF">
+    <circle cx="522" cy="450" r="447.5"/>
+    <polygon points="203.4,700 379.9,700 280.1,1024 103.6,1024"/>
+    <polygon points="508.9,700 685.4,700 585.6,1024 409.1,1024"/>
+    <path d="M 33 587 C 305 624, 745 556, 1024 368 L 1024 454 C 762 599, 267 707, 33 587 Z" stroke="#FFFFFF" stroke-width="59" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M 0 568 C 0 560, 20 545, 120 540 L 140 640 C 60 640, 0 600, 0 588 Z"/>
+    <path d="M 1024 236 L 950 272 L 950 286 L 1024 328 Z"/>
+    <path d="M 1024 450 L 1024 484 C 980 492, 920 510, 880 530 L 880 480 Z"/>
+  </g>
+
+  <!-- Layer 2: Navy Ring -->
+  <circle cx="522" cy="450" r="404" fill="none" stroke="#102463" stroke-width="28.8"/>
+
+  <!-- Layer 3: White Halo cuts around H and swoosh -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="47" stroke-linejoin="miter" stroke-miterlimit="4">
+    <polygon points="408.3,130.5 525.8,130.5 259.1,996.5 141.6,996.5"/>
+    <polygon points="713.8,130.5 831.3,130.5 564.6,996.5 447.1,996.5"/>
+    <path d="M 33 587 C 305 624, 745 556, 1024 368 L 1024 454 C 762 599, 267 707, 33 587 Z"/>
+  </g>
+
+  <!-- Layer 4: Navy Elements -->
+  <g fill="#102463">
+    <polygon points="408.3,130.5 525.8,130.5 259.1,996.5 141.6,996.5"/>
+    <polygon points="713.8,130.5 831.3,130.5 564.6,996.5 447.1,996.5"/>
+    <path d="M 33 587 C 305 624, 745 556, 1024 368 L 1024 454 C 762 599, 267 707, 33 587 Z"/>
+    <path d="M 1000 280 L 1024 274 L 1024 288 Z"/>
+  </g>
+</svg>

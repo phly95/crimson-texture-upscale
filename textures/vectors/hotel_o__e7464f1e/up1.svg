@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <filter id="neon_glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+    </filter>
+  </defs>
+  <!-- Base outer glow -->
+  <g filter="url(#neon_glow)" opacity="0.9">
+    <circle cx="256" cy="256" r="152" stroke="#FF4D7B" stroke-width="92" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+  <!-- Tube body -->
+  <g opacity="0.95">
+    <circle cx="256" cy="256" r="152" stroke="#FF4D7B" stroke-width="52" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+  <!-- Core highlight -->
+  <g opacity="1.0">
+    <circle cx="256" cy="256" r="152" stroke="#FFCAD6" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+</svg>
