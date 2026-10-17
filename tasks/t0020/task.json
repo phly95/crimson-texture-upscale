@@ -1,0 +1,251 @@
+{
+ "task": "t0020",
+ "kind": "family",
+ "family": "bldgap",
+ "units": [
+  {
+   "uid": "bldgapt1__a75b0645",
+   "stem": "bldgapt1",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.12,
+   "mean_rgb": [
+    83.8,
+    73.8,
+    65.5
+   ],
+   "distinct_colours_4bit": 31,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 62,
+    "nodes": [
+     "town_buildings(22)",
+     "part(22)",
+     "healthy(14)",
+     "g(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.25,
+     1.0
+    ],
+    "world_units_per_repeat": 8.0
+   }
+  },
+  {
+   "uid": "bldgapt2__71b828b0",
+   "stem": "bldgapt2",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 6.83,
+   "mean_rgb": [
+    96.3,
+    100.5,
+    98.0
+   ],
+   "distinct_colours_4bit": 61,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 3,
+    "nodes": [
+     "town_buildings(2)",
+     "healthy(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 3.0
+   }
+  },
+  {
+   "uid": "bldgapt3__aed63674",
+   "stem": "bldgapt3",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.58,
+   "mean_rgb": [
+    73.0,
+    74.3,
+    70.0
+   ],
+   "distinct_colours_4bit": 27,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3",
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 63,
+    "nodes": [
+     "part(22)",
+     "healthy(20)",
+     "town_buildings(14)",
+     "g(14)",
+     "pt(12)",
+     "turret(5)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 8.0
+   }
+  },
+  {
+   "uid": "bldgapt4__0502c027",
+   "stem": "bldgapt4",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.71,
+   "mean_rgb": [
+    94.5,
+    95.9,
+    89.8
+   ],
+   "distinct_colours_4bit": 13,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 18,
+    "nodes": [
+     "healthy(12)",
+     "town_buildings(11)",
+     "firehouse(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.0,
+     1.0
+    ],
+    "world_units_per_repeat": 4.0
+   }
+  },
+  {
+   "uid": "bldgapt5__66617897",
+   "stem": "bldgapt5",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.11,
+   "mean_rgb": [
+    67.4,
+    65.1,
+    56.2
+   ],
+   "distinct_colours_4bit": 33,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 22,
+    "nodes": [
+     "town_buildings(13)",
+     "firehouse(6)",
+     "g(3)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.5
+    ],
+    "world_units_per_repeat": 8.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "task": "t0094",
+ "kind": "family",
+ "family": "kes",
+ "units": [
+  {
+   "uid": "kes_fuselage__e71ad245",
+   "stem": "kes_fuselage",
+   "size": [
+    256,
+    64
+   ],
+   "target": [
+    2048,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.4,
+   "mean_rgb": [
+    48.6,
+    64.0,
+    70.9
+   ],
+   "distinct_colours_4bit": 58,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "kes_gunhousing__e180a41c",
+   "stem": "kes_gunhousing",
+   "size": [
+    32,
+    128
+   ],
+   "target": [
+    256,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 8.28,
+   "mean_rgb": [
+    100.6,
+    109.6,
+    114.5
+   ],
+   "distinct_colours_4bit": 87,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "kes_shadow__081bbb9f",
+   "stem": "kes_shadow",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.1,
+   "mean_rgb": [
+    31.4,
+    31.1,
+    30.9
+   ],
+   "distinct_colours_4bit": 15,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "kes_wingbottom__c08380e7",
+   "stem": "kes_wingbottom",
+   "size": [
+    256,
+    128
+   ],
+   "target": [
+    2048,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 8.17,
+   "mean_rgb": [
+    110.7,
+    110.8,
+    110.7
+   ],
+   "distinct_colours_4bit": 86,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "kes_wingtop__64d9d53a",
+   "stem": "kes_wingtop",
+   "size": [
+    256,
+    128
+   ],
+   "target": [
+    2048,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 6.26,
+   "mean_rgb": [
+    43.4,
+    55.3,
+    60.7
+   ],
+   "distinct_colours_4bit": 96,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  }
+ ]
+}

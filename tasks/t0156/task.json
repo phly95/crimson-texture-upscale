@@ -1,0 +1,369 @@
+{
+ "task": "t0156",
+ "kind": "family",
+ "family": "tanker",
+ "units": [
+  {
+   "uid": "tanker1__db848b9c",
+   "stem": "tanker1",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.35,
+   "mean_rgb": [
+    28.2,
+    30.9,
+    28.2
+   ],
+   "distinct_colours_4bit": 4,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C2",
+    "C3",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 52,
+    "nodes": [
+     "d4_p(15)",
+     "g(11)",
+     "d2_p(7)",
+     "d3_p(7)",
+     "dbase(5)",
+     "post(4)"
+    ],
+    "surface": {
+     "ground_up": 0.6,
+     "ceiling_down": 0.0,
+     "wall_side": 0.4
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.81
+    ],
+    "world_units_per_repeat": 3.9
+   }
+  },
+  {
+   "uid": "tanker2__11976a0f",
+   "stem": "tanker2",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 8.85,
+   "mean_rgb": [
+    73.7,
+    62.9,
+    55.7
+   ],
+   "distinct_colours_4bit": 24,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C2",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 77,
+    "nodes": [
+     "g(34)",
+     "stack(20)",
+     "part(16)",
+     "sinker(12)",
+     "healthy(2)"
+    ],
+    "surface": {
+     "ground_up": 0.03,
+     "ceiling_down": 0.08,
+     "wall_side": 0.9
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.6
+    ],
+    "world_units_per_repeat": 3.9
+   }
+  },
+  {
+   "uid": "tanker3__04dff3a0",
+   "stem": "tanker3",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 7.25,
+   "mean_rgb": [
+    61.2,
+    52.7,
+    47.7
+   ],
+   "distinct_colours_4bit": 23,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C2",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 63,
+    "nodes": [
+     "part(46)",
+     "healthy(26)",
+     "g(20)"
+    ],
+    "surface": {
+     "ground_up": 0.1,
+     "ceiling_down": 0.14,
+     "wall_side": 0.76
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.75
+    ],
+    "world_units_per_repeat": 4.2
+   }
+  },
+  {
+   "uid": "tanker4__b184a55d",
+   "stem": "tanker4",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 18.45,
+   "mean_rgb": [
+    44.8,
+    46.5,
+    33.4
+   ],
+   "distinct_colours_4bit": 55,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C3",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 149,
+    "nodes": [
+     "g(197)",
+     "hold(8)",
+     "rch_hull(4)",
+     "rcd_hull(4)",
+     "stein_rside(3)",
+     "stein_lside(3)"
+    ],
+    "surface": {
+     "ground_up": 0.05,
+     "ceiling_down": 0.0,
+     "wall_side": 0.95
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.19
+    ],
+    "world_units_per_repeat": 10.9
+   }
+  },
+  {
+   "uid": "tanker5__2de03f64",
+   "stem": "tanker5",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 3.77,
+   "mean_rgb": [
+    33.3,
+    33.8,
+    32.6
+   ],
+   "distinct_colours_4bit": 11,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B",
+    "C2",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 235,
+    "nodes": [
+     "g(124)",
+     "healthy(104)",
+     "part(22)",
+     "cart_boom(16)",
+     "dbase(12)",
+     "phut_supports(6)"
+    ],
+    "surface": {
+     "ground_up": 0.04,
+     "ceiling_down": 0.0,
+     "wall_side": 0.96
+    },
+    "uv_repeat_median": [
+     3.98,
+     1.0
+    ],
+    "world_units_per_repeat": 1.3
+   }
+  },
+  {
+   "uid": "tankerdeck__6c785ed7",
+   "stem": "tankerdeck",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.77,
+   "mean_rgb": [
+    100.6,
+    81.6,
+    61.1
+   ],
+   "distinct_colours_4bit": 16,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C2",
+    "C3",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 167,
+    "nodes": [
+     "g(58)",
+     "healthy(51)",
+     "nycity(25)",
+     "hull(22)",
+     "gyrobuild(17)",
+     "sinker(6)"
+    ],
+    "surface": {
+     "ground_up": 0.77,
+     "ceiling_down": 0.02,
+     "wall_side": 0.2
+    },
+    "uv_repeat_median": [
+     0.96,
+     1.0
+    ],
+    "world_units_per_repeat": 10.6
+   }
+  },
+  {
+   "uid": "tankerwindows__4a371050",
+   "stem": "tankerwindows",
+   "size": [
+    128,
+    32
+   ],
+   "target": [
+    1024,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 1.52,
+   "mean_rgb": [
+    165.6,
+    154.2,
+    108.0
+   ],
+   "distinct_colours_4bit": 51,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 12,
+    "nodes": [
+     "cabinlights(8)",
+     "litehsflare(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.0,
+     0.99
+    ],
+    "world_units_per_repeat": 5.8
+   }
+  }
+ ]
+}

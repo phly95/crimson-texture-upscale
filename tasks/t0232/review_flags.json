@@ -1,0 +1,18 @@
+{
+ "task": "t0232",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "stackbase__8637893a",
+   "verdict": "suspect",
+   "problem": "1:1 centre shows cloudy, larger-scale lighter blotches that the granular original does not have, reading slightly painted/plastic. Bottom fade to alpha matches the original.",
+   "fix": "Reduce low-frequency blotch amplitude or blend more of the original's fine grain into the 1:1 result so it does not read as smoothed."
+  },
+  {
+   "uid": "stacktop__b472cef3",
+   "verdict": "suspect",
+   "problem": "1:1 centre has soft cloudy blotches and smeared highlights, less granular than the original 128 px rock (highest mae 9.49 in the set). Cracks and colour read correctly.",
+   "fix": "Lower the low-frequency blotch contribution and restore fine grit from the source luminance; check for plastic smoothing at 1:1."
+  }
+ ]
+}

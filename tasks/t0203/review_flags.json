@@ -1,0 +1,24 @@
+{
+ "task": "t0203",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "fbsuit128_01__5e721ec0",
+   "verdict": "suspect",
+   "problem": "Colour and composition match the olive/tan suit with the red shape and white blotch, but the 1:1 crop is smeared with uniform vertical streaks that read as brushed fabric, not the original's painted mottling. Fine detail is soft.",
+   "fix": "Reduce or drop the align_grain directional stripe injection and rely on isotropic lab-inject at a smaller sigma, so the detail is blotchy paint rather than vertical streaks."
+  },
+  {
+   "uid": "firebrand_cock2__25015656",
+   "verdict": "suspect",
+   "problem": "The fit view reads as grey painted metal with rivets and the cable kept. The 1:1 centre crop shows green/magenta chroma speckle and coloured haloes around the rivet and stamp shapes, which the neutral grey original does not have.",
+   "fix": "Apply the painted-metal grit as luminance only (L channel in Lab, zero a/b change), clamp chroma to the original's per-pixel range, and recheck the 1:1 crop for colour noise."
+  },
+  {
+   "uid": "firebrand_damage__14d27efe",
+   "verdict": "suspect",
+   "problem": "The gauge ring, ticks, wing logo and disc alpha are preserved and the 1:1 hatching is crisp. The added grit makes the dial face show darker camouflage-like blotches the original does not have, which alters a flat decal.",
+   "fix": "Lower the grit relative amplitude (about 0.10 to 0.04 or less) or restrict grit to the outer ring and not the dial face, so the logo and face stay flat."
+  }
+ ]
+}

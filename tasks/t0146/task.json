@@ -1,0 +1,376 @@
+{
+ "task": "t0146",
+ "kind": "family",
+ "family": "spruce",
+ "units": [
+  {
+   "uid": "spruce__3cc7daad",
+   "stem": "spruce",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.27,
+   "mean_rgb": [
+    27.6,
+    33.8,
+    14.8
+   ],
+   "distinct_colours_4bit": 40,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "g(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 7.1
+   }
+  },
+  {
+   "uid": "spruce__b8440c5c",
+   "stem": "spruce",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.25,
+   "mean_rgb": [
+    14.5,
+    18.0,
+    8.8
+   ],
+   "distinct_colours_4bit": 15,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "g(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 7.1
+   }
+  },
+  {
+   "uid": "sprucegoose1__223d3cfb",
+   "stem": "sprucegoose1",
+   "size": [
+    256,
+    64
+   ],
+   "target": [
+    2048,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 16.09,
+   "mean_rgb": [
+    206.7,
+    199.7,
+    205.6
+   ],
+   "distinct_colours_4bit": 31,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 32,
+    "nodes": [
+     "body(32)"
+    ],
+    "surface": {
+     "ground_up": 0.25,
+     "ceiling_down": 0.38,
+     "wall_side": 0.38
+    },
+    "uv_repeat_median": [
+     0.07,
+     0.5
+    ],
+    "world_units_per_repeat": 39.0
+   }
+  },
+  {
+   "uid": "sprucegoose2__219ca5e6",
+   "stem": "sprucegoose2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.88,
+   "mean_rgb": [
+    214.4,
+    206.8,
+    209.1
+   ],
+   "distinct_colours_4bit": 36,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "body(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.93,
+     0.95
+    ],
+    "world_units_per_repeat": 1.5
+   }
+  },
+  {
+   "uid": "sprucegoose3__2525ac44",
+   "stem": "sprucegoose3",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 10.02,
+   "mean_rgb": [
+    149.0,
+    146.3,
+    151.9
+   ],
+   "distinct_colours_4bit": 42,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 66,
+    "nodes": [
+     "healthy_part(84)",
+     "part(24)"
+    ],
+    "surface": {
+     "ground_up": 0.18,
+     "ceiling_down": 0.3,
+     "wall_side": 0.52
+    },
+    "uv_repeat_median": [
+     0.54,
+     0.8
+    ],
+    "world_units_per_repeat": 2.2
+   }
+  },
+  {
+   "uid": "sprucegoose4__086957dc",
+   "stem": "sprucegoose4",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 17.32,
+   "mean_rgb": [
+    159.3,
+    154.9,
+    159.7
+   ],
+   "distinct_colours_4bit": 52,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 44,
+    "nodes": [
+     "wing_left(18)",
+     "wing_right(18)",
+     "tail(8)"
+    ],
+    "surface": {
+     "ground_up": 0.55,
+     "ceiling_down": 0.14,
+     "wall_side": 0.32
+    },
+    "uv_repeat_median": [
+     0.5,
+     0.86
+    ],
+    "world_units_per_repeat": 8.9
+   }
+  },
+  {
+   "uid": "sprucegoose6__99931d06",
+   "stem": "sprucegoose6",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "support_part(32)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.5,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.01,
+     0.53
+    ],
+    "world_units_per_repeat": 5.4
+   }
+  },
+  {
+   "uid": "sprucegoose7__8f02ecc3",
+   "stem": "sprucegoose7",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 21.53,
+   "mean_rgb": [
+    158.8,
+    158.0,
+    164.0
+   ],
+   "distinct_colours_4bit": 44,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "tail(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.91,
+     1.0
+    ],
+    "world_units_per_repeat": 17.1
+   }
+  }
+ ]
+}

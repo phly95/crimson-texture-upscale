@@ -1,0 +1,18 @@
+{
+ "task": "t0241",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "wv_mgun__eb773eab",
+   "verdict": "suspect",
+   "problem": "1:1 crop is soft: barrel and slotted grey panel edges are smeared and little new detail beyond the 64px original (detail_gain 5.6).",
+   "fix": "Re-run with a crisper edge pass on the barrel and panel outlines and add fine steel grain inside the panel; keep the alpha mask as is."
+  },
+  {
+   "uid": "yacht3__93fca29b",
+   "verdict": "suspect",
+   "problem": "Wood grain and the black bolt hole are soft at 1:1; the hole has a blurred halo and the plank streaks are faint, reading as smoothed.",
+   "fix": "Sharpen the hole edge and add crisper plank grain at 1:1; keep the warm brown and plank direction."
+  }
+ ]
+}

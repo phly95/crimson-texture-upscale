@@ -1,0 +1,24 @@
+{
+ "task": "t0188",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "bri_wingctrbtm__b58b05c4",
+   "verdict": "suspect",
+   "problem": "Lower half gains mottled white/grey blotches absent from the smooth original; 1:1 crop reads soft.",
+   "fix": "Cut lab-inject strength in the bright lower zone; keep the dotted rivet rows crisp; check for stamp repeats."
+  },
+  {
+   "uid": "brick1__f7407b0e",
+   "verdict": "suspect",
+   "problem": "Horizontal grain streaks on every course make it read as planks or stone rather than brick.",
+   "fix": "Remove the horizontal libgrain stretch; keep the vertical joints and per-block tone variation, with grain aligned to block faces."
+  },
+  {
+   "uid": "blueindicator__b70a4922",
+   "verdict": "gate-fail",
+   "problem": "exact: silhouette IoU 0.81 < 0.85; no real detail gain over a smooth enlargement (1.11x)",
+   "fix": "make it pass the gate honestly, or mark(...) it if it cannot"
+  }
+ ]
+}

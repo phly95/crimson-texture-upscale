@@ -1,0 +1,36 @@
+{
+ "task": "t0213",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "jwall1__1c3fad0a",
+   "verdict": "suspect",
+   "problem": "Plaster and brick face is composed correctly and reads as painted plaster, but the 1:1 centre crop is soft and smeared with little crisp high-frequency grain at window and brick edges.",
+   "fix": "Add high-frequency plaster grain at 1:1 scale and sharpen window and brick edges without creating halos. Keep the current colour and composition."
+  },
+  {
+   "uid": "k__e919c1de",
+   "verdict": "suspect",
+   "problem": "The K silhouette is kept, but strokes are rounded into blobby shapes with a soft grey halo around the edges, so the flat glyph is not crisp.",
+   "fix": "Use a hard anti-aliased edge from the upscaled coverage map, about 1-2 px wide, and remove the halo. Keep the same stroke geometry and gradient background."
+  },
+  {
+   "uid": "kestrelengine__b7689e25",
+   "verdict": "suspect",
+   "problem": "The 1:1 crop of the grey metal hub is out of focus. The bolt ring edges are smeared into blurred blobs and the metal lacks crisp rim detail.",
+   "fix": "Reduce the smoothing and sharpen the bolt and rim edges. Restore the machined grain without adding seams."
+  },
+  {
+   "uid": "konggate1__066abf31",
+   "verdict": "suspect",
+   "problem": "Plank layout and colour match the original, but the horizontal metal band is smeared into a soft dark shadow at 1:1 and the plank grain is blurred.",
+   "fix": "Sharpen the band edges so it reads as a metal strap, and restore crisp plank seams and grain at 1:1."
+  },
+  {
+   "uid": "l__f4674d5d",
+   "verdict": "suspect",
+   "problem": "The L silhouette is kept, but strokes are rounded into blobby shapes with a soft grey halo, so the flat glyph is not crisp.",
+   "fix": "Use a hard anti-aliased edge from the upscaled coverage map, about 1-2 px wide, and remove the halo. Keep the same stroke geometry and gradient background."
+  }
+ ]
+}

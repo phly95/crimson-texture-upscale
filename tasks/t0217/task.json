@@ -1,0 +1,388 @@
+{
+ "task": "t0217",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "mag_muzzle1__c33944ec",
+   "stem": "mag_muzzle1",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 3.04,
+   "mean_rgb": [
+    159.7,
+    157.8,
+    165.4
+   ],
+   "distinct_colours_4bit": 31,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "mb(8)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.4
+   }
+  },
+  {
+   "uid": "mag_muzzle2__b71ad24c",
+   "stem": "mag_muzzle2",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 6.45,
+   "mean_rgb": [
+    141.5,
+    139.6,
+    146.1
+   ],
+   "distinct_colours_4bit": 26,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 24,
+    "nodes": [
+     "mb_spinflame(24)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.4
+   }
+  },
+  {
+   "uid": "magnesiumtip__c1262149",
+   "stem": "magnesiumtip",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 12.1,
+   "mean_rgb": [
+    235.4,
+    232.2,
+    239.9
+   ],
+   "distinct_colours_4bit": 3,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "g(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.3
+   }
+  },
+  {
+   "uid": "14medusa_logo1__d3d22538",
+   "stem": "14medusa_logo1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.06,
+   "mean_rgb": [
+    135.7,
+    111.1,
+    112.8
+   ],
+   "distinct_colours_4bit": 159,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "metal-rivited__80b3ceb3",
+   "stem": "metal-rivited",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.49,
+   "mean_rgb": [
+    141.6,
+    167.6,
+    185.7
+   ],
+   "distinct_colours_4bit": 66,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 61,
+    "nodes": [
+     "pt(42)",
+     "g(27)",
+     "gun(12)",
+     "turret(4)",
+     "bhf_bridge(1)"
+    ],
+    "surface": {
+     "ground_up": 0.13,
+     "ceiling_down": 0.02,
+     "wall_side": 0.85
+    },
+    "uv_repeat_median": [
+     0.7,
+     0.98
+    ],
+    "world_units_per_repeat": 4.2
+   }
+  },
+  {
+   "uid": "metal-wall-b__4ae7859e",
+   "stem": "metal-wall-b",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.54,
+   "mean_rgb": [
+    165.7,
+    163.3,
+    161.6
+   ],
+   "distinct_colours_4bit": 78,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 19,
+    "nodes": [
+     "g(13)",
+     "platform_b(3)",
+     "p(1)",
+     "platform(1)",
+     "zepdome_destroyed(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.26,
+     "wall_side": 0.74
+    },
+    "uv_repeat_median": [
+     1.98,
+     1.04
+    ],
+    "world_units_per_repeat": 8.1
+   }
+  },
+  {
+   "uid": "missile_sonic__8e2a82ca",
+   "stem": "missile_sonic",
+   "size": [
+    128,
+    32
+   ],
+   "target": [
+    1024,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 9.7,
+   "mean_rgb": [
+    96.4,
+    111.0,
+    99.3
+   ],
+   "distinct_colours_4bit": 90,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 176,
+    "nodes": [
+     "main(136)",
+     "g(40)"
+    ],
+    "surface": {
+     "ground_up": 0.18,
+     "ceiling_down": 0.27,
+     "wall_side": 0.55
+    },
+    "uv_repeat_median": [
+     0.23,
+     0.5
+    ],
+    "world_units_per_repeat": 0.3
+   }
+  },
+  {
+   "uid": "missilegauge__5074f589",
+   "stem": "missilegauge",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    29.5,
+    29.7,
+    20.9
+   ],
+   "distinct_colours_4bit": 123,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  }
+ ]
+}

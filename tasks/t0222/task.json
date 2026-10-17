@@ -1,0 +1,379 @@
+{
+ "task": "t0222",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "18pacifica_logo1__8f431ff7",
+   "stem": "18pacifica_logo1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.05,
+   "mean_rgb": [
+    41.9,
+    41.4,
+    52.9
+   ],
+   "distinct_colours_4bit": 168,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "pacifica_icon__5882a78c",
+   "stem": "pacifica_icon",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.28,
+   "mean_rgb": [
+    83.7,
+    81.2,
+    64.1
+   ],
+   "distinct_colours_4bit": 205,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "a(4)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 47.2
+   }
+  },
+  {
+   "uid": "parkfront__aa903107",
+   "stem": "parkfront",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.63,
+   "mean_rgb": [
+    88.4,
+    108.4,
+    80.3
+   ],
+   "distinct_colours_4bit": 102,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 3,
+    "nodes": [
+     "g(3)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     3.14,
+     1.0
+    ],
+    "world_units_per_repeat": 159.9
+   }
+  },
+  {
+   "uid": "parkinglot__60e886c0",
+   "stem": "parkinglot",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.03,
+   "mean_rgb": [
+    70.4,
+    71.4,
+    67.5
+   ],
+   "distinct_colours_4bit": 11,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "someroads(12)",
+     "g(2)",
+     "town_buildings(1)",
+     "land_dock(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     2.55,
+     5.1
+    ],
+    "world_units_per_repeat": 3.1
+   }
+  },
+  {
+   "uid": "parklot1__2555a393",
+   "stem": "parklot1",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 5.31,
+   "mean_rgb": [
+    121.1,
+    122.4,
+    120.3
+   ],
+   "distinct_colours_4bit": 66,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 21,
+    "nodes": [
+     "g(21)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 22.6
+   }
+  },
+  {
+   "uid": "parklot2__9ed1388a",
+   "stem": "parklot2",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 1.63,
+   "mean_rgb": [
+    86.4,
+    87.2,
+    85.4
+   ],
+   "distinct_colours_4bit": 53,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 7,
+    "nodes": [
+     "g(7)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.5
+    ],
+    "world_units_per_repeat": 22.6
+   }
+  },
+  {
+   "uid": "pass_waldo__8a887c9f",
+   "stem": "pass_waldo",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 5.94,
+   "mean_rgb": [
+    43.7,
+    41.1,
+    36.7
+   ],
+   "distinct_colours_4bit": 192,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 56,
+    "nodes": [
+     "p_waldo(56)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.45,
+     0.5
+    ],
+    "world_units_per_repeat": 14.6
+   }
+  },
+  {
+   "uid": "patrolboat1__71e6b169",
+   "stem": "patrolboat1",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 6.99,
+   "mean_rgb": [
+    130.9,
+    101.3,
+    99.7
+   ],
+   "distinct_colours_4bit": 21,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C2",
+    "C3",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 203,
+    "nodes": [
+     "sinker(102)",
+     "waterline(34)",
+     "healthy(34)",
+     "eb_hull(14)",
+     "dbase(13)",
+     "pt(11)"
+    ],
+    "surface": {
+     "ground_up": 0.12,
+     "ceiling_down": 0.24,
+     "wall_side": 0.64
+    },
+    "uv_repeat_median": [
+     0.98,
+     0.58
+    ],
+    "world_units_per_repeat": 3.8
+   }
+  }
+ ]
+}

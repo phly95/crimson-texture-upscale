@@ -1,0 +1,18 @@
+{
+ "task": "t0190",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "burloak__2c125cc5",
+   "verdict": "suspect",
+   "problem": "At 1:1 the burl mottling is smeared and soft; the knot and pore detail reads as blur rather than crisp burl grain. Colour and blotch layout match the original.",
+   "fix": "Reduce the up_wrap smoothing or raise mid-frequency lab-inject gain so burl knots and pores are crisp at 1:1; re-check the bands and mip seam after the change."
+  },
+  {
+   "uid": "bush2__18c51727",
+   "verdict": "suspect",
+   "problem": "At 1:1 the cutout edges are feathered and the foliage reads as out of focus, with pale speckle noise from the grain injection instead of leaf structure.",
+   "fix": "Sharpen the back-projected alpha edge before the colour pass, and lower the lab-inject speckle gain so the foliage shows leaf-cluster structure rather than noise."
+  }
+ ]
+}

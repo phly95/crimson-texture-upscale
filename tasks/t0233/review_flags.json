@@ -1,0 +1,30 @@
+{
+ "task": "t0233",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "stacktop64__89aa4e2a",
+   "verdict": "suspect",
+   "problem": "Concrete-like mottling is right, but faint horizontal hairline streaks at regular intervals look like injected stamp lines not in the original; blotches read as camouflage-like at 1:1.",
+   "fix": "Drop or greatly reduce the horizontal line injection; check the lab-inject pass for repeated stamps and vary blotch scale."
+  },
+  {
+   "uid": "stall__bf9b31b7",
+   "verdict": "suspect",
+   "problem": "Design and glow are preserved, but the STALL lettering is soft and slightly smeared at 1:1, so the flat text is not crisp.",
+   "fix": "Use an edge-preserving flat-art upscale (e.g. Scale2x/xBR-style) for the text, or sharpen the alpha edge, while keeping the glow."
+  },
+  {
+   "uid": "stand1__8bbfc9cd",
+   "verdict": "suspect",
+   "problem": "Figure outline and face/tie detail are mushy and plasticky at 1:1 compared with the crisp pixel-shaded original.",
+   "fix": "Use an alpha-aware sharpening pass on the sprite edges and restore face/tie definition; keep the colour match."
+  },
+  {
+   "uid": "stand2__e8ed523e",
+   "verdict": "suspect",
+   "problem": "A pinkish/magenta fringe is visible along the left edge of the torso and arm at 1:1, a halo from the transparent background bleeding into the colour.",
+   "fix": "Erode the alpha by about a pixel or fill transparent pixels with edge colour (colour-bleed/premultiply) before resizing, then re-run the gate."
+  }
+ ]
+}

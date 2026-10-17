@@ -1,0 +1,144 @@
+{
+ "task": "t0122",
+ "kind": "family",
+ "family": "police",
+ "units": [
+  {
+   "uid": "police1__8eeea586",
+   "stem": "police1",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.35,
+   "mean_rgb": [
+    71.5,
+    72.3,
+    72.2
+   ],
+   "distinct_colours_4bit": 97,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 160,
+    "nodes": [
+     "g(160)"
+    ],
+    "surface": {
+     "ground_up": 0.31,
+     "ceiling_down": 0.0,
+     "wall_side": 0.69
+    },
+    "uv_repeat_median": [
+     0.43,
+     0.21
+    ],
+    "world_units_per_repeat": 2.4
+   }
+  },
+  {
+   "uid": "policebuilding01__01fe276b",
+   "stem": "policebuilding01",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.03,
+   "mean_rgb": [
+    97.8,
+    98.0,
+    102.4
+   ],
+   "distinct_colours_4bit": 115,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 37,
+    "nodes": [
+     "g(23)",
+     "gyrobuild(14)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     14.46
+    ],
+    "world_units_per_repeat": 19.5
+   }
+  },
+  {
+   "uid": "policebuilding02__218dbe27",
+   "stem": "policebuilding02",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.71,
+   "mean_rgb": [
+    71.7,
+    78.0,
+    85.0
+   ],
+   "distinct_colours_4bit": 359,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "gyrobuild(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.0,
+     1.0
+    ],
+    "world_units_per_repeat": 22.6
+   }
+  }
+ ]
+}

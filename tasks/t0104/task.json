@@ -1,0 +1,447 @@
+{
+ "task": "t0104",
+ "kind": "family",
+ "family": "mp",
+ "units": [
+  {
+   "uid": "mp1name__6284c28f",
+   "stem": "mp1name",
+   "size": [
+    128,
+    16
+   ],
+   "target": [
+    1024,
+    128
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    7.6,
+    82.4,
+    82.6
+   ],
+   "distinct_colours_4bit": 12,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 32,
+    "nodes": [
+     "g(16)",
+     "panelleft(8)",
+     "panelright(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 22.6
+   }
+  },
+  {
+   "uid": "mp1skin1__8610e069",
+   "stem": "mp1skin1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.82,
+   "mean_rgb": [
+    78.9,
+    79.4,
+    98.5
+   ],
+   "distinct_colours_4bit": 5,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 296,
+    "nodes": [
+     "panelleft(120)",
+     "panelright(120)",
+     "panelleftb(40)",
+     "panelrightb(40)",
+     "g(16)",
+     "burnprb(8)"
+    ],
+    "surface": {
+     "ground_up": 0.32,
+     "ceiling_down": 0.08,
+     "wall_side": 0.59
+    },
+    "uv_repeat_median": [
+     1.0,
+     4.29
+    ],
+    "world_units_per_repeat": 22.3
+   }
+  },
+  {
+   "uid": "mp1skin2__552de7cc",
+   "stem": "mp1skin2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.87,
+   "mean_rgb": [
+    76.5,
+    77.1,
+    96.2
+   ],
+   "distinct_colours_4bit": 7,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 168,
+    "nodes": [
+     "panelrightb(56)",
+     "panelleftb(40)",
+     "pleftb1h(24)",
+     "pleftb1d(24)",
+     "prightb1h(24)",
+     "prightb1d(24)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.43,
+     "wall_side": 0.57
+    },
+    "uv_repeat_median": [
+     1.0,
+     6.22
+    ],
+    "world_units_per_repeat": 22.3
+   }
+  },
+  {
+   "uid": "mp1tail__2776f351",
+   "stem": "mp1tail",
+   "size": [
+    256,
+    128
+   ],
+   "target": [
+    2048,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 7.31,
+   "mean_rgb": [
+    86.6,
+    85.9,
+    103.7
+   ],
+   "distinct_colours_4bit": 7,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 32,
+    "nodes": [
+     "g(32)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.0,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 76.2
+   }
+  },
+  {
+   "uid": "mp2name__d72fab4a",
+   "stem": "mp2name",
+   "size": [
+    128,
+    16
+   ],
+   "target": [
+    1024,
+    128
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.01,
+   "mean_rgb": [
+    123.8,
+    54.6,
+    71.8
+   ],
+   "distinct_colours_4bit": 11,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 32,
+    "nodes": [
+     "g(16)",
+     "panelleft(8)",
+     "panelright(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 22.6
+   }
+  },
+  {
+   "uid": "mp2skin1__a09873a5",
+   "stem": "mp2skin1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.91,
+   "mean_rgb": [
+    101.2,
+    70.7,
+    69.7
+   ],
+   "distinct_colours_4bit": 7,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 296,
+    "nodes": [
+     "panelleft(120)",
+     "panelright(120)",
+     "panelleftb(40)",
+     "panelrightb(40)",
+     "g(16)",
+     "burnprb(8)"
+    ],
+    "surface": {
+     "ground_up": 0.32,
+     "ceiling_down": 0.08,
+     "wall_side": 0.59
+    },
+    "uv_repeat_median": [
+     1.0,
+     4.29
+    ],
+    "world_units_per_repeat": 22.3
+   }
+  },
+  {
+   "uid": "mp2skin2__61b52d5c",
+   "stem": "mp2skin2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.94,
+   "mean_rgb": [
+    98.2,
+    68.2,
+    67.5
+   ],
+   "distinct_colours_4bit": 12,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 168,
+    "nodes": [
+     "panelrightb(56)",
+     "panelleftb(40)",
+     "pleftb1h(24)",
+     "pleftb1d(24)",
+     "prightb1h(24)",
+     "prightb1d(24)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.43,
+     "wall_side": 0.57
+    },
+    "uv_repeat_median": [
+     1.0,
+     6.22
+    ],
+    "world_units_per_repeat": 22.3
+   }
+  },
+  {
+   "uid": "mp2tail__f33b9a39",
+   "stem": "mp2tail",
+   "size": [
+    256,
+    128
+   ],
+   "target": [
+    2048,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 7.43,
+   "mean_rgb": [
+    86.7,
+    61.5,
+    62.5
+   ],
+   "distinct_colours_4bit": 8,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 32,
+    "nodes": [
+     "g(32)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.0,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 76.2
+   }
+  }
+ ]
+}

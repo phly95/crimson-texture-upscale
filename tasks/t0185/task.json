@@ -1,0 +1,363 @@
+{
+ "task": "t0185",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "bhf_lrgdoor__398f01d9",
+   "stem": "bhf_lrgdoor",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 10.04,
+   "mean_rgb": [
+    127.6,
+    137.3,
+    146.8
+   ],
+   "distinct_colours_4bit": 162,
+   "look": "photo/painted-likely",
+   "also_named": [
+    "large_steelpanel"
+   ],
+   "chapters": [
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 72,
+    "nodes": [
+     "gyrobuild(70)",
+     "g(26)"
+    ],
+    "surface": {
+     "ground_up": 0.04,
+     "ceiling_down": 0.04,
+     "wall_side": 0.92
+    },
+    "uv_repeat_median": [
+     0.99,
+     0.88
+    ],
+    "world_units_per_repeat": 33.5
+   }
+  },
+  {
+   "uid": "bhwing_front__f31d8f06",
+   "stem": "bhwing_front",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.58,
+   "mean_rgb": [
+    114.9,
+    118.1,
+    69.8
+   ],
+   "distinct_colours_4bit": 64,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "g(4)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.54
+    ],
+    "world_units_per_repeat": 13.4
+   }
+  },
+  {
+   "uid": "bigflare01__5617002d",
+   "stem": "bigflare01",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    91.7,
+    171.0,
+    222.6
+   ],
+   "distinct_colours_4bit": 16,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 24,
+    "nodes": [
+     "flasher(16)",
+     "sflsh(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 3.7
+   }
+  },
+  {
+   "uid": "bigflare02__6ca4e799",
+   "stem": "bigflare02",
+   "size": [
+    16,
+    16
+   ],
+   "target": [
+    128,
+    128
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    105.8,
+    196.6,
+    255.0
+   ],
+   "distinct_colours_4bit": 4,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 32,
+    "nodes": [
+     "flasher(32)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     7.67,
+     1.0
+    ],
+    "world_units_per_repeat": 1.0
+   }
+  },
+  {
+   "uid": "23bighairy__c395966a",
+   "stem": "23bighairy",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.23,
+   "mean_rgb": [
+    47.8,
+    41.5,
+    33.3
+   ],
+   "distinct_colours_4bit": 104,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "bigheels01__052c8026",
+   "stem": "bigheels01",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Simple",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.57,
+   "mean_rgb": [
+    39.4,
+    34.3,
+    22.4
+   ],
+   "distinct_colours_4bit": 85,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 12,
+    "nodes": [
+     "hulk(8)",
+     "healthy(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.69,
+     0.63
+    ],
+    "world_units_per_repeat": 3.0
+   }
+  },
+  {
+   "uid": "24biglug__af82bb75",
+   "stem": "24biglug",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.46,
+   "mean_rgb": [
+    51.0,
+    77.1,
+    68.2
+   ],
+   "distinct_colours_4bit": 214,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "25bigstink__3f364ab5",
+   "stem": "25bigstink",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.36,
+   "mean_rgb": [
+    75.7,
+    69.5,
+    58.2
+   ],
+   "distinct_colours_4bit": 328,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  }
+ ]
+}

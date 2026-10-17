@@ -1,0 +1,385 @@
+{
+ "task": "t0220",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "40ohsoblue__13f7fe64",
+   "stem": "40ohsoblue",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.3,
+   "mean_rgb": [
+    79.3,
+    64.0,
+    66.9
+   ],
+   "distinct_colours_4bit": 306,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "oil_liteflare__deff04cc",
+   "stem": "oil_liteflare",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    50.4,
+    48.2,
+    17.3
+   ],
+   "distinct_colours_4bit": 39,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 37,
+    "nodes": [
+     "wing_flare(14)",
+     "fire_yellow(8)",
+     "gen_flare_yellow(8)",
+     "g(4)",
+     "lwingbend(3)",
+     "rwingbend(3)"
+    ],
+    "surface": {
+     "ground_up": 0.22,
+     "ceiling_down": 0.0,
+     "wall_side": 0.78
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.9
+   }
+  },
+  {
+   "uid": "oilbuild__bbd14858",
+   "stem": "oilbuild",
+   "size": [
+    128,
+    32
+   ],
+   "target": [
+    1024,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.45,
+   "mean_rgb": [
+    105.6,
+    109.7,
+    90.1
+   ],
+   "distinct_colours_4bit": 27,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "towerpolys(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.0,
+     2.5
+    ],
+    "world_units_per_repeat": 1.7
+   }
+  },
+  {
+   "uid": "oilfiller__625c6e9e",
+   "stem": "oilfiller",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.66,
+   "mean_rgb": [
+    121.3,
+    113.6,
+    105.1
+   ],
+   "distinct_colours_4bit": 48,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 42,
+    "nodes": [
+     "tower(15)",
+     "box(10)",
+     "rockerarm(10)",
+     "brokenbox(8)",
+     "pipelines(8)",
+     "towerpolys(4)"
+    ],
+    "surface": {
+     "ground_up": 0.12,
+     "ceiling_down": 0.0,
+     "wall_side": 0.88
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 6.0
+   }
+  },
+  {
+   "uid": "oilref1__e0559daf",
+   "stem": "oilref1",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.93,
+   "mean_rgb": [
+    98.4,
+    93.2,
+    83.4
+   ],
+   "distinct_colours_4bit": 131,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 5,
+    "nodes": [
+     "g(8)",
+     "towerpolys(1)"
+    ],
+    "surface": {
+     "ground_up": 0.2,
+     "ceiling_down": 0.4,
+     "wall_side": 0.4
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.68
+    ],
+    "world_units_per_repeat": 14.2
+   }
+  },
+  {
+   "uid": "oilref3__3fa5411f",
+   "stem": "oilref3",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.64,
+   "mean_rgb": [
+    115.1,
+    115.3,
+    109.2
+   ],
+   "distinct_colours_4bit": 17,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 5,
+    "nodes": [
+     "g(4)",
+     "pipelines(3)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.96,
+     0.87
+    ],
+    "world_units_per_repeat": 6.1
+   }
+  },
+  {
+   "uid": "oilstorage__61c5c8a5",
+   "stem": "oilstorage",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 17.21,
+   "mean_rgb": [
+    57.9,
+    60.2,
+    62.9
+   ],
+   "distinct_colours_4bit": 16,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 34,
+    "nodes": [
+     "g(26)",
+     "pipelines(18)",
+     "pt(4)",
+     "venttube(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.5,
+     0.99
+    ],
+    "world_units_per_repeat": 6.0
+   }
+  },
+  {
+   "uid": "oilvent__e0a5ae78",
+   "stem": "oilvent",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 4.16,
+   "mean_rgb": [
+    61.6,
+    61.3,
+    60.0
+   ],
+   "distinct_colours_4bit": 22,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 48,
+    "nodes": [
+     "tower(24)",
+     "pipelines(16)",
+     "towerpolys(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     5.53,
+     1.0
+    ],
+    "world_units_per_repeat": 0.9
+   }
+  }
+ ]
+}

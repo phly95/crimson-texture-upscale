@@ -1,0 +1,267 @@
+{
+ "task": "t0164",
+ "kind": "family",
+ "family": "tracer",
+ "units": [
+  {
+   "uid": "tracer1__5b0b97c8",
+   "stem": "tracer1",
+   "size": [
+    128,
+    16
+   ],
+   "target": [
+    1024,
+    128
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 61.68,
+   "mean_rgb": [
+    205.8,
+    139.4,
+    104.6
+   ],
+   "distinct_colours_4bit": 52,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "rabbit_blur(16)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.0,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.9
+   }
+  },
+  {
+   "uid": "tracer_armorpierce__7198252b",
+   "stem": "tracer_armorpierce",
+   "size": [
+    128,
+    16
+   ],
+   "target": [
+    1024,
+    128
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 19.88,
+   "mean_rgb": [
+    225.9,
+    43.8,
+    40.8
+   ],
+   "distinct_colours_4bit": 84,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "rabbit_blur(16)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.0,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.9
+   }
+  },
+  {
+   "uid": "tracer_dumdum__24153ee4",
+   "stem": "tracer_dumdum",
+   "size": [
+    128,
+    16
+   ],
+   "target": [
+    1024,
+    128
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 45.9,
+   "mean_rgb": [
+    211.5,
+    41.6,
+    102.2
+   ],
+   "distinct_colours_4bit": 87,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "rabbit_blur(16)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.0,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.9
+   }
+  },
+  {
+   "uid": "tracer_magnesium__d8b96ff1",
+   "stem": "tracer_magnesium",
+   "size": [
+    128,
+    16
+   ],
+   "target": [
+    1024,
+    128
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 54.74,
+   "mean_rgb": [
+    229.1,
+    225.4,
+    176.4
+   ],
+   "distinct_colours_4bit": 5,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "rabbit_blur(16)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.0,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.9
+   }
+  },
+  {
+   "uid": "tracer_slug__4d0d804a",
+   "stem": "tracer_slug",
+   "size": [
+    128,
+    16
+   ],
+   "target": [
+    1024,
+    128
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 62.55,
+   "mean_rgb": [
+    225.9,
+    183.2,
+    36.6
+   ],
+   "distinct_colours_4bit": 20,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "rabbit_blur(16)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.0,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.9
+   }
+  }
+ ]
+}

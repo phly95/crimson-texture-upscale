@@ -1,0 +1,18 @@
+{
+ "task": "t0212",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "36joker__f6dbd48b",
+   "verdict": "suspect",
+   "problem": "Light/yellow halo runs along the black outlines against the magenta background. At 1:1 the face is posterised into flat tonal bands and loses the painted texture of the original, so it reads as plastic.",
+   "fix": "Reduce the edge-sharpen or label_blend weight (w below 0.5) so outlines don't ring, and keep the original tonal bands. Re-run the gate with the halo check. Usage is null, so this is low priority."
+  },
+  {
+   "uid": "innersack1__354b853b",
+   "verdict": "suspect",
+   "problem": "At 1:1 the diagonal borders and dashed rivets are soft, with transitions about 4px wide. The original flat-graphic edges were crisp, so the dashes smear into the diagonals.",
+   "fix": "Use a flat-graphic route for this unit: quantise to the original palette and upscale with a hard-edge or sharp-edge method (lower label_blend w, or skip the blur step), so the dash pattern stays distinct at 1:1."
+  }
+ ]
+}

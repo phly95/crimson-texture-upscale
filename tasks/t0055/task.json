@@ -1,0 +1,208 @@
+{
+ "task": "t0055",
+ "kind": "family",
+ "family": "depot",
+ "units": [
+  {
+   "uid": "depot01__133543de",
+   "stem": "depot01",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.02,
+   "mean_rgb": [
+    108.9,
+    101.2,
+    85.2
+   ],
+   "distinct_colours_4bit": 155,
+   "look": "photo/painted-likely",
+   "also_named": [
+    "dockhouse01"
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C3",
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 59,
+    "nodes": [
+     "part(24)",
+     "land_dock(18)",
+     "healthy(12)",
+     "dbase(12)",
+     "g(7)",
+     "cave_entrance(3)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.02,
+     "wall_side": 0.98
+    },
+    "uv_repeat_median": [
+     0.89,
+     0.41
+    ],
+    "world_units_per_repeat": 11.2
+   }
+  },
+  {
+   "uid": "depot03__76603691",
+   "stem": "depot03",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.57,
+   "mean_rgb": [
+    99.0,
+    85.8,
+    64.6
+   ],
+   "distinct_colours_4bit": 86,
+   "look": "photo/painted-likely",
+   "also_named": [
+    "dockhouse03"
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 128,
+    "nodes": [
+     "part(94)",
+     "dbase(36)",
+     "land_dock(28)",
+     "healthy(24)",
+     "dockpolys(12)"
+    ],
+    "surface": {
+     "ground_up": 0.3,
+     "ceiling_down": 0.01,
+     "wall_side": 0.7
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.42
+    ],
+    "world_units_per_repeat": 9.6
+   }
+  },
+  {
+   "uid": "depot04__d05c71e2",
+   "stem": "depot04",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    67.4,
+    110.5,
+    104.1
+   ],
+   "distinct_colours_4bit": 26,
+   "look": "flat-graphic-likely",
+   "also_named": [
+    "dockhouse02"
+   ],
+   "chapters": [
+    "C1",
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "dockpolys(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     8.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.4
+   }
+  },
+  {
+   "uid": "depot06__eb6ac8bc",
+   "stem": "depot06",
+   "size": [
+    128,
+    32
+   ],
+   "target": [
+    1024,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.85,
+   "mean_rgb": [
+    173.9,
+    169.2,
+    168.1
+   ],
+   "distinct_colours_4bit": 35,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "g(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 4.2
+   }
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "task": "t0112",
+ "kind": "family",
+ "family": "oilpip",
+ "units": [
+  {
+   "uid": "oilpipe1__ad56e14b",
+   "stem": "oilpipe1",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.16,
+   "mean_rgb": [
+    96.7,
+    95.7,
+    94.9
+   ],
+   "distinct_colours_4bit": 24,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 22,
+    "nodes": [
+     "pipelines(16)",
+     "towerpolys(6)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.5
+    ],
+    "world_units_per_repeat": 4.9
+   }
+  },
+  {
+   "uid": "oilpipe2__0f786560",
+   "stem": "oilpipe2",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 6.56,
+   "mean_rgb": [
+    121.9,
+    119.7,
+    119.1
+   ],
+   "distinct_colours_4bit": 11,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 42,
+    "nodes": [
+     "pipelines(26)",
+     "tower(11)",
+     "towerpolys(5)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     3.37,
+     0.63
+    ],
+    "world_units_per_repeat": 2.8
+   }
+  },
+  {
+   "uid": "oilpipe3__04f00554",
+   "stem": "oilpipe3",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 12.88,
+   "mean_rgb": [
+    24.0,
+    23.9,
+    23.6
+   ],
+   "distinct_colours_4bit": 13,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 25,
+    "nodes": [
+     "pipelines(10)",
+     "tower(8)",
+     "tankdock(7)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.59,
+     1.0
+    ],
+    "world_units_per_repeat": 5.7
+   }
+  }
+ ]
+}

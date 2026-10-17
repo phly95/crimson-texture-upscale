@@ -1,0 +1,370 @@
+{
+ "task": "t0014",
+ "kind": "family",
+ "family": "bhatze",
+ "units": [
+  {
+   "uid": "bhatzep10__5733d2a6",
+   "stem": "bhatzep10",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.16,
+   "mean_rgb": [
+    78.4,
+    84.3,
+    91.5
+   ],
+   "distinct_colours_4bit": 75,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 11,
+    "nodes": [
+     "g(11)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.41,
+     0.53
+    ],
+    "world_units_per_repeat": 17.5
+   }
+  },
+  {
+   "uid": "bhatzep11__b99db22f",
+   "stem": "bhatzep11",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.85,
+   "mean_rgb": [
+    72.6,
+    78.3,
+    84.7
+   ],
+   "distinct_colours_4bit": 61,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 12,
+    "nodes": [
+     "g(12)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.54,
+     0.62
+    ],
+    "world_units_per_repeat": 18.3
+   }
+  },
+  {
+   "uid": "bhatzep12__fc42c62d",
+   "stem": "bhatzep12",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.45,
+   "mean_rgb": [
+    119.0,
+    137.0,
+    145.7
+   ],
+   "distinct_colours_4bit": 78,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 28,
+    "nodes": [
+     "g(28)"
+    ],
+    "surface": {
+     "ground_up": 0.29,
+     "ceiling_down": 0.0,
+     "wall_side": 0.71
+    },
+    "uv_repeat_median": [
+     1.02,
+     1.12
+    ],
+    "world_units_per_repeat": 3.3
+   }
+  },
+  {
+   "uid": "bhatzep13__f152e6b3",
+   "stem": "bhatzep13",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.34,
+   "mean_rgb": [
+    125.2,
+    152.3,
+    164.2
+   ],
+   "distinct_colours_4bit": 127,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 103,
+    "nodes": [
+     "g(102)",
+     "turret(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.59,
+     "wall_side": 0.41
+    },
+    "uv_repeat_median": [
+     1.0,
+     2.0
+    ],
+    "world_units_per_repeat": 4.2
+   }
+  },
+  {
+   "uid": "bhatzep14__15b86980",
+   "stem": "bhatzep14",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.1,
+   "mean_rgb": [
+    84.1,
+    88.9,
+    90.2
+   ],
+   "distinct_colours_4bit": 147,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 23,
+    "nodes": [
+     "g(21)",
+     "turret(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.85,
+     1.02
+    ],
+    "world_units_per_repeat": 3.6
+   }
+  },
+  {
+   "uid": "bhatzep15__0c665e22",
+   "stem": "bhatzep15",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.73,
+   "mean_rgb": [
+    126.0,
+    124.2,
+    132.6
+   ],
+   "distinct_colours_4bit": 116,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 51,
+    "nodes": [
+     "g(40)",
+     "turret(22)"
+    ],
+    "surface": {
+     "ground_up": 0.08,
+     "ceiling_down": 0.08,
+     "wall_side": 0.84
+    },
+    "uv_repeat_median": [
+     1.26,
+     1.0
+    ],
+    "world_units_per_repeat": 4.4
+   }
+  },
+  {
+   "uid": "bhatzep16__4f13f376",
+   "stem": "bhatzep16",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 1.9,
+   "mean_rgb": [
+    86.8,
+    93.9,
+    96.1
+   ],
+   "distinct_colours_4bit": 148,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "g(16)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.86,
+     0.88
+    ],
+    "world_units_per_repeat": 7.6
+   }
+  },
+  {
+   "uid": "bhatzep7__d5072ca3",
+   "stem": "bhatzep7",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 7.74,
+   "mean_rgb": [
+    77.5,
+    83.4,
+    90.1
+   ],
+   "distinct_colours_4bit": 70,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "g(16)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.42,
+     0.54
+    ],
+    "world_units_per_repeat": 19.5
+   }
+  }
+ ]
+}

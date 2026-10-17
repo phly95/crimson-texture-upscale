@@ -1,0 +1,18 @@
+{
+ "task": "t0230",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "shingledroof01__318a99e7",
+   "verdict": "suspect",
+   "problem": "At 1:1 the centre crop is soft and smeared: mortar joints blur and the grain turns into blotchy mush instead of crisp granules, so it reads as plastic next to the original's sharp tabs. Colours, tab layout and the tan/grey mix match the original.",
+   "fix": "Reduce the lab-inject/unsharp strength and the smoothing before injection so the grain stays granular at 1:1, keeping the colour match. Re-check the 1:1 crop."
+  },
+  {
+   "uid": "six__c86fd61c",
+   "verdict": "suspect",
+   "problem": "Dark speckle dots show along the glyph edges, especially on the lower loop and left stroke, which look like stamp or dither artifacts. The bold sans also has a heavier, rounder stroke than the original's pixel-style 6, so the design drifts a little.",
+   "fix": "Find the stamp or dither step in the AA composite over the plate and remove the speckle. Check the stroke weight against the original 16px glyph and adjust the font-fit weight or outline if it still drifts."
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "task": "t0141",
+ "kind": "family",
+ "family": "skywal",
+ "units": [
+  {
+   "uid": "skywal09__0f63d3ab",
+   "stem": "skywal09",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.07,
+   "mean_rgb": [
+    84.0,
+    77.2,
+    76.7
+   ],
+   "distinct_colours_4bit": 33,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 70,
+    "nodes": [
+     "g(57)",
+     "new(9)",
+     "front(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.04,
+     "wall_side": 0.96
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 6.9
+   }
+  },
+  {
+   "uid": "skywal10__7d2de8c2",
+   "stem": "skywal10",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.6,
+   "mean_rgb": [
+    135.7,
+    129.8,
+    134.5
+   ],
+   "distinct_colours_4bit": 22,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 103,
+    "nodes": [
+     "g(77)",
+     "new(13)",
+     "front(7)",
+     "o(5)",
+     "statn(1)"
+    ],
+    "surface": {
+     "ground_up": 0.63,
+     "ceiling_down": 0.0,
+     "wall_side": 0.37
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.16
+    ],
+    "world_units_per_repeat": 8.1
+   }
+  },
+  {
+   "uid": "skywal11__5fbcc591",
+   "stem": "skywal11",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.54,
+   "mean_rgb": [
+    124.6,
+    120.0,
+    110.1
+   ],
+   "distinct_colours_4bit": 30,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 85,
+    "nodes": [
+     "g(57)",
+     "front(15)",
+     "pod6_hi(12)",
+     "pod2_hi(4)",
+     "pod6_lolevel(4)",
+     "o(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.81,
+     1.0
+    ],
+    "world_units_per_repeat": 8.3
+   }
+  },
+  {
+   "uid": "skywal13__f5bf2c5e",
+   "stem": "skywal13",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.53,
+   "mean_rgb": [
+    59.2,
+    43.6,
+    28.8
+   ],
+   "distinct_colours_4bit": 253,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 19,
+    "nodes": [
+     "g(18)",
+     "neoff(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.53,
+     1.08
+    ],
+    "world_units_per_repeat": 14.5
+   }
+  }
+ ]
+}

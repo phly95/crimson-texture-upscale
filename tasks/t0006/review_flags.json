@@ -1,0 +1,192 @@
+{
+ "task": "t0006",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "wtr00000__4a649651",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches (~20-40px) instead of fine streaks; slight plastic smoothing",
+   "fix": "Lower up_wrap low-frequency smoothing; raise grit amp or use a finer high-pass; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00000__94312d07",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix: finer high-pass grit and less up_wrap smoothing; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00000__f1ae7783",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00001__0a5d814a",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00001__bc0aa3a0",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00001__be00ab59",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00001__ea532061",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00002__0d8728c5",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00002__54ecd2a3",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00002__65b6a304",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00002__aa387dc8",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00003__02e18c43",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00003__63f7074d",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00003__ad721f6a",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00003__e3105ea8",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00004__357d36bc",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00004__54e96035",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00004__743cbbe3",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00004__d15870c6",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00005__603270c1",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00005__87c4d87c",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00005__e59f8b97",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00005__fd599031",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00006__0e9f90af",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00006__89655144",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00006__ad97f05e",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00006__ff876afb",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00007__105ef391",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00007__3149d2b0",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00007__db463e58",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  },
+  {
+   "uid": "wtr00007__e9007adf",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop shows lumpy cell-like blotches; fine streak detail softened",
+   "fix": "Same as shared fix; recheck at 1:1"
+  }
+ ]
+}

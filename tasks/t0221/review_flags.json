@@ -1,0 +1,18 @@
+{
+ "task": "t0221",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "oldroad1__d1ac1402",
+   "verdict": "suspect",
+   "problem": "At 1:1 the centre crop reads as soft cloudy noise; the vertical ribbed streaks visible in the shrunk panel are weak at full size, so the material looks more like mottled concrete than the ribbed original. The original's bottom half is solid magenta and the result keeps it, which is correct.",
+   "fix": "Strengthen the lengthwise streak/rib detail (lower lab-inject blur or raise the high-band gain along the streak axis) and keep the magenta region untouched."
+  },
+  {
+   "uid": "oldroad2__578be0d6",
+   "verdict": "suspect",
+   "problem": "The centre disc is upscaled into a crisp, cracked, stamp-like circle that is much sharper than the soft blob in the original, and the gate reports seam_out 1.14 against seam_orig 0.04, so the tile edge is no longer clean. Grid lines are also blurred relative to the disc.",
+   "fix": "Soften or re-synthesise the centre disc so it matches the original's low-contrast blob, and fix the tile seam (re-run the wrap/feather step until seam_out is near 0.04) before shipping."
+  }
+ ]
+}

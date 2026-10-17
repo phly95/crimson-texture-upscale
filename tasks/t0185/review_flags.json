@@ -1,0 +1,42 @@
+{
+ "task": "t0185",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "23bighairy__c395966a",
+   "verdict": "suspect",
+   "problem": "1:1 crop is blobby and posterised; fur becomes watercolour blotches and the dark outlines and eyes look soft. usage null.",
+   "fix": "Lower label_up K (24 is too many clusters for this art) or add an edge-preserving pass so outlines and the eye highlights stay crisp."
+  },
+  {
+   "uid": "24biglug__af82bb75",
+   "verdict": "suspect",
+   "problem": "Shapes and the Big Lug lettering are kept, but the green body has blotchy stamp-like mottling and the wrench edge softens at 1:1. usage null.",
+   "fix": "Reduce clustering on flat fills (fewer label clusters or a flat-fill mode) and re-sharpen the wrench and text outlines."
+  },
+  {
+   "uid": "25bigstink__3f364ab5",
+   "verdict": "suspect",
+   "problem": "Grey body at 1:1 reads as a blocky mosaic with patchy colour; mean_shift is 3.46, the highest of the set. Logo is intact. usage null.",
+   "fix": "Drop label_up K from 48 to about 24-32 and check the grey and blue tone shift against the original."
+  },
+  {
+   "uid": "bhf_lrgdoor__398f01d9",
+   "verdict": "suspect",
+   "problem": "1:1 centre is smeared blue-grey with only a faint red grid, so it reads as soft plastic rather than a steel panel. Emblem silhouette is kept. Wall-side, 92% of use.",
+   "fix": "Lower the shade smoothing (shade=0.8 looks too strong) and restore crisp grid lines and panel edges; keep the rivet rows sharp."
+  },
+  {
+   "uid": "bigheels01__052c8026",
+   "verdict": "suspect",
+   "problem": "Wheel and axle at 1:1 are mushy, with stamp-like blotches on the rim. The brown planks above show dark vertical seams. Cutout edge is slightly jagged.",
+   "fix": "Lower the label K (32 is too many clusters for the wheel), restore rim highlights and the axle line, and smooth the alpha edge."
+  },
+  {
+   "uid": "bigflare02__6ca4e799",
+   "verdict": "gate-fail",
+   "problem": "no real detail gain over a smooth enlargement (0.94x)",
+   "fix": "make it pass the gate honestly, or mark(...) it if it cannot"
+  }
+ ]
+}

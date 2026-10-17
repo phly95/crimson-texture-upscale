@@ -1,0 +1,18 @@
+{
+ "task": "t0209",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "34haveaday__fa25a8e3",
+   "verdict": "suspect",
+   "problem": "1:1 crop is painted-smooth: teeth, eye highlights and cigar edges are soft with blotchy mottling, not crisp.",
+   "fix": "Restore edge contrast on teeth/eye highlights and cut the mottling; keep the cartoon line work sharp at 1:1."
+  },
+  {
+   "uid": "hangardoor_tile__e21f6b73",
+   "verdict": "suspect",
+   "problem": "Invents a rectangular inset panel outline and rust blotches absent from the 32px original; base colour drifts olive from the tan original (mean 108,97,71).",
+   "fix": "Remove the invented inset rectangles and rivets; keep the seams at the original positions and match the tan base colour before adding grime."
+  }
+ ]
+}

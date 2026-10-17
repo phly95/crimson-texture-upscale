@@ -1,0 +1,390 @@
+{
+ "task": "t0184",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "beam01__82686d84",
+   "stem": "beam01",
+   "size": [
+    32,
+    16
+   ],
+   "target": [
+    256,
+    128
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.22,
+   "mean_rgb": [
+    78.7,
+    41.9,
+    24.2
+   ],
+   "distinct_colours_4bit": 27,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "healthy(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.6
+   }
+  },
+  {
+   "uid": "beflare5__6349ccdf",
+   "stem": "beflare5",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.24,
+   "mean_rgb": [
+    187.2,
+    187.2,
+    187.2
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "bflare(16)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.05,
+     1.05
+    ],
+    "world_units_per_repeat": 0.9
+   }
+  },
+  {
+   "uid": "belt01__e2f05927",
+   "stem": "belt01",
+   "size": [
+    16,
+    32
+   ],
+   "target": [
+    128,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.09,
+   "mean_rgb": [
+    165.9,
+    135.6,
+    72.1
+   ],
+   "distinct_colours_4bit": 54,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 3,
+    "nodes": [
+     "part(2)",
+     "healthy(1)"
+    ],
+    "surface": {
+     "ground_up": 0.33,
+     "ceiling_down": 0.0,
+     "wall_side": 0.67
+    },
+    "uv_repeat_median": [
+     1.0,
+     2.96
+    ],
+    "world_units_per_repeat": 2.6
+   }
+  },
+  {
+   "uid": "bezel__70572dec",
+   "stem": "bezel",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 9.02,
+   "mean_rgb": [
+    51.7,
+    50.3,
+    38.3
+   ],
+   "distinct_colours_4bit": 55,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "bhattex2__1fe5f255",
+   "stem": "bhattex2",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 6.69,
+   "mean_rgb": [
+    29.1,
+    27.0,
+    23.6
+   ],
+   "distinct_colours_4bit": 192,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 10,
+    "nodes": [
+     "g(10)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.98,
+     0.79
+    ],
+    "world_units_per_repeat": 6.5
+   }
+  },
+  {
+   "uid": "bhengine_exhast__6a63328a",
+   "stem": "bhengine_exhast",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 7.51,
+   "mean_rgb": [
+    159.5,
+    158.8,
+    159.2
+   ],
+   "distinct_colours_4bit": 71,
+   "look": "photo/painted-likely",
+   "also_named": [
+    "greymetal01"
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 252,
+    "nodes": [
+     "gun(308)",
+     "part(98)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.29,
+     "wall_side": 0.71
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 2.3
+   }
+  },
+  {
+   "uid": "bhengine_exhast2__8266d941",
+   "stem": "bhengine_exhast2",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.3,
+   "mean_rgb": [
+    81.9,
+    81.5,
+    81.9
+   ],
+   "distinct_colours_4bit": 16,
+   "look": "flat-graphic-likely",
+   "also_named": [
+    "engine_exhast2"
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 3,
+    "nodes": [
+     "piece(3)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.67,
+     "wall_side": 0.33
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.2
+   }
+  },
+  {
+   "uid": "bhf_ibeam__383e3f54",
+   "stem": "bhf_ibeam",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.66,
+   "mean_rgb": [
+    54.5,
+    45.4,
+    40.4
+   ],
+   "distinct_colours_4bit": 79,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 106,
+    "nodes": [
+     "bhf_hg_p(58)",
+     "g(33)",
+     "bhf_bridge(8)",
+     "bhf_support(6)",
+     "pwr_domecables(1)"
+    ],
+    "surface": {
+     "ground_up": 0.03,
+     "ceiling_down": 0.0,
+     "wall_side": 0.97
+    },
+    "uv_repeat_median": [
+     3.56,
+     1.0
+    ],
+    "world_units_per_repeat": 3.6
+   }
+  }
+ ]
+}

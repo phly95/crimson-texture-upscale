@@ -1,0 +1,199 @@
+{
+ "task": "t0021",
+ "kind": "family",
+ "family": "bldgbo",
+ "units": [
+  {
+   "uid": "bldgbowl1__ff1f2cc2",
+   "stem": "bldgbowl1",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 6.9,
+   "mean_rgb": [
+    46.4,
+    45.7,
+    41.5
+   ],
+   "distinct_colours_4bit": 15,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 6,
+    "nodes": [
+     "town_buildings(2)",
+     "healthy(2)",
+     "dbase(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.02,
+     1.0
+    ],
+    "world_units_per_repeat": 1.5
+   }
+  },
+  {
+   "uid": "bldgbowl2__4cf30b4a",
+   "stem": "bldgbowl2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 9.66,
+   "mean_rgb": [
+    63.9,
+    61.6,
+    59.0
+   ],
+   "distinct_colours_4bit": 26,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 22,
+    "nodes": [
+     "town_buildings(18)",
+     "healthy(2)",
+     "dbase(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     11.2,
+     1.1
+    ],
+    "world_units_per_repeat": 2.8
+   }
+  },
+  {
+   "uid": "bldgbowl3__08f022c4",
+   "stem": "bldgbowl3",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 12.04,
+   "mean_rgb": [
+    72.6,
+    67.5,
+    61.7
+   ],
+   "distinct_colours_4bit": 12,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "town_buildings(16)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.02,
+     1.7
+    ],
+    "world_units_per_repeat": 2.9
+   }
+  },
+  {
+   "uid": "bldgbowl4__d81c0d50",
+   "stem": "bldgbowl4",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.72,
+   "mean_rgb": [
+    101.0,
+    90.3,
+    79.5
+   ],
+   "distinct_colours_4bit": 20,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3",
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 43,
+    "nodes": [
+     "g(15)",
+     "town_buildings(10)",
+     "healthy(10)",
+     "dbase(8)"
+    ],
+    "surface": {
+     "ground_up": 0.26,
+     "ceiling_down": 0.0,
+     "wall_side": 0.74
+    },
+    "uv_repeat_median": [
+     2.54,
+     1.0
+    ],
+    "world_units_per_repeat": 4.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,239 @@
+{
+ "task": "t0120",
+ "kind": "family",
+ "family": "planep",
+ "units": [
+  {
+   "uid": "planepass01__4d79298d",
+   "stem": "planepass01",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 9.64,
+   "mean_rgb": [
+    168.1,
+    166.7,
+    162.4
+   ],
+   "distinct_colours_4bit": 49,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 67,
+    "nodes": [
+     "part(70)",
+     "engines(48)",
+     "body(16)"
+    ],
+    "surface": {
+     "ground_up": 0.21,
+     "ceiling_down": 0.16,
+     "wall_side": 0.63
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.5
+    ],
+    "world_units_per_repeat": 2.2
+   }
+  },
+  {
+   "uid": "planepass02__7cdff6a8",
+   "stem": "planepass02",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 6.19,
+   "mean_rgb": [
+    154.6,
+    153.8,
+    149.5
+   ],
+   "distinct_colours_4bit": 59,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 19,
+    "nodes": [
+     "part(36)",
+     "body(2)"
+    ],
+    "surface": {
+     "ground_up": 0.32,
+     "ceiling_down": 0.21,
+     "wall_side": 0.47
+    },
+    "uv_repeat_median": [
+     1.66,
+     0.18
+    ],
+    "world_units_per_repeat": 5.0
+   }
+  },
+  {
+   "uid": "planepass03__93964fa9",
+   "stem": "planepass03",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 8.49,
+   "mean_rgb": [
+    138.2,
+    137.9,
+    138.2
+   ],
+   "distinct_colours_4bit": 42,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 39,
+    "nodes": [
+     "part(46)",
+     "body(32)"
+    ],
+    "surface": {
+     "ground_up": 0.62,
+     "ceiling_down": 0.03,
+     "wall_side": 0.36
+    },
+    "uv_repeat_median": [
+     0.8,
+     0.7
+    ],
+    "world_units_per_repeat": 5.4
+   }
+  },
+  {
+   "uid": "planepass04__ee99dbfd",
+   "stem": "planepass04",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.08,
+   "mean_rgb": [
+    50.1,
+    50.7,
+    50.1
+   ],
+   "distinct_colours_4bit": 16,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "body(6)",
+     "part(6)",
+     "engines(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.4
+   }
+  },
+  {
+   "uid": "planepass05__e4b40fe2",
+   "stem": "planepass05",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "shadow(2)",
+     "dbase(2)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.75,
+     1.0
+    ],
+    "world_units_per_repeat": 26.6
+   }
+  }
+ ]
+}

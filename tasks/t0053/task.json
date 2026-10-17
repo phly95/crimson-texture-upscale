@@ -1,0 +1,148 @@
+{
+ "task": "t0053",
+ "kind": "family",
+ "family": "croad",
+ "units": [
+  {
+   "uid": "croad01__6cd6df4d",
+   "stem": "croad01",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.43,
+   "mean_rgb": [
+    82.3,
+    81.2,
+    74.2
+   ],
+   "distinct_colours_4bit": 22,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 1,
+    "nodes": [
+     "g(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.02,
+     9.13
+    ],
+    "world_units_per_repeat": 8.8
+   }
+  },
+  {
+   "uid": "croad02__dc199aa0",
+   "stem": "croad02",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.2,
+   "mean_rgb": [
+    81.9,
+    80.7,
+    75.3
+   ],
+   "distinct_colours_4bit": 20,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 11,
+    "nodes": [
+     "someroads(5)",
+     "rrbrdg(5)",
+     "firehouse(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 12.4
+   }
+  },
+  {
+   "uid": "croad03__ee5e7e62",
+   "stem": "croad03",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.41,
+   "mean_rgb": [
+    81.7,
+    80.6,
+    75.3
+   ],
+   "distinct_colours_4bit": 18,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 41,
+    "nodes": [
+     "someroads(15)",
+     "g(10)",
+     "a(10)",
+     "fuel_roads(5)",
+     "track(1)"
+    ],
+    "surface": {
+     "ground_up": 0.95,
+     "ceiling_down": 0.05,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     13.1
+    ],
+    "world_units_per_repeat": 6.4
+   }
+  }
+ ]
+}

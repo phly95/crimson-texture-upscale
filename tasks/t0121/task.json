@@ -1,0 +1,155 @@
+{
+ "task": "t0121",
+ "kind": "family",
+ "family": "pm",
+ "units": [
+  {
+   "uid": "pm_cock__12698e5c",
+   "stem": "pm_cock",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 8.37,
+   "mean_rgb": [
+    105.7,
+    116.4,
+    142.5
+   ],
+   "distinct_colours_4bit": 87,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "pm_damage__0b584f1a",
+   "stem": "pm_damage",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    41.8,
+    42.4,
+    37.3
+   ],
+   "distinct_colours_4bit": 63,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "pm_gun__5c8adb0e",
+   "stem": "pm_gun",
+   "size": [
+    32,
+    128
+   ],
+   "target": [
+    256,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 29.38,
+   "mean_rgb": [
+    133.3,
+    132.7,
+    131.4
+   ],
+   "distinct_colours_4bit": 43,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "pm_winglet__be809cf0",
+   "stem": "pm_winglet",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 6.96,
+   "mean_rgb": [
+    164.0,
+    163.3,
+    164.0
+   ],
+   "distinct_colours_4bit": 37,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  }
+ ]
+}

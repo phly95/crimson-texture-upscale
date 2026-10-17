@@ -1,0 +1,289 @@
+{
+ "task": "t0167",
+ "kind": "family",
+ "family": "vostok",
+ "units": [
+  {
+   "uid": "vostokeng1__63a56f91",
+   "stem": "vostokeng1",
+   "size": [
+    32,
+    256
+   ],
+   "target": [
+    256,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.51,
+   "mean_rgb": [
+    167.6,
+    133.6,
+    29.9
+   ],
+   "distinct_colours_4bit": 22,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 81,
+    "nodes": [
+     "part(66)",
+     "g(30)"
+    ],
+    "surface": {
+     "ground_up": 0.26,
+     "ceiling_down": 0.26,
+     "wall_side": 0.48
+    },
+    "uv_repeat_median": [
+     1.98,
+     0.18
+    ],
+    "world_units_per_repeat": 3.3
+   }
+  },
+  {
+   "uid": "vostokeng2__f58b6172",
+   "stem": "vostokeng2",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.25,
+   "mean_rgb": [
+    138.3,
+    127.2,
+    63.7
+   ],
+   "distinct_colours_4bit": 183,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "g(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 2.0
+   }
+  },
+  {
+   "uid": "vostokeng3__ceda8911",
+   "stem": "vostokeng3",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.91,
+   "mean_rgb": [
+    135.9,
+    118.0,
+    22.1
+   ],
+   "distinct_colours_4bit": 52,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 12,
+    "nodes": [
+     "g(16)",
+     "part(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.88,
+     0.95
+    ],
+    "world_units_per_repeat": 4.0
+   }
+  },
+  {
+   "uid": "vostokskin1__80bbb1a9",
+   "stem": "vostokskin1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.29,
+   "mean_rgb": [
+    43.9,
+    49.0,
+    50.4
+   ],
+   "distinct_colours_4bit": 11,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 37,
+    "nodes": [
+     "panelleft(15)",
+     "panelright(15)",
+     "panelleftb(5)",
+     "panelrightb(5)",
+     "g(2)",
+     "burnprb(1)"
+    ],
+    "surface": {
+     "ground_up": 0.32,
+     "ceiling_down": 0.08,
+     "wall_side": 0.59
+    },
+    "uv_repeat_median": [
+     1.0,
+     4.29
+    ],
+    "world_units_per_repeat": 22.3
+   }
+  },
+  {
+   "uid": "vostokskin2__1272af82",
+   "stem": "vostokskin2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.21,
+   "mean_rgb": [
+    45.3,
+    50.6,
+    52.0
+   ],
+   "distinct_colours_4bit": 11,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 21,
+    "nodes": [
+     "panelrightb(7)",
+     "panelleftb(5)",
+     "pleftb1h(3)",
+     "pleftb1d(3)",
+     "prightb1h(3)",
+     "prightb1d(3)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.43,
+     "wall_side": 0.57
+    },
+    "uv_repeat_median": [
+     1.0,
+     6.22
+    ],
+    "world_units_per_repeat": 22.3
+   }
+  },
+  {
+   "uid": "vostoktail__bbe3711b",
+   "stem": "vostoktail",
+   "size": [
+    256,
+    128
+   ],
+   "target": [
+    2048,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 22.97,
+   "mean_rgb": [
+    199.7,
+    114.5,
+    4.9
+   ],
+   "distinct_colours_4bit": 45,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "g(4)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.0,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 76.2
+   }
+  }
+ ]
+}

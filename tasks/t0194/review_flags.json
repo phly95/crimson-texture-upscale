@@ -1,0 +1,30 @@
+{
+ "task": "t0194",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "compasstxt__4a1a6169",
+   "verdict": "suspect",
+   "problem": "Glyph strip keeps the NESESWNW letterforms and tan colour, but at 1:1 the letter edges are soft with a faint grey halo, so the flat graphic looks blurred rather than crisp.",
+   "fix": "Rebuild the alpha edge as a crisp antialiased mask (vector trace or threshold plus small-radius AA) instead of a PCHIP blur, then re-run the gate."
+  },
+  {
+   "uid": "connector01__271d0a3b",
+   "verdict": "suspect",
+   "problem": "Silhouette matches the original, but the hard cut-out alpha leaves stair-stepped outline edges that read as blocky at 1:1.",
+   "fix": "Anti-alias the silhouette edge (supersampled or vector-traced contour) rather than a hard binary cut-out, keeping the exact shape."
+  },
+  {
+   "uid": "cpit_bullethole1__728a696b",
+   "verdict": "suspect",
+   "problem": "Radial cracks and hole shape are preserved, but the 1:1 crop is blurry and the Ice003 glass micro-detail is not visibly distinct, so the crack edges smear.",
+   "fix": "Sharpen the crack edges and make the injected glass micro-detail visible at 1:1 (higher-frequency, higher-amplitude inside the decal alpha) rather than a soft PCHIP upscale."
+  },
+  {
+   "uid": "cpit_bullethole2__a9078fbd",
+   "verdict": "suspect",
+   "problem": "Shape and soft tone match the original, but the 1:1 crop is smeared with faint ghost blotches near the lower left and no crisp added glass detail.",
+   "fix": "Remove the ghost/blotch artifacts and add visible fine glass micro-detail inside the decal, keeping the soft original falloff."
+  }
+ ]
+}

@@ -1,0 +1,327 @@
+diff --git a/CSVM/src/Flight/Hud/CompassTape.cs b/CSVM/src/Flight/Hud/CompassTape.cs
+index 94267e6f..8778c13a 100644
+--- a/CSVM/src/Flight/Hud/CompassTape.cs
++++ b/CSVM/src/Flight/Hud/CompassTape.cs
+@@ -113,7 +113,7 @@ public sealed partial class CompassTape : Control
+             float x0 = DrumX(d1), x1 = DrumX(d0);
+             float m = Fade((d0 + d1) / 2f);
+             DrawTextureRectRegion(_ticks, new Rect2(x0, 0f, x1 - x0, tileH),
+-                new Rect2(Vector2.Zero, TileSrcSize), new Color(m, m, m));
++                new Rect2(Vector2.Zero, _ticks.GetSize()), new Color(m, m, m));
+         }
+     }
+ 
+@@ -137,12 +137,15 @@ public sealed partial class CompassTape : Control
+     private sealed partial class LabelLayer : Control
+     {
+         public CompassTape Tape = null!;
++        private static readonly Vector2 AuthoredAtlasSize = new(128f, 32f);
+ 
+         public override void _Draw()
+         {
+             var t = Tape;
+             float s = HudMetrics.Scale(this);
+             float scale = RefLabelHeight / 32f * s;
++            var uvScale = t._labels.GetSize() / AuthoredAtlasSize;
++
+             float firstLabel = Mathf.Ceil((t.HeadingDeg - 90f) / 45f) * 45f;
+             for (float a = firstLabel; a <= t.HeadingDeg + 90f; a += 45f)
+             {
+@@ -150,10 +153,11 @@ public sealed partial class CompassTape : Control
+                 if (Mathf.Abs(d) >= 90f)
+                     continue;
+                 float fade = Fade(d);
+-                var src = LabelSrc[(int)Mathf.PosMod(a / 45f, 8f)];
+-                float width = src.Size.X * scale * Mathf.Cos(Mathf.DegToRad(d));
++                var origSrc = LabelSrc[(int)Mathf.PosMod(a / 45f, 8f)];
++                var src = new Rect2(origSrc.Position * uvScale, origSrc.Size * uvScale);
++                float width = origSrc.Size.X * scale * Mathf.Cos(Mathf.DegToRad(d));
+                 var dest = new Rect2(t.DrumX(d) - width / 2f, RefLabelTop * s,
+-                                     width, src.Size.Y * scale);
++                                     width, origSrc.Size.Y * scale);
+                 DrawTextureRectRegion(t._labels, dest, src, new Color(fade, fade, fade));
+             }
+         }
+diff --git a/CSVM/src/UI/Boards/BoardArtSizes.cs b/CSVM/src/UI/Boards/BoardArtSizes.cs
+new file mode 100644
+index 00000000..93b349ba
+--- /dev/null
++++ b/CSVM/src/UI/Boards/BoardArtSizes.cs
+@@ -0,0 +1,80 @@
++using System;
++using System.Collections.Generic;
++using System.IO;
++using System.Text.Json;
++using CSVM.Utils;
++
++namespace CSVM.UI.Boards;
++
++/// <summary>
++/// Manifest of authored art dimensions on the 800x600 coordinate plane, loaded from
++/// art_sizes.json so high-resolution textures do not inflate layout boxes or spans.
++/// </summary>
++public sealed class BoardArtSizes
++{
++    private readonly Dictionary<string, (int Width, int Height)> _manifest = new(StringComparer.OrdinalIgnoreCase);
++    private readonly string _dataRoot;
++
++    public BoardArtSizes(string dataRoot)
++    {
++        _dataRoot = dataRoot ?? throw new ArgumentNullException(nameof(dataRoot));
++        LoadManifest();
++    }
++
++    /// <summary>The authored pixel size of the art, or null if unmanifested.</summary>
++    public (int Width, int Height)? Measure(string art)
++    {
++        if (string.IsNullOrEmpty(art))
++        {
++            return null;
++        }
++
++        string baseName = Path.GetFileName(art);
++        if (_manifest.TryGetValue(baseName, out var authored)
++            || _manifest.TryGetValue(art, out authored))
++        {
++            return authored;
++        }
++
++        return null;
++    }
++
++    private void LoadManifest()
++    {
++        string[] candidates =
++        {
++            Path.Combine(_dataRoot, "extracted", "rof", "art_sizes.json"),
++            Path.Combine(_dataRoot, "extracted", "art_sizes.json"),
++            Path.Combine(_dataRoot, "art_sizes.json"),
++        };
++
++        foreach (var path in candidates)
++        {
++            if (!File.Exists(path))
++            {
++                continue;
++            }
++
++            try
++            {
++                using var doc = JsonDocument.Parse(File.ReadAllText(path));
++                foreach (var prop in doc.RootElement.EnumerateObject())
++                {
++                    if (prop.Value.ValueKind == JsonValueKind.Array
++                        && prop.Value.GetArrayLength() == 2)
++                    {
++                        int w = prop.Value[0].GetInt32();
++                        int h = prop.Value[1].GetInt32();
++                        _manifest[prop.Name] = (w, h);
++                    }
++                }
++
++                break;
++            }
++            catch (Exception ex)
++            {
++                Log.Info("ui", $"art manifest at {path} did not parse ({ex.Message})");
++            }
++        }
++    }
++}
+diff --git a/CSVM/src/UI/Boards/ComposedBoardView.cs b/CSVM/src/UI/Boards/ComposedBoardView.cs
+index c08d15d8..61bbf80c 100644
+--- a/CSVM/src/UI/Boards/ComposedBoardView.cs
++++ b/CSVM/src/UI/Boards/ComposedBoardView.cs
+@@ -103,6 +103,7 @@ public sealed partial class ComposedBoardView : Control
+ 
+     private ComposedBoard? _board;
+     private string _dataRoot = string.Empty;
++    private BoardArtSizes? _artSizes;
+     private string _detail = string.Empty;
+     private string _footer = string.Empty;
+     private BoardPalette _palette = BoardPalette.Paper;
+@@ -121,6 +122,7 @@ public sealed partial class ComposedBoardView : Control
+         var view = new ComposedBoardView
+         {
+             _dataRoot = dataRoot,
++            _artSizes = new BoardArtSizes(dataRoot),
+             MouseFilter = MouseFilterEnum.Ignore,
+             TextureFilter = TextureFilterEnum.Nearest,
+         };
+@@ -291,7 +293,15 @@ public sealed partial class ComposedBoardView : Control
+     /// <summary>One bitmap's own size in its own pixels, or zero where the extraction does not
+     /// carry it. The one measurement a composed board cannot make for itself: a progress fill is a
+     /// pixel clip against the fill bitmap's own width.</summary>
+-    public Vector2 ArtSize(BoardArt art) => Load(art) is { } texture ? texture.GetSize() : Vector2.Zero;
++    public Vector2 ArtSize(BoardArt art)
++    {
++        if (Load(art) is not { } texture)
++        {
++            return Vector2.Zero;
++        }
++
++        return AuthoredArtSize(art, texture);
++    }
+ 
+     /// <summary>The installed font a langui face names, or null on a machine without the family.
+     /// A miss keeps the board's own face rather than the system's arbitrary substitute. Looked up
+@@ -699,16 +709,28 @@ public sealed partial class ComposedBoardView : Control
+             return null;
+         }
+ 
++        var authored = AuthoredArtSize(picture.Art, texture);
++        float scaleX = texture.GetSize().X / authored.X;
++        float scaleY = texture.GetSize().Y / authored.Y;
++
+         var frame = FrameRect(texture, picture.Art.Frames, picture.Frame);
++        float authoredFrameH = authored.Y / Mathf.Max(1, picture.Art.Frames);
++
+         if (picture.Crop is { } crop)
+         {
+             frame = frame.Intersection(
+-                new Rect2(frame.Position.X + crop.X, frame.Position.Y + crop.Y, crop.Width, crop.Height));
++                new Rect2(frame.Position.X + (crop.X * scaleX),
++                          frame.Position.Y + (crop.Y * scaleY),
++                          crop.Width * scaleX,
++                          crop.Height * scaleY));
+         }
+ 
+-        var span = new Vector2(
+-            fit.Length(picture.Width > 0f ? picture.Width : frame.Size.X),
+-            fit.Length(picture.Height > 0f ? picture.Height : frame.Size.Y));
++        float authoredW = picture.Width > 0f ? picture.Width
++            : (picture.Crop is { } cropW ? cropW.Width : authored.X);
++        float authoredH = picture.Height > 0f ? picture.Height
++            : (picture.Crop is { } cropH ? cropH.Height : authoredFrameH);
++
++        var span = new Vector2(fit.Length(authoredW), fit.Length(authoredH));
+         var at = new Vector2(fit.X(picture.X), fit.Y(picture.Y));
+         if (picture.Centered)
+         {
+@@ -803,8 +825,10 @@ public sealed partial class ComposedBoardView : Control
+             return;
+         }
+ 
++        var authored = AuthoredArtSize(plaque.Art, texture);
+         var frame = FrameRect(texture, plaque.Art.Frames, plaque.Frame);
+-        var span = new Vector2(fit.Length(frame.Size.X), fit.Length(frame.Size.Y));
++        float authoredH = authored.Y / Mathf.Max(1, plaque.Art.Frames);
++        var span = new Vector2(fit.Length(authored.X), fit.Length(authoredH));
+         var at = new Vector2(fit.X(plaque.X), fit.Y(plaque.Y));
+         DrawTextureRectRegion(texture, new Rect2(at, span), frame, Colors.White);
+         if (plaque.Label.Length == 0 || font == null)
+@@ -1163,4 +1187,14 @@ public sealed partial class ComposedBoardView : Control
+             }
+         }
+     }
++
++    private Vector2 AuthoredArtSize(BoardArt art, Texture2D texture)
++    {
++        if (_artSizes?.Measure(art.Name) is { } size)
++        {
++            return new Vector2(size.Width, size.Height);
++        }
++
++        return texture.GetSize();
++    }
+ }
+diff --git a/CSVM/src/UI/Menu/Original/OriginalArtSizes.cs b/CSVM/src/UI/Menu/Original/OriginalArtSizes.cs
+index 9cb28d51..4bde1cef 100644
+--- a/CSVM/src/UI/Menu/Original/OriginalArtSizes.cs
++++ b/CSVM/src/UI/Menu/Original/OriginalArtSizes.cs
+@@ -17,6 +17,7 @@ namespace CSVM.UI.Menu.Original;
+ public sealed class OriginalArtSizes
+ {
+     private readonly Dictionary<string, (int Width, int Height)?> _sizes = new(StringComparer.OrdinalIgnoreCase);
++    private readonly Dictionary<string, (int Width, int Height)> _manifest = new(StringComparer.OrdinalIgnoreCase);
+     private readonly string _dataRoot;
+     private readonly string _who;
+ 
+@@ -26,6 +27,7 @@ public sealed class OriginalArtSizes
+     {
+         _dataRoot = dataRoot ?? throw new ArgumentNullException(nameof(dataRoot));
+         _who = who ?? throw new ArgumentNullException(nameof(who));
++        LoadManifest();
+     }
+ 
+     /// <summary>The named art's pixel size, or null where the file does not read.</summary>
+@@ -36,6 +38,14 @@ public sealed class OriginalArtSizes
+             return cached;
+         }
+ 
++        string baseName = Path.GetFileName(art);
++        if (_manifest.TryGetValue(baseName, out var authored)
++            || _manifest.TryGetValue(art, out authored))
++        {
++            _sizes[art] = authored;
++            return authored;
++        }
++
+         (int Width, int Height)? size = null;
+         string path = OriginalAvailability.ArtPath(_dataRoot, art);
+         if (OriginalAvailability.IsMovie(art))
+@@ -79,4 +89,43 @@ public sealed class OriginalArtSizes
+             return null;
+         }
+     }
++
++    private void LoadManifest()
++    {
++        string[] candidates =
++        {
++            Path.Combine(_dataRoot, "extracted", "rof", "art_sizes.json"),
++            Path.Combine(_dataRoot, "extracted", "art_sizes.json"),
++            Path.Combine(_dataRoot, "art_sizes.json"),
++        };
++
++        foreach (var path in candidates)
++        {
++            if (!File.Exists(path))
++            {
++                continue;
++            }
++
++            try
++            {
++                using var doc = System.Text.Json.JsonDocument.Parse(File.ReadAllText(path));
++                foreach (var prop in doc.RootElement.EnumerateObject())
++                {
++                    if (prop.Value.ValueKind == System.Text.Json.JsonValueKind.Array
++                        && prop.Value.GetArrayLength() == 2)
++                    {
++                        int w = prop.Value[0].GetInt32();
++                        int h = prop.Value[1].GetInt32();
++                        _manifest[prop.Name] = (w, h);
++                    }
++                }
++
++                break;
++            }
++            catch (Exception ex)
++            {
++                Log.Info("ui", $"{_who}: art manifest at {path} did not parse ({ex.Message})");
++            }
++        }
++    }
+ }
+diff --git a/CSVM/src/UI/Overlays/ObjectivesHud.cs b/CSVM/src/UI/Overlays/ObjectivesHud.cs
+index 447e334c..7586fb62 100644
+--- a/CSVM/src/UI/Overlays/ObjectivesHud.cs
++++ b/CSVM/src/UI/Overlays/ObjectivesHud.cs
+@@ -49,6 +49,7 @@ public sealed partial class ObjectivesHud : Node
+     // The original sets its objectives list in ObjList, "Andy Bold" at 14 px (fonts.zrd), and our
+     // own RefFontSize above is a TUNE choice rather than that 14.
+     private const float MarkReferenceFontSize = 14f;
++    private static readonly Vector2 MarkAuthoredSize = new(25f, 24f);
+ 
+     private readonly CampaignDirector _director;
+     private readonly Messages _messages;
+@@ -300,7 +301,7 @@ public sealed partial class ObjectivesHud : Node
+     // of the row's own label rather than a cell beside it, so it cannot move the text it marks.
+     private TextureRect MarkOver(int font)
+     {
+-        var size = _mark!.GetSize() * (font / MarkReferenceFontSize);
++        var size = MarkAuthoredSize * (font / MarkReferenceFontSize);
+         return new TextureRect
+         {
+             Texture = _mark,

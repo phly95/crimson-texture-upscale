@@ -1,0 +1,166 @@
+{
+ "task": "t0106",
+ "kind": "family",
+ "family": "mpeng",
+ "units": [
+  {
+   "uid": "mpeng1__6fb9324b",
+   "stem": "mpeng1",
+   "size": [
+    32,
+    256
+   ],
+   "target": [
+    256,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.76,
+   "mean_rgb": [
+    139.7,
+    150.9,
+    142.0
+   ],
+   "distinct_colours_4bit": 31,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 1328,
+    "nodes": [
+     "part(1056)",
+     "g(480)",
+     "upper_br_door(64)"
+    ],
+    "surface": {
+     "ground_up": 0.25,
+     "ceiling_down": 0.25,
+     "wall_side": 0.49
+    },
+    "uv_repeat_median": [
+     1.98,
+     0.18
+    ],
+    "world_units_per_repeat": 3.3
+   }
+  },
+  {
+   "uid": "mpeng2__13a0baf4",
+   "stem": "mpeng2",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.28,
+   "mean_rgb": [
+    142.1,
+    151.2,
+    156.3
+   ],
+   "distinct_colours_4bit": 95,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 32,
+    "nodes": [
+     "g(64)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 2.0
+   }
+  },
+  {
+   "uid": "mpeng3__8066d35b",
+   "stem": "mpeng3",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.96,
+   "mean_rgb": [
+    108.8,
+    130.0,
+    125.8
+   ],
+   "distinct_colours_4bit": 67,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 192,
+    "nodes": [
+     "g(256)",
+     "part(64)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.88,
+     0.95
+    ],
+    "world_units_per_repeat": 4.0
+   }
+  }
+ ]
+}

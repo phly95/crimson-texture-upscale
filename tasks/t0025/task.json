@@ -1,0 +1,247 @@
+{
+ "task": "t0025",
+ "kind": "family",
+ "family": "box",
+ "units": [
+  {
+   "uid": "box01__df272ac8",
+   "stem": "box01",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.27,
+   "mean_rgb": [
+    110.2,
+    79.7,
+    47.7
+   ],
+   "distinct_colours_4bit": 27,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 131,
+    "nodes": [
+     "healthy(62)",
+     "g(45)",
+     "town_buildings(26)",
+     "part(18)"
+    ],
+    "surface": {
+     "ground_up": 0.15,
+     "ceiling_down": 0.0,
+     "wall_side": 0.85
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 3.4
+   }
+  },
+  {
+   "uid": "box02__34a79b42",
+   "stem": "box02",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.67,
+   "mean_rgb": [
+    105.9,
+    74.9,
+    44.7
+   ],
+   "distinct_colours_4bit": 28,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 39,
+    "nodes": [
+     "healthy(60)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.5
+   }
+  },
+  {
+   "uid": "box03__2b003efc",
+   "stem": "box03",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.17,
+   "mean_rgb": [
+    81.1,
+    61.4,
+    38.6
+   ],
+   "distinct_colours_4bit": 19,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 28,
+    "nodes": [
+     "healthy(48)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.53,
+     1.0
+    ],
+    "world_units_per_repeat": 1.4
+   }
+  },
+  {
+   "uid": "box04__c54121ac",
+   "stem": "box04",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.92,
+   "mean_rgb": [
+    107.3,
+    75.8,
+    45.3
+   ],
+   "distinct_colours_4bit": 27,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 259,
+    "nodes": [
+     "healthy(286)",
+     "g(43)",
+     "dbase(32)",
+     "part(12)",
+     "town_buildings(8)"
+    ],
+    "surface": {
+     "ground_up": 0.18,
+     "ceiling_down": 0.08,
+     "wall_side": 0.74
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 2.1
+   }
+  },
+  {
+   "uid": "box04__1231cd69",
+   "stem": "box04",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.57,
+   "mean_rgb": [
+    71.4,
+    54.6,
+    37.0
+   ],
+   "distinct_colours_4bit": 10,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C3",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 259,
+    "nodes": [
+     "healthy(286)",
+     "g(43)",
+     "dbase(32)",
+     "part(12)",
+     "town_buildings(8)"
+    ],
+    "surface": {
+     "ground_up": 0.18,
+     "ceiling_down": 0.08,
+     "wall_side": 0.74
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 2.1
+   }
+  }
+ ]
+}

@@ -1,0 +1,232 @@
+{
+ "task": "t0036",
+ "kind": "family",
+ "family": "canvas",
+ "units": [
+  {
+   "uid": "canvas1__8bbd167a",
+   "stem": "canvas1",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 35.99,
+   "mean_rgb": [
+    173.4,
+    168.8,
+    154.5
+   ],
+   "distinct_colours_4bit": 66,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 11,
+    "nodes": [
+     "healthy_brothel(11)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.56,
+     0.99
+    ],
+    "world_units_per_repeat": 21.6
+   }
+  },
+  {
+   "uid": "canvas2__27b1d119",
+   "stem": "canvas2",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.36,
+   "mean_rgb": [
+    220.2,
+    218.4,
+    204.9
+   ],
+   "distinct_colours_4bit": 15,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 12,
+    "nodes": [
+     "healthy_brothel(12)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.0,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     1.04,
+     1.0
+    ],
+    "world_units_per_repeat": 20.7
+   }
+  },
+  {
+   "uid": "canvas3__a7ba3e76",
+   "stem": "canvas3",
+   "size": [
+    32,
+    16
+   ],
+   "target": [
+    256,
+    128
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.17,
+   "mean_rgb": [
+    211.0,
+    202.0,
+    195.7
+   ],
+   "distinct_colours_4bit": 15,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "healthy_brothel(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     4.4,
+     1.0
+    ],
+    "world_units_per_repeat": 11.4
+   }
+  },
+  {
+   "uid": "canvas4__101ecd66",
+   "stem": "canvas4",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.73,
+   "mean_rgb": [
+    210.6,
+    210.3,
+    204.0
+   ],
+   "distinct_colours_4bit": 20,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 6,
+    "nodes": [
+     "healthy_brothel(6)"
+    ],
+    "surface": {
+     "ground_up": 0.17,
+     "ceiling_down": 0.0,
+     "wall_side": 0.83
+    },
+    "uv_repeat_median": [
+     1.38,
+     0.82
+    ],
+    "world_units_per_repeat": 22.0
+   }
+  },
+  {
+   "uid": "canvas5__881d4bf9",
+   "stem": "canvas5",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 12.18,
+   "mean_rgb": [
+    219.3,
+    196.8,
+    180.9
+   ],
+   "distinct_colours_4bit": 18,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "healthy_brothel(4)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.5,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.12,
+     0.73
+    ],
+    "world_units_per_repeat": 37.8
+   }
+  }
+ ]
+}

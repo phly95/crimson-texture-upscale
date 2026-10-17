@@ -1,0 +1,18 @@
+{
+ "task": "t0191",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "bwzeptail__04d73346",
+   "verdict": "suspect",
+   "problem": "At 1:1 the rail lines and bolts are soft, smeared into blurry blobs; the grey panel loses the original's crisp edge detail.",
+   "fix": "Re-run with less lab-inject smoothing on rail and bolt edges (sigma t/48 rel .10 looks too strong); sharpen the rail lines."
+  },
+  {
+   "uid": "camera__87d9470c",
+   "verdict": "suspect",
+   "problem": "Lens highlight pairs are smeared with bright halos, and the label block turns into a blur at 1:1.",
+   "fix": "Reduce lab-inject strength (rel .06) around the lens and label areas; check the thin dark hairlines in the centre crop against the original."
+  }
+ ]
+}

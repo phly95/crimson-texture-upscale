@@ -1,0 +1,369 @@
+{
+ "task": "t0110",
+ "kind": "family",
+ "family": "notred",
+ "units": [
+  {
+   "uid": "notredame1__841aa79a",
+   "stem": "notredame1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.64,
+   "mean_rgb": [
+    138.4,
+    130.3,
+    131.8
+   ],
+   "distinct_colours_4bit": 195,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "g(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 9.8
+   }
+  },
+  {
+   "uid": "notredame2__72651573",
+   "stem": "notredame2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.38,
+   "mean_rgb": [
+    146.5,
+    129.9,
+    121.2
+   ],
+   "distinct_colours_4bit": 210,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 7,
+    "nodes": [
+     "g(7)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.0,
+     0.98
+    ],
+    "world_units_per_repeat": 4.1
+   }
+  },
+  {
+   "uid": "notredame3__b59fa62a",
+   "stem": "notredame3",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.71,
+   "mean_rgb": [
+    154.0,
+    135.9,
+    126.3
+   ],
+   "distinct_colours_4bit": 177,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 6,
+    "nodes": [
+     "g(6)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.98,
+     1.0
+    ],
+    "world_units_per_repeat": 8.3
+   }
+  },
+  {
+   "uid": "notredame4__689cd4e1",
+   "stem": "notredame4",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.62,
+   "mean_rgb": [
+    129.3,
+    111.7,
+    102.8
+   ],
+   "distinct_colours_4bit": 185,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 5,
+    "nodes": [
+     "g(5)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.09
+    ],
+    "world_units_per_repeat": 8.0
+   }
+  },
+  {
+   "uid": "notredame5__c9c04882",
+   "stem": "notredame5",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.53,
+   "mean_rgb": [
+    117.4,
+    100.4,
+    93.3
+   ],
+   "distinct_colours_4bit": 131,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 24,
+    "nodes": [
+     "g(15)",
+     "part(10)",
+     "healthy(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     5.9,
+     1.03
+    ],
+    "world_units_per_repeat": 1.8
+   }
+  },
+  {
+   "uid": "notredame6__af54da21",
+   "stem": "notredame6",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.45,
+   "mean_rgb": [
+    124.7,
+    99.2,
+    87.3
+   ],
+   "distinct_colours_4bit": 253,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 3,
+    "nodes": [
+     "g(3)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.06,
+     1.0
+    ],
+    "world_units_per_repeat": 7.8
+   }
+  },
+  {
+   "uid": "notredame7__4bd22f47",
+   "stem": "notredame7",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.49,
+   "mean_rgb": [
+    177.8,
+    141.8,
+    118.1
+   ],
+   "distinct_colours_4bit": 130,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 22,
+    "nodes": [
+     "g(22)"
+    ],
+    "surface": {
+     "ground_up": 0.32,
+     "ceiling_down": 0.0,
+     "wall_side": 0.68
+    },
+    "uv_repeat_median": [
+     1.0,
+     2.49
+    ],
+    "world_units_per_repeat": 5.7
+   }
+  },
+  {
+   "uid": "notredame8__13ae226c",
+   "stem": "notredame8",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.46,
+   "mean_rgb": [
+    222.2,
+    187.2,
+    184.4
+   ],
+   "distinct_colours_4bit": 10,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 1,
+    "nodes": [
+     "g(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     7.0,
+     3.0
+    ],
+    "world_units_per_repeat": 4.9
+   }
+  }
+ ]
+}

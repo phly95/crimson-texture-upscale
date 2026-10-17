@@ -1,0 +1,30 @@
+{
+ "task": "t0238",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "w__5b613263",
+   "verdict": "suspect",
+   "problem": "Glyph W keeps its shape but strokes get a soft grey halo and airbrushed glow; feet blow out to white blobs; 1:1 looks mushy.",
+   "fix": "Cut the luminance sharpen radius or halo; keep stroke edges hard-ish; stop feet clipping to white. Keep the original pixel-stroke rhythm."
+  },
+  {
+   "uid": "wakeback1__9f879328",
+   "verdict": "suspect",
+   "problem": "Original flower-like stamped band with crisp alpha edge becomes a diffuse purple cloud at 1:1; stamp shapes are lost and edges feather.",
+   "fix": "Keep the stamp structure from the original (upscale stamps, not generic noise) and tighten the alpha edge; reduce uniform paint grain."
+  },
+  {
+   "uid": "wheels01__1155e2b8",
+   "verdict": "suspect",
+   "problem": "Silhouette edge has a speckled light-grey fringe and noisy bumps around the plate; 1:1 rivets look oversized vs the original.",
+   "fix": "Clean the alpha edge (remove injected speckle at the boundary) and scale the library plate detail down so rivets match the original scale."
+  },
+  {
+   "uid": "watersquirt__db64056c",
+   "verdict": "gate-fail",
+   "problem": "no real detail gain over a smooth enlargement (0.97x)",
+   "fix": "make it pass the gate honestly, or mark(...) it if it cannot"
+  }
+ ]
+}

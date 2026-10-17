@@ -1,0 +1,775 @@
+{
+ "task": "tui0023",
+ "kind": "ui",
+ "family": "ui",
+ "units": [
+  {
+   "uid": "scrap_SB_07_01_NEWS11__f4f078b5",
+   "stem": "scrap_SB_07_01_NEWS11",
+   "size": [
+    302,
+    152
+   ],
+   "target": [
+    2048,
+    1031
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    214.4,
+    210.3,
+    197.6
+   ],
+   "distinct_colours_4bit": 69,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS11.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_07_01_NEWS12__27a0573e",
+   "stem": "scrap_SB_07_01_NEWS12",
+   "size": [
+    187,
+    286
+   ],
+   "target": [
+    1339,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    214.5,
+    212.9,
+    208.5
+   ],
+   "distinct_colours_4bit": 41,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS12.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_07_01_NEWS13__1c088418",
+   "stem": "scrap_SB_07_01_NEWS13",
+   "size": [
+    324,
+    380
+   ],
+   "target": [
+    1746,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    101.2,
+    67.7,
+    66.0
+   ],
+   "distinct_colours_4bit": 226,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS13.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_07_01_NEWS14__af8cdf1e",
+   "stem": "scrap_SB_07_01_NEWS14",
+   "size": [
+    404,
+    241
+   ],
+   "target": [
+    2048,
+    1222
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    200.4,
+    197.2,
+    187.3
+   ],
+   "distinct_colours_4bit": 80,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS14.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_08_01_MANIFEST__8ccf04fe",
+   "stem": "scrap_SB_08_01_MANIFEST",
+   "size": [
+    262,
+    337
+   ],
+   "target": [
+    1592,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    181.3,
+    186.6,
+    184.2
+   ],
+   "distinct_colours_4bit": 113,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_MANIFEST.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_08_01_NEWS14__16938d85",
+   "stem": "scrap_SB_08_01_NEWS14",
+   "size": [
+    411,
+    272
+   ],
+   "target": [
+    2048,
+    1355
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    208.0,
+    204.9,
+    192.0
+   ],
+   "distinct_colours_4bit": 100,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_NEWS14.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_08_01_VODKA__d6eff39e",
+   "stem": "scrap_SB_08_01_VODKA",
+   "size": [
+    342,
+    527
+   ],
+   "target": [
+    1329,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    165.5,
+    150.5,
+    118.5
+   ],
+   "distinct_colours_4bit": 472,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_VODKA.JPG",
+   "ui_ext": ".jpg",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_08_01_VODKA__99bc18d5",
+   "stem": "scrap_SB_08_01_VODKA",
+   "size": [
+    265,
+    328
+   ],
+   "target": [
+    1655,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    191.6,
+    180.2,
+    159.8
+   ],
+   "distinct_colours_4bit": 372,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_VODKA.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_09_01_CRAWPIC__4fa30abc",
+   "stem": "scrap_SB_09_01_CRAWPIC",
+   "size": [
+    432,
+    508
+   ],
+   "target": [
+    1742,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    175.9,
+    174.1,
+    167.7
+   ],
+   "distinct_colours_4bit": 80,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_CRAWPIC.JPG",
+   "ui_ext": ".jpg",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_09_01_CRAWPIC__ceed1524",
+   "stem": "scrap_SB_09_01_CRAWPIC",
+   "size": [
+    194,
+    221
+   ],
+   "target": [
+    1552,
+    1768
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    199.3,
+    199.2,
+    199.0
+   ],
+   "distinct_colours_4bit": 24,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_CRAWPIC.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_09_01_INJURED__7335fbde",
+   "stem": "scrap_SB_09_01_INJURED",
+   "size": [
+    509,
+    510
+   ],
+   "target": [
+    2044,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    146.6,
+    140.0,
+    130.4
+   ],
+   "distinct_colours_4bit": 107,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_INJURED.JPG",
+   "ui_ext": ".jpg",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_09_01_INJURED__a718187e",
+   "stem": "scrap_SB_09_01_INJURED",
+   "size": [
+    228,
+    228
+   ],
+   "target": [
+    1824,
+    1824
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    157.2,
+    152.3,
+    148.0
+   ],
+   "distinct_colours_4bit": 57,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_INJURED.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_09_01_NEWS15__61efb93e",
+   "stem": "scrap_SB_09_01_NEWS15",
+   "size": [
+    417,
+    313
+   ],
+   "target": [
+    2048,
+    1537
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    165.6,
+    162.1,
+    151.9
+   ],
+   "distinct_colours_4bit": 70,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_NEWS15.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_09_01_NEWS16__228898d6",
+   "stem": "scrap_SB_09_01_NEWS16",
+   "size": [
+    183,
+    258
+   ],
+   "target": [
+    1453,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    167.8,
+    164.8,
+    155.5
+   ],
+   "distinct_colours_4bit": 66,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_NEWS16.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_09_01_TELEGRAM1__e40a4e3b",
+   "stem": "scrap_SB_09_01_TELEGRAM1",
+   "size": [
+    209,
+    290
+   ],
+   "target": [
+    1476,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    236.5,
+    220.6,
+    166.4
+   ],
+   "distinct_colours_4bit": 94,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_TELEGRAM1.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_09_01_TELEGRAM2__a2dd025f",
+   "stem": "scrap_SB_09_01_TELEGRAM2",
+   "size": [
+    232,
+    308
+   ],
+   "target": [
+    1543,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    189.1,
+    202.2,
+    213.3
+   ],
+   "distinct_colours_4bit": 70,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_TELEGRAM2.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_10_01_NEWS17__b0eb86d0",
+   "stem": "scrap_SB_10_01_NEWS17",
+   "size": [
+    173,
+    310
+   ],
+   "target": [
+    1143,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    202.6,
+    197.2,
+    181.3
+   ],
+   "distinct_colours_4bit": 57,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_10_01_NEWS17.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_10_01_NEWS18__09453daa",
+   "stem": "scrap_SB_10_01_NEWS18",
+   "size": [
+    412,
+    361
+   ],
+   "target": [
+    2048,
+    1794
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    179.3,
+    176.1,
+    166.8
+   ],
+   "distinct_colours_4bit": 74,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_10_01_NEWS18.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_11_01_HAG__ffa43f8c",
+   "stem": "scrap_SB_11_01_HAG",
+   "size": [
+    520,
+    320
+   ],
+   "target": [
+    2048,
+    1260
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    231.3,
+    214.3,
+    167.1
+   ],
+   "distinct_colours_4bit": 161,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_HAG.JPG",
+   "ui_ext": ".jpg",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_11_01_HAG__b5e6b591",
+   "stem": "scrap_SB_11_01_HAG",
+   "size": [
+    169,
+    117
+   ],
+   "target": [
+    1352,
+    936
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    238.6,
+    225.6,
+    190.6
+   ],
+   "distinct_colours_4bit": 78,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_HAG.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_11_01_MAG3__174eaf47",
+   "stem": "scrap_SB_11_01_MAG3",
+   "size": [
+    258,
+    310
+   ],
+   "target": [
+    1704,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    94.7,
+    81.5,
+    88.9
+   ],
+   "distinct_colours_4bit": 365,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_MAG3.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_11_01_MAG4__39635161",
+   "stem": "scrap_SB_11_01_MAG4",
+   "size": [
+    257,
+    317
+   ],
+   "target": [
+    1660,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    130.1,
+    118.7,
+    106.5
+   ],
+   "distinct_colours_4bit": 293,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_MAG4.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_11_01_NEWS20__1c520fda",
+   "stem": "scrap_SB_11_01_NEWS20",
+   "size": [
+    416,
+    321
+   ],
+   "target": [
+    2048,
+    1580
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    202.2,
+    199.6,
+    191.5
+   ],
+   "distinct_colours_4bit": 56,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_NEWS20.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  },
+  {
+   "uid": "scrap_SB_12_01_BETTYSSCREENTEST2__e8efb107",
+   "stem": "scrap_SB_12_01_BETTYSSCREENTEST2",
+   "size": [
+    195,
+    227
+   ],
+   "target": [
+    1560,
+    1816
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    114.5,
+    114.5,
+    114.4
+   ],
+   "distinct_colours_4bit": 19,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "scrapbook / briefing prop art of the game (1930s photographs, newspaper clippings, posters, blueprints)",
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_BETTYSSCREENTEST2.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS/SCRAPBOOK"
+  }
+ ]
+}

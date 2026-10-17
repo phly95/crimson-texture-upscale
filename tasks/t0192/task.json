@@ -1,0 +1,384 @@
+{
+ "task": "t0192",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "catwalk01__1811c3a0",
+   "stem": "catwalk01",
+   "size": [
+    32,
+    16
+   ],
+   "target": [
+    256,
+    128
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 9.43,
+   "mean_rgb": [
+    78.4,
+    81.8,
+    90.0
+   ],
+   "distinct_colours_4bit": 31,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "healthy(6)",
+     "dbase(6)",
+     "part(4)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.0,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     2.99,
+     1.0
+    ],
+    "world_units_per_repeat": 1.5
+   }
+  },
+  {
+   "uid": "06cccp_logo1__43052a40",
+   "stem": "06cccp_logo1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.33,
+   "mean_rgb": [
+    97.6,
+    48.7,
+    20.3
+   ],
+   "distinct_colours_4bit": 114,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "cccp_logo1__84a43196",
+   "stem": "cccp_logo1",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.2,
+   "mean_rgb": [
+    82.7,
+    36.5,
+    10.0
+   ],
+   "distinct_colours_4bit": 43,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 18,
+    "nodes": [
+     "panelleft(6)",
+     "panelright(6)",
+     "pleftb1h(1)",
+     "pleftb1d(1)",
+     "prightb1h(1)",
+     "prightb1d(1)"
+    ],
+    "surface": {
+     "ground_up": 0.44,
+     "ceiling_down": 0.11,
+     "wall_side": 0.44
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.25
+    ],
+    "world_units_per_repeat": 93.3
+   }
+  },
+  {
+   "uid": "cg_mgun1__da5700bb",
+   "stem": "cg_mgun1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.27,
+   "mean_rgb": [
+    55.7,
+    50.7,
+    47.6
+   ],
+   "distinct_colours_4bit": 79,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "cg2_mup(5)",
+     "cg2_mdown(5)",
+     "cg1_mup(3)",
+     "cg1_mdown(3)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.48
+    ],
+    "world_units_per_repeat": 10.6
+   }
+  },
+  {
+   "uid": "cgcable1__172b8e79",
+   "stem": "cgcable1",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 3.96,
+   "mean_rgb": [
+    39.1,
+    41.6,
+    31.0
+   ],
+   "distinct_colours_4bit": 51,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 201,
+    "nodes": [
+     "g(180)",
+     "zcrane(21)"
+    ],
+    "surface": {
+     "ground_up": 0.07,
+     "ceiling_down": 0.0,
+     "wall_side": 0.93
+    },
+    "uv_repeat_median": [
+     0.5,
+     1.0
+    ],
+    "world_units_per_repeat": 28.8
+   }
+  },
+  {
+   "uid": "cgcable12__19345930",
+   "stem": "cgcable12",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 5.19,
+   "mean_rgb": [
+    45.9,
+    47.0,
+    41.5
+   ],
+   "distinct_colours_4bit": 36,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 335,
+    "nodes": [
+     "g(300)",
+     "zcrane(35)"
+    ],
+    "surface": {
+     "ground_up": 0.07,
+     "ceiling_down": 0.0,
+     "wall_side": 0.93
+    },
+    "uv_repeat_median": [
+     0.5,
+     1.0
+    ],
+    "world_units_per_repeat": 28.8
+   }
+  },
+  {
+   "uid": "cgtail__b1561d48",
+   "stem": "cgtail",
+   "size": [
+    128,
+    256
+   ],
+   "target": [
+    1024,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.97,
+   "mean_rgb": [
+    137.2,
+    140.6,
+    81.3
+   ],
+   "distinct_colours_4bit": 79,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 24,
+    "nodes": [
+     "g(24)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.5,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     0.7,
+     0.77
+    ],
+    "world_units_per_repeat": 70.5
+   }
+  },
+  {
+   "uid": "cgtail2__63cf6aed",
+   "stem": "cgtail2",
+   "size": [
+    128,
+    256
+   ],
+   "target": [
+    1024,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.69,
+   "mean_rgb": [
+    95.2,
+    96.3,
+    90.4
+   ],
+   "distinct_colours_4bit": 42,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 40,
+    "nodes": [
+     "g(40)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.5,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     0.7,
+     0.77
+    ],
+    "world_units_per_repeat": 70.5
+   }
+  }
+ ]
+}

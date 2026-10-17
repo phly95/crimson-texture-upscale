@@ -1,0 +1,30 @@
+{
+ "task": "t0182",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "b__a2cdefbc",
+   "verdict": "suspect",
+   "problem": "Glyph B silhouette and colours kept, but at 1:1 the outer bowl edges are soft and wobbly with small bulges on the right side.",
+   "fix": "Tighten the PCHIP iso-0.5 contour or reduce its smoothing so the stroke edges stay straight and crisp at 1:1."
+  },
+  {
+   "uid": "bargemetal1__fd70060d",
+   "verdict": "suspect",
+   "problem": "Sheet-metal lum-detail at 1:1 reads as isotropic cloudy blotches; the vertical streak direction of the original is largely lost.",
+   "fix": "Make the added detail anisotropic (stretch the blur or noise kernel along y) and reduce blotch amplitude so the vertical streaking is visible at 1:1."
+  },
+  {
+   "uid": "barracks2__5b0b0d0a",
+   "verdict": "suspect",
+   "problem": "The vent frame edges come out scalloped and wobbly on top and bottom at 1:1, an edge-snap artifact; the original vent edges are straight.",
+   "fix": "Snap the vent frame to a rectilinear straight-edge mask instead of the contour-based edge snap, keeping the rib detail outside it."
+  },
+  {
+   "uid": "basecrown__607c229b",
+   "verdict": "suspect",
+   "problem": "At 1:1 the detail looks smeared and mushy, with blotchy green-yellow patches that are hard to match to the brown original.",
+   "fix": "Keep the added detail luminance-only, take chroma from the original, and sharpen the lum-detail pass so it is not smeared."
+  }
+ ]
+}

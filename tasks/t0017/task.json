@@ -1,0 +1,146 @@
+{
+ "task": "t0017",
+ "kind": "family",
+ "family": "bhfcem",
+ "units": [
+  {
+   "uid": "bhfcement01__305a8aa8",
+   "stem": "bhfcement01",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.31,
+   "mean_rgb": [
+    107.4,
+    113.0,
+    98.0
+   ],
+   "distinct_colours_4bit": 310,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 14,
+    "nodes": [
+     "g(14)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     3.94,
+     2.18
+    ],
+    "world_units_per_repeat": 4.1
+   }
+  },
+  {
+   "uid": "bhfcement02__a2086feb",
+   "stem": "bhfcement02",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.79,
+   "mean_rgb": [
+    127.6,
+    127.4,
+    127.3
+   ],
+   "distinct_colours_4bit": 104,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 7,
+    "nodes": [
+     "g(6)",
+     "bhf_bridge(1)"
+    ],
+    "surface": {
+     "ground_up": 0.14,
+     "ceiling_down": 0.0,
+     "wall_side": 0.86
+    },
+    "uv_repeat_median": [
+     1.29,
+     1.0
+    ],
+    "world_units_per_repeat": 12.9
+   }
+  },
+  {
+   "uid": "bhfcement03__0c7fb219",
+   "stem": "bhfcement03",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.85,
+   "mean_rgb": [
+    145.9,
+    145.6,
+    145.6
+   ],
+   "distinct_colours_4bit": 122,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 11,
+    "nodes": [
+     "bhf_platforminside(4)",
+     "g(3)",
+     "platform_doorframe(2)",
+     "zepdome_db(2)"
+    ],
+    "surface": {
+     "ground_up": 0.09,
+     "ceiling_down": 0.0,
+     "wall_side": 0.91
+    },
+    "uv_repeat_median": [
+     2.0,
+     1.62
+    ],
+    "world_units_per_repeat": 8.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "task": "t0240",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "woodbridge__18d0a8a3",
+   "verdict": "suspect",
+   "problem": "At 1:1 the planks show greenish and mauve chroma speckle and blotchy colour noise that the tan original does not have. Plank bands are right, but the colour drifts.",
+   "fix": "Inject detail into luminance only (Lab L channel) or reduce the a/b chroma of the injected detail, then re-run the colour match so the mean stays near the original tan."
+  },
+  {
+   "uid": "woodlegs01__70ce22df",
+   "verdict": "suspect",
+   "problem": "Dark fringe along the diagonal cutout edges and stair-stepped alpha. The planks at 1:1 are also soft, with little grain.",
+   "fix": "Decontaminate edge colours (replace fringe pixels with the nearest interior colour) and feather the alpha only by about 1px. Use a sharper upscale for the plank grain."
+  },
+  {
+   "uid": "woodsupport2__cf983e3c",
+   "verdict": "suspect",
+   "problem": "Dark speckled fringe on the cutout edges of the diagonal braces at 1:1, not present in the original.",
+   "fix": "Erode the alpha mask by about 1px or decontaminate the edge colours before saving, so no dark halo remains on the cut edges."
+  }
+ ]
+}

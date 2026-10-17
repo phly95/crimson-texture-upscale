@@ -1,0 +1,36 @@
+{
+ "task": "t0229",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "scafolding1__205c5467",
+   "verdict": "suspect",
+   "problem": "Lattice truss keeps its X-brace silhouette and metal look, but the vertical posts show fine horizontal streaks across their width. The original posts run vertically, so the grain direction is wrong for the stripes.",
+   "fix": "Re-orient the brushed-metal streak detail so it runs along the post length (vertical). Keep the cutout alpha and the lattice geometry unchanged."
+  },
+  {
+   "uid": "scafolding2__d93ecb7a",
+   "verdict": "suspect",
+   "problem": "The 1:1 crop shows a dark vertical line, which looks like a tile seam. The rivet/bolt blobs along the top and bottom bars are soft, cloudy and blotchy rather than crisp round rivets.",
+   "fix": "Re-blend the tileable wrap so the seam line disappears, and redraw the rivets as crisp, round, consistently spaced bolts that match the original bolt positions."
+  },
+  {
+   "uid": "scatter1__b2f782da",
+   "verdict": "suspect",
+   "problem": "The whole surface carries heavy horizontal streaking that reads as scanline smear rather than fine brushed metal. The clamp and hook shapes survive, but the surface looks stretched.",
+   "fix": "Reduce the streak amplitude, or use isotropic fine grain with light streaks along the pipe length. Keep the clamp silhouettes and the yellow lower band unchanged."
+  },
+  {
+   "uid": "seven__ad244064",
+   "verdict": "suspect",
+   "problem": "The unsharp pass leaves dark fringes or halos along the white stroke edges of the digit, and the edges look soft rather than crisp at 1:1. Flat-art design is kept.",
+   "fix": "Lower the unsharp amount, or drop it. Use an edge-aware or pixel-art-style upscale so the stroke edges stay crisp with no dark outline."
+  },
+  {
+   "uid": "shell1__b607cda0",
+   "verdict": "suspect",
+   "problem": "The pink patches have jagged, stamped-looking outlines and read as a colour overlay rather than the original gold metal. The brushed streaks run horizontally across a vertically oriented shell.",
+   "fix": "Match the pink hue and saturation to the original patch colour, smooth the patch boundaries to follow the original pixel shapes, and orient the brushed grain along the shell's long axis."
+  }
+ ]
+}

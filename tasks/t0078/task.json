@@ -1,0 +1,371 @@
+{
+ "task": "t0078",
+ "kind": "family",
+ "family": "gon",
+ "units": [
+  {
+   "uid": "gon_house1__4ddea5f2",
+   "stem": "gon_house1",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 7.07,
+   "mean_rgb": [
+    26.1,
+    20.5,
+    10.6
+   ],
+   "distinct_colours_4bit": 21,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "house(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.25
+    ],
+    "world_units_per_repeat": 10.7
+   }
+  },
+  {
+   "uid": "gon_house2__4ece0600",
+   "stem": "gon_house2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.13,
+   "mean_rgb": [
+    49.2,
+    44.6,
+    33.5
+   ],
+   "distinct_colours_4bit": 48,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "house(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 18.4
+   }
+  },
+  {
+   "uid": "gon_house3__d037e837",
+   "stem": "gon_house3",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.77,
+   "mean_rgb": [
+    95.0,
+    92.1,
+    75.8
+   ],
+   "distinct_colours_4bit": 67,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "house(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.0,
+     2.0
+    ],
+    "world_units_per_repeat": 8.9
+   }
+  },
+  {
+   "uid": "gon_house4__e34c5cb2",
+   "stem": "gon_house4",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.67,
+   "mean_rgb": [
+    91.1,
+    87.9,
+    71.8
+   ],
+   "distinct_colours_4bit": 67,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 1,
+    "nodes": [
+     "house(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     4.0,
+     1.0
+    ],
+    "world_units_per_repeat": 8.5
+   }
+  },
+  {
+   "uid": "gon_pole1__c8b3324b",
+   "stem": "gon_pole1",
+   "size": [
+    16,
+    32
+   ],
+   "target": [
+    128,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.31,
+   "mean_rgb": [
+    116.8,
+    132.0,
+    123.8
+   ],
+   "distinct_colours_4bit": 13,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 12,
+    "nodes": [
+     "lo_tower(6)",
+     "hi_tower(6)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     12.5
+    ],
+    "world_units_per_repeat": 2.8
+   }
+  },
+  {
+   "uid": "gon_pole2__6b4f0c75",
+   "stem": "gon_pole2",
+   "size": [
+    16,
+    32
+   ],
+   "target": [
+    128,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.47,
+   "mean_rgb": [
+    111.3,
+    125.8,
+    118.0
+   ],
+   "distinct_colours_4bit": 29,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 24,
+    "nodes": [
+     "lo_tower(12)",
+     "hi_tower(12)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     12.29
+    ],
+    "world_units_per_repeat": 2.8
+   }
+  },
+  {
+   "uid": "gon_tower1__8624c7dd",
+   "stem": "gon_tower1",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.32,
+   "mean_rgb": [
+    122.5,
+    120.5,
+    106.9
+   ],
+   "distinct_colours_4bit": 13,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 14,
+    "nodes": [
+     "hi_tower(7)",
+     "lo_tower(6)",
+     "house(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     5.99,
+     7.53
+    ],
+    "world_units_per_repeat": 2.0
+   }
+  },
+  {
+   "uid": "gon_tower2__7b405f08",
+   "stem": "gon_tower2",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 5.53,
+   "mean_rgb": [
+    13.0,
+    14.7,
+    15.1
+   ],
+   "distinct_colours_4bit": 14,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 24,
+    "nodes": [
+     "hi_tower(24)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 13.6
+   }
+  }
+ ]
+}

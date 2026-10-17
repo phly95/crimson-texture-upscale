@@ -1,0 +1,24 @@
+{
+ "task": "t0223",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "pier__7b331d87",
+   "verdict": "suspect",
+   "problem": "1:1 crop reads as horizontal smear across vertical planks; grain is soft and the hstreak injection looks like motion blur.",
+   "fix": "Lower the hstreak strength and add fine, crisp plank grain along the vertical direction; recheck the 1:1 crop."
+  },
+  {
+   "uid": "piping2__767e6727",
+   "verdict": "suspect",
+   "problem": "Faceted polygon blotches repeat across the panel and a bright synthetic hairline crack appears at 1:1.",
+   "fix": "Remove the hairline and the faceted stamp noise; keep the rivets and vertical seams from the original."
+  },
+  {
+   "uid": "pisa1__82a0ad2d",
+   "verdict": "suspect",
+   "problem": "Thin vertical and horizontal crosshair seam lines cross the pillar area and are visible at 1:1.",
+   "fix": "Locate the wrap/seam line positions from the upscale and blend them out; recheck tile edges at 1:1."
+  }
+ ]
+}

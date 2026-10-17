@@ -1,0 +1,775 @@
+{
+ "task": "tui0004",
+ "kind": "ui",
+ "family": "ui",
+ "units": [
+  {
+   "uid": "rimage_mh-m3zep3__6a122e80",
+   "stem": "rimage_mh-m3zep3",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    129.8,
+    122.2,
+    108.8
+   ],
+   "distinct_colours_4bit": 64,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mh-m3zep3.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mh-m4invitation__73aa3ebe",
+   "stem": "rimage_mh-m4invitation",
+   "size": [
+    236,
+    180
+   ],
+   "target": [
+    1888,
+    1440
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    147.9,
+    147.5,
+    145.5
+   ],
+   "distinct_colours_4bit": 94,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mh-m4invitation.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mh-m4lucasmiles__a68e85f1",
+   "stem": "rimage_mh-m4lucasmiles",
+   "size": [
+    184,
+    224
+   ],
+   "target": [
+    1472,
+    1792
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    78.4,
+    73.2,
+    64.0
+   ],
+   "distinct_colours_4bit": 85,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mh-m4lucasmiles.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mh-m4newsclipping__43c46833",
+   "stem": "rimage_mh-m4newsclipping",
+   "size": [
+    400,
+    310
+   ],
+   "target": [
+    2048,
+    1587
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    117.6,
+    111.5,
+    95.4
+   ],
+   "distinct_colours_4bit": 81,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mh-m4newsclipping.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_miss_frame__9b3c6309",
+   "stem": "rimage_miss_frame",
+   "size": [
+    200,
+    59
+   ],
+   "target": [
+    1600,
+    472
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    31.4,
+    35.9,
+    19.4
+   ],
+   "distinct_colours_4bit": 78,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/miss_frame.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_miss_frame2__74fbe515",
+   "stem": "rimage_miss_frame2",
+   "size": [
+    200,
+    59
+   ],
+   "target": [
+    1600,
+    472
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    12.6,
+    54.3,
+    11.1
+   ],
+   "distinct_colours_4bit": 77,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/miss_frame2.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mm_splashbackground__f9c828d0",
+   "stem": "rimage_mm_splashbackground",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    96.2,
+    76.6,
+    69.1
+   ],
+   "distinct_colours_4bit": 503,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mm_splashbackground.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_momento_shad__d7c1e4f7",
+   "stem": "rimage_momento_shad",
+   "size": [
+    300,
+    300
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    12.2,
+    12.0,
+    11.7
+   ],
+   "distinct_colours_4bit": 67,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/momento_shad.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_momento_temp__26a53117",
+   "stem": "rimage_momento_temp",
+   "size": [
+    242,
+    305
+   ],
+   "target": [
+    1625,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    88.2,
+    82.3,
+    70.7
+   ],
+   "distinct_colours_4bit": 43,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/momento_temp.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mp-cannon__b8b0dc4f",
+   "stem": "rimage_mp-cannon",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    136.9,
+    130.1,
+    109.9
+   ],
+   "distinct_colours_4bit": 77,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mp-cannon.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mp-crash__7fe20008",
+   "stem": "rimage_mp-crash",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    107.5,
+    100.2,
+    81.6
+   ],
+   "distinct_colours_4bit": 83,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mp-crash.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mp-dangerzone2__9f698651",
+   "stem": "rimage_mp-dangerzone2",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    95.3,
+    89.1,
+    73.6
+   ],
+   "distinct_colours_4bit": 76,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mp-dangerzone2.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mp-flagcapture__533621e4",
+   "stem": "rimage_mp-flagcapture",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    110.4,
+    104.0,
+    86.6
+   ],
+   "distinct_colours_4bit": 78,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mp-flagcapture.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mp-flagreturn__6844fd43",
+   "stem": "rimage_mp-flagreturn",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    113.9,
+    107.2,
+    89.2
+   ],
+   "distinct_colours_4bit": 79,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mp-flagreturn.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mp-gasbag__1799393a",
+   "stem": "rimage_mp-gasbag",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    117.9,
+    111.1,
+    92.1
+   ],
+   "distinct_colours_4bit": 83,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mp-gasbag.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mp-shotdown__47ec6ed5",
+   "stem": "rimage_mp-shotdown",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    114.8,
+    108.5,
+    90.9
+   ],
+   "distinct_colours_4bit": 80,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mp-shotdown.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mp-torpedo__d147325b",
+   "stem": "rimage_mp-torpedo",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    142.5,
+    136.1,
+    118.1
+   ],
+   "distinct_colours_4bit": 83,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mp-torpedo.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_mp-zepdown__254dbf56",
+   "stem": "rimage_mp-zepdown",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    108.1,
+    101.6,
+    84.8
+   ],
+   "distinct_colours_4bit": 78,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/mp-zepdown.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_ms_p_02_01_hawaiianprinces2__150da4a0",
+   "stem": "rimage_ms_p_02_01_hawaiianprinces2",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    113.5,
+    113.7,
+    113.4
+   ],
+   "distinct_colours_4bit": 26,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/ms_p_02_01_hawaiianprinces2.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_ms_p_05_01_treasuregirl__0c5257f8",
+   "stem": "rimage_ms_p_05_01_treasuregirl",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    135.3,
+    135.1,
+    135.2
+   ],
+   "distinct_colours_4bit": 26,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/ms_p_05_01_treasuregirl.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_ms_p_06_02_bswanportrait__ec3f47cb",
+   "stem": "rimage_ms_p_06_02_bswanportrait",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    132.7,
+    132.6,
+    132.6
+   ],
+   "distinct_colours_4bit": 26,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/ms_p_06_02_bswanportrait.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_ms_p_10_01_soldiergirl__5ac13761",
+   "stem": "rimage_ms_p_10_01_soldiergirl",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    173.0,
+    172.1,
+    172.9
+   ],
+   "distinct_colours_4bit": 36,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/ms_p_10_01_soldiergirl.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_ms_p_11_01_lanacooperglam__c2274054",
+   "stem": "rimage_ms_p_11_01_lanacooperglam",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    78.9,
+    79.1,
+    80.9
+   ],
+   "distinct_colours_4bit": 26,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/ms_p_11_01_lanacooperglam.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  },
+  {
+   "uid": "rimage_ms_p_12_01_bettysscreentest2__fc8a1c11",
+   "stem": "rimage_ms_p_12_01_bettysscreentest2",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    45.4,
+    45.4,
+    50.1
+   ],
+   "distinct_colours_4bit": 26,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu art from the game's mission-select and briefing screens (photo prints, maps, portraits, HUD and screen pieces)",
+   "ui_src": "rimage/ms_p_12_01_bettysscreentest2.png",
+   "ui_ext": ".png",
+   "ui_dir": "rimage"
+  }
+ ]
+}

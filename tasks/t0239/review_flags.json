@@ -1,0 +1,24 @@
+{
+ "task": "t0239",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "wing_back2b__41c52315",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop is soft and smeared; the panel seams and rivets visible in the original mostly disappear at 1:1, leaving a flat red surface with only faint lines. Usage is null in task.json, so placement could not be checked.",
+   "fix": "Raise the lab-hf injection above rel 0.04 with the box_profile_metal_sheet seams at the original pitch, or skip the smoothing step on seam areas so rivets stay crisp at 1:1."
+  },
+  {
+   "uid": "wing_big__cf4305c9",
+   "verdict": "suspect",
+   "problem": "1:1 crop has a light grey smudge at the upper-left and a grey streak at the right edge that read as stray artifacts, and fine detail is blurry. Usage is null, so placement could not be checked.",
+   "fix": "Find the source of the grey blob (likely a highlight or artifact amplified by smoothing) and remove it. Then re-inject seam detail at a slightly stronger, crisp level."
+  },
+  {
+   "uid": "wood_dock__e986b2ea",
+   "verdict": "suspect",
+   "problem": "Colour drifts from the original: the pale pinkish-grey planks become a darker brown-mauve, and the 1:1 crop has a couple of small white specks that look like artifacts. Grain direction and material (planks) are correct.",
+   "fix": "Match the original's mean luminance and reduce saturation toward its pale grey-pink, then remove the white specks, which are probably stray highlights from the align_grain source."
+  }
+ ]
+}

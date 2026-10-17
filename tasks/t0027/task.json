@@ -1,0 +1,156 @@
+{
+ "task": "t0027",
+ "kind": "family",
+ "family": "bridge",
+ "units": [
+  {
+   "uid": "bridge_cables__4bd4e0ab",
+   "stem": "bridge_cables",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 52,
+    "nodes": [
+     "g(29)",
+     "bridg(8)",
+     "pedbridge(8)",
+     "gyrobuild(6)",
+     "bhf_support(4)",
+     "platform_cables(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 42.8
+   }
+  },
+  {
+   "uid": "bridgeroad__c70bb4cc",
+   "stem": "bridgeroad",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.0,
+   "mean_rgb": [
+    80.4,
+    81.2,
+    78.9
+   ],
+   "distinct_colours_4bit": 46,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 102,
+    "nodes": [
+     "g(102)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     9.54,
+     1.0
+    ],
+    "world_units_per_repeat": 26.8
+   }
+  },
+  {
+   "uid": "bridgesupport__6eb390ba",
+   "stem": "bridgesupport",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.35,
+   "mean_rgb": [
+    74.2,
+    75.2,
+    74.4
+   ],
+   "distinct_colours_4bit": 42,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C3",
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 176,
+    "nodes": [
+     "g(103)",
+     "zepbridge(28)",
+     "bm_hook(28)",
+     "spprt(14)",
+     "bm_lower(10)",
+     "bm_upper(8)"
+    ],
+    "surface": {
+     "ground_up": 0.06,
+     "ceiling_down": 0.08,
+     "wall_side": 0.86
+    },
+    "uv_repeat_median": [
+     4.34,
+     2.47
+    ],
+    "world_units_per_repeat": 16.0
+   }
+  }
+ ]
+}

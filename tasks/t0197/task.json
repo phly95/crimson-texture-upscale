@@ -1,0 +1,380 @@
+{
+ "task": "t0197",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "cutwall__9b7f0f5e",
+   "stem": "cutwall",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.96,
+   "mean_rgb": [
+    105.8,
+    103.2,
+    95.4
+   ],
+   "distinct_colours_4bit": 36,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 53,
+    "nodes": [
+     "g(53)"
+    ],
+    "surface": {
+     "ground_up": 0.13,
+     "ceiling_down": 0.0,
+     "wall_side": 0.87
+    },
+    "uv_repeat_median": [
+     0.61,
+     2.13
+    ],
+    "world_units_per_repeat": 66.6
+   }
+  },
+  {
+   "uid": "d__f4e52ff8",
+   "stem": "d",
+   "size": [
+    16,
+    16
+   ],
+   "target": [
+    128,
+    128
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.98,
+   "mean_rgb": [
+    89.7,
+    92.2,
+    84.4
+   ],
+   "distinct_colours_4bit": 33,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "puffertexture(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.0
+   }
+  },
+  {
+   "uid": "d_house01__0b97be6a",
+   "stem": "d_house01",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 12.37,
+   "mean_rgb": [
+    56.2,
+    49.4,
+    36.3
+   ],
+   "distinct_colours_4bit": 87,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "dbase(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.59
+    ],
+    "world_units_per_repeat": 7.6
+   }
+  },
+  {
+   "uid": "29daddyo__3334345a",
+   "stem": "29daddyo",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 1.1,
+   "mean_rgb": [
+    115.4,
+    67.3,
+    56.3
+   ],
+   "distinct_colours_4bit": 240,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "damage1__b1068721",
+   "stem": "damage1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.5,
+   "mean_rgb": [
+    63.3,
+    61.3,
+    64.4
+   ],
+   "distinct_colours_4bit": 94,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 223,
+    "nodes": [
+     "flake(112)",
+     "pdp(37)",
+     "nose(31)",
+     "g(12)",
+     "door_db(9)",
+     "piece(9)"
+    ],
+    "surface": {
+     "ground_up": 0.78,
+     "ceiling_down": 0.05,
+     "wall_side": 0.17
+    },
+    "uv_repeat_median": [
+     0.8,
+     0.5
+    ],
+    "world_units_per_repeat": 0.8
+   }
+  },
+  {
+   "uid": "damage2__78f1187a",
+   "stem": "damage2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.99,
+   "mean_rgb": [
+    56.4,
+    54.6,
+    57.5
+   ],
+   "distinct_colours_4bit": 87,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 53,
+    "nodes": [
+     "dbase(52)",
+     "part(48)",
+     "pdp(3)"
+    ],
+    "surface": {
+     "ground_up": 0.36,
+     "ceiling_down": 0.04,
+     "wall_side": 0.6
+    },
+    "uv_repeat_median": [
+     0.5,
+     0.5
+    ],
+    "world_units_per_repeat": 14.2
+   }
+  },
+  {
+   "uid": "de_damage__c1fad414",
+   "stem": "de_damage",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    29.1,
+    29.2,
+    22.3
+   ],
+   "distinct_colours_4bit": 133,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "desertsky__54fe7375",
+   "stem": "desertsky",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 16.39,
+   "mean_rgb": [
+    214.6,
+    225.8,
+    233.1
+   ],
+   "distinct_colours_4bit": 45,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 20,
+    "nodes": [
+     "fcpan(17)",
+     "g(3)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.46,
+     0.64
+    ],
+    "world_units_per_repeat": 68.3
+   }
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "task": "t0199",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "doublewire__674931fe",
+   "verdict": "suspect",
+   "problem": "Battlement (wall_side) flat graphic keeps its shape, but cutout edges are soft with a faint dark-purple fringe at 1:1.",
+   "fix": "Re-threshold or hard-sharpen the alpha edge so magenta cutouts meet grey with no dark fringe; keep the flat colours."
+  },
+  {
+   "uid": "drydock__a1f23c3b",
+   "verdict": "suspect",
+   "problem": "DRYDOCK lettering keeps its double-outline design, but glyph edges are soft with a glow/halo at 1:1, not crisp flat art.",
+   "fix": "Snap the lettering alpha to a crisp edge (or use a hard-cut alpha) and remove the glow so the outline stays sharp."
+  },
+  {
+   "uid": "dt_ngun1__3e47ba3f",
+   "verdict": "suspect",
+   "problem": "Gun turret keeps its shape and orange lights, but the painted metal reads as speckled film-grain noise at 1:1, with a dark fringe along the diagonal cut-out edge.",
+   "fix": "Lower the lab-inject amplitude on the metal areas, use lower-frequency brushed-metal grain, and remove the dark matte fringe on the diagonal edge."
+  },
+  {
+   "uid": "dtzepskin1__5c898a82",
+   "verdict": "suspect",
+   "problem": "Yellow fabric colour and seam ticks match, but the injected weave is a regular checker/grid pattern at 1:1 that looks like a screen or stamp, not fabric.",
+   "fix": "Replace the periodic weave with non-periodic fine noise, reduce its amplitude, and remove the grid so it reads as woven cloth."
+  },
+  {
+   "uid": "dtzepskin2__a4493191",
+   "verdict": "suspect",
+   "problem": "Blue fabric colour matches the original, but the same regular checker/grid weave is visible at 1:1 and reads as a repeated stamp.",
+   "fix": "Same as dtzepskin1: non-periodic weave noise at lower amplitude, no visible grid."
+  },
+  {
+   "uid": "dtzeptail__c35da803",
+   "verdict": "suspect",
+   "problem": "Blue and yellow stripe composition is kept, but a checkerboard overlay is visible on the blue panel at 1:1 and fit view, a repeated artifact absent from the original.",
+   "fix": "Remove the checker/tile weave from the lab-inject and use non-periodic fine noise limited to luminance; keep the stripes and the dark diagonal line."
+  }
+ ]
+}

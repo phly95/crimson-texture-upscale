@@ -1,0 +1,775 @@
+{
+ "task": "tui0010",
+ "kind": "ui",
+ "family": "ui",
+ "units": [
+  {
+   "uid": "gfx_CP_BACKGROUND__1b2fc7e2",
+   "stem": "gfx_CP_BACKGROUND",
+   "size": [
+    566,
+    306
+   ],
+   "target": [
+    2048,
+    1107
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    29.0,
+    26.3,
+    22.4
+   ],
+   "distinct_colours_4bit": 141,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/CP_BACKGROUND.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_CP_B_KEYSANDBUTTONS__512f6e34",
+   "stem": "gfx_CP_B_KEYSANDBUTTONS",
+   "size": [
+    236,
+    168
+   ],
+   "target": [
+    1888,
+    1344
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    106.5,
+    86.7,
+    60.4
+   ],
+   "distinct_colours_4bit": 278,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/CP_B_KEYSANDBUTTONS.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_CR_ABOUTMESSAGEBOX__12b89b15",
+   "stem": "gfx_CR_ABOUTMESSAGEBOX",
+   "size": [
+    505,
+    416
+   ],
+   "target": [
+    2048,
+    1687
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    48.2,
+    45.4,
+    42.3
+   ],
+   "distinct_colours_4bit": 139,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/CR_ABOUTMESSAGEBOX.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_CR_BACKGROUND__d1f7b293",
+   "stem": "gfx_CR_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    26.2,
+    14.1,
+    4.7
+   ],
+   "distinct_colours_4bit": 146,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/CR_BACKGROUND.JPG",
+   "ui_ext": ".jpg",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_CR_B_ABOUT__6875073b",
+   "stem": "gfx_CR_B_ABOUT",
+   "size": [
+    113,
+    136
+   ],
+   "target": [
+    904,
+    1088
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    110.9,
+    91.9,
+    62.2
+   ],
+   "distinct_colours_4bit": 208,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/CR_B_ABOUT.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_DZ_ZOOMGRIMEFRAME__f8ebf535",
+   "stem": "gfx_DZ_ZOOMGRIMEFRAME",
+   "size": [
+    660,
+    500
+   ],
+   "target": [
+    2048,
+    1552
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    195.0,
+    179.9,
+    139.2
+   ],
+   "distinct_colours_4bit": 124,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/DZ_ZOOMGRIMEFRAME.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_EM_B_LOADGAME__815d1639",
+   "stem": "gfx_EM_B_LOADGAME",
+   "size": [
+    224,
+    176
+   ],
+   "target": [
+    1792,
+    1408
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    103.7,
+    85.9,
+    60.3
+   ],
+   "distinct_colours_4bit": 236,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/EM_B_LOADGAME.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_EM_B_RESUME__ed7b014e",
+   "stem": "gfx_EM_B_RESUME",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    112.0,
+    94.0,
+    65.7
+   ],
+   "distinct_colours_4bit": 242,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/EM_B_RESUME.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_EM_B_SAVEGAME__4454de83",
+   "stem": "gfx_EM_B_SAVEGAME",
+   "size": [
+    224,
+    176
+   ],
+   "target": [
+    1792,
+    1408
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    103.9,
+    86.3,
+    60.4
+   ],
+   "distinct_colours_4bit": 250,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/EM_B_SAVEGAME.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_FC_BACKGROUND__46616808",
+   "stem": "gfx_FC_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    146.8,
+    140.1,
+    130.5
+   ],
+   "distinct_colours_4bit": 371,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_BACKGROUND.JPG",
+   "ui_ext": ".jpg",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_FC_B_FLYMISSION__b5341a02",
+   "stem": "gfx_FC_B_FLYMISSION",
+   "size": [
+    137,
+    128
+   ],
+   "target": [
+    1096,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    100.1,
+    81.9,
+    58.5
+   ],
+   "distinct_colours_4bit": 218,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_FLYMISSION.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_FC_B_PAPERBUTTON__7e2424aa",
+   "stem": "gfx_FC_B_PAPERBUTTON",
+   "size": [
+    117,
+    112
+   ],
+   "target": [
+    936,
+    896
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    162.9,
+    172.3,
+    177.1
+   ],
+   "distinct_colours_4bit": 55,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTON.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_FC_B_PAPERBUTTONEXTRALARGE__6d630f02",
+   "stem": "gfx_FC_B_PAPERBUTTONEXTRALARGE",
+   "size": [
+    162,
+    112
+   ],
+   "target": [
+    1296,
+    896
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    166.3,
+    176.3,
+    181.4
+   ],
+   "distinct_colours_4bit": 56,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTONEXTRALARGE.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_FC_B_PAPERBUTTONLARGE__5be9194d",
+   "stem": "gfx_FC_B_PAPERBUTTONLARGE",
+   "size": [
+    147,
+    112
+   ],
+   "target": [
+    1176,
+    896
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    166.2,
+    176.2,
+    181.3
+   ],
+   "distinct_colours_4bit": 58,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTONLARGE.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_FC_B_PAPERBUTTONMEDIUM__36025870",
+   "stem": "gfx_FC_B_PAPERBUTTONMEDIUM",
+   "size": [
+    132,
+    112
+   ],
+   "target": [
+    1056,
+    896
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    165.4,
+    175.4,
+    180.5
+   ],
+   "distinct_colours_4bit": 54,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTONMEDIUM.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_FC_B_RETURNTOBRIEFING__54463e2e",
+   "stem": "gfx_FC_B_RETURNTOBRIEFING",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    104.6,
+    84.5,
+    60.3
+   ],
+   "distinct_colours_4bit": 266,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_RETURNTOBRIEFING.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_FC_B_SCROLLBAR__9440c0ff",
+   "stem": "gfx_FC_B_SCROLLBAR",
+   "size": [
+    16,
+    12
+   ],
+   "target": [
+    128,
+    96
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    156.0,
+    173.0,
+    183.0
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_SCROLLBAR.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_FC_B_SCROLLDOWN__fce12ea0",
+   "stem": "gfx_FC_B_SCROLLDOWN",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    116.7,
+    128.7,
+    144.7
+   ],
+   "distinct_colours_4bit": 22,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_SCROLLDOWN.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_FC_B_SCROLLUP__abc2314a",
+   "stem": "gfx_FC_B_SCROLLUP",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    116.7,
+    128.7,
+    144.7
+   ],
+   "distinct_colours_4bit": 23,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_SCROLLUP.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_GN_B_BUILDCUSTOMPLANE__ffdd26c6",
+   "stem": "gfx_GN_B_BUILDCUSTOMPLANE",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    103.3,
+    84.5,
+    59.9
+   ],
+   "distinct_colours_4bit": 247,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_BUILDCUSTOMPLANE.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_GN_B_CONTINUE__b1ede9eb",
+   "stem": "gfx_GN_B_CONTINUE",
+   "size": [
+    112,
+    136
+   ],
+   "target": [
+    896,
+    1088
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    109.0,
+    88.6,
+    60.2
+   ],
+   "distinct_colours_4bit": 195,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_CONTINUE.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_GN_B_LISTBOXARROWDOWN__241d4318",
+   "stem": "gfx_GN_B_LISTBOXARROWDOWN",
+   "size": [
+    24,
+    96
+   ],
+   "target": [
+    192,
+    768
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    228.0,
+    226.3,
+    224.6
+   ],
+   "distinct_colours_4bit": 32,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_LISTBOXARROWDOWN.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_GN_B_LISTBOXARROWSMALLDOWN__de56ee57",
+   "stem": "gfx_GN_B_LISTBOXARROWSMALLDOWN",
+   "size": [
+    16,
+    48
+   ],
+   "target": [
+    128,
+    384
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    202.0,
+    199.1,
+    196.0
+   ],
+   "distinct_colours_4bit": 27,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_LISTBOXARROWSMALLDOWN.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  },
+  {
+   "uid": "gfx_GN_B_LISTBOXARROWSMALLUP__e1e156ae",
+   "stem": "gfx_GN_B_LISTBOXARROWSMALLUP",
+   "size": [
+    16,
+    48
+   ],
+   "target": [
+    128,
+    384
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 9.9,
+   "mean_rgb": [
+    202.0,
+    199.1,
+    196.0
+   ],
+   "distinct_colours_4bit": 25,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [],
+   "flipbook_id": null,
+   "usage": {},
+   "ui_note": "menu / interface art of the game (button strips, panels, backgrounds)",
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_LISTBOXARROWSMALLUP.PNG",
+   "ui_ext": ".png",
+   "ui_dir": "rof/ASSETS/GRAPHICS"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "task": "t0196",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "ctfbld01__1f131bc6",
+   "verdict": "suspect",
+   "problem": "Window glass turned into grainy white speckle/frost, unlike the smooth bright glow of the original; 1:1 crop shows small stray vertical tick marks on the panels.",
+   "fix": "Smooth the window panes (low-amplitude denoise inside window masks) and remove the tick-mark artifacts; keep the original glow ramp."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "task": "t0195",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "cranewheels1__64262fea",
+   "verdict": "suspect",
+   "problem": "Rust-red plates show speckled high-frequency noise at 1:1 that reads as static, not rust; plate edges slightly soft against the magenta cutouts.",
+   "fix": "Reduce the high-frequency luminance inject on the red plates and keep the alpha edge sharp; leave the metal top band as is."
+  },
+  {
+   "uid": "crateredge__b9211298",
+   "verdict": "suspect",
+   "problem": "1:1 rock shows dark blotches with pale halo rims that look stamped and painterly rather than individual rock grain; scale is large (141.8 world units per repeat), so the impact is low.",
+   "fix": "Lower the luminance inject on the blob structure, remove the pale rim halos, and check for repeated stamp patterns across the tile."
+  },
+  {
+   "uid": "crop04__4818f512",
+   "verdict": "suspect",
+   "problem": "1:1 grass looks mottled and painterly with smeared low-frequency blotches; field boundary edges are soft with slight halos.",
+   "fix": "Restore fine grass speckle at 1:1 by reducing the low-frequency smoothing; sharpen field edges without adding a dark fringe."
+  },
+  {
+   "uid": "crop05__67f95a0e",
+   "verdict": "suspect",
+   "problem": "Dark-green field at 1:1 is smeared and close to plastic-smooth; the light field boundary line is blurred into a halo.",
+   "fix": "Add back the fine mud grain in the dark field areas and sharpen the light boundary line, keeping the luminance inject faint."
+  }
+ ]
+}

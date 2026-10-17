@@ -1,0 +1,229 @@
+{
+ "task": "t0107",
+ "kind": "family",
+ "family": "mpskin",
+ "units": [
+  {
+   "uid": "mpskin3__36d5a8c3",
+   "stem": "mpskin3",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 10.09,
+   "mean_rgb": [
+    88.0,
+    76.0,
+    67.3
+   ],
+   "distinct_colours_4bit": 38,
+   "look": "flat-graphic-likely",
+   "also_named": [
+    "vostokskin3"
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 24,
+    "nodes": [
+     "midback(14)",
+     "loback(10)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.23,
+     0.29
+    ],
+    "world_units_per_repeat": 20.7
+   }
+  },
+  {
+   "uid": "mpskin4__51075840",
+   "stem": "mpskin4",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 7.75,
+   "mean_rgb": [
+    86.3,
+    74.6,
+    66.3
+   ],
+   "distinct_colours_4bit": 38,
+   "look": "flat-graphic-likely",
+   "also_named": [
+    "vostokskin4"
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 20,
+    "nodes": [
+     "midback(7)",
+     "loback(6)",
+     "lofront(4)",
+     "midfront(3)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.33,
+     0.77
+    ],
+    "world_units_per_repeat": 25.8
+   }
+  },
+  {
+   "uid": "mpskin5__74d7d103",
+   "stem": "mpskin5",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 12.31,
+   "mean_rgb": [
+    97.6,
+    83.4,
+    73.2
+   ],
+   "distinct_colours_4bit": 43,
+   "look": "photo/painted-likely",
+   "also_named": [
+    "vostokskin5"
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 13,
+    "nodes": [
+     "lofront(8)",
+     "midfront(5)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.18,
+     0.36
+    ],
+    "world_units_per_repeat": 20.0
+   }
+  },
+  {
+   "uid": "mpskin6__c6cb0c79",
+   "stem": "mpskin6",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 8.14,
+   "mean_rgb": [
+    83.0,
+    69.8,
+    60.3
+   ],
+   "distinct_colours_4bit": 48,
+   "look": "photo/painted-likely",
+   "also_named": [
+    "vostokskin6"
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "lofront(5)",
+     "midfront(3)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.25,
+     0.96
+    ],
+    "world_units_per_repeat": 21.4
+   }
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "task": "t0219",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "nypd__b730c9ef",
+   "verdict": "suspect",
+   "problem": "Light/white fringe along the inside edges of the black NYPD letters at 1:1 (and faintly in the shrunk panel); the original has only a soft magenta glow there. Introduced by the per-channel ink back-projection, so the halo is not in the source.",
+   "fix": "Rebuild the ink from the original's glow colour instead of back-projection, or keep the hard cutout alpha and clamp the ink to the letter interior. Confirm the letter edge is black-to-transparent with no lighter ring, then re-run the gate."
+  }
+ ]
+}

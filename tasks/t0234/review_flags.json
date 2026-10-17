@@ -1,0 +1,36 @@
+{
+ "task": "t0234",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "45suckerpunch__02dc178f",
+   "verdict": "suspect",
+   "problem": "At 1:1 the posterised ink edges show hard stair-step outlines on wings and legs, and a dark fringe around the disc rim; reads as posterised rather than crisp.",
+   "fix": "Anti-alias the ink-map boundaries (small blur or soft-edge pass at the back-projection step) and remove the dark rim fringe before upscaling."
+  },
+  {
+   "uid": "strata__e527465d",
+   "verdict": "suspect",
+   "problem": "Horizontal layer banding from the original is weak at 1:1; the centre crop is dominated by blotchy mottling and dark crack-like marks not in the original, so it reads as generic stone/cracked mud, with a more pink-brown cast than the original's tan.",
+   "fix": "Lower the rock_2 lab-inject strength and suppress its cross-grain blotches. Keep the 3.0 horizontal stretch and reinforce the original's horizontal dark and red streaks. Re-match the colour toward the original's tan."
+  },
+  {
+   "uid": "support1__5e17d41b",
+   "verdict": "suspect",
+   "problem": "The diagonal tube edges show regular stair-step wobble at 1:1, and the injected grain reads as stony or dirty mottling rather than brushed steel.",
+   "fix": "Smooth the tube outlines with a sub-pixel edge pass, and use a finer, more directional (anisotropic) brushed grain with lower contrast on the tubes."
+  },
+  {
+   "uid": "sweater__bfc08ecc",
+   "verdict": "suspect",
+   "problem": "At 1:1 the knit motifs (cream and red bands) are soft and smeared; the fine knit grain is faint, so it leans toward plastic smoothing.",
+   "fix": "Increase the Fabric031 lab-inject grain amplitude in the opaque area, or reduce the pchip bleed so motif edges stay sharper."
+  },
+  {
+   "uid": "team1logo__cf56bbdf",
+   "verdict": "suspect",
+   "problem": "A grey band of about 2-3 px appears around the white butterfly shapes at 1:1, a halo or outline absent from the flat-art original. Silhouette and design are otherwise preserved.",
+   "fix": "Snap the logo alpha to a hard binary edge (or a 1-px anti-alias only) and remove the grey ramp so the flat design stays exact."
+  }
+ ]
+}

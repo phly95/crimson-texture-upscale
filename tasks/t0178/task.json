@@ -1,0 +1,286 @@
+{
+ "task": "t0178",
+ "kind": "family",
+ "family": "zepdoc",
+ "units": [
+  {
+   "uid": "zepdock1__5cf00d7d",
+   "stem": "zepdock1",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.78,
+   "mean_rgb": [
+    140.2,
+    120.3,
+    79.8
+   ],
+   "distinct_colours_4bit": 231,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 23,
+    "nodes": [
+     "o(14)",
+     "g(9)"
+    ],
+    "surface": {
+     "ground_up": 0.61,
+     "ceiling_down": 0.0,
+     "wall_side": 0.39
+    },
+    "uv_repeat_median": [
+     1.49,
+     0.25
+    ],
+    "world_units_per_repeat": 42.1
+   }
+  },
+  {
+   "uid": "zepdock2__172092be",
+   "stem": "zepdock2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.72,
+   "mean_rgb": [
+    90.2,
+    78.5,
+    52.3
+   ],
+   "distinct_colours_4bit": 57,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 22,
+    "nodes": [
+     "g(22)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     14.31,
+     6.75
+    ],
+    "world_units_per_repeat": 8.0
+   }
+  },
+  {
+   "uid": "zepdock3__c81cfc4c",
+   "stem": "zepdock3",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.52,
+   "mean_rgb": [
+    138.3,
+    122.3,
+    97.8
+   ],
+   "distinct_colours_4bit": 42,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 11,
+    "nodes": [
+     "healthy(12)",
+     "reel(4)",
+     "part(2)",
+     "dbase(1)"
+    ],
+    "surface": {
+     "ground_up": 0.36,
+     "ceiling_down": 0.0,
+     "wall_side": 0.64
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 12.0
+   }
+  },
+  {
+   "uid": "zepdock4__450fc109",
+   "stem": "zepdock4",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.8,
+   "mean_rgb": [
+    73.8,
+    62.7,
+    39.7
+   ],
+   "distinct_colours_4bit": 46,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 77,
+    "nodes": [
+     "o(36)",
+     "healthy(20)",
+     "part(15)",
+     "dbase(15)"
+    ],
+    "surface": {
+     "ground_up": 0.05,
+     "ceiling_down": 0.0,
+     "wall_side": 0.95
+    },
+    "uv_repeat_median": [
+     1.0,
+     2.0
+    ],
+    "world_units_per_repeat": 7.9
+   }
+  },
+  {
+   "uid": "zepdock5__ada0a77c",
+   "stem": "zepdock5",
+   "size": [
+    16,
+    16
+   ],
+   "target": [
+    128,
+    128
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.98,
+   "mean_rgb": [
+    107.4,
+    88.4,
+    39.9
+   ],
+   "distinct_colours_4bit": 36,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "reel(8)",
+     "rope(6)",
+     "healthy(2)"
+    ],
+    "surface": {
+     "ground_up": 0.25,
+     "ceiling_down": 0.0,
+     "wall_side": 0.75
+    },
+    "uv_repeat_median": [
+     1.18,
+     8.0
+    ],
+    "world_units_per_repeat": 1.5
+   }
+  },
+  {
+   "uid": "zepdock6__2d09b0d9",
+   "stem": "zepdock6",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.63,
+   "mean_rgb": [
+    137.3,
+    120.7,
+    78.6
+   ],
+   "distinct_colours_4bit": 59,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "g(8)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     3.71,
+     8.0
+    ],
+    "world_units_per_repeat": 16.0
+   }
+  }
+ ]
+}

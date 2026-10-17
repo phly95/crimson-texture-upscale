@@ -1,0 +1,144 @@
+{
+ "task": "t0117",
+ "kind": "family",
+ "family": "pierbu",
+ "units": [
+  {
+   "uid": "pierbuild01__1e23db69",
+   "stem": "pierbuild01",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.98,
+   "mean_rgb": [
+    49.8,
+    51.7,
+    59.7
+   ],
+   "distinct_colours_4bit": 86,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 51,
+    "nodes": [
+     "g(102)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     4.0,
+     1.0
+    ],
+    "world_units_per_repeat": 8.0
+   }
+  },
+  {
+   "uid": "pierbuild02__9e5ce8be",
+   "stem": "pierbuild02",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.82,
+   "mean_rgb": [
+    97.5,
+    82.5,
+    46.6
+   ],
+   "distinct_colours_4bit": 80,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 26,
+    "nodes": [
+     "g(48)",
+     "o(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     4.0,
+     1.0
+    ],
+    "world_units_per_repeat": 5.7
+   }
+  },
+  {
+   "uid": "pierbuild03__a567509a",
+   "stem": "pierbuild03",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.17,
+   "mean_rgb": [
+    82.0,
+    68.9,
+    35.9
+   ],
+   "distinct_colours_4bit": 39,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "g(23)",
+     "o(8)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     3.0,
+     1.0
+    ],
+    "world_units_per_repeat": 16.9
+   }
+  }
+ ]
+}

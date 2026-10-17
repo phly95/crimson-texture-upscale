@@ -1,0 +1,391 @@
+{
+ "task": "t0127",
+ "kind": "family",
+ "family": "redcro",
+ "units": [
+  {
+   "uid": "redcross01__b5937458",
+   "stem": "redcross01",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.62,
+   "mean_rgb": [
+    135.0,
+    61.4,
+    53.1
+   ],
+   "distinct_colours_4bit": 112,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 36,
+    "nodes": [
+     "rcd_hull(17)",
+     "rch_hull(16)",
+     "rc_endpiece(3)"
+    ],
+    "surface": {
+     "ground_up": 0.22,
+     "ceiling_down": 0.0,
+     "wall_side": 0.78
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.6
+    ],
+    "world_units_per_repeat": 18.8
+   }
+  },
+  {
+   "uid": "redcross02__ca65debd",
+   "stem": "redcross02",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 3.27,
+   "mean_rgb": [
+    57.1,
+    16.5,
+    15.2
+   ],
+   "distinct_colours_4bit": 14,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 98,
+    "nodes": [
+     "rch_hull(33)",
+     "rcd_hull(21)",
+     "rc2_h(12)",
+     "rc3_h(12)",
+     "d3_p(7)",
+     "rc_endpiece(7)"
+    ],
+    "surface": {
+     "ground_up": 0.04,
+     "ceiling_down": 0.0,
+     "wall_side": 0.96
+    },
+    "uv_repeat_median": [
+     6.51,
+     1.0
+    ],
+    "world_units_per_repeat": 1.3
+   }
+  },
+  {
+   "uid": "redcross03__8e394547",
+   "stem": "redcross03",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.34,
+   "mean_rgb": [
+    121.0,
+    120.5,
+    124.9
+   ],
+   "distinct_colours_4bit": 141,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 17,
+    "nodes": [
+     "rcd_hull(7)",
+     "rch_hull(6)",
+     "d1_p(3)",
+     "rc_endpiece(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.38,
+     0.61
+    ],
+    "world_units_per_repeat": 27.0
+   }
+  },
+  {
+   "uid": "redcross04__289367d4",
+   "stem": "redcross04",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.22,
+   "mean_rgb": [
+    91.7,
+    87.5,
+    87.1
+   ],
+   "distinct_colours_4bit": 34,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 7,
+    "nodes": [
+     "rch_hull(3)",
+     "rcd_hull(3)",
+     "rc_endpiece(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.01,
+     1.0
+    ],
+    "world_units_per_repeat": 12.1
+   }
+  },
+  {
+   "uid": "redcross05__fada40be",
+   "stem": "redcross05",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.21,
+   "mean_rgb": [
+    161.0,
+    158.3,
+    154.4
+   ],
+   "distinct_colours_4bit": 103,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 11,
+    "nodes": [
+     "rch_hull(5)",
+     "rcd_hull(5)",
+     "d1_p(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.23,
+     1.0
+    ],
+    "world_units_per_repeat": 11.4
+   }
+  },
+  {
+   "uid": "redcross06__32f1834c",
+   "stem": "redcross06",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.08,
+   "mean_rgb": [
+    171.4,
+    169.3,
+    165.3
+   ],
+   "distinct_colours_4bit": 90,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 10,
+    "nodes": [
+     "d4_p(4)",
+     "rc4_h(2)",
+     "rch_hull(2)",
+     "rcd_hull(2)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.32,
+     0.88
+    ],
+    "world_units_per_repeat": 26.1
+   }
+  },
+  {
+   "uid": "redcross07__1f43ae40",
+   "stem": "redcross07",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.05,
+   "mean_rgb": [
+    132.5,
+    74.4,
+    68.9
+   ],
+   "distinct_colours_4bit": 68,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 23,
+    "nodes": [
+     "d2_p(10)",
+     "d3_p(10)",
+     "rc2_h(2)",
+     "rc3_h(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.56,
+     0.9
+    ],
+    "world_units_per_repeat": 16.1
+   }
+  },
+  {
+   "uid": "redcross08__b2925441",
+   "stem": "redcross08",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 8.12,
+   "mean_rgb": [
+    31.5,
+    30.7,
+    24.7
+   ],
+   "distinct_colours_4bit": 16,
+   "look": "flat-graphic-likely",
+   "also_named": [
+    "steinmann15"
+   ],
+   "chapters": [
+    "C1",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 11,
+    "nodes": [
+     "stein_rside(6)",
+     "stein_lside(5)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.55,
+     "wall_side": 0.45
+    },
+    "uv_repeat_median": [
+     2.0,
+     1.96
+    ],
+    "world_units_per_repeat": 14.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,376 @@
+{
+ "task": "t0044",
+ "kind": "family",
+ "family": "cliff",
+ "units": [
+  {
+   "uid": "cliff01_trans2__47a27ec6",
+   "stem": "cliff01_trans2",
+   "size": [
+    256,
+    64
+   ],
+   "target": [
+    2048,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.86,
+   "mean_rgb": [
+    60.0,
+    68.2,
+    62.1
+   ],
+   "distinct_colours_4bit": 41,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 138,
+    "nodes": [
+     "g(106)",
+     "a(18)",
+     "taged(14)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 73.9
+   }
+  },
+  {
+   "uid": "cliff01_trans2__e0d0e739",
+   "stem": "cliff01_trans2",
+   "size": [
+    64,
+    256
+   ],
+   "target": [
+    512,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 3.16,
+   "mean_rgb": [
+    96.1,
+    96.1,
+    82.7
+   ],
+   "distinct_colours_4bit": 71,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 138,
+    "nodes": [
+     "g(106)",
+     "a(18)",
+     "taged(14)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 73.9
+   }
+  },
+  {
+   "uid": "cliff02__860ab591",
+   "stem": "cliff02",
+   "size": [
+    256,
+    128
+   ],
+   "target": [
+    2048,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.96,
+   "mean_rgb": [
+    82.8,
+    88.4,
+    62.1
+   ],
+   "distinct_colours_4bit": 86,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 53,
+    "nodes": [
+     "g(50)",
+     "a(3)"
+    ],
+    "surface": {
+     "ground_up": 0.17,
+     "ceiling_down": 0.04,
+     "wall_side": 0.79
+    },
+    "uv_repeat_median": [
+     1.74,
+     1.92
+    ],
+    "world_units_per_repeat": 90.5
+   }
+  },
+  {
+   "uid": "cliff02_trans1__77d1d9a1",
+   "stem": "cliff02_trans1",
+   "size": [
+    256,
+    32
+   ],
+   "target": [
+    2048,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.67,
+   "mean_rgb": [
+    64.2,
+    68.4,
+    46.5
+   ],
+   "distinct_colours_4bit": 55,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 21,
+    "nodes": [
+     "g(21)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.34,
+     1.0
+    ],
+    "world_units_per_repeat": 64.0
+   }
+  },
+  {
+   "uid": "cliff03__51fc2351",
+   "stem": "cliff03",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.78,
+   "mean_rgb": [
+    88.8,
+    80.0,
+    61.2
+   ],
+   "distinct_colours_4bit": 39,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 18,
+    "nodes": [
+     "g(18)"
+    ],
+    "surface": {
+     "ground_up": 0.94,
+     "ceiling_down": 0.0,
+     "wall_side": 0.06
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 131.6
+   }
+  },
+  {
+   "uid": "cliff03-trans1__64b7b3e3",
+   "stem": "cliff03-trans1",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.05,
+   "mean_rgb": [
+    106.8,
+    95.9,
+    71.3
+   ],
+   "distinct_colours_4bit": 93,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 32,
+    "nodes": [
+     "g(32)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 130.1
+   }
+  },
+  {
+   "uid": "cliff1__d9b05108",
+   "stem": "cliff1",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.1,
+   "mean_rgb": [
+    56.6,
+    72.4,
+    44.0
+   ],
+   "distinct_colours_4bit": 98,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 111,
+    "nodes": [
+     "g(98)",
+     "polys(7)",
+     "ter_poly(6)"
+    ],
+    "surface": {
+     "ground_up": 0.86,
+     "ceiling_down": 0.0,
+     "wall_side": 0.14
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 137.4
+   }
+  },
+  {
+   "uid": "cliff1_sandtrans__d6d2f9fe",
+   "stem": "cliff1_sandtrans",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 11.07,
+   "mean_rgb": [
+    179.4,
+    165.7,
+    128.3
+   ],
+   "distinct_colours_4bit": 143,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 102,
+    "nodes": [
+     "g(96)",
+     "ter_poly(5)",
+     "tags(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 90.5
+   }
+  }
+ ]
+}

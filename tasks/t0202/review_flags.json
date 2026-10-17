@@ -1,0 +1,36 @@
+{
+ "task": "t0202",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "eiffel1__0db87cc5",
+   "verdict": "suspect",
+   "problem": "At 1:1 the lattice struts are blurred into soft grey halos with dark smudges at the joints; the crisp 1px original edges are lost. Used on the wall side of the Eiffel tower (wall_side 0.97).",
+   "fix": "Sharpen the contour edges: use anti-aliased contour fills at 8x instead of PCHIP-blurred shading, and cut the blur radius on the strut edges so joints stay crisp at 1:1."
+  },
+  {
+   "uid": "empire1__865de5de",
+   "verdict": "bad",
+   "problem": "The original is a flat facade with rectangular recessed panels and pale pilasters. The result is grainy concrete with invented crack arcs and an hourglass shape, plus an obvious mirror-symmetry X seam at the centre. The panel layout and design are not preserved, and the material reads as cracked concrete rather than the plain plaster wall.",
+   "fix": "Keep the original panel rectangles by taking the low-frequency layout and colour from the original, and inject only fine grain. Drop the mirror-tiled crack source and use offset, non-mirrored tiling so no symmetry axis or invented cracks appear."
+  },
+  {
+   "uid": "eng_cover__35556925",
+   "verdict": "suspect",
+   "problem": "The rivet ring is present and positioned correctly at fit view, but the rivet highlights and domes are much dimmer than the original. The plate is nearly flat at 1:1 with almost no visible tooth, so the rivets read as faint specks.",
+   "fix": "Restore dome contrast (brighter highlight, darker shadow) to match the original rivets, and raise the seeded tooth amplitude so the plate has visible metal grain at 1:1."
+  },
+  {
+   "uid": "enter02__aec14ce6",
+   "verdict": "suspect",
+   "problem": "The logo design is right at fit view, but at 1:1 the red letter edges and black drop shadow are soft and muddy. The letterforms lose their crisp outline, so this reads as blur rather than flat art.",
+   "fix": "Rebuild the logo edges from an anti-aliased vector-style contour fill at 4x instead of PCHIP-blurred alpha. Keep the shadow as a hard offset layer and avoid any soft halo around the glyphs."
+  },
+  {
+   "uid": "eiffel2__d67b262e",
+   "verdict": "gate-fail",
+   "problem": "exact: silhouette IoU 0.83 < 0.85",
+   "fix": "make it pass the gate honestly, or mark(...) it if it cannot"
+  }
+ ]
+}

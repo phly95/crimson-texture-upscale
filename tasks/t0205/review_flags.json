@@ -1,0 +1,30 @@
+{
+ "task": "t0205",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "footballfield__b8fc3762",
+   "verdict": "suspect",
+   "problem": "Centre-field 'P' logo reads as a soft white smear at 1:1 instead of crisp painted lettering; grass otherwise matches the aerial turf.",
+   "fix": "Keep the logo region from the upscaled original (or sharpen just that mask) so the P has crisp edges; leave the grass injection as is."
+  },
+  {
+   "uid": "forest1-128__e02e6bc9",
+   "verdict": "suspect",
+   "problem": "1:1 crop looks smoky and mushy; gate seam_out 0.93 vs seam_orig 0.1 means the tiling wrap edges likely got worse.",
+   "fix": "Re-run with seam-aware wrap (blend or offset-check the edges so left/right and top/bottom match) and reduce the moss injection blur so canopy speckle stays crisp at 1:1."
+  },
+  {
+   "uid": "four__6f06d360",
+   "verdict": "suspect",
+   "problem": "Dark halo and ringing fringes along the white '4' strokes in the shrunk and 1:1 views; edges look blurred/bubbly rather than the original's crisp pixel-stepped glyph.",
+   "fix": "Remove the overshoot from the back-projection step, clamping output to the local min/max of the source 16x16 neighbourhood, so strokes have no dark rim; keep the glyph silhouette unchanged."
+  },
+  {
+   "uid": "french_rowhouse__0aa105a1",
+   "verdict": "suspect",
+   "problem": "1:1 crop is soft: window frames and brick courses are smeared and the roofline edges blur into the magenta matte; gate tileable_guess is false so no wrap issue, but the detail is mushy.",
+   "fix": "Sharpen brick and window edges with the brick-inject pass at the source scale (or cap the colormatch blur), and confirm the magenta lower band is an intended key colour rather than a fill that leaked into the RGB."
+  }
+ ]
+}

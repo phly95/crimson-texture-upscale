@@ -1,0 +1,9534 @@
+{
+ "units": {
+  "rimage_1_circle__77f05bb2": {
+   "stem": "rimage_1_circle",
+   "size": [
+    69,
+    49
+   ],
+   "target": [
+    552,
+    392
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/1_circle.png",
+   "ui_ext": ".png"
+  },
+  "rimage_2_circle__cbcaf533": {
+   "stem": "rimage_2_circle",
+   "size": [
+    69,
+    49
+   ],
+   "target": [
+    552,
+    392
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/2_circle.png",
+   "ui_ext": ".png"
+  },
+  "rimage_3_circle__20f1c370": {
+   "stem": "rimage_3_circle",
+   "size": [
+    69,
+    49
+   ],
+   "target": [
+    552,
+    392
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/3_circle.png",
+   "ui_ext": ".png"
+  },
+  "rimage_4_circle__5ab66851": {
+   "stem": "rimage_4_circle",
+   "size": [
+    69,
+    49
+   ],
+   "target": [
+    552,
+    392
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/4_circle.png",
+   "ui_ext": ".png"
+  },
+  "rimage_alignment_point__e21277ec": {
+   "stem": "rimage_alignment_point",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/alignment_point.png",
+   "ui_ext": ".png"
+  },
+  "rimage_arrow__7ff61584": {
+   "stem": "rimage_arrow",
+   "size": [
+    35,
+    28
+   ],
+   "target": [
+    280,
+    224
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/arrow.png",
+   "ui_ext": ".png"
+  },
+  "rimage_balmoral__4ba81c74": {
+   "stem": "rimage_balmoral",
+   "size": [
+    48,
+    48
+   ],
+   "target": [
+    384,
+    384
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/balmoral.png",
+   "ui_ext": ".png"
+  },
+  "rimage_c1m1__fabba807": {
+   "stem": "rimage_c1m1",
+   "size": [
+    425,
+    316
+   ],
+   "target": [
+    2048,
+    1523
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/c1m1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_confirm__f9048864": {
+   "stem": "rimage_confirm",
+   "size": [
+    392,
+    184
+   ],
+   "target": [
+    2048,
+    961
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/confirm.png",
+   "ui_ext": ".png"
+  },
+  "rimage_dafinger__275f6a53": {
+   "stem": "rimage_dafinger",
+   "size": [
+    40,
+    40
+   ],
+   "target": [
+    320,
+    320
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/dafinger.png",
+   "ui_ext": ".png"
+  },
+  "rimage_daglove__1e2a1a97": {
+   "stem": "rimage_daglove",
+   "size": [
+    40,
+    40
+   ],
+   "target": [
+    320,
+    320
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/daglove.png",
+   "ui_ext": ".png"
+  },
+  "rimage_darrow__b44af178": {
+   "stem": "rimage_darrow",
+   "size": [
+    36,
+    43
+   ],
+   "target": [
+    288,
+    344
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/darrow.png",
+   "ui_ext": ".png"
+  },
+  "rimage_dashline1__cb0880ff": {
+   "stem": "rimage_dashline1",
+   "size": [
+    136,
+    126
+   ],
+   "target": [
+    1088,
+    1008
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/dashline1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_dashline2__1ac814be": {
+   "stem": "rimage_dashline2",
+   "size": [
+    48,
+    34
+   ],
+   "target": [
+    384,
+    272
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/dashline2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_devform-b__8eb793d5": {
+   "stem": "rimage_devform-b",
+   "size": [
+    81,
+    78
+   ],
+   "target": [
+    648,
+    624
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/devform-b.png",
+   "ui_ext": ".png"
+  },
+  "rimage_devform__444c7a74": {
+   "stem": "rimage_devform",
+   "size": [
+    81,
+    78
+   ],
+   "target": [
+    648,
+    624
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/devform.png",
+   "ui_ext": ".png"
+  },
+  "rimage_donut__28dae298": {
+   "stem": "rimage_donut",
+   "size": [
+    8,
+    8
+   ],
+   "target": [
+    64,
+    64
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/donut.png",
+   "ui_ext": ".png"
+  },
+  "rimage_donuts__f52652d5": {
+   "stem": "rimage_donuts",
+   "size": [
+    8,
+    8
+   ],
+   "target": [
+    64,
+    64
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/donuts.png",
+   "ui_ext": ".png"
+  },
+  "rimage_donutx__8cde7e34": {
+   "stem": "rimage_donutx",
+   "size": [
+    8,
+    8
+   ],
+   "target": [
+    64,
+    64
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/donutx.png",
+   "ui_ext": ".png"
+  },
+  "rimage_edevform__9d22e4e0": {
+   "stem": "rimage_edevform",
+   "size": [
+    81,
+    78
+   ],
+   "target": [
+    648,
+    624
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/edevform.png",
+   "ui_ext": ".png"
+  },
+  "rimage_epftr1__9ceb7059": {
+   "stem": "rimage_epftr1",
+   "size": [
+    25,
+    24
+   ],
+   "target": [
+    200,
+    192
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/epftr1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_escapemenu__53b5da47": {
+   "stem": "rimage_escapemenu",
+   "size": [
+    640,
+    480
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/escapemenu.png",
+   "ui_ext": ".png"
+  },
+  "rimage_fbalmoral__6e8f304f": {
+   "stem": "rimage_fbalmoral",
+   "size": [
+    48,
+    48
+   ],
+   "target": [
+    384,
+    384
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/fbalmoral.png",
+   "ui_ext": ".png"
+  },
+  "rimage_fdevform__883705d3": {
+   "stem": "rimage_fdevform",
+   "size": [
+    81,
+    78
+   ],
+   "target": [
+    648,
+    624
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/fdevform.png",
+   "ui_ext": ".png"
+  },
+  "rimage_frame2__1b3a3e90": {
+   "stem": "rimage_frame2",
+   "size": [
+    200,
+    240
+   ],
+   "target": [
+    1600,
+    1920
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/frame2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m1betty__2d8b6c3f": {
+   "stem": "rimage_ha-m1betty",
+   "size": [
+    184,
+    224
+   ],
+   "target": [
+    1472,
+    1792
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m1betty.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m1jack__1c249b6e": {
+   "stem": "rimage_ha-m1jack",
+   "size": [
+    184,
+    224
+   ],
+   "target": [
+    1472,
+    1792
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m1jack.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m1majesticpandora__5ea947e0": {
+   "stem": "rimage_ha-m1majesticpandora",
+   "size": [
+    296,
+    241
+   ],
+   "target": [
+    2048,
+    1667
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m1majesticpandora.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m1map__19e9ba9f": {
+   "stem": "rimage_ha-m1map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/ha-m1map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m1shot1__59353648": {
+   "stem": "rimage_ha-m1shot1",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m1shot1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m1shot2__f9a898e4": {
+   "stem": "rimage_ha-m1shot2",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m1shot2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m1shot3__54b5a114": {
+   "stem": "rimage_ha-m1shot3",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m1shot3.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m1treasuremap__4eb926da": {
+   "stem": "rimage_ha-m1treasuremap",
+   "size": [
+    240,
+    200
+   ],
+   "target": [
+    1920,
+    1600
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m1treasuremap.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m2bflag2__183e850f": {
+   "stem": "rimage_ha-m2bflag2",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m2bflag2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m2camp6__bb7388aa": {
+   "stem": "rimage_ha-m2camp6",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m2camp6.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m2ddock3__f2335444": {
+   "stem": "rimage_ha-m2ddock3",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m2ddock3.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m2lowbase5__7ceba6c3": {
+   "stem": "rimage_ha-m2lowbase5",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m2lowbase5.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m2map__8343163e": {
+   "stem": "rimage_ha-m2map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/ha-m2map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m2oubase1__2848fe97": {
+   "stem": "rimage_ha-m2oubase1",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m2oubase1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m2ubase4__f498bbcd": {
+   "stem": "rimage_ha-m2ubase4",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m2ubase4.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m4pandtreas__783768df": {
+   "stem": "rimage_ha-m4pandtreas",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m4pandtreas.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m5balmoral__42e58296": {
+   "stem": "rimage_ha-m5balmoral",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m5balmoral.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m5ciphermach__10228691": {
+   "stem": "rimage_ha-m5ciphermach",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m5ciphermach.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ha-m5treasite__0775d00d": {
+   "stem": "rimage_ha-m5treasite",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ha-m5treasite.png",
+   "ui_ext": ".png"
+  },
+  "rimage_high__6a1cc945": {
+   "stem": "rimage_high",
+   "size": [
+    131,
+    37
+   ],
+   "target": [
+    1048,
+    296
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/high.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m1airstrip__8ac742c6": {
+   "stem": "rimage_hw-m1airstrip",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m1airstrip.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m1hughesstudio__55349cb5": {
+   "stem": "rimage_hw-m1hughesstudio",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m1hughesstudio.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m1johnnyjohnson__72b12884": {
+   "stem": "rimage_hw-m1johnnyjohnson",
+   "size": [
+    210,
+    250
+   ],
+   "target": [
+    1680,
+    2000
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m1johnnyjohnson.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m1lanacooper__fecf84b6": {
+   "stem": "rimage_hw-m1lanacooper",
+   "size": [
+    212,
+    254
+   ],
+   "target": [
+    1696,
+    2032
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m1lanacooper.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m1map__16c9c41f": {
+   "stem": "rimage_hw-m1map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/hw-m1map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m2bettybathingsuit__146a1f95": {
+   "stem": "rimage_hw-m2bettybathingsuit",
+   "size": [
+    212,
+    254
+   ],
+   "target": [
+    1696,
+    2032
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m2bettybathingsuit.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m2hangargate__0dc5be9a": {
+   "stem": "rimage_hw-m2hangargate",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m2hangargate.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m2sprucegoose__132e148a": {
+   "stem": "rimage_hw-m2sprucegoose",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m2sprucegoose.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m3bswan7__b6375ba7": {
+   "stem": "rimage_hw-m3bswan7",
+   "size": [
+    212,
+    254
+   ],
+   "target": [
+    1696,
+    2032
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m3bswan7.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m3crawford4__b1a624a9": {
+   "stem": "rimage_hw-m3crawford4",
+   "size": [
+    212,
+    254
+   ],
+   "target": [
+    1696,
+    2032
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m3crawford4.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m3fury2__a38a75d7": {
+   "stem": "rimage_hw-m3fury2",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m3fury2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m3khan6__e12227bb": {
+   "stem": "rimage_hw-m3khan6",
+   "size": [
+    212,
+    254
+   ],
+   "target": [
+    1696,
+    2032
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m3khan6.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m3redman5__8a31a703": {
+   "stem": "rimage_hw-m3redman5",
+   "size": [
+    212,
+    254
+   ],
+   "target": [
+    1696,
+    2032
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m3redman5.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m3steele3__99fb849b": {
+   "stem": "rimage_hw-m3steele3",
+   "size": [
+    212,
+    254
+   ],
+   "target": [
+    1696,
+    2032
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m3steele3.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m4cannon__eb9ef22e": {
+   "stem": "rimage_hw-m4cannon",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m4cannon.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m4gemini__8310f2f2": {
+   "stem": "rimage_hw-m4gemini",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m4gemini.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m4jjpaper__506fb113": {
+   "stem": "rimage_hw-m4jjpaper",
+   "size": [
+    256,
+    212
+   ],
+   "target": [
+    2048,
+    1696
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m4jjpaper.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m4map__a97d4a3c": {
+   "stem": "rimage_hw-m4map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/hw-m4map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m4pissedoff__ff91893a": {
+   "stem": "rimage_hw-m4pissedoff",
+   "size": [
+    212,
+    254
+   ],
+   "target": [
+    1696,
+    2032
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m4pissedoff.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m5baslogo__e010eebf": {
+   "stem": "rimage_hw-m5baslogo",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m5baslogo.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m5dmgpandora__b5a89388": {
+   "stem": "rimage_hw-m5dmgpandora",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m5dmgpandora.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m5figarorecon__046a391e": {
+   "stem": "rimage_hw-m5figarorecon",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m5figarorecon.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m5figarowreckage__027a0548": {
+   "stem": "rimage_hw-m5figarowreckage",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m5figarowreckage.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m5map__7c5b651d": {
+   "stem": "rimage_hw-m5map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/hw-m5map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw-m5peacemakers__10192c28": {
+   "stem": "rimage_hw-m5peacemakers",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw-m5peacemakers.png",
+   "ui_ext": ".png"
+  },
+  "rimage_hw_m4jpissedoff__60398af4": {
+   "stem": "rimage_hw_m4jpissedoff",
+   "size": [
+    212,
+    254
+   ],
+   "target": [
+    1696,
+    2032
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/hw_m4jpissedoff.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ia_active__85947262": {
+   "stem": "rimage_ia_active",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ia_active.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ia_dactive__d5ab8076": {
+   "stem": "rimage_ia_dactive",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ia_dactive.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ia_dinactive__66d84a4a": {
+   "stem": "rimage_ia_dinactive",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ia_dinactive.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ia_high__5fcc2cd2": {
+   "stem": "rimage_ia_high",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ia_high.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ia_inactive__0de35993": {
+   "stem": "rimage_ia_inactive",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ia_inactive.png",
+   "ui_ext": ".png"
+  },
+  "rimage_impact_point__db03e7d5": {
+   "stem": "rimage_impact_point",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/impact_point.png",
+   "ui_ext": ".png"
+  },
+  "rimage_inchigh__84897dfc": {
+   "stem": "rimage_inchigh",
+   "size": [
+    29,
+    36
+   ],
+   "target": [
+    232,
+    288
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/inchigh.png",
+   "ui_ext": ".png"
+  },
+  "rimage_incnorm__78554ea1": {
+   "stem": "rimage_incnorm",
+   "size": [
+    29,
+    36
+   ],
+   "target": [
+    232,
+    288
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/incnorm.png",
+   "ui_ext": ".png"
+  },
+  "rimage_larrow__d35529fd": {
+   "stem": "rimage_larrow",
+   "size": [
+    43,
+    36
+   ],
+   "target": [
+    344,
+    288
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/larrow.png",
+   "ui_ext": ".png"
+  },
+  "rimage_loadframe__69c901c6": {
+   "stem": "rimage_loadframe",
+   "size": [
+    801,
+    601
+   ],
+   "target": [
+    2048,
+    1537
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/loadframe.png",
+   "ui_ext": ".png"
+  },
+  "rimage_loadframempt__7a3dfd39": {
+   "stem": "rimage_loadframempt",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/loadframempt.png",
+   "ui_ext": ".png"
+  },
+  "rimage_loadframempt2__35e0af20": {
+   "stem": "rimage_loadframempt2",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/loadframempt2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_loser__35edc835": {
+   "stem": "rimage_loser",
+   "size": [
+    29,
+    38
+   ],
+   "target": [
+    232,
+    304
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/loser.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mainmenu__53b5da47": {
+   "stem": "rimage_mainmenu",
+   "size": [
+    640,
+    480
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/mainmenu.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m1cabbiestaxi__f3e7ddcb": {
+   "stem": "rimage_mh-m1cabbiestaxi",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m1cabbiestaxi.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m1map__4576859c": {
+   "stem": "rimage_mh-m1map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/mh-m1map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m1steinman__4fba160a": {
+   "stem": "rimage_mh-m1steinman",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m1steinman.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m1stilogo__0873dddd": {
+   "stem": "rimage_mh-m1stilogo",
+   "size": [
+    216,
+    372
+   ],
+   "target": [
+    1189,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m1stilogo.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m1warehouse__b7427296": {
+   "stem": "rimage_mh-m1warehouse",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m1warehouse.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m2arcadia__9a9e2933": {
+   "stem": "rimage_mh-m2arcadia",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m2arcadia.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m2carneyid__8324ec30": {
+   "stem": "rimage_mh-m2carneyid",
+   "size": [
+    270,
+    220
+   ],
+   "target": [
+    2048,
+    1669
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m2carneyid.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m2destroyedfreght__3f1b14e5": {
+   "stem": "rimage_mh-m2destroyedfreght",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m2destroyedfreght.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m3carneymug__085a590d": {
+   "stem": "rimage_mh-m3carneymug",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m3carneymug.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m3zep1__62384baf": {
+   "stem": "rimage_mh-m3zep1",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m3zep1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m3zep2__e9f730fb": {
+   "stem": "rimage_mh-m3zep2",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m3zep2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m3zep3__6a122e80": {
+   "stem": "rimage_mh-m3zep3",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m3zep3.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m4invitation__73aa3ebe": {
+   "stem": "rimage_mh-m4invitation",
+   "size": [
+    236,
+    180
+   ],
+   "target": [
+    1888,
+    1440
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m4invitation.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m4lucasmiles__a68e85f1": {
+   "stem": "rimage_mh-m4lucasmiles",
+   "size": [
+    184,
+    224
+   ],
+   "target": [
+    1472,
+    1792
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m4lucasmiles.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mh-m4newsclipping__43c46833": {
+   "stem": "rimage_mh-m4newsclipping",
+   "size": [
+    400,
+    310
+   ],
+   "target": [
+    2048,
+    1587
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mh-m4newsclipping.png",
+   "ui_ext": ".png"
+  },
+  "rimage_miss_frame__9b3c6309": {
+   "stem": "rimage_miss_frame",
+   "size": [
+    200,
+    59
+   ],
+   "target": [
+    1600,
+    472
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/miss_frame.png",
+   "ui_ext": ".png"
+  },
+  "rimage_miss_frame2__74fbe515": {
+   "stem": "rimage_miss_frame2",
+   "size": [
+    200,
+    59
+   ],
+   "target": [
+    1600,
+    472
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/miss_frame2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mm_splashbackground__f9c828d0": {
+   "stem": "rimage_mm_splashbackground",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/mm_splashbackground.png",
+   "ui_ext": ".png"
+  },
+  "rimage_momento_shad__d7c1e4f7": {
+   "stem": "rimage_momento_shad",
+   "size": [
+    300,
+    300
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/momento_shad.png",
+   "ui_ext": ".png"
+  },
+  "rimage_momento_temp__26a53117": {
+   "stem": "rimage_momento_temp",
+   "size": [
+    242,
+    305
+   ],
+   "target": [
+    1625,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/momento_temp.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mp-cannon__b8b0dc4f": {
+   "stem": "rimage_mp-cannon",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mp-cannon.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mp-crash__7fe20008": {
+   "stem": "rimage_mp-crash",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mp-crash.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mp-dangerzone2__9f698651": {
+   "stem": "rimage_mp-dangerzone2",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mp-dangerzone2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mp-flagcapture__533621e4": {
+   "stem": "rimage_mp-flagcapture",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mp-flagcapture.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mp-flagreturn__6844fd43": {
+   "stem": "rimage_mp-flagreturn",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mp-flagreturn.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mp-gasbag__1799393a": {
+   "stem": "rimage_mp-gasbag",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mp-gasbag.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mp-shotdown__47ec6ed5": {
+   "stem": "rimage_mp-shotdown",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mp-shotdown.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mp-torpedo__d147325b": {
+   "stem": "rimage_mp-torpedo",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mp-torpedo.png",
+   "ui_ext": ".png"
+  },
+  "rimage_mp-zepdown__254dbf56": {
+   "stem": "rimage_mp-zepdown",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/mp-zepdown.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_02_01_hawaiianprinces2__150da4a0": {
+   "stem": "rimage_ms_p_02_01_hawaiianprinces2",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_02_01_hawaiianprinces2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_05_01_treasuregirl__0c5257f8": {
+   "stem": "rimage_ms_p_05_01_treasuregirl",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_05_01_treasuregirl.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_06_02_bswanportrait__ec3f47cb": {
+   "stem": "rimage_ms_p_06_02_bswanportrait",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_06_02_bswanportrait.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_10_01_soldiergirl__5ac13761": {
+   "stem": "rimage_ms_p_10_01_soldiergirl",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_10_01_soldiergirl.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_11_01_lanacooperglam__c2274054": {
+   "stem": "rimage_ms_p_11_01_lanacooperglam",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_11_01_lanacooperglam.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_12_01_bettysscreentest2__fc8a1c11": {
+   "stem": "rimage_ms_p_12_01_bettysscreentest2",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_12_01_bettysscreentest2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_12_02_charlie__74a0f6ab": {
+   "stem": "rimage_ms_p_12_02_charlie",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_12_02_charlie.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_13_02_nathangetstrophy__8a6b3827": {
+   "stem": "rimage_ms_p_13_02_nathangetstrophy",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_13_02_nathangetstrophy.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_15_01_myshoe__0d7277e6": {
+   "stem": "rimage_ms_p_15_01_myshoe",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_15_01_myshoe.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_16_01_strip3__1a734ddb": {
+   "stem": "rimage_ms_p_16_01_strip3",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_16_01_strip3.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_17_04_shangri-lapinup__2c7cdc89": {
+   "stem": "rimage_ms_p_17_04_shangri-lapinup",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_17_04_shangri-lapinup.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_19_01_swanthemorningafter__7664df93": {
+   "stem": "rimage_ms_p_19_01_swanthemorningafter",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_19_01_swanthemorningafter.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_19_01_swanwelcomehome1__e14f1dd3": {
+   "stem": "rimage_ms_p_19_01_swanwelcomehome1",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_19_01_swanwelcomehome1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_24_01_swanpinup__945a7781": {
+   "stem": "rimage_ms_p_24_01_swanpinup",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_24_01_swanpinup.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_24_01_thefinalkiss__2270206d": {
+   "stem": "rimage_ms_p_24_01_thefinalkiss",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_24_01_thefinalkiss.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_doggiephoto__ab4bb952": {
+   "stem": "rimage_ms_p_doggiephoto",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_doggiephoto.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_illsaandsparks__94c53f60": {
+   "stem": "rimage_ms_p_illsaandsparks",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_illsaandsparks.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_initialpinup1__425cff02": {
+   "stem": "rimage_ms_p_initialpinup1",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_initialpinup1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_initialpinup3__6b1518c1": {
+   "stem": "rimage_ms_p_initialpinup3",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_initialpinup3.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_justinebattleax__60836a15": {
+   "stem": "rimage_ms_p_justinebattleax",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_justinebattleax.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_mom__21642b36": {
+   "stem": "rimage_ms_p_mom",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_mom.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_swan&nathanincabin__8f73a92f": {
+   "stem": "rimage_ms_p_swan&nathanincabin",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_swan&nathanincabin.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_thefinalkiss__2270206d": {
+   "stem": "rimage_ms_p_thefinalkiss",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_thefinalkiss.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_treasuregirl__88eee241": {
+   "stem": "rimage_ms_p_treasuregirl",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_treasuregirl.png",
+   "ui_ext": ".png"
+  },
+  "rimage_ms_p_zacharyandplane__d947fbd6": {
+   "stem": "rimage_ms_p_zacharyandplane",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/ms_p_zacharyandplane.png",
+   "ui_ext": ".png"
+  },
+  "rimage_normal__98d18cee": {
+   "stem": "rimage_normal",
+   "size": [
+    131,
+    37
+   ],
+   "target": [
+    1048,
+    296
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/normal.png",
+   "ui_ext": ".png"
+  },
+  "rimage_northwestload__4837a5fb": {
+   "stem": "rimage_northwestload",
+   "size": [
+    220,
+    355
+   ],
+   "target": [
+    1269,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/northwestload.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m1dockinghook__bc15abe8": {
+   "stem": "rimage_nw-m1dockinghook",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m1dockinghook.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m1map__fb82b2f3": {
+   "stem": "rimage_nw-m1map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/nw-m1map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m1pda_icon__1b51665f": {
+   "stem": "rimage_nw-m1pda_icon",
+   "size": [
+    40,
+    149
+   ],
+   "target": [
+    320,
+    1192
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m1pda_icon.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m1workervoyagezep__f0765ec1": {
+   "stem": "rimage_nw-m1workervoyagezep",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m1workervoyagezep.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m1wv_icon__06421842": {
+   "stem": "rimage_nw-m1wv_icon",
+   "size": [
+    49,
+    165
+   ],
+   "target": [
+    392,
+    1320
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m1wv_icon.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m1wv_icon2__c2e03002": {
+   "stem": "rimage_nw-m1wv_icon2",
+   "size": [
+    84,
+    165
+   ],
+   "target": [
+    672,
+    1320
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m1wv_icon2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m2basemblem2__4b2600ee": {
+   "stem": "rimage_nw-m2basemblem2",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m2basemblem2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m2bloodhawk__e793951c": {
+   "stem": "rimage_nw-m2bloodhawk",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m2bloodhawk.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m2caboose__69a9e7e3": {
+   "stem": "rimage_nw-m2caboose",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m2caboose.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m2map__d5d6870a": {
+   "stem": "rimage_nw-m2map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/nw-m2map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m3freighter__7fbb4269": {
+   "stem": "rimage_nw-m3freighter",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m3freighter.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m3generator__812d0dd9": {
+   "stem": "rimage_nw-m3generator",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m3generator.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m3lighthouse__77cbf3e3": {
+   "stem": "rimage_nw-m3lighthouse",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m3lighthouse.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m3map__09009b0a": {
+   "stem": "rimage_nw-m3map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/nw-m3map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m4cannondoor__dc802b8e": {
+   "stem": "rimage_nw-m4cannondoor",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m4cannondoor.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m4dockingclamp__2a3739ea": {
+   "stem": "rimage_nw-m4dockingclamp",
+   "size": [
+    226,
+    190
+   ],
+   "target": [
+    1808,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m4dockingclamp.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m4paladinblake__ffa4fd5d": {
+   "stem": "rimage_nw-m4paladinblake",
+   "size": [
+    214,
+    250
+   ],
+   "target": [
+    1712,
+    2000
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m4paladinblake.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m4promisedland__45899c72": {
+   "stem": "rimage_nw-m4promisedland",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m4promisedland.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m4promlicon__da549d1f": {
+   "stem": "rimage_nw-m4promlicon",
+   "size": [
+    49,
+    165
+   ],
+   "target": [
+    392,
+    1320
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m4promlicon.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m4radiotower__6b26e258": {
+   "stem": "rimage_nw-m4radiotower",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m4radiotower.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m5attackboat__68989da8": {
+   "stem": "rimage_nw-m5attackboat",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw-m5attackboat.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw-m5map__b7671a1b": {
+   "stem": "rimage_nw-m5map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/nw-m5map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw_m1fassenbiender__07290669": {
+   "stem": "rimage_nw_m1fassenbiender",
+   "size": [
+    212,
+    250
+   ],
+   "target": [
+    1696,
+    2000
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw_m1fassenbiender.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw_m2fassenbiender__4b2fc2ed": {
+   "stem": "rimage_nw_m2fassenbiender",
+   "size": [
+    212,
+    250
+   ],
+   "target": [
+    1696,
+    2000
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw_m2fassenbiender.png",
+   "ui_ext": ".png"
+  },
+  "rimage_nw_m2ilsafasid__4042ab67": {
+   "stem": "rimage_nw_m2ilsafasid",
+   "size": [
+    280,
+    240
+   ],
+   "target": [
+    2048,
+    1755
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/nw_m2ilsafasid.png",
+   "ui_ext": ".png"
+  },
+  "rimage_obj_check1__0f226e77": {
+   "stem": "rimage_obj_check1",
+   "size": [
+    25,
+    24
+   ],
+   "target": [
+    200,
+    192
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/obj_check1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_parchment__dc13c3b9": {
+   "stem": "rimage_parchment",
+   "size": [
+    240,
+    312
+   ],
+   "target": [
+    1575,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/parchment.png",
+   "ui_ext": ".png"
+  },
+  "rimage_pftr1__5a9b41e2": {
+   "stem": "rimage_pftr1",
+   "size": [
+    26,
+    25
+   ],
+   "target": [
+    208,
+    200
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/pftr1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_pin1__8f053c3f": {
+   "stem": "rimage_pin1",
+   "size": [
+    76,
+    80
+   ],
+   "target": [
+    608,
+    640
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/pin1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_pin2__ba1af5d0": {
+   "stem": "rimage_pin2",
+   "size": [
+    76,
+    80
+   ],
+   "target": [
+    608,
+    640
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/pin2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_pin3__df268add": {
+   "stem": "rimage_pin3",
+   "size": [
+    76,
+    80
+   ],
+   "target": [
+    608,
+    640
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/pin3.png",
+   "ui_ext": ".png"
+  },
+  "rimage_pin4__95d642d1": {
+   "stem": "rimage_pin4",
+   "size": [
+    76,
+    80
+   ],
+   "target": [
+    608,
+    640
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/pin4.png",
+   "ui_ext": ".png"
+  },
+  "rimage_pin5__27c0ef3c": {
+   "stem": "rimage_pin5",
+   "size": [
+    76,
+    80
+   ],
+   "target": [
+    608,
+    640
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/pin5.png",
+   "ui_ext": ".png"
+  },
+  "rimage_pin6__2962aa76": {
+   "stem": "rimage_pin6",
+   "size": [
+    76,
+    80
+   ],
+   "target": [
+    608,
+    640
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/pin6.png",
+   "ui_ext": ".png"
+  },
+  "rimage_pin6_1__dd4754ab": {
+   "stem": "rimage_pin6_1",
+   "size": [
+    76,
+    80
+   ],
+   "target": [
+    608,
+    640
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/pin6_1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_pin7__c13861cc": {
+   "stem": "rimage_pin7",
+   "size": [
+    76,
+    80
+   ],
+   "target": [
+    608,
+    640
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/pin7.png",
+   "ui_ext": ".png"
+  },
+  "rimage_pin8__c1424b24": {
+   "stem": "rimage_pin8",
+   "size": [
+    76,
+    80
+   ],
+   "target": [
+    608,
+    640
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/pin8.png",
+   "ui_ext": ".png"
+  },
+  "rimage_prp0__bd53599f": {
+   "stem": "rimage_prp0",
+   "size": [
+    45,
+    45
+   ],
+   "target": [
+    360,
+    360
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/prp0.png",
+   "ui_ext": ".png"
+  },
+  "rimage_prp15__f9e52efc": {
+   "stem": "rimage_prp15",
+   "size": [
+    45,
+    45
+   ],
+   "target": [
+    360,
+    360
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/prp15.png",
+   "ui_ext": ".png"
+  },
+  "rimage_prp22__0d668f54": {
+   "stem": "rimage_prp22",
+   "size": [
+    45,
+    45
+   ],
+   "target": [
+    360,
+    360
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/prp22.png",
+   "ui_ext": ".png"
+  },
+  "rimage_prp30__68fc77bb": {
+   "stem": "rimage_prp30",
+   "size": [
+    45,
+    45
+   ],
+   "target": [
+    360,
+    360
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/prp30.png",
+   "ui_ext": ".png"
+  },
+  "rimage_prp37__142902f7": {
+   "stem": "rimage_prp37",
+   "size": [
+    45,
+    45
+   ],
+   "target": [
+    360,
+    360
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/prp37.png",
+   "ui_ext": ".png"
+  },
+  "rimage_prp7__0f7d53b0": {
+   "stem": "rimage_prp7",
+   "size": [
+    45,
+    45
+   ],
+   "target": [
+    360,
+    360
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/prp7.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rarrow__659e15a0": {
+   "stem": "rimage_rarrow",
+   "size": [
+    43,
+    36
+   ],
+   "target": [
+    344,
+    288
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rarrow.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rcircle__1b88913a": {
+   "stem": "rimage_rcircle",
+   "size": [
+    32,
+    36
+   ],
+   "target": [
+    256,
+    288
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rcircle.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rcircle_y__474abbb7": {
+   "stem": "rimage_rcircle_y",
+   "size": [
+    32,
+    36
+   ],
+   "target": [
+    256,
+    288
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rcircle_y.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m1blackhat__b35cac61": {
+   "stem": "rimage_rm-m1blackhat",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m1blackhat.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m1map__567d2eaf": {
+   "stem": "rimage_rm-m1map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/rm-m1map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m1rockyexpress__f7a6b8fa": {
+   "stem": "rimage_rm-m1rockyexpress",
+   "size": [
+    224,
+    190
+   ],
+   "target": [
+    1792,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m1rockyexpress.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m1sparks__84207d44": {
+   "stem": "rimage_rm-m1sparks",
+   "size": [
+    190,
+    230
+   ],
+   "target": [
+    1520,
+    1840
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m1sparks.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m2blackhatbrigands__64596b35": {
+   "stem": "rimage_rm-m2blackhatbrigands",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m2blackhatbrigands.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m2cloud9__07a69404": {
+   "stem": "rimage_rm-m2cloud9",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m2cloud9.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m2hoplitehlogo__56752c14": {
+   "stem": "rimage_rm-m2hoplitehlogo",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m2hoplitehlogo.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m2hoplitehughes__d2ff4d94": {
+   "stem": "rimage_rm-m2hoplitehughes",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m2hoplitehughes.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m2lucas-zachary__ba824c70": {
+   "stem": "rimage_rm-m2lucas-zachary",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m2lucas-zachary.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m2mccoy'sdiner__bf9e780f": {
+   "stem": "rimage_rm-m2mccoy'sdiner",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m2mccoy'sdiner.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m2shangri-la__a183510e": {
+   "stem": "rimage_rm-m2shangri-la",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m2shangri-la.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m2swiftjimmy__55c69e94": {
+   "stem": "rimage_rm-m2swiftjimmy",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m2swiftjimmy.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m2ulyssesboothe__4669e454": {
+   "stem": "rimage_rm-m2ulyssesboothe",
+   "size": [
+    186,
+    224
+   ],
+   "target": [
+    1488,
+    1792
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m2ulyssesboothe.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m3bootheshotdown__ee95955e": {
+   "stem": "rimage_rm-m3bootheshotdown",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m3bootheshotdown.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m3devilshorn__cf252fcf": {
+   "stem": "rimage_rm-m3devilshorn",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m3devilshorn.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m4bhmansion2__0d84a6ab": {
+   "stem": "rimage_rm-m4bhmansion2",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m4bhmansion2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m4blackhatmansion__4670cdd2": {
+   "stem": "rimage_rm-m4blackhatmansion",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m4blackhatmansion.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m4hangar__b9e03781": {
+   "stem": "rimage_rm-m4hangar",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m4hangar.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m4loadingdoc__17f1d705": {
+   "stem": "rimage_rm-m4loadingdoc",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m4loadingdoc.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m4loadingdoc2__96ed1c45": {
+   "stem": "rimage_rm-m4loadingdoc2",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m4loadingdoc2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m4roofsupport__3e8ef115": {
+   "stem": "rimage_rm-m4roofsupport",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m4roofsupport.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m4traingenerator__a915554a": {
+   "stem": "rimage_rm-m4traingenerator",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m4traingenerator.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m5blackhatzep__407c2a30": {
+   "stem": "rimage_rm-m5blackhatzep",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m5blackhatzep.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m5brigandswarhawks__bdb06bf1": {
+   "stem": "rimage_rm-m5brigandswarhawks",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m5brigandswarhawks.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m5cargo-icon1__0699afdd": {
+   "stem": "rimage_rm-m5cargo-icon1",
+   "size": [
+    49,
+    165
+   ],
+   "target": [
+    392,
+    1320
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m5cargo-icon1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m5cargozep__9bdfc5f9": {
+   "stem": "rimage_rm-m5cargozep",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m5cargozep.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m5fhtrounceblake__6c0f5f1b": {
+   "stem": "rimage_rm-m5fhtrounceblake",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m5fhtrounceblake.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m5map__f9e76f66": {
+   "stem": "rimage_rm-m5map",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rimage/rm-m5map.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m5pmakersbhawks__43386859": {
+   "stem": "rimage_rm-m5pmakersbhawks",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m5pmakersbhawks.png",
+   "ui_ext": ".png"
+  },
+  "rimage_rm-m5silohette__b0eb67b9": {
+   "stem": "rimage_rm-m5silohette",
+   "size": [
+    230,
+    190
+   ],
+   "target": [
+    1840,
+    1520
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/rm-m5silohette.png",
+   "ui_ext": ".png"
+  },
+  "rimage_sgoose_path__b30954ad": {
+   "stem": "rimage_sgoose_path",
+   "size": [
+    129,
+    313
+   ],
+   "target": [
+    844,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/sgoose_path.png",
+   "ui_ext": ".png"
+  },
+  "rimage_singledev__32339e7d": {
+   "stem": "rimage_singledev",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/singledev.png",
+   "ui_ext": ".png"
+  },
+  "rimage_singlefur__cda8893e": {
+   "stem": "rimage_singlefur",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/singlefur.png",
+   "ui_ext": ".png"
+  },
+  "rimage_sml1__cfce53af": {
+   "stem": "rimage_sml1",
+   "size": [
+    34,
+    38
+   ],
+   "target": [
+    272,
+    304
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/sml1.png",
+   "ui_ext": ".png"
+  },
+  "rimage_sml2__6dd80085": {
+   "stem": "rimage_sml2",
+   "size": [
+    33,
+    38
+   ],
+   "target": [
+    264,
+    304
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/sml2.png",
+   "ui_ext": ".png"
+  },
+  "rimage_sml3__4a652af3": {
+   "stem": "rimage_sml3",
+   "size": [
+    37,
+    37
+   ],
+   "target": [
+    296,
+    296
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/sml3.png",
+   "ui_ext": ".png"
+  },
+  "rimage_sml4__1283a752": {
+   "stem": "rimage_sml4",
+   "size": [
+    36,
+    38
+   ],
+   "target": [
+    288,
+    304
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/sml4.png",
+   "ui_ext": ".png"
+  },
+  "rimage_sml5__49951720": {
+   "stem": "rimage_sml5",
+   "size": [
+    33,
+    36
+   ],
+   "target": [
+    264,
+    288
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/sml5.png",
+   "ui_ext": ".png"
+  },
+  "rimage_sml6__439e3599": {
+   "stem": "rimage_sml6",
+   "size": [
+    31,
+    34
+   ],
+   "target": [
+    248,
+    272
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/sml6.png",
+   "ui_ext": ".png"
+  },
+  "rimage_sml7__cf93e405": {
+   "stem": "rimage_sml7",
+   "size": [
+    30,
+    35
+   ],
+   "target": [
+    240,
+    280
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/sml7.png",
+   "ui_ext": ".png"
+  },
+  "rimage_telegram__a44b3315": {
+   "stem": "rimage_telegram",
+   "size": [
+    178,
+    238
+   ],
+   "target": [
+    1424,
+    1904
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/telegram.png",
+   "ui_ext": ".png"
+  },
+  "rimage_trailer__a2c05967": {
+   "stem": "rimage_trailer",
+   "size": [
+    27,
+    80
+   ],
+   "target": [
+    216,
+    640
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/trailer.png",
+   "ui_ext": ".png"
+  },
+  "rimage_trailer_trail__6654abc4": {
+   "stem": "rimage_trailer_trail",
+   "size": [
+    299,
+    340
+   ],
+   "target": [
+    1801,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/trailer_trail.png",
+   "ui_ext": ".png"
+  },
+  "rimage_uarrow__d9e8a745": {
+   "stem": "rimage_uarrow",
+   "size": [
+    36,
+    43
+   ],
+   "target": [
+    288,
+    344
+   ],
+   "has_alpha": true,
+   "ui_src": "rimage/uarrow.png",
+   "ui_ext": ".png"
+  },
+  "gfx_ACTIVEPOINTERZ__a4e0b0f8": {
+   "stem": "gfx_ACTIVEPOINTERZ",
+   "size": [
+    40,
+    40
+   ],
+   "target": [
+    320,
+    320
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/ACTIVEPOINTERZ.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_AP_BACKGROUND__2f0c3603": {
+   "stem": "gfx_AP_BACKGROUND",
+   "size": [
+    566,
+    366
+   ],
+   "target": [
+    2048,
+    1324
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/AP_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_CM_BACKGROUND__5c1fd5a6": {
+   "stem": "gfx_CM_BACKGROUND",
+   "size": [
+    408,
+    281
+   ],
+   "target": [
+    2048,
+    1411
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/CM_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_CM_B_CANCEL__733f11a3": {
+   "stem": "gfx_CM_B_CANCEL",
+   "size": [
+    161,
+    136
+   ],
+   "target": [
+    1288,
+    1088
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/CM_B_CANCEL.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_CM_B_DELETEPLAYER__c103dd55": {
+   "stem": "gfx_CM_B_DELETEPLAYER",
+   "size": [
+    188,
+    136
+   ],
+   "target": [
+    1504,
+    1088
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/CM_B_DELETEPLAYER.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_CM_B_SCROLLBAR__0d61dfcd": {
+   "stem": "gfx_CM_B_SCROLLBAR",
+   "size": [
+    16,
+    11
+   ],
+   "target": [
+    128,
+    88
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/CM_B_SCROLLBAR.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_CM_B_SCROLLDOWN__e2176201": {
+   "stem": "gfx_CM_B_SCROLLDOWN",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/CM_B_SCROLLDOWN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_CM_B_SCROLLUP__48334958": {
+   "stem": "gfx_CM_B_SCROLLUP",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/CM_B_SCROLLUP.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_CM_B_START__8833dff1": {
+   "stem": "gfx_CM_B_START",
+   "size": [
+    113,
+    136
+   ],
+   "target": [
+    904,
+    1088
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/CM_B_START.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_CP_BACKGROUND__1b2fc7e2": {
+   "stem": "gfx_CP_BACKGROUND",
+   "size": [
+    566,
+    306
+   ],
+   "target": [
+    2048,
+    1107
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/CP_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_CP_B_KEYSANDBUTTONS__512f6e34": {
+   "stem": "gfx_CP_B_KEYSANDBUTTONS",
+   "size": [
+    236,
+    168
+   ],
+   "target": [
+    1888,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/CP_B_KEYSANDBUTTONS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_CR_ABOUTMESSAGEBOX__12b89b15": {
+   "stem": "gfx_CR_ABOUTMESSAGEBOX",
+   "size": [
+    505,
+    416
+   ],
+   "target": [
+    2048,
+    1687
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/CR_ABOUTMESSAGEBOX.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_CR_BACKGROUND__d1f7b293": {
+   "stem": "gfx_CR_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/CR_BACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_CR_B_ABOUT__6875073b": {
+   "stem": "gfx_CR_B_ABOUT",
+   "size": [
+    113,
+    136
+   ],
+   "target": [
+    904,
+    1088
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/CR_B_ABOUT.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_DZ_ZOOMGRIMEFRAME__f8ebf535": {
+   "stem": "gfx_DZ_ZOOMGRIMEFRAME",
+   "size": [
+    660,
+    500
+   ],
+   "target": [
+    2048,
+    1552
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/DZ_ZOOMGRIMEFRAME.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_EM_B_LOADGAME__815d1639": {
+   "stem": "gfx_EM_B_LOADGAME",
+   "size": [
+    224,
+    176
+   ],
+   "target": [
+    1792,
+    1408
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/EM_B_LOADGAME.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_EM_B_RESUME__ed7b014e": {
+   "stem": "gfx_EM_B_RESUME",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/EM_B_RESUME.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_EM_B_SAVEGAME__4454de83": {
+   "stem": "gfx_EM_B_SAVEGAME",
+   "size": [
+    224,
+    176
+   ],
+   "target": [
+    1792,
+    1408
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/EM_B_SAVEGAME.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_FC_BACKGROUND__46616808": {
+   "stem": "gfx_FC_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_BACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_FC_B_FLYMISSION__b5341a02": {
+   "stem": "gfx_FC_B_FLYMISSION",
+   "size": [
+    137,
+    128
+   ],
+   "target": [
+    1096,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_FLYMISSION.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_FC_B_PAPERBUTTON__7e2424aa": {
+   "stem": "gfx_FC_B_PAPERBUTTON",
+   "size": [
+    117,
+    112
+   ],
+   "target": [
+    936,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTON.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_FC_B_PAPERBUTTONEXTRALARGE__6d630f02": {
+   "stem": "gfx_FC_B_PAPERBUTTONEXTRALARGE",
+   "size": [
+    162,
+    112
+   ],
+   "target": [
+    1296,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTONEXTRALARGE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_FC_B_PAPERBUTTONLARGE__5be9194d": {
+   "stem": "gfx_FC_B_PAPERBUTTONLARGE",
+   "size": [
+    147,
+    112
+   ],
+   "target": [
+    1176,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTONLARGE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_FC_B_PAPERBUTTONMEDIUM__36025870": {
+   "stem": "gfx_FC_B_PAPERBUTTONMEDIUM",
+   "size": [
+    132,
+    112
+   ],
+   "target": [
+    1056,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTONMEDIUM.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_FC_B_RETURNTOBRIEFING__54463e2e": {
+   "stem": "gfx_FC_B_RETURNTOBRIEFING",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_RETURNTOBRIEFING.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_FC_B_SCROLLBAR__9440c0ff": {
+   "stem": "gfx_FC_B_SCROLLBAR",
+   "size": [
+    16,
+    12
+   ],
+   "target": [
+    128,
+    96
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_SCROLLBAR.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_FC_B_SCROLLDOWN__fce12ea0": {
+   "stem": "gfx_FC_B_SCROLLDOWN",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_SCROLLDOWN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_FC_B_SCROLLUP__abc2314a": {
+   "stem": "gfx_FC_B_SCROLLUP",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_SCROLLUP.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_GN_B_BUILDCUSTOMPLANE__ffdd26c6": {
+   "stem": "gfx_GN_B_BUILDCUSTOMPLANE",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_BUILDCUSTOMPLANE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_GN_B_CONTINUE__b1ede9eb": {
+   "stem": "gfx_GN_B_CONTINUE",
+   "size": [
+    112,
+    136
+   ],
+   "target": [
+    896,
+    1088
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_CONTINUE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_GN_B_LISTBOXARROWDOWN__241d4318": {
+   "stem": "gfx_GN_B_LISTBOXARROWDOWN",
+   "size": [
+    24,
+    96
+   ],
+   "target": [
+    192,
+    768
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_LISTBOXARROWDOWN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_GN_B_LISTBOXARROWSMALLDOWN__de56ee57": {
+   "stem": "gfx_GN_B_LISTBOXARROWSMALLDOWN",
+   "size": [
+    16,
+    48
+   ],
+   "target": [
+    128,
+    384
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_LISTBOXARROWSMALLDOWN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_GN_B_LISTBOXARROWSMALLUP__e1e156ae": {
+   "stem": "gfx_GN_B_LISTBOXARROWSMALLUP",
+   "size": [
+    16,
+    48
+   ],
+   "target": [
+    128,
+    384
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_LISTBOXARROWSMALLUP.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_GN_B_LISTBOXARROWUP__0dafa6e7": {
+   "stem": "gfx_GN_B_LISTBOXARROWUP",
+   "size": [
+    24,
+    96
+   ],
+   "target": [
+    192,
+    768
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_LISTBOXARROWUP.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_GN_B_RETURNTOCABIN__9ca958c4": {
+   "stem": "gfx_GN_B_RETURNTOCABIN",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_RETURNTOCABIN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_GN_B_RETURNTOGAME__6961ef8c": {
+   "stem": "gfx_GN_B_RETURNTOGAME",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_RETURNTOGAME.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_GN_SLIDER__51a0ecd8": {
+   "stem": "gfx_GN_SLIDER",
+   "size": [
+    32,
+    31
+   ],
+   "target": [
+    256,
+    248
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_SLIDER.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_GN_SLIDERBACKGROUND__9d959f81": {
+   "stem": "gfx_GN_SLIDERBACKGROUND",
+   "size": [
+    131,
+    38
+   ],
+   "target": [
+    1048,
+    304
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_SLIDERBACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_GO_BACKGROUND__03af9971": {
+   "stem": "gfx_GO_BACKGROUND",
+   "size": [
+    566,
+    289
+   ],
+   "target": [
+    2048,
+    1046
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/GO_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_BACKGROUND__7602c920": {
+   "stem": "gfx_IA_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_BACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_IA_B_EXITINSTANTACTION__cf61446c": {
+   "stem": "gfx_IA_B_EXITINSTANTACTION",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_EXITINSTANTACTION.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_FLYNEWMISSION__3bb2ef6f": {
+   "stem": "gfx_IA_B_FLYNEWMISSION",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_FLYNEWMISSION.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_LISTBOXARROWDOWN__d7f11dae": {
+   "stem": "gfx_IA_B_LISTBOXARROWDOWN",
+   "size": [
+    15,
+    56
+   ],
+   "target": [
+    120,
+    448
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_LISTBOXARROWDOWN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_LISTBOXARROWDOWN2__14cf54d9": {
+   "stem": "gfx_IA_B_LISTBOXARROWDOWN2",
+   "size": [
+    15,
+    56
+   ],
+   "target": [
+    120,
+    448
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_LISTBOXARROWDOWN2.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_LISTBOXARROWUP__0975094f": {
+   "stem": "gfx_IA_B_LISTBOXARROWUP",
+   "size": [
+    15,
+    56
+   ],
+   "target": [
+    120,
+    448
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_LISTBOXARROWUP.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_LISTBOXARROWUP2__118a478a": {
+   "stem": "gfx_IA_B_LISTBOXARROWUP2",
+   "size": [
+    15,
+    56
+   ],
+   "target": [
+    120,
+    448
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_LISTBOXARROWUP2.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_PAPERBUTTON__6baa76c1": {
+   "stem": "gfx_IA_B_PAPERBUTTON",
+   "size": [
+    132,
+    112
+   ],
+   "target": [
+    1056,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_PAPERBUTTON.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_PAPERBUTTONEXTRLARGE__be38182b": {
+   "stem": "gfx_IA_B_PAPERBUTTONEXTRLARGE",
+   "size": [
+    162,
+    112
+   ],
+   "target": [
+    1296,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_PAPERBUTTONEXTRLARGE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_PAPERBUTTONLARGE__bc3cc5de": {
+   "stem": "gfx_IA_B_PAPERBUTTONLARGE",
+   "size": [
+    147,
+    112
+   ],
+   "target": [
+    1176,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_PAPERBUTTONLARGE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_SCROLLBAR__33130acb": {
+   "stem": "gfx_IA_B_SCROLLBAR",
+   "size": [
+    16,
+    11
+   ],
+   "target": [
+    128,
+    88
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_SCROLLBAR.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_SCROLLDOWN__dfec8f6b": {
+   "stem": "gfx_IA_B_SCROLLDOWN",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_SCROLLDOWN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_SCROLLUP__a5bda373": {
+   "stem": "gfx_IA_B_SCROLLUP",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_SCROLLUP.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_VIEWSTORY__640e4577": {
+   "stem": "gfx_IA_B_VIEWSTORY",
+   "size": [
+    117,
+    112
+   ],
+   "target": [
+    936,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_VIEWSTORY.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_B_WEAPONLOADOUTFLYMISSION__21cd85df": {
+   "stem": "gfx_IA_B_WEAPONLOADOUTFLYMISSION",
+   "size": [
+    132,
+    112
+   ],
+   "target": [
+    1056,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_WEAPONLOADOUTFLYMISSION.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_IA_STATSCREENBACKGROUND__b2d4b065": {
+   "stem": "gfx_IA_STATSCREENBACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_STATSCREENBACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_KB_BACKGROUND__f740f5a4": {
+   "stem": "gfx_KB_BACKGROUND",
+   "size": [
+    788,
+    382
+   ],
+   "target": [
+    2048,
+    993
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/KB_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_KB_B_RESETTODEFAULT__f19bf57f": {
+   "stem": "gfx_KB_B_RESETTODEFAULT",
+   "size": [
+    236,
+    168
+   ],
+   "target": [
+    1888,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/KB_B_RESETTODEFAULT.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_KB_B_SCROLLBAR__b84b5c6c": {
+   "stem": "gfx_KB_B_SCROLLBAR",
+   "size": [
+    16,
+    11
+   ],
+   "target": [
+    128,
+    88
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/KB_B_SCROLLBAR.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_KB_B_SCROLLDOWN__dfec8f6b": {
+   "stem": "gfx_KB_B_SCROLLDOWN",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/KB_B_SCROLLDOWN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_KB_B_SCROLLUP__31cdb0f9": {
+   "stem": "gfx_KB_B_SCROLLUP",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/KB_B_SCROLLUP.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_LS_BACKGROUND__2831c516": {
+   "stem": "gfx_LS_BACKGROUND",
+   "size": [
+    408,
+    281
+   ],
+   "target": [
+    2048,
+    1411
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/LS_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_LS_B_DELETEGAME__16f973f3": {
+   "stem": "gfx_LS_B_DELETEGAME",
+   "size": [
+    188,
+    136
+   ],
+   "target": [
+    1504,
+    1088
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/LS_B_DELETEGAME.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_LS_B_LOAD__0cf777be": {
+   "stem": "gfx_LS_B_LOAD",
+   "size": [
+    112,
+    136
+   ],
+   "target": [
+    896,
+    1088
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/LS_B_LOAD.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_LS_B_SAVE__2890a508": {
+   "stem": "gfx_LS_B_SAVE",
+   "size": [
+    112,
+    136
+   ],
+   "target": [
+    896,
+    1088
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/LS_B_SAVE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MAINMENUBUTTONSSTRUCTURE__5cdb823d": {
+   "stem": "gfx_MAINMENUBUTTONSSTRUCTURE",
+   "size": [
+    310,
+    344
+   ],
+   "target": [
+    1846,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MAINMENUBUTTONSSTRUCTURE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MB_BACKGROUND__09ff9799": {
+   "stem": "gfx_MB_BACKGROUND",
+   "size": [
+    410,
+    300
+   ],
+   "target": [
+    2048,
+    1499
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MB_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MB_B_BUTTONS__dcb0235c": {
+   "stem": "gfx_MB_B_BUTTONS",
+   "size": [
+    62,
+    76
+   ],
+   "target": [
+    496,
+    608
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MB_B_BUTTONS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MB_B_ICON__ff8c2ced": {
+   "stem": "gfx_MB_B_ICON",
+   "size": [
+    43,
+    126
+   ],
+   "target": [
+    344,
+    1008
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MB_B_ICON.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MISSION_BACKGROUND__43fc4e88": {
+   "stem": "gfx_MISSION_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/MISSION_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MM_BACKGROUND__9032991c": {
+   "stem": "gfx_MM_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MM_B_CAMPAIGN__21a26806": {
+   "stem": "gfx_MM_B_CAMPAIGN",
+   "size": [
+    242,
+    200
+   ],
+   "target": [
+    1936,
+    1600
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_CAMPAIGN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MM_B_CREDITS__c18eac20": {
+   "stem": "gfx_MM_B_CREDITS",
+   "size": [
+    197,
+    168
+   ],
+   "target": [
+    1576,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_CREDITS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MM_B_INSTANTACTION__fd0deff0": {
+   "stem": "gfx_MM_B_INSTANTACTION",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_INSTANTACTION.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MM_B_MULTIPLAYER__896d698f": {
+   "stem": "gfx_MM_B_MULTIPLAYER",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_MULTIPLAYER.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MM_B_PREFERENCES__f6180e86": {
+   "stem": "gfx_MM_B_PREFERENCES",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_PREFERENCES.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MM_B_QUIT__15e16f38": {
+   "stem": "gfx_MM_B_QUIT",
+   "size": [
+    197,
+    168
+   ],
+   "target": [
+    1576,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_QUIT.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MM_LOGO__e36e56c3": {
+   "stem": "gfx_MM_LOGO",
+   "size": [
+    544,
+    240
+   ],
+   "target": [
+    2048,
+    904
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_LOGO.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MM_SPLASHBACKGROUND__488faba6": {
+   "stem": "gfx_MM_SPLASHBACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_SPLASHBACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_MP_B_CHECKBOX__e8929131": {
+   "stem": "gfx_MP_B_CHECKBOX",
+   "size": [
+    11,
+    44
+   ],
+   "target": [
+    88,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_CHECKBOX.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_EXITMULTIPLAYER__04dbbfe5": {
+   "stem": "gfx_MP_B_EXITMULTIPLAYER",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_EXITMULTIPLAYER.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_LARGE__49dd0873": {
+   "stem": "gfx_MP_B_LARGE",
+   "size": [
+    131,
+    148
+   ],
+   "target": [
+    1048,
+    1184
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_LARGE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_LISTBOXARROW__f1baf9fb": {
+   "stem": "gfx_MP_B_LISTBOXARROW",
+   "size": [
+    24,
+    24
+   ],
+   "target": [
+    192,
+    192
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_LISTBOXARROW.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_MEDIUM__5148e55a": {
+   "stem": "gfx_MP_B_MEDIUM",
+   "size": [
+    96,
+    148
+   ],
+   "target": [
+    768,
+    1184
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_MEDIUM.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_PLANESELECTLONGTAB__285af45b": {
+   "stem": "gfx_MP_B_PLANESELECTLONGTAB",
+   "size": [
+    119,
+    46
+   ],
+   "target": [
+    952,
+    368
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_PLANESELECTLONGTAB.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_RADIO__4fb48cbd": {
+   "stem": "gfx_MP_B_RADIO",
+   "size": [
+    18,
+    72
+   ],
+   "target": [
+    144,
+    576
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_RADIO.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_RADIOSMALL__97e4dd6b": {
+   "stem": "gfx_MP_B_RADIOSMALL",
+   "size": [
+    12,
+    48
+   ],
+   "target": [
+    96,
+    384
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_RADIOSMALL.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_READYCHECKBOX__6954ae6f": {
+   "stem": "gfx_MP_B_READYCHECKBOX",
+   "size": [
+    30,
+    65
+   ],
+   "target": [
+    240,
+    520
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_READYCHECKBOX.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_SCROLLBAR__6d2cbf64": {
+   "stem": "gfx_MP_B_SCROLLBAR",
+   "size": [
+    16,
+    11
+   ],
+   "target": [
+    128,
+    88
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_SCROLLBAR.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_SCROLLDOWN__dfec8f6b": {
+   "stem": "gfx_MP_B_SCROLLDOWN",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_SCROLLDOWN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_SCROLLUP__31cdb0f9": {
+   "stem": "gfx_MP_B_SCROLLUP",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_SCROLLUP.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_B_SMALL__d8ea1d34": {
+   "stem": "gfx_MP_B_SMALL",
+   "size": [
+    74,
+    148
+   ],
+   "target": [
+    592,
+    1184
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_SMALL.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_CREATETEAMBACKGROUND__ded56cfe": {
+   "stem": "gfx_MP_CREATETEAMBACKGROUND",
+   "size": [
+    336,
+    408
+   ],
+   "target": [
+    1687,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_CREATETEAMBACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_ERRORMESSAGEBACKGROUND__064f4691": {
+   "stem": "gfx_MP_ERRORMESSAGEBACKGROUND",
+   "size": [
+    380,
+    206
+   ],
+   "target": [
+    2048,
+    1110
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_ERRORMESSAGEBACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_MP_GAMEINFOBACKGROUND__8a846dcf": {
+   "stem": "gfx_MP_GAMEINFOBACKGROUND",
+   "size": [
+    376,
+    387
+   ],
+   "target": [
+    1990,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_GAMEINFOBACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_GAMESALPHA__c1f66a6d": {
+   "stem": "gfx_MP_GAMESALPHA",
+   "size": [
+    689,
+    341
+   ],
+   "target": [
+    2048,
+    1014
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_GAMESALPHA.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_GAMESBACKGROUND__701167e8": {
+   "stem": "gfx_MP_GAMESBACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_GAMESBACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_MP_LOBBY_AMMO__7f74ae88": {
+   "stem": "gfx_MP_LOBBY_AMMO",
+   "size": [
+    463,
+    324
+   ],
+   "target": [
+    2048,
+    1433
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_LOBBY_AMMO.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_LOBBY_BACKGROUND__e701d673": {
+   "stem": "gfx_MP_LOBBY_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_LOBBY_BACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_MP_LOBBY_MISSION__0818a359": {
+   "stem": "gfx_MP_LOBBY_MISSION",
+   "size": [
+    463,
+    324
+   ],
+   "target": [
+    2048,
+    1433
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_LOBBY_MISSION.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_LOBBY_OUTLAWED__6dec4f8f": {
+   "stem": "gfx_MP_LOBBY_OUTLAWED",
+   "size": [
+    463,
+    324
+   ],
+   "target": [
+    2048,
+    1433
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_LOBBY_OUTLAWED.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_LOBBY_OUTLAWEDTAB1__25ae3ddc": {
+   "stem": "gfx_MP_LOBBY_OUTLAWEDTAB1",
+   "size": [
+    96,
+    48
+   ],
+   "target": [
+    768,
+    384
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_LOBBY_OUTLAWEDTAB1.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_LOBBY_OUTLAWEDTAB2__e2d546f5": {
+   "stem": "gfx_MP_LOBBY_OUTLAWEDTAB2",
+   "size": [
+    80,
+    48
+   ],
+   "target": [
+    640,
+    384
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_LOBBY_OUTLAWEDTAB2.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_LOBBY_PLANE__e7f5c323": {
+   "stem": "gfx_MP_LOBBY_PLANE",
+   "size": [
+    463,
+    324
+   ],
+   "target": [
+    2048,
+    1433
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_LOBBY_PLANE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_LOBBY_STATSCREEN__68bd4eee": {
+   "stem": "gfx_MP_LOBBY_STATSCREEN",
+   "size": [
+    463,
+    324
+   ],
+   "target": [
+    2048,
+    1433
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_LOBBY_STATSCREEN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_LOBBY_TABLARGE__9acb308a": {
+   "stem": "gfx_MP_LOBBY_TABLARGE",
+   "size": [
+    119,
+    92
+   ],
+   "target": [
+    952,
+    736
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_LOBBY_TABLARGE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_LOBBY_TABMEDIUM__3bbd5904": {
+   "stem": "gfx_MP_LOBBY_TABMEDIUM",
+   "size": [
+    80,
+    92
+   ],
+   "target": [
+    640,
+    736
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_LOBBY_TABMEDIUM.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_LOBBY_TABSMALL__aa71b9b1": {
+   "stem": "gfx_MP_LOBBY_TABSMALL",
+   "size": [
+    69,
+    92
+   ],
+   "target": [
+    552,
+    736
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_LOBBY_TABSMALL.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MP_OPTIONSBACKGROUND__f9ece7ce": {
+   "stem": "gfx_MP_OPTIONSBACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_OPTIONSBACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_MP_PLAYERINFOBACKGROUND__c835bb18": {
+   "stem": "gfx_MP_PLAYERINFOBACKGROUND",
+   "size": [
+    372,
+    381
+   ],
+   "target": [
+    2000,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_PLAYERINFOBACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MS_BACKGROUND2__af78809c": {
+   "stem": "gfx_MS_BACKGROUND2",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MS_BACKGROUND2.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MS_B_ACCEPTCHANGES__9f38681e": {
+   "stem": "gfx_MS_B_ACCEPTCHANGES",
+   "size": [
+    182,
+    128
+   ],
+   "target": [
+    1456,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MS_B_ACCEPTCHANGES.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MS_B_CANCELCHANGES__6562576d": {
+   "stem": "gfx_MS_B_CANCELCHANGES",
+   "size": [
+    182,
+    128
+   ],
+   "target": [
+    1456,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MS_B_CANCELCHANGES.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MS_B_DONE__b66f7825": {
+   "stem": "gfx_MS_B_DONE",
+   "size": [
+    136,
+    128
+   ],
+   "target": [
+    1088,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MS_B_DONE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MS_B_RETURNTOSCRAPBOOK__0676d167": {
+   "stem": "gfx_MS_B_RETURNTOSCRAPBOOK",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MS_B_RETURNTOSCRAPBOOK.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MS_HOURGLASS__92881811": {
+   "stem": "gfx_MS_HOURGLASS",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MS_HOURGLASS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_MS_REFLECTION2__67cfa1e3": {
+   "stem": "gfx_MS_REFLECTION2",
+   "size": [
+    370,
+    467
+   ],
+   "target": [
+    1623,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/MS_REFLECTION2.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_OL_BACKGROUND__f63c77fd": {
+   "stem": "gfx_OL_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/OL_BACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_OL_B_ACCEPTLOADOUT__0b01fd75": {
+   "stem": "gfx_OL_B_ACCEPTLOADOUT",
+   "size": [
+    182,
+    128
+   ],
+   "target": [
+    1456,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/OL_B_ACCEPTLOADOUT.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_OL_B_CANCELLOADOUT__8a65151d": {
+   "stem": "gfx_OL_B_CANCELLOADOUT",
+   "size": [
+    182,
+    128
+   ],
+   "target": [
+    1456,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/OL_B_CANCELLOADOUT.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PASSIVEPOINTERZ__18a5dc9a": {
+   "stem": "gfx_PASSIVEPOINTERZ",
+   "size": [
+    40,
+    40
+   ],
+   "target": [
+    320,
+    320
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PASSIVEPOINTERZ.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PC_BACKGROUND__cfc7c089": {
+   "stem": "gfx_PC_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PC_B_CHANGEMEMENTO__c5d764e8": {
+   "stem": "gfx_PC_B_CHANGEMEMENTO",
+   "size": [
+    182,
+    128
+   ],
+   "target": [
+    1456,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_CHANGEMEMENTO.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PC_B_NEXTMISSION__5269534c": {
+   "stem": "gfx_PC_B_NEXTMISSION",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_NEXTMISSION.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PC_B_PLANECONSTRUCTION__ca5e8a80": {
+   "stem": "gfx_PC_B_PLANECONSTRUCTION",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_PLANECONSTRUCTION.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PC_B_PREVIOUSMISSIONS__e037531a": {
+   "stem": "gfx_PC_B_PREVIOUSMISSIONS",
+   "size": [
+    201,
+    129
+   ],
+   "target": [
+    1608,
+    1032
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_PREVIOUSMISSIONS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PC_B_RETURNMAINMENU__3fc4120f": {
+   "stem": "gfx_PC_B_RETURNMAINMENU",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_RETURNMAINMENU.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PC_B_SAVEGAME__eee57003": {
+   "stem": "gfx_PC_B_SAVEGAME",
+   "size": [
+    182,
+    128
+   ],
+   "target": [
+    1456,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_SAVEGAME.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PC_MAPPINS__0c2cb8f0": {
+   "stem": "gfx_PC_MAPPINS",
+   "size": [
+    50,
+    100
+   ],
+   "target": [
+    400,
+    800
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_MAPPINS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PC_MEMENTOPICFRAME__e465ebf2": {
+   "stem": "gfx_PC_MEMENTOPICFRAME",
+   "size": [
+    93,
+    115
+   ],
+   "target": [
+    744,
+    920
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_MEMENTOPICFRAME.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PC_PLANETEMP__d75aca4e": {
+   "stem": "gfx_PC_PLANETEMP",
+   "size": [
+    728,
+    339
+   ],
+   "target": [
+    2048,
+    954
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_PLANETEMP.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PC_P_HANGAR0__09b5acab": {
+   "stem": "gfx_PC_P_HANGAR0",
+   "size": [
+    720,
+    334
+   ],
+   "target": [
+    2048,
+    950
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_P_HANGAR0.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PC_P_HANGAR1__67dcc507": {
+   "stem": "gfx_PC_P_HANGAR1",
+   "size": [
+    720,
+    334
+   ],
+   "target": [
+    2048,
+    950
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_P_HANGAR1.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PC_P_HANGAR10__50dbc3bb": {
+   "stem": "gfx_PC_P_HANGAR10",
+   "size": [
+    720,
+    334
+   ],
+   "target": [
+    2048,
+    950
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_P_HANGAR10.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PC_P_HANGAR2__5417b171": {
+   "stem": "gfx_PC_P_HANGAR2",
+   "size": [
+    720,
+    334
+   ],
+   "target": [
+    2048,
+    950
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_P_HANGAR2.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PC_P_HANGAR3__bbc759c7": {
+   "stem": "gfx_PC_P_HANGAR3",
+   "size": [
+    720,
+    334
+   ],
+   "target": [
+    2048,
+    950
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_P_HANGAR3.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PC_P_HANGAR4__81bd2c96": {
+   "stem": "gfx_PC_P_HANGAR4",
+   "size": [
+    720,
+    334
+   ],
+   "target": [
+    2048,
+    950
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_P_HANGAR4.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PC_P_HANGAR5__541c480a": {
+   "stem": "gfx_PC_P_HANGAR5",
+   "size": [
+    720,
+    334
+   ],
+   "target": [
+    2048,
+    950
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_P_HANGAR5.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PC_P_HANGAR6__27824018": {
+   "stem": "gfx_PC_P_HANGAR6",
+   "size": [
+    720,
+    334
+   ],
+   "target": [
+    2048,
+    950
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_P_HANGAR6.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PC_P_HANGAR7__2d09aaa0": {
+   "stem": "gfx_PC_P_HANGAR7",
+   "size": [
+    720,
+    334
+   ],
+   "target": [
+    2048,
+    950
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_P_HANGAR7.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PC_P_HANGAR8__eab83fdf": {
+   "stem": "gfx_PC_P_HANGAR8",
+   "size": [
+    720,
+    334
+   ],
+   "target": [
+    2048,
+    950
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_P_HANGAR8.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PC_P_HANGAR9__e5e7bfe2": {
+   "stem": "gfx_PC_P_HANGAR9",
+   "size": [
+    720,
+    334
+   ],
+   "target": [
+    2048,
+    950
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_P_HANGAR9.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PF_BACKGROUND__2a12aa36": {
+   "stem": "gfx_PF_BACKGROUND",
+   "size": [
+    566,
+    331
+   ],
+   "target": [
+    2048,
+    1198
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PF_B_ACCEPTCHANGES__113c2a85": {
+   "stem": "gfx_PF_B_ACCEPTCHANGES",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_ACCEPTCHANGES.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PF_B_AUDIO__2ded3062": {
+   "stem": "gfx_PF_B_AUDIO",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_AUDIO.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PF_B_CANCELCHANGES__09cd628b": {
+   "stem": "gfx_PF_B_CANCELCHANGES",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_CANCELCHANGES.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PF_B_CONTROLS__1812d97f": {
+   "stem": "gfx_PF_B_CONTROLS",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_CONTROLS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PF_B_GAMEOPTIONS__882f65d6": {
+   "stem": "gfx_PF_B_GAMEOPTIONS",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_GAMEOPTIONS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PF_B_MAINMENU__e9d287ae": {
+   "stem": "gfx_PF_B_MAINMENU",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_MAINMENU.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PF_B_SLIDER__18019bda": {
+   "stem": "gfx_PF_B_SLIDER",
+   "size": [
+    43,
+    21
+   ],
+   "target": [
+    344,
+    168
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_SLIDER.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PF_B_VIDEO__6650d56f": {
+   "stem": "gfx_PF_B_VIDEO",
+   "size": [
+    221,
+    168
+   ],
+   "target": [
+    1768,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_VIDEO.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PS_BACKGROUND__6105e891": {
+   "stem": "gfx_PS_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PS_BACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PS_B_ACCEPTSELECTIONS__acbfb683": {
+   "stem": "gfx_PS_B_ACCEPTSELECTIONS",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PS_B_ACCEPTSELECTIONS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PS_B_BUILDNEWPLANE__e596f64d": {
+   "stem": "gfx_PS_B_BUILDNEWPLANE",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PS_B_BUILDNEWPLANE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PS_B_CANCELSELECTIONS__6fa4e0d9": {
+   "stem": "gfx_PS_B_CANCELSELECTIONS",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PS_B_CANCELSELECTIONS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_0_BLUEPRINT__613b2fb9": {
+   "stem": "gfx_PX_0_BLUEPRINT",
+   "size": [
+    358,
+    335
+   ],
+   "target": [
+    2048,
+    1916
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_0_BLUEPRINT.TGA",
+   "ui_ext": ".tga"
+  },
+  "gfx_PX_10_BLUEPRINT__220b1ae7": {
+   "stem": "gfx_PX_10_BLUEPRINT",
+   "size": [
+    358,
+    335
+   ],
+   "target": [
+    2048,
+    1916
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_10_BLUEPRINT.TGA",
+   "ui_ext": ".tga"
+  },
+  "gfx_PX_1_BLUEPRINT__864e4225": {
+   "stem": "gfx_PX_1_BLUEPRINT",
+   "size": [
+    358,
+    335
+   ],
+   "target": [
+    2048,
+    1916
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_1_BLUEPRINT.TGA",
+   "ui_ext": ".tga"
+  },
+  "gfx_PX_2_BLUEPRINT__db7e522e": {
+   "stem": "gfx_PX_2_BLUEPRINT",
+   "size": [
+    358,
+    335
+   ],
+   "target": [
+    2048,
+    1916
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_2_BLUEPRINT.TGA",
+   "ui_ext": ".tga"
+  },
+  "gfx_PX_3_BLUEPRINT__8dde54de": {
+   "stem": "gfx_PX_3_BLUEPRINT",
+   "size": [
+    358,
+    335
+   ],
+   "target": [
+    2048,
+    1916
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_3_BLUEPRINT.TGA",
+   "ui_ext": ".tga"
+  },
+  "gfx_PX_4_BLUEPRINT__2be26a6a": {
+   "stem": "gfx_PX_4_BLUEPRINT",
+   "size": [
+    358,
+    335
+   ],
+   "target": [
+    2048,
+    1916
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_4_BLUEPRINT.TGA",
+   "ui_ext": ".tga"
+  },
+  "gfx_PX_5_BLUEPRINT__aaadc9c1": {
+   "stem": "gfx_PX_5_BLUEPRINT",
+   "size": [
+    358,
+    335
+   ],
+   "target": [
+    2048,
+    1916
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_5_BLUEPRINT.TGA",
+   "ui_ext": ".tga"
+  },
+  "gfx_PX_6_BLUEPRINT__2b5a7b93": {
+   "stem": "gfx_PX_6_BLUEPRINT",
+   "size": [
+    358,
+    335
+   ],
+   "target": [
+    2048,
+    1916
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_6_BLUEPRINT.TGA",
+   "ui_ext": ".tga"
+  },
+  "gfx_PX_7_BLUEPRINT__9d777256": {
+   "stem": "gfx_PX_7_BLUEPRINT",
+   "size": [
+    358,
+    335
+   ],
+   "target": [
+    2048,
+    1916
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_7_BLUEPRINT.TGA",
+   "ui_ext": ".tga"
+  },
+  "gfx_PX_8_BLUEPRINT__ee11a515": {
+   "stem": "gfx_PX_8_BLUEPRINT",
+   "size": [
+    358,
+    335
+   ],
+   "target": [
+    2048,
+    1916
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_8_BLUEPRINT.TGA",
+   "ui_ext": ".tga"
+  },
+  "gfx_PX_9_BLUEPRINT__5d0fddf4": {
+   "stem": "gfx_PX_9_BLUEPRINT",
+   "size": [
+    358,
+    335
+   ],
+   "target": [
+    2048,
+    1916
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_9_BLUEPRINT.TGA",
+   "ui_ext": ".tga"
+  },
+  "gfx_PX_BACKGROUND__a1cbf0f4": {
+   "stem": "gfx_PX_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_BACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_PX_BARGRAPH__cfe062d2": {
+   "stem": "gfx_PX_BARGRAPH",
+   "size": [
+    34,
+    16
+   ],
+   "target": [
+    272,
+    128
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_BARGRAPH.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_CANCELEXPORT__b488505e": {
+   "stem": "gfx_PX_B_CANCELEXPORT",
+   "size": [
+    182,
+    128
+   ],
+   "target": [
+    1456,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_CANCELEXPORT.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_CANCELPURCHASE__c88314b2": {
+   "stem": "gfx_PX_B_CANCELPURCHASE",
+   "size": [
+    182,
+    128
+   ],
+   "target": [
+    1456,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_CANCELPURCHASE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_CHECK__1a9b0b0f": {
+   "stem": "gfx_PX_B_CHECK",
+   "size": [
+    11,
+    44
+   ],
+   "target": [
+    88,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_CHECK.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_EXPORTDESIGN__f24e1e8d": {
+   "stem": "gfx_PX_B_EXPORTDESIGN",
+   "size": [
+    182,
+    128
+   ],
+   "target": [
+    1456,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_EXPORTDESIGN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_OKCANCEL__5c5f3f98": {
+   "stem": "gfx_PX_B_OKCANCEL",
+   "size": [
+    77,
+    88
+   ],
+   "target": [
+    616,
+    704
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_OKCANCEL.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_PURCHASENOW__1b4a1590": {
+   "stem": "gfx_PX_B_PURCHASENOW",
+   "size": [
+    159,
+    152
+   ],
+   "target": [
+    1272,
+    1216
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_PURCHASENOW.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_READYTOEXPORT__39884307": {
+   "stem": "gfx_PX_B_READYTOEXPORT",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_READYTOEXPORT.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_READYTOPURCHASE__0f555dc7": {
+   "stem": "gfx_PX_B_READYTOPURCHASE",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_READYTOPURCHASE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_SCROLLBAR__a29872d0": {
+   "stem": "gfx_PX_B_SCROLLBAR",
+   "size": [
+    16,
+    12
+   ],
+   "target": [
+    128,
+    96
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_SCROLLBAR.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_SCROLLDOWN__07d00e94": {
+   "stem": "gfx_PX_B_SCROLLDOWN",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_SCROLLDOWN.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_SCROLLUP__ac1f2605": {
+   "stem": "gfx_PX_B_SCROLLUP",
+   "size": [
+    16,
+    44
+   ],
+   "target": [
+    128,
+    352
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_SCROLLUP.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_B_SELLPLANES__ec8b3d7e": {
+   "stem": "gfx_PX_B_SELLPLANES",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_SELLPLANES.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_PLANEICONS__07e47bf2": {
+   "stem": "gfx_PX_PLANEICONS",
+   "size": [
+    316,
+    297
+   ],
+   "target": [
+    2048,
+    1925
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_PLANEICONS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_PLANENAMEBACKGROUND__79d14edb": {
+   "stem": "gfx_PX_PLANENAMEBACKGROUND",
+   "size": [
+    264,
+    177
+   ],
+   "target": [
+    2048,
+    1373
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_PLANENAMEBACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_SCROLLBOX1-5__115d018d": {
+   "stem": "gfx_PX_SCROLLBOX1-5",
+   "size": [
+    341,
+    165
+   ],
+   "target": [
+    2048,
+    991
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_SCROLLBOX1-5.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_SCROLLBOX6__6bd7f47c": {
+   "stem": "gfx_PX_SCROLLBOX6",
+   "size": [
+    341,
+    102
+   ],
+   "target": [
+    2048,
+    613
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_SCROLLBOX6.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_PX_TAB__0b820126": {
+   "stem": "gfx_PX_TAB",
+   "size": [
+    115,
+    144
+   ],
+   "target": [
+    920,
+    1152
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_TAB.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_SB_BACKGROUND__aa303657": {
+   "stem": "gfx_SB_BACKGROUND",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_BACKGROUND.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_SB_BACKGROUNDTOC__f75ee10d": {
+   "stem": "gfx_SB_BACKGROUNDTOC",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_BACKGROUNDTOC.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_SB_BG_BZOOMNEWS__6024d318": {
+   "stem": "gfx_SB_BG_BZOOMNEWS",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_BG_BZOOMNEWS.JPG",
+   "ui_ext": ".jpg"
+  },
+  "gfx_SB_B_BACK_TAB__05ed2f21": {
+   "stem": "gfx_SB_B_BACK_TAB",
+   "size": [
+    96,
+    192
+   ],
+   "target": [
+    768,
+    1536
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_B_BACK_TAB.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_SB_B_CURRENTMISSIONTAB__72168453": {
+   "stem": "gfx_SB_B_CURRENTMISSIONTAB",
+   "size": [
+    114,
+    160
+   ],
+   "target": [
+    912,
+    1280
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_B_CURRENTMISSIONTAB.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_SB_B_EXPORTTODESKTOP__a9b045d9": {
+   "stem": "gfx_SB_B_EXPORTTODESKTOP",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_B_EXPORTTODESKTOP.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_SB_B_MORE_TAB__224fec83": {
+   "stem": "gfx_SB_B_MORE_TAB",
+   "size": [
+    96,
+    192
+   ],
+   "target": [
+    768,
+    1536
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_B_MORE_TAB.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_SB_B_PAPERBUTTON__4b403473": {
+   "stem": "gfx_SB_B_PAPERBUTTON",
+   "size": [
+    130,
+    112
+   ],
+   "target": [
+    1040,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_B_PAPERBUTTON.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_SB_B_PAPERBUTTONEXTRALARGE__e527d013": {
+   "stem": "gfx_SB_B_PAPERBUTTONEXTRALARGE",
+   "size": [
+    162,
+    112
+   ],
+   "target": [
+    1296,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_B_PAPERBUTTONEXTRALARGE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_SB_B_PAPERBUTTONLARGE__02f5686b": {
+   "stem": "gfx_SB_B_PAPERBUTTONLARGE",
+   "size": [
+    147,
+    112
+   ],
+   "target": [
+    1176,
+    896
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_B_PAPERBUTTONLARGE.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_SB_B_STATCARDTAB__5efc35c7": {
+   "stem": "gfx_SB_B_STATCARDTAB",
+   "size": [
+    128,
+    124
+   ],
+   "target": [
+    1024,
+    992
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_B_STATCARDTAB.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_SB_B_VIEWALLMISSIONS__4e718a60": {
+   "stem": "gfx_SB_B_VIEWALLMISSIONS",
+   "size": [
+    200,
+    128
+   ],
+   "target": [
+    1600,
+    1024
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_B_VIEWALLMISSIONS.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_SB_P_CARD__ba55e820": {
+   "stem": "gfx_SB_P_CARD",
+   "size": [
+    354,
+    480
+   ],
+   "target": [
+    1510,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_P_CARD.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_VP_BACKGROUND__45976173": {
+   "stem": "gfx_VP_BACKGROUND",
+   "size": [
+    788,
+    382
+   ],
+   "target": [
+    2048,
+    993
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/VP_BACKGROUND.PNG",
+   "ui_ext": ".png"
+  },
+  "gfx_ZOOMPOINTER__0964ebee": {
+   "stem": "gfx_ZOOMPOINTER",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/ZOOMPOINTER.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_DZ_GENERIC_CORNERS__d893037b": {
+   "stem": "scrap_DZ_GENERIC_CORNERS",
+   "size": [
+    169,
+    136
+   ],
+   "target": [
+    1352,
+    1088
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/DZ_GENERIC_CORNERS.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_02_01_HAWAIIANPRINCES2__1955c2f3": {
+   "stem": "scrap_MS_P_02_01_HAWAIIANPRINCES2",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_02_01_HAWAIIANPRINCES2.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_02_01_HAWAIIANPRINCES2__0110fec6": {
+   "stem": "scrap_MS_P_02_01_HAWAIIANPRINCES2",
+   "size": [
+    215,
+    250
+   ],
+   "target": [
+    1720,
+    2000
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_02_01_HAWAIIANPRINCES2.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_02_01_HAWAIIANPRINCES2__30bd314f": {
+   "stem": "scrap_MS_P_02_01_HAWAIIANPRINCES2",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_02_01_HAWAIIANPRINCES2.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_05_01_TREASUREGIRL__ce7f03f3": {
+   "stem": "scrap_MS_P_05_01_TREASUREGIRL",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_05_01_TREASUREGIRL.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_05_01_TREASUREGIRL__c961a7a4": {
+   "stem": "scrap_MS_P_05_01_TREASUREGIRL",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_05_01_TREASUREGIRL.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_06_02_BSWANPORTRAIT__23e26f0c": {
+   "stem": "scrap_MS_P_06_02_BSWANPORTRAIT",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_06_02_BSWANPORTRAIT.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_06_02_BSWANPORTRAIT__1a8bd954": {
+   "stem": "scrap_MS_P_06_02_BSWANPORTRAIT",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_06_02_BSWANPORTRAIT.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_10_01_SOLDIERGIRL__76d7a4a0": {
+   "stem": "scrap_MS_P_10_01_SOLDIERGIRL",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_10_01_SOLDIERGIRL.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_10_01_SOLDIERGIRL__7c65512a": {
+   "stem": "scrap_MS_P_10_01_SOLDIERGIRL",
+   "size": [
+    227,
+    263
+   ],
+   "target": [
+    1768,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_10_01_SOLDIERGIRL.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_10_01_SOLDIERGIRL__bbe2b1ec": {
+   "stem": "scrap_MS_P_10_01_SOLDIERGIRL",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_10_01_SOLDIERGIRL.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_11_01_LANACOOPERGLAM__135f8905": {
+   "stem": "scrap_MS_P_11_01_LANACOOPERGLAM",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_11_01_LANACOOPERGLAM.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_11_01_LANACOOPERGLAM__445768fe": {
+   "stem": "scrap_MS_P_11_01_LANACOOPERGLAM",
+   "size": [
+    206,
+    240
+   ],
+   "target": [
+    1648,
+    1920
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_11_01_LANACOOPERGLAM.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_11_01_LANACOOPERGLAM__fce7d933": {
+   "stem": "scrap_MS_P_11_01_LANACOOPERGLAM",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_11_01_LANACOOPERGLAM.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_12_01_BETTYSSCREENTEST2__b4543f36": {
+   "stem": "scrap_MS_P_12_01_BETTYSSCREENTEST2",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_12_01_BETTYSSCREENTEST2.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_12_01_BETTYSSCREENTEST2__61619e3e": {
+   "stem": "scrap_MS_P_12_01_BETTYSSCREENTEST2",
+   "size": [
+    195,
+    227
+   ],
+   "target": [
+    1560,
+    1816
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_12_01_BETTYSSCREENTEST2.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_12_01_BETTYSSCREENTEST2__83cd4786": {
+   "stem": "scrap_MS_P_12_01_BETTYSSCREENTEST2",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_12_01_BETTYSSCREENTEST2.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_12_02_CHARLIE__6136e194": {
+   "stem": "scrap_MS_P_12_02_CHARLIE",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_12_02_CHARLIE.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_12_02_CHARLIE__f190a5e9": {
+   "stem": "scrap_MS_P_12_02_CHARLIE",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_12_02_CHARLIE.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_13_02_NATHANGETSTROPHY__29b2441a": {
+   "stem": "scrap_MS_P_13_02_NATHANGETSTROPHY",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_13_02_NATHANGETSTROPHY.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_13_02_NATHANGETSTROPHY__48a14f25": {
+   "stem": "scrap_MS_P_13_02_NATHANGETSTROPHY",
+   "size": [
+    225,
+    258
+   ],
+   "target": [
+    1786,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_13_02_NATHANGETSTROPHY.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_13_02_NATHANGETSTROPHY__bd1b6b98": {
+   "stem": "scrap_MS_P_13_02_NATHANGETSTROPHY",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_13_02_NATHANGETSTROPHY.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_15_01_MYSHOE__3f15473c": {
+   "stem": "scrap_MS_P_15_01_MYSHOE",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_15_01_MYSHOE.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_15_01_MYSHOE__76e22fed": {
+   "stem": "scrap_MS_P_15_01_MYSHOE",
+   "size": [
+    249,
+    289
+   ],
+   "target": [
+    1765,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_15_01_MYSHOE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_15_01_MYSHOE__1b92aa7f": {
+   "stem": "scrap_MS_P_15_01_MYSHOE",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_15_01_MYSHOE.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_16_01_STRIP3__982e0c07": {
+   "stem": "scrap_MS_P_16_01_STRIP3",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_16_01_STRIP3.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_16_01_STRIP3__f0dec5b9": {
+   "stem": "scrap_MS_P_16_01_STRIP3",
+   "size": [
+    205,
+    249
+   ],
+   "target": [
+    1640,
+    1992
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_16_01_STRIP3.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_16_01_STRIP3__2d6330ff": {
+   "stem": "scrap_MS_P_16_01_STRIP3",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_16_01_STRIP3.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_17_04_SHANGRI-LAPINUP__617fdfd2": {
+   "stem": "scrap_MS_P_17_04_SHANGRI-LAPINUP",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_17_04_SHANGRI-LAPINUP.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_17_04_SHANGRI-LAPINUP__93f81ec0": {
+   "stem": "scrap_MS_P_17_04_SHANGRI-LAPINUP",
+   "size": [
+    257,
+    300
+   ],
+   "target": [
+    1754,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_17_04_SHANGRI-LAPINUP.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_17_04_SHANGRI-LAPINUP__05ea6514": {
+   "stem": "scrap_MS_P_17_04_SHANGRI-LAPINUP",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_17_04_SHANGRI-LAPINUP.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_19_01_SWANTHEMORNINGAFTER__805fc2be": {
+   "stem": "scrap_MS_P_19_01_SWANTHEMORNINGAFTER",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANTHEMORNINGAFTER.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_19_01_SWANTHEMORNINGAFTER__3fe48f48": {
+   "stem": "scrap_MS_P_19_01_SWANTHEMORNINGAFTER",
+   "size": [
+    254,
+    292
+   ],
+   "target": [
+    1781,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANTHEMORNINGAFTER.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_19_01_SWANTHEMORNINGAFTER__a0d62560": {
+   "stem": "scrap_MS_P_19_01_SWANTHEMORNINGAFTER",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANTHEMORNINGAFTER.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_19_01_SWANWELCOMEHOME__bceef51c": {
+   "stem": "scrap_MS_P_19_01_SWANWELCOMEHOME",
+   "size": [
+    227,
+    270
+   ],
+   "target": [
+    1722,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANWELCOMEHOME.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_19_01_SWANWELCOMEHOME1__f55c09e1": {
+   "stem": "scrap_MS_P_19_01_SWANWELCOMEHOME1",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANWELCOMEHOME1.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_19_01_SWANWELCOMEHOME1__18a6f98e": {
+   "stem": "scrap_MS_P_19_01_SWANWELCOMEHOME1",
+   "size": [
+    227,
+    270
+   ],
+   "target": [
+    1722,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANWELCOMEHOME1.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_19_01_SWANWELCOMEHOME1__5f214974": {
+   "stem": "scrap_MS_P_19_01_SWANWELCOMEHOME1",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANWELCOMEHOME1.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_24_01_SWANPINUP__e10a9317": {
+   "stem": "scrap_MS_P_24_01_SWANPINUP",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_24_01_SWANPINUP.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_24_01_SWANPINUP__ba318cd1": {
+   "stem": "scrap_MS_P_24_01_SWANPINUP",
+   "size": [
+    215,
+    214
+   ],
+   "target": [
+    1720,
+    1712
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_24_01_SWANPINUP.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_24_01_SWANPINUP__2fea2fd7": {
+   "stem": "scrap_MS_P_24_01_SWANPINUP",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_24_01_SWANPINUP.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_24_01_THEFINALKISS__6d36fd27": {
+   "stem": "scrap_MS_P_24_01_THEFINALKISS",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_24_01_THEFINALKISS.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_24_01_THEFINALKISS__56d6d7c0": {
+   "stem": "scrap_MS_P_24_01_THEFINALKISS",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_24_01_THEFINALKISS.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_DOGGIEPHOTO__87f60fc1": {
+   "stem": "scrap_MS_P_DOGGIEPHOTO",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_DOGGIEPHOTO.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_DOGGIEPHOTO__5fda3bfd": {
+   "stem": "scrap_MS_P_DOGGIEPHOTO",
+   "size": [
+    254,
+    292
+   ],
+   "target": [
+    1781,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_DOGGIEPHOTO.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_DOGGIEPHOTO__db4fab46": {
+   "stem": "scrap_MS_P_DOGGIEPHOTO",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_DOGGIEPHOTO.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_ILLSAANDSPARKS__31608933": {
+   "stem": "scrap_MS_P_ILLSAANDSPARKS",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_ILLSAANDSPARKS.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_ILSAANDSPARKS__f61f6b6c": {
+   "stem": "scrap_MS_P_ILSAANDSPARKS",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_ILSAANDSPARKS.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_INITIALPINUP1__aec0afa1": {
+   "stem": "scrap_MS_P_INITIALPINUP1",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP1.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_INITIALPINUP1__18be478c": {
+   "stem": "scrap_MS_P_INITIALPINUP1",
+   "size": [
+    203,
+    249
+   ],
+   "target": [
+    1624,
+    1992
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP1.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_INITIALPINUP1__46ce2bcb": {
+   "stem": "scrap_MS_P_INITIALPINUP1",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP1.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_INITIALPINUP3__e9d5f86d": {
+   "stem": "scrap_MS_P_INITIALPINUP3",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP3.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_INITIALPINUP3__8efe2115": {
+   "stem": "scrap_MS_P_INITIALPINUP3",
+   "size": [
+    220,
+    264
+   ],
+   "target": [
+    1707,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP3.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_INITIALPINUP3__91de54d4": {
+   "stem": "scrap_MS_P_INITIALPINUP3",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP3.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_JUSTINEBATTLEAX__5a7b04c0": {
+   "stem": "scrap_MS_P_JUSTINEBATTLEAX",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_JUSTINEBATTLEAX.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_JUSTINEBATTLEAX__68aa2f55": {
+   "stem": "scrap_MS_P_JUSTINEBATTLEAX",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_JUSTINEBATTLEAX.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_MOM__1621b866": {
+   "stem": "scrap_MS_P_MOM",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_MOM.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_MOM__665ca100": {
+   "stem": "scrap_MS_P_MOM",
+   "size": [
+    241,
+    281
+   ],
+   "target": [
+    1756,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_MOM.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_MS_P_MOM__50884375": {
+   "stem": "scrap_MS_P_MOM",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_MOM.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_SWAN&NATHANINCABIN__44d04c2d": {
+   "stem": "scrap_MS_P_SWAN&NATHANINCABIN",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_SWAN&NATHANINCABIN.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_SWAN&NATHANINCABIN__922b86f5": {
+   "stem": "scrap_MS_P_SWAN&NATHANINCABIN",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_SWAN&NATHANINCABIN.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_THEFINALKISS__6d36fd27": {
+   "stem": "scrap_MS_P_THEFINALKISS",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_THEFINALKISS.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_THEFINALKISS__56d6d7c0": {
+   "stem": "scrap_MS_P_THEFINALKISS",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_THEFINALKISS.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_TREASUREGIRL__ce7f03f3": {
+   "stem": "scrap_MS_P_TREASUREGIRL",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_TREASUREGIRL.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_TREASUREGIRL__c961a7a4": {
+   "stem": "scrap_MS_P_TREASUREGIRL",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_TREASUREGIRL.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_MS_P_ZACHARYANDPLANE__6b4b3dd2": {
+   "stem": "scrap_MS_P_ZACHARYANDPLANE",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_ZACHARYANDPLANE.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_MS_P_ZACHARYANDPLANE__3ad54545": {
+   "stem": "scrap_MS_P_ZACHARYANDPLANE",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_ZACHARYANDPLANE.TIF",
+   "ui_ext": ".tif"
+  },
+  "scrap_NT_02_01_BPBALMORAL__30820fc4": {
+   "stem": "scrap_NT_02_01_BPBALMORAL",
+   "size": [
+    278,
+    336
+   ],
+   "target": [
+    1694,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_02_01_BPBALMORAL.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_NT_07_01_BPBLOODHAWK__056c31b1": {
+   "stem": "scrap_NT_07_01_BPBLOODHAWK",
+   "size": [
+    192,
+    218
+   ],
+   "target": [
+    1536,
+    1744
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_07_01_BPBLOODHAWK.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_NT_07_01_BPNITRO__21300b80": {
+   "stem": "scrap_NT_07_01_BPNITRO",
+   "size": [
+    211,
+    224
+   ],
+   "target": [
+    1688,
+    1792
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_07_01_BPNITRO.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_NT_13_01_BPFURY__7ed468c1": {
+   "stem": "scrap_NT_13_01_BPFURY",
+   "size": [
+    263,
+    303
+   ],
+   "target": [
+    1778,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_13_01_BPFURY.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_NT_16_01_BPBEEP__b8f3683a": {
+   "stem": "scrap_NT_16_01_BPBEEP",
+   "size": [
+    356,
+    237
+   ],
+   "target": [
+    2048,
+    1363
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_16_01_BPBEEP.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_NT_17_01_BPHOPLITE__7f799e34": {
+   "stem": "scrap_NT_17_01_BPHOPLITE",
+   "size": [
+    235,
+    251
+   ],
+   "target": [
+    1880,
+    2008
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_17_01_BPHOPLITE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_NT_19_01_BPTORPEDO__111c863a": {
+   "stem": "scrap_NT_19_01_BPTORPEDO",
+   "size": [
+    245,
+    283
+   ],
+   "target": [
+    1773,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_19_01_BPTORPEDO.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_NT_19_01_BPWARHAWK__e2c50fd8": {
+   "stem": "scrap_NT_19_01_BPWARHAWK",
+   "size": [
+    336,
+    422
+   ],
+   "target": [
+    1631,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_19_01_BPWARHAWK.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_00_00_DOC1__3a69eb3f": {
+   "stem": "scrap_SB_00_00_DOC1",
+   "size": [
+    336,
+    329
+   ],
+   "target": [
+    2048,
+    2005
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_DOC1.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_00_00_DOC2__aef967ec": {
+   "stem": "scrap_SB_00_00_DOC2",
+   "size": [
+    341,
+    339
+   ],
+   "target": [
+    2048,
+    2036
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_DOC2.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_00_00_FHLOGO__ea254747": {
+   "stem": "scrap_SB_00_00_FHLOGO",
+   "size": [
+    456,
+    502
+   ],
+   "target": [
+    1860,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_FHLOGO.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_00_00_FHLOGO__a96bf8b0": {
+   "stem": "scrap_SB_00_00_FHLOGO",
+   "size": [
+    289,
+    320
+   ],
+   "target": [
+    1850,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_FHLOGO.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_00_00_MAG1__37e18d0c": {
+   "stem": "scrap_SB_00_00_MAG1",
+   "size": [
+    353,
+    415
+   ],
+   "target": [
+    1742,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_MAG1.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_00_00_MAG1S__ff04158e": {
+   "stem": "scrap_SB_00_00_MAG1S",
+   "size": [
+    448,
+    551
+   ],
+   "target": [
+    1665,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_MAG1S.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_00_00_NEWS1__b4caae5a": {
+   "stem": "scrap_SB_00_00_NEWS1",
+   "size": [
+    408,
+    308
+   ],
+   "target": [
+    2048,
+    1546
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_NEWS1.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_00_00_NEWS2__cb48c71f": {
+   "stem": "scrap_SB_00_00_NEWS2",
+   "size": [
+    417,
+    255
+   ],
+   "target": [
+    2048,
+    1252
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_NEWS2.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_01_00_DZ__b9c1be21": {
+   "stem": "scrap_SB_01_00_DZ",
+   "size": [
+    339,
+    482
+   ],
+   "target": [
+    1440,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_00_DZ.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_01_01_COIN__b0402a16": {
+   "stem": "scrap_SB_01_01_COIN",
+   "size": [
+    448,
+    473
+   ],
+   "target": [
+    1940,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_COIN.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_01_01_COIN__1efcde74": {
+   "stem": "scrap_SB_01_01_COIN",
+   "size": [
+    175,
+    186
+   ],
+   "target": [
+    1400,
+    1488
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_COIN.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_01_01_DOC2__1c470ce8": {
+   "stem": "scrap_SB_01_01_DOC2",
+   "size": [
+    286,
+    328
+   ],
+   "target": [
+    1786,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_DOC2.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_01_01_DOC3__a0a9dc1c": {
+   "stem": "scrap_SB_01_01_DOC3",
+   "size": [
+    309,
+    378
+   ],
+   "target": [
+    1674,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_DOC3.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_01_01_NEWS3__175a1a8c": {
+   "stem": "scrap_SB_01_01_NEWS3",
+   "size": [
+    340,
+    256
+   ],
+   "target": [
+    2048,
+    1542
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_NEWS3.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_01_01_WANTED1__d119a9d9": {
+   "stem": "scrap_SB_01_01_WANTED1",
+   "size": [
+    584,
+    598
+   ],
+   "target": [
+    2000,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_WANTED1.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_01_01_WANTED1__e74866fe": {
+   "stem": "scrap_SB_01_01_WANTED1",
+   "size": [
+    331,
+    340
+   ],
+   "target": [
+    1994,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_WANTED1.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_01_01_WANTED1S__ad2dfa40": {
+   "stem": "scrap_SB_01_01_WANTED1S",
+   "size": [
+    582,
+    600
+   ],
+   "target": [
+    1987,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_WANTED1S.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_01_02_MAG2__12bf7da1": {
+   "stem": "scrap_SB_01_02_MAG2",
+   "size": [
+    277,
+    377
+   ],
+   "target": [
+    1505,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_02_MAG2.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_02_01_MEDAL__d11d7af5": {
+   "stem": "scrap_SB_02_01_MEDAL",
+   "size": [
+    318,
+    577
+   ],
+   "target": [
+    1129,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_02_01_MEDAL.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_02_01_MEDAL__c5c8d316": {
+   "stem": "scrap_SB_02_01_MEDAL",
+   "size": [
+    115,
+    218
+   ],
+   "target": [
+    920,
+    1744
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_02_01_MEDAL.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_02_01_NEWS4__a61fceae": {
+   "stem": "scrap_SB_02_01_NEWS4",
+   "size": [
+    380,
+    295
+   ],
+   "target": [
+    2048,
+    1590
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_02_01_NEWS4.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_02_01_NEWS5__e3b3238d": {
+   "stem": "scrap_SB_02_01_NEWS5",
+   "size": [
+    125,
+    276
+   ],
+   "target": [
+    928,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_02_01_NEWS5.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_02_01_NEWS6__6a06f05b": {
+   "stem": "scrap_SB_02_01_NEWS6",
+   "size": [
+    395,
+    298
+   ],
+   "target": [
+    2048,
+    1545
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_02_01_NEWS6.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_03_01_BASE__3f0efaa4": {
+   "stem": "scrap_SB_03_01_BASE",
+   "size": [
+    640,
+    480
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_BASE.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_03_01_BASE__5f607cba": {
+   "stem": "scrap_SB_03_01_BASE",
+   "size": [
+    280,
+    226
+   ],
+   "target": [
+    2048,
+    1653
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_BASE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_03_01_DOC5__fe1f880b": {
+   "stem": "scrap_SB_03_01_DOC5",
+   "size": [
+    220,
+    270
+   ],
+   "target": [
+    1669,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_DOC5.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_03_01_JACK__0869aa0c": {
+   "stem": "scrap_SB_03_01_JACK",
+   "size": [
+    401,
+    500
+   ],
+   "target": [
+    1642,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_JACK.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_03_01_JACK__6218110a": {
+   "stem": "scrap_SB_03_01_JACK",
+   "size": [
+    140,
+    170
+   ],
+   "target": [
+    1120,
+    1360
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_JACK.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_03_01_PRINCESS__e3083997": {
+   "stem": "scrap_SB_03_01_PRINCESS",
+   "size": [
+    239,
+    285
+   ],
+   "target": [
+    1717,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_PRINCESS.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_04_01_CRANE__52a9f48b": {
+   "stem": "scrap_SB_04_01_CRANE",
+   "size": [
+    273,
+    359
+   ],
+   "target": [
+    1557,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_04_01_CRANE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_04_01_LIFESAVER__3a773a4e": {
+   "stem": "scrap_SB_04_01_LIFESAVER",
+   "size": [
+    670,
+    510
+   ],
+   "target": [
+    2048,
+    1559
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_04_01_LIFESAVER.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_04_01_LIFESAVER__cd32a638": {
+   "stem": "scrap_SB_04_01_LIFESAVER",
+   "size": [
+    407,
+    351
+   ],
+   "target": [
+    2048,
+    1766
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_04_01_LIFESAVER.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_05_01_CARTOON__0f884f98": {
+   "stem": "scrap_SB_05_01_CARTOON",
+   "size": [
+    579,
+    600
+   ],
+   "target": [
+    1976,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_05_01_CARTOON.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_05_01_CARTOON__c897682c": {
+   "stem": "scrap_SB_05_01_CARTOON",
+   "size": [
+    270,
+    277
+   ],
+   "target": [
+    1996,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_05_01_CARTOON.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_05_01_TCHEST__2f32c264": {
+   "stem": "scrap_SB_05_01_TCHEST",
+   "size": [
+    520,
+    500
+   ],
+   "target": [
+    2048,
+    1969
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_05_01_TCHEST.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_05_01_TCHEST__07f5097a": {
+   "stem": "scrap_SB_05_01_TCHEST",
+   "size": [
+    300,
+    290
+   ],
+   "target": [
+    2048,
+    1980
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_05_01_TCHEST.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_06_01_NEWS7__a2c96cd4": {
+   "stem": "scrap_SB_06_01_NEWS7",
+   "size": [
+    100,
+    192
+   ],
+   "target": [
+    800,
+    1536
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_06_01_NEWS7.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_06_01_NEWS8__3ba3e534": {
+   "stem": "scrap_SB_06_01_NEWS8",
+   "size": [
+    393,
+    310
+   ],
+   "target": [
+    2048,
+    1615
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_06_01_NEWS8.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_06_01_NEWS9__e1e73850": {
+   "stem": "scrap_SB_06_01_NEWS9",
+   "size": [
+    371,
+    286
+   ],
+   "target": [
+    2048,
+    1579
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_06_01_NEWS9.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_06_01_SWANNOTE__e7dc91ac": {
+   "stem": "scrap_SB_06_01_SWANNOTE",
+   "size": [
+    253,
+    168
+   ],
+   "target": [
+    2024,
+    1344
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_06_01_SWANNOTE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_07_01_HANGAR COPY__59bdf3de": {
+   "stem": "scrap_SB_07_01_HANGAR COPY",
+   "size": [
+    415,
+    515
+   ],
+   "target": [
+    1650,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_HANGAR COPY.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_07_01_HANGER__0539e4b2": {
+   "stem": "scrap_SB_07_01_HANGER",
+   "size": [
+    411,
+    498
+   ],
+   "target": [
+    1690,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_HANGER.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_07_01_HANGER__2449f2ca": {
+   "stem": "scrap_SB_07_01_HANGER",
+   "size": [
+    223,
+    271
+   ],
+   "target": [
+    1685,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_HANGER.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_07_01_ILSAID__49d02696": {
+   "stem": "scrap_SB_07_01_ILSAID",
+   "size": [
+    307,
+    239
+   ],
+   "target": [
+    2048,
+    1594
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_ILSAID.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_07_01_ILSAID__105ca47d": {
+   "stem": "scrap_SB_07_01_ILSAID",
+   "size": [
+    216,
+    194
+   ],
+   "target": [
+    1728,
+    1552
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_ILSAID.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_07_01_ILSANOTE__23ae6222": {
+   "stem": "scrap_SB_07_01_ILSANOTE",
+   "size": [
+    266,
+    326
+   ],
+   "target": [
+    1671,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_ILSANOTE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_07_01_NEWS10__5f710f12": {
+   "stem": "scrap_SB_07_01_NEWS10",
+   "size": [
+    160,
+    280
+   ],
+   "target": [
+    1170,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS10.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_07_01_NEWS11__f4f078b5": {
+   "stem": "scrap_SB_07_01_NEWS11",
+   "size": [
+    302,
+    152
+   ],
+   "target": [
+    2048,
+    1031
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS11.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_07_01_NEWS12__27a0573e": {
+   "stem": "scrap_SB_07_01_NEWS12",
+   "size": [
+    187,
+    286
+   ],
+   "target": [
+    1339,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS12.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_07_01_NEWS13__1c088418": {
+   "stem": "scrap_SB_07_01_NEWS13",
+   "size": [
+    324,
+    380
+   ],
+   "target": [
+    1746,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS13.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_07_01_NEWS14__af8cdf1e": {
+   "stem": "scrap_SB_07_01_NEWS14",
+   "size": [
+    404,
+    241
+   ],
+   "target": [
+    2048,
+    1222
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS14.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_08_01_MANIFEST__8ccf04fe": {
+   "stem": "scrap_SB_08_01_MANIFEST",
+   "size": [
+    262,
+    337
+   ],
+   "target": [
+    1592,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_MANIFEST.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_08_01_NEWS14__16938d85": {
+   "stem": "scrap_SB_08_01_NEWS14",
+   "size": [
+    411,
+    272
+   ],
+   "target": [
+    2048,
+    1355
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_NEWS14.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_08_01_VODKA__d6eff39e": {
+   "stem": "scrap_SB_08_01_VODKA",
+   "size": [
+    342,
+    527
+   ],
+   "target": [
+    1329,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_VODKA.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_08_01_VODKA__99bc18d5": {
+   "stem": "scrap_SB_08_01_VODKA",
+   "size": [
+    265,
+    328
+   ],
+   "target": [
+    1655,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_VODKA.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_09_01_CRAWPIC__4fa30abc": {
+   "stem": "scrap_SB_09_01_CRAWPIC",
+   "size": [
+    432,
+    508
+   ],
+   "target": [
+    1742,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_CRAWPIC.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_09_01_CRAWPIC__ceed1524": {
+   "stem": "scrap_SB_09_01_CRAWPIC",
+   "size": [
+    194,
+    221
+   ],
+   "target": [
+    1552,
+    1768
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_CRAWPIC.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_09_01_INJURED__7335fbde": {
+   "stem": "scrap_SB_09_01_INJURED",
+   "size": [
+    509,
+    510
+   ],
+   "target": [
+    2044,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_INJURED.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_09_01_INJURED__a718187e": {
+   "stem": "scrap_SB_09_01_INJURED",
+   "size": [
+    228,
+    228
+   ],
+   "target": [
+    1824,
+    1824
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_INJURED.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_09_01_NEWS15__61efb93e": {
+   "stem": "scrap_SB_09_01_NEWS15",
+   "size": [
+    417,
+    313
+   ],
+   "target": [
+    2048,
+    1537
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_NEWS15.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_09_01_NEWS16__228898d6": {
+   "stem": "scrap_SB_09_01_NEWS16",
+   "size": [
+    183,
+    258
+   ],
+   "target": [
+    1453,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_NEWS16.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_09_01_TELEGRAM1__e40a4e3b": {
+   "stem": "scrap_SB_09_01_TELEGRAM1",
+   "size": [
+    209,
+    290
+   ],
+   "target": [
+    1476,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_TELEGRAM1.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_09_01_TELEGRAM2__a2dd025f": {
+   "stem": "scrap_SB_09_01_TELEGRAM2",
+   "size": [
+    232,
+    308
+   ],
+   "target": [
+    1543,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_TELEGRAM2.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_10_01_NEWS17__b0eb86d0": {
+   "stem": "scrap_SB_10_01_NEWS17",
+   "size": [
+    173,
+    310
+   ],
+   "target": [
+    1143,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_10_01_NEWS17.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_10_01_NEWS18__09453daa": {
+   "stem": "scrap_SB_10_01_NEWS18",
+   "size": [
+    412,
+    361
+   ],
+   "target": [
+    2048,
+    1794
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_10_01_NEWS18.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_11_01_HAG__ffa43f8c": {
+   "stem": "scrap_SB_11_01_HAG",
+   "size": [
+    520,
+    320
+   ],
+   "target": [
+    2048,
+    1260
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_HAG.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_11_01_HAG__b5e6b591": {
+   "stem": "scrap_SB_11_01_HAG",
+   "size": [
+    169,
+    117
+   ],
+   "target": [
+    1352,
+    936
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_HAG.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_11_01_MAG3__174eaf47": {
+   "stem": "scrap_SB_11_01_MAG3",
+   "size": [
+    258,
+    310
+   ],
+   "target": [
+    1704,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_MAG3.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_11_01_MAG4__39635161": {
+   "stem": "scrap_SB_11_01_MAG4",
+   "size": [
+    257,
+    317
+   ],
+   "target": [
+    1660,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_MAG4.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_11_01_NEWS20__1c520fda": {
+   "stem": "scrap_SB_11_01_NEWS20",
+   "size": [
+    416,
+    321
+   ],
+   "target": [
+    2048,
+    1580
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_NEWS20.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_12_01_BETTYSSCREENTEST2__e8efb107": {
+   "stem": "scrap_SB_12_01_BETTYSSCREENTEST2",
+   "size": [
+    195,
+    227
+   ],
+   "target": [
+    1560,
+    1816
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_BETTYSSCREENTEST2.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_12_01_CHARLIEGLAM__ce10ecb8": {
+   "stem": "scrap_SB_12_01_CHARLIEGLAM",
+   "size": [
+    332,
+    368
+   ],
+   "target": [
+    1848,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_CHARLIEGLAM.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_12_01_CHARLIEGLAM1__6430e445": {
+   "stem": "scrap_SB_12_01_CHARLIEGLAM1",
+   "size": [
+    164,
+    223
+   ],
+   "target": [
+    1312,
+    1784
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_CHARLIEGLAM1.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_12_01_CHARLIEWING__d82b3acc": {
+   "stem": "scrap_SB_12_01_CHARLIEWING",
+   "size": [
+    458,
+    552
+   ],
+   "target": [
+    1699,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_CHARLIEWING.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_12_01_CHARLIEWING__21a6ef35": {
+   "stem": "scrap_SB_12_01_CHARLIEWING",
+   "size": [
+    221,
+    254
+   ],
+   "target": [
+    1768,
+    2032
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_CHARLIEWING.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_12_01_FENCE__b3be4a33": {
+   "stem": "scrap_SB_12_01_FENCE",
+   "size": [
+    238,
+    312
+   ],
+   "target": [
+    1562,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_FENCE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_12_01_GNP__a25f1646": {
+   "stem": "scrap_SB_12_01_GNP",
+   "size": [
+    572,
+    487
+   ],
+   "target": [
+    2048,
+    1744
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_GNP.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_12_01_GNP__e99cb94f": {
+   "stem": "scrap_SB_12_01_GNP",
+   "size": [
+    233,
+    195
+   ],
+   "target": [
+    1864,
+    1560
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_GNP.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_12_01_NEWS19__f00cbd23": {
+   "stem": "scrap_SB_12_01_NEWS19",
+   "size": [
+    402,
+    289
+   ],
+   "target": [
+    2048,
+    1472
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_NEWS19.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_13_01_NEWS21__364df752": {
+   "stem": "scrap_SB_13_01_NEWS21",
+   "size": [
+    412,
+    299
+   ],
+   "target": [
+    2048,
+    1486
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_13_01_NEWS21.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_13_01_RECORD__2be3e116": {
+   "stem": "scrap_SB_13_01_RECORD",
+   "size": [
+    254,
+    321
+   ],
+   "target": [
+    1621,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_13_01_RECORD.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_13_01_RELEASE__7e7435f2": {
+   "stem": "scrap_SB_13_01_RELEASE",
+   "size": [
+    302,
+    366
+   ],
+   "target": [
+    1690,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_13_01_RELEASE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_13_01_RIBBON3RD__9520c426": {
+   "stem": "scrap_SB_13_01_RIBBON3RD",
+   "size": [
+    351,
+    518
+   ],
+   "target": [
+    1388,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_13_01_RIBBON3RD.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_13_01_RIBBON3RD__0a9b20c8": {
+   "stem": "scrap_SB_13_01_RIBBON3RD",
+   "size": [
+    199,
+    307
+   ],
+   "target": [
+    1328,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_13_01_RIBBON3RD.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_14_01_MAG5__b1523eb3": {
+   "stem": "scrap_SB_14_01_MAG5",
+   "size": [
+    260,
+    316
+   ],
+   "target": [
+    1685,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_14_01_MAG5.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_14_01_NEWS22__5395d0d9": {
+   "stem": "scrap_SB_14_01_NEWS22",
+   "size": [
+    416,
+    318
+   ],
+   "target": [
+    2048,
+    1566
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_14_01_NEWS22.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_14_01_TELEGRAM3__cc4a65dc": {
+   "stem": "scrap_SB_14_01_TELEGRAM3",
+   "size": [
+    241,
+    314
+   ],
+   "target": [
+    1572,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_14_01_TELEGRAM3.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_15_01_CAPNOTE__27bd4df3": {
+   "stem": "scrap_SB_15_01_CAPNOTE",
+   "size": [
+    277,
+    307
+   ],
+   "target": [
+    1848,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_15_01_CAPNOTE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_15_01_NEWS23__b69cee48": {
+   "stem": "scrap_SB_15_01_NEWS23",
+   "size": [
+    417,
+    291
+   ],
+   "target": [
+    2048,
+    1429
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_15_01_NEWS23.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_16_01_MINE__23f81c21": {
+   "stem": "scrap_SB_16_01_MINE",
+   "size": [
+    211,
+    280
+   ],
+   "target": [
+    1543,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_16_01_MINE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_16_01_SPARKSNOTE__8a4b87ff": {
+   "stem": "scrap_SB_16_01_SPARKSNOTE",
+   "size": [
+    218,
+    250
+   ],
+   "target": [
+    1744,
+    2000
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_16_01_SPARKSNOTE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_17_01_BILL__867e1231": {
+   "stem": "scrap_SB_17_01_BILL",
+   "size": [
+    270,
+    319
+   ],
+   "target": [
+    1733,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_BILL.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_17_01_KAHNWANTED__54a3edad": {
+   "stem": "scrap_SB_17_01_KAHNWANTED",
+   "size": [
+    460,
+    595
+   ],
+   "target": [
+    1583,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_KAHNWANTED.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_17_01_KAHNWANTED__47945f02": {
+   "stem": "scrap_SB_17_01_KAHNWANTED",
+   "size": [
+    279,
+    396
+   ],
+   "target": [
+    1443,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_KAHNWANTED.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_17_01_MENU__e4f7f634": {
+   "stem": "scrap_SB_17_01_MENU",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_MENU.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_17_01_MENU__c50b6a6f": {
+   "stem": "scrap_SB_17_01_MENU",
+   "size": [
+    265,
+    330
+   ],
+   "target": [
+    1645,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_MENU.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_17_01_NEWS24__4d57a1aa": {
+   "stem": "scrap_SB_17_01_NEWS24",
+   "size": [
+    415,
+    329
+   ],
+   "target": [
+    2048,
+    1624
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_NEWS24.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_18_01_CREWTOAST__66e0dce2": {
+   "stem": "scrap_SB_18_01_CREWTOAST",
+   "size": [
+    478,
+    564
+   ],
+   "target": [
+    1736,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_18_01_CREWTOAST.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_18_01_CREWTOAST__b5153fe1": {
+   "stem": "scrap_SB_18_01_CREWTOAST",
+   "size": [
+    258,
+    303
+   ],
+   "target": [
+    1744,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_18_01_CREWTOAST.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_18_01_SCOUT__ee411b66": {
+   "stem": "scrap_SB_18_01_SCOUT",
+   "size": [
+    311,
+    401
+   ],
+   "target": [
+    1588,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_18_01_SCOUT.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_19_01_DRINK__71ab96b2": {
+   "stem": "scrap_SB_19_01_DRINK",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_DRINK.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_19_01_DRINK__4894e70d": {
+   "stem": "scrap_SB_19_01_DRINK",
+   "size": [
+    334,
+    291
+   ],
+   "target": [
+    2048,
+    1784
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_DRINK.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_19_01_SNZBAR__546bd786": {
+   "stem": "scrap_SB_19_01_SNZBAR",
+   "size": [
+    464,
+    555
+   ],
+   "target": [
+    1712,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_SNZBAR.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_19_01_SNZBAR__ac5acf90": {
+   "stem": "scrap_SB_19_01_SNZBAR",
+   "size": [
+    271,
+    308
+   ],
+   "target": [
+    1802,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_SNZBAR.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_19_01_ZPJCOVER__92b67066": {
+   "stem": "scrap_SB_19_01_ZPJCOVER",
+   "size": [
+    554,
+    600
+   ],
+   "target": [
+    1891,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_ZPJCOVER.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_19_01_ZPJCOVER__9b658f3c": {
+   "stem": "scrap_SB_19_01_ZPJCOVER",
+   "size": [
+    316,
+    368
+   ],
+   "target": [
+    1759,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_ZPJCOVER.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_20_01_BABES__7042ea86": {
+   "stem": "scrap_SB_20_01_BABES",
+   "size": [
+    372,
+    389
+   ],
+   "target": [
+    1958,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_20_01_BABES.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_20_01_NEWS26__8af83d3f": {
+   "stem": "scrap_SB_20_01_NEWS26",
+   "size": [
+    214,
+    305
+   ],
+   "target": [
+    1437,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_20_01_NEWS26.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_20_01_NEWS27__ebb60000": {
+   "stem": "scrap_SB_20_01_NEWS27",
+   "size": [
+    192,
+    335
+   ],
+   "target": [
+    1174,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_20_01_NEWS27.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_20_01_NEWS28__0678673b": {
+   "stem": "scrap_SB_20_01_NEWS28",
+   "size": [
+    152,
+    311
+   ],
+   "target": [
+    1001,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_20_01_NEWS28.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_21_01_5BILL__30b86165": {
+   "stem": "scrap_SB_21_01_5BILL",
+   "size": [
+    576,
+    308
+   ],
+   "target": [
+    2048,
+    1095
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_5BILL.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_21_01_5BILL__38e050c2": {
+   "stem": "scrap_SB_21_01_5BILL",
+   "size": [
+    245,
+    409
+   ],
+   "target": [
+    1227,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_5BILL.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_21_01_BILLBILL__2b6420ce": {
+   "stem": "scrap_SB_21_01_BILLBILL",
+   "size": [
+    300,
+    368
+   ],
+   "target": [
+    1670,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_BILLBILL.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_21_01_CONLETTER__a6c53590": {
+   "stem": "scrap_SB_21_01_CONLETTER",
+   "size": [
+    268,
+    250
+   ],
+   "target": [
+    2048,
+    1910
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_CONLETTER.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_21_01_CRAWNOTE__80c79490": {
+   "stem": "scrap_SB_21_01_CRAWNOTE",
+   "size": [
+    290,
+    333
+   ],
+   "target": [
+    1784,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_CRAWNOTE.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_21_01_MAG7__6c9a2cef": {
+   "stem": "scrap_SB_21_01_MAG7",
+   "size": [
+    281,
+    332
+   ],
+   "target": [
+    1733,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_MAG7.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_21_01_NEWS30__f3806199": {
+   "stem": "scrap_SB_21_01_NEWS30",
+   "size": [
+    403,
+    306
+   ],
+   "target": [
+    2048,
+    1555
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_NEWS30.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_21_01_NEWS31__60c9dd5d": {
+   "stem": "scrap_SB_21_01_NEWS31",
+   "size": [
+    408,
+    356
+   ],
+   "target": [
+    2048,
+    1787
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_NEWS31.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_22_01_COMICOVER__2c0858c3": {
+   "stem": "scrap_SB_22_01_COMICOVER",
+   "size": [
+    361,
+    421
+   ],
+   "target": [
+    1756,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_22_01_COMICOVER.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_22_01_NEWS33__efaa9e7e": {
+   "stem": "scrap_SB_22_01_NEWS33",
+   "size": [
+    424,
+    330
+   ],
+   "target": [
+    2048,
+    1594
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_22_01_NEWS33.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_22_01_RICHLETTER__7193a574": {
+   "stem": "scrap_SB_22_01_RICHLETTER",
+   "size": [
+    301,
+    334
+   ],
+   "target": [
+    1846,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_22_01_RICHLETTER.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_23_01_NEWS34__f089b3a7": {
+   "stem": "scrap_SB_23_01_NEWS34",
+   "size": [
+    415,
+    313
+   ],
+   "target": [
+    2048,
+    1545
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_23_01_NEWS34.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_23_01_NEWS35__b2e2af17": {
+   "stem": "scrap_SB_23_01_NEWS35",
+   "size": [
+    401,
+    309
+   ],
+   "target": [
+    2048,
+    1578
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_23_01_NEWS35.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_23_01_NEWS36__a45ed87c": {
+   "stem": "scrap_SB_23_01_NEWS36",
+   "size": [
+    411,
+    307
+   ],
+   "target": [
+    2048,
+    1530
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_23_01_NEWS36.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_23_01_NEWS37__bbe3f3d0": {
+   "stem": "scrap_SB_23_01_NEWS37",
+   "size": [
+    412,
+    330
+   ],
+   "target": [
+    2048,
+    1640
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_23_01_NEWS37.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_23_01_NEWS38__2039e88c": {
+   "stem": "scrap_SB_23_01_NEWS38",
+   "size": [
+    404,
+    316
+   ],
+   "target": [
+    2048,
+    1602
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_23_01_NEWS38.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_24_01_CRAWNOTE2__541f9507": {
+   "stem": "scrap_SB_24_01_CRAWNOTE2",
+   "size": [
+    231,
+    285
+   ],
+   "target": [
+    1660,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_CRAWNOTE2.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_24_01_DINNER__6f0291bc": {
+   "stem": "scrap_SB_24_01_DINNER",
+   "size": [
+    377,
+    456
+   ],
+   "target": [
+    1693,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_DINNER.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_24_01_DINNER__ae9b2928": {
+   "stem": "scrap_SB_24_01_DINNER",
+   "size": [
+    225,
+    267
+   ],
+   "target": [
+    1726,
+    2048
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_DINNER.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_24_01_MOVIEPOSTER__149d2f06": {
+   "stem": "scrap_SB_24_01_MOVIEPOSTER",
+   "size": [
+    366,
+    530
+   ],
+   "target": [
+    1414,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_MOVIEPOSTER.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_24_01_MOVIEPOSTER__44095220": {
+   "stem": "scrap_SB_24_01_MOVIEPOSTER",
+   "size": [
+    233,
+    219
+   ],
+   "target": [
+    1864,
+    1752
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_MOVIEPOSTER.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_24_01_NEWS39__c626ebd1": {
+   "stem": "scrap_SB_24_01_NEWS39",
+   "size": [
+    400,
+    351
+   ],
+   "target": [
+    2048,
+    1797
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_NEWS39.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_24_01_NEWS40__9685aa2e": {
+   "stem": "scrap_SB_24_01_NEWS40",
+   "size": [
+    397,
+    292
+   ],
+   "target": [
+    2048,
+    1506
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_NEWS40.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_24_01_PREPORT__d5853374": {
+   "stem": "scrap_SB_24_01_PREPORT",
+   "size": [
+    288,
+    259
+   ],
+   "target": [
+    2048,
+    1842
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_PREPORT.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_24_01_TUX__d392a214": {
+   "stem": "scrap_SB_24_01_TUX",
+   "size": [
+    280,
+    398
+   ],
+   "target": [
+    1441,
+    2048
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_TUX.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_24_01_TUX__8ccecc5d": {
+   "stem": "scrap_SB_24_01_TUX",
+   "size": [
+    141,
+    187
+   ],
+   "target": [
+    1128,
+    1496
+   ],
+   "has_alpha": true,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_TUX.PNG",
+   "ui_ext": ".png"
+  },
+  "scrap_SB_BG_A__6eb73d7d": {
+   "stem": "scrap_SB_BG_A",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_A.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_B__fe0556ec": {
+   "stem": "scrap_SB_BG_B",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_B.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_BZOOMNEWS__6024d318": {
+   "stem": "scrap_SB_BG_BZOOMNEWS",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_BZOOMNEWS.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_C__21ced3cb": {
+   "stem": "scrap_SB_BG_C",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_C.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_D__a82e4ec0": {
+   "stem": "scrap_SB_BG_D",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_D.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_E__c90ec7f3": {
+   "stem": "scrap_SB_BG_E",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_E.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_F__a98b9929": {
+   "stem": "scrap_SB_BG_F",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_F.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_G__093e42a4": {
+   "stem": "scrap_SB_BG_G",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_G.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_H__669aa048": {
+   "stem": "scrap_SB_BG_H",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_H.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_I__553be25d": {
+   "stem": "scrap_SB_BG_I",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_I.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_J__6082c9fc": {
+   "stem": "scrap_SB_BG_J",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_J.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_K__4edf6069": {
+   "stem": "scrap_SB_BG_K",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_K.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_L__c0bc4f1c": {
+   "stem": "scrap_SB_BG_L",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_L.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_M__d9d60d80": {
+   "stem": "scrap_SB_BG_M",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_M.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_N__fd9f1701": {
+   "stem": "scrap_SB_BG_N",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_N.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_O__6b4dc633": {
+   "stem": "scrap_SB_BG_O",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_O.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_P__f378a773": {
+   "stem": "scrap_SB_BG_P",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_P.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_Q__4d6d2eeb": {
+   "stem": "scrap_SB_BG_Q",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_Q.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_R__7564060a": {
+   "stem": "scrap_SB_BG_R",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_R.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_S__e8429927": {
+   "stem": "scrap_SB_BG_S",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_S.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_T__a0b06d7f": {
+   "stem": "scrap_SB_BG_T",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_T.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_U__a0929c48": {
+   "stem": "scrap_SB_BG_U",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_U.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_V__3f863bb0": {
+   "stem": "scrap_SB_BG_V",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_V.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_W__0dc4e5bd": {
+   "stem": "scrap_SB_BG_W",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_W.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_X__3bbc7352": {
+   "stem": "scrap_SB_BG_X",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_X.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_Y__e101dcaf": {
+   "stem": "scrap_SB_BG_Y",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_Y.JPG",
+   "ui_ext": ".jpg"
+  },
+  "scrap_SB_BG_Z__496250aa": {
+   "stem": "scrap_SB_BG_Z",
+   "size": [
+    800,
+    600
+   ],
+   "target": [
+    2048,
+    1536
+   ],
+   "has_alpha": false,
+   "ui_src": "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_Z.JPG",
+   "ui_ext": ".jpg"
+  }
+ },
+ "skipped": [
+  [
+   "rimage/5pointhud.png",
+   "atlas/strip 463x6"
+  ],
+  [
+   "rimage/5pointhudbrite.png",
+   "atlas/strip 463x6"
+  ],
+  [
+   "rimage/blkprog.png",
+   "atlas/strip 297x14"
+  ],
+  [
+   "rimage/brief_button1.png",
+   "atlas/strip 196x32"
+  ],
+  [
+   "rimage/escape_button1.png",
+   "atlas/strip 132x28"
+  ],
+  [
+   "rimage/escape_button2.png",
+   "atlas/strip 132x28"
+  ],
+  [
+   "rimage/escape_button3.png",
+   "atlas/strip 132x28"
+  ],
+  [
+   "rimage/guage.png",
+   "atlas/strip 168x9"
+  ],
+  [
+   "rimage/lucida_console_8.png",
+   "atlas/strip 670x12"
+  ],
+  [
+   "rimage/lucida_console_8b.png",
+   "atlas/strip 761x12"
+  ],
+  [
+   "rimage/modern_red_12.png",
+   "atlas/strip 718x12"
+  ],
+  [
+   "rimage/modern_white_12.png",
+   "atlas/strip 718x12"
+  ],
+  [
+   "rimage/nw-m2truck.png",
+   "atlas/strip 48x11"
+  ],
+  [
+   "rimage/nw-m3freighticon.png",
+   "atlas/strip 80x16"
+  ],
+  [
+   "rimage/nw-m3raphaelicon.png",
+   "atlas/strip 80x16"
+  ],
+  [
+   "rimage/prog_blk.png",
+   "atlas/strip 236x54"
+  ],
+  [
+   "rimage/prog_blkload.png",
+   "atlas/strip 338x28"
+  ],
+  [
+   "rimage/prog_red.png",
+   "atlas/strip 236x54"
+  ],
+  [
+   "rimage/prog_redload.png",
+   "atlas/strip 338x28"
+  ],
+  [
+   "rimage/verdana_green_11.png",
+   "atlas/strip 712x12"
+  ],
+  [
+   "rimage/verdana_offwhite_11.png",
+   "atlas/strip 712x12"
+  ],
+  [
+   "rimage/verdana_red_11.png",
+   "atlas/strip 712x12"
+  ],
+  [
+   "rimage/verdana_white_11.png",
+   "atlas/strip 712x12"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/FC_PLANEICONS.PNG",
+   "atlas/strip 80x960"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/IA_B_RADIO8STATES.PNG",
+   "atlas/strip 18x144"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/IA_STATSCREEN_BRUSHSTROKE.PNG",
+   "atlas/strip 176x14"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/MP_B_CHECKBOX8STATES.PNG",
+   "atlas/strip 11x88"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/MP_B_CHECKBOXLARGE.PNG",
+   "atlas/strip 58x296"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/MP_B_CHECKBOXSMALL.PNG",
+   "atlas/strip 45x232"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/MP_B_RADIO8STATESSM.PNG",
+   "atlas/strip 12x96"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/MP_B_READYCHECKBOX8STATES.PNG",
+   "atlas/strip 48x208"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/MP_PLANEICONSTOPFRONT.PNG",
+   "atlas/strip 120x528"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/MS_B_LEFT.PNG",
+   "atlas/strip 31x420"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/MS_B_RIGHT.PNG",
+   "atlas/strip 30x404"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/OL_PLANEDIAGRAMSFRONT.PNG",
+   "atlas/strip 245x1100"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/OL_PLANEDIAGRAMSTOP.PNG",
+   "atlas/strip 204x1870"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/PF_B_CHECKBOXSMALL.PNG",
+   "atlas/strip 45x232"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/PF_B_SLIDERSLOT.PNG",
+   "atlas/strip 171x3"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/PX_B_CHECKBOX8STATES.PNG",
+   "atlas/strip 11x88"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/PX_P_BLUEPRINTSMALL.TGA",
+   "atlas/strip 128x1408"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/PX_P_DECALS.TGA",
+   "atlas/strip 66x3300"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/PX_RULE.PNG",
+   "atlas/strip 324x2"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/SB_KILLMARKERCOMBINED.PNG",
+   "atlas/strip 70x2200"
+  ],
+  [
+   "rof/ASSETS/GRAPHICS/SB_P_GRIME.PNG",
+   "atlas/strip 164x1230"
+  ]
+ ]
+}

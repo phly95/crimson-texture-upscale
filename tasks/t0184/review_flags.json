@@ -1,0 +1,12 @@
+{
+ "task": "t0184",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "bezel__70572dec",
+   "verdict": "suspect",
+   "problem": "1:1 crop is soft and smudgy with blotchy dark patches; the yellow patch lower-left has diffuse, speckled edges instead of the original's crisp blob edge.",
+   "fix": "Reduce low-frequency blotch in the dark-metal inject, keep the yellow patch edges sharp, and check the 1:1 crop for mush before shipping."
+  }
+ ]
+}

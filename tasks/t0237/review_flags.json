@@ -1,0 +1,24 @@
+{
+ "task": "t0237",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "unionjack__cf4c4ebe",
+   "verdict": "suspect",
+   "problem": "At 1:1 the flag reads soft and out of focus; cross edges and blue sheen are smeared with almost no added detail (detail_gain 3.04). Usage is a 55-unit wall, so this is visible up close.",
+   "fix": "Sharpen the edge pass and add fine weave or grain on the blue and white fields that matches the original, keeping the exact Union Jack geometry and colours."
+  },
+  {
+   "uid": "vegrocktop__5751425d",
+   "verdict": "suspect",
+   "problem": "At 1:1 the dark round vegetation spots become soft blurry blobs with a blotchy green smear. The overall tint is more saturated green than the grey-green original.",
+   "fix": "Keep the spot edges crisp (less blur on the low-frequency pass) and reduce the green saturation of the injected layer so it matches the original grey-green ground."
+  },
+  {
+   "uid": "volcano__40a23061",
+   "verdict": "bad",
+   "problem": "The smooth light-grey sky of the original is replaced by a rock-like marbled or crumpled texture, which is the wrong material for a sky. The 1:1 centre crop also shows blocky stair-step artefacts and horizontal smears.",
+   "fix": "Restrict the rock-lab-inject step to the dark ground and tree-silhouette area, leave the sky as a smooth gradient, and redo from the pchip upscale without multiplicative injection on the light areas."
+  }
+ ]
+}

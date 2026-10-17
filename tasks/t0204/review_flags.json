@@ -1,0 +1,18 @@
+{
+ "task": "t0204",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "flaghut2__8ab97645",
+   "verdict": "suspect",
+   "problem": "Grey concrete wall reads correctly in tone, but the 1:1 crop has horizontal streak banding about every 4-8 px and speckled noise that look like scanline artifacts rather than concrete pores. Original has only a few dark grid lines.",
+   "fix": "Remove the periodic horizontal component from the LAB high-frequency layer (grain metric shows a 4 px period), reduce HF noise amplitude, and re-check the 1:1 crop for streaks."
+  },
+  {
+   "uid": "foggrad8x64__d5bef1f3",
+   "verdict": "suspect",
+   "problem": "Fog gradient matches the original in full-height layout and tone, but the 1:1 centre crop shows a hard horizontal cutoff: a purple block ends abruptly about 64 px down and the area below is magenta (transparent). That conflicts with the full-height gradient in the fit view. It may be a compare-tool crop artifact or a real alpha bug.",
+   "fix": "Re-render the compare from the raw RGBA at 1:1 and check alpha row by row across the full height. If alpha really drops out mid-height, fix the soft-alpha reconstruction so it fades smoothly to the bottom. Otherwise fix the compare crop and mark good."
+  }
+ ]
+}

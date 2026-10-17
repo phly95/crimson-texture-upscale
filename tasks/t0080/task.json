@@ -1,0 +1,189 @@
+{
+ "task": "t0080",
+ "kind": "family",
+ "family": "gyrobu",
+ "units": [
+  {
+   "uid": "gyrobuild_motif__9e845043",
+   "stem": "gyrobuild_motif",
+   "size": [
+    64,
+    256
+   ],
+   "target": [
+    512,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 4.1,
+   "mean_rgb": [
+    103.3,
+    110.6,
+    111.1
+   ],
+   "distinct_colours_4bit": 167,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "gyrobuild(12)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 16.0
+   }
+  },
+  {
+   "uid": "gyrobuild_motif2__0a5f0bd8",
+   "stem": "gyrobuild_motif2",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.16,
+   "mean_rgb": [
+    108.3,
+    112.6,
+    115.9
+   ],
+   "distinct_colours_4bit": 130,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 24,
+    "nodes": [
+     "g(32)",
+     "gyrobuild(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.75,
+     0.53
+    ],
+    "world_units_per_repeat": 24.9
+   }
+  },
+  {
+   "uid": "gyrobuild_motif3__4147c5ad",
+   "stem": "gyrobuild_motif3",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.58,
+   "mean_rgb": [
+    120.7,
+    125.1,
+    129.4
+   ],
+   "distinct_colours_4bit": 134,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 22,
+    "nodes": [
+     "g(40)",
+     "gyrobuild(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.09,
+     "wall_side": 0.91
+    },
+    "uv_repeat_median": [
+     0.87,
+     0.7
+    ],
+    "world_units_per_repeat": 4.2
+   }
+  },
+  {
+   "uid": "gyrobuilding01__4ca5e665",
+   "stem": "gyrobuilding01",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.44,
+   "mean_rgb": [
+    113.7,
+    118.2,
+    126.1
+   ],
+   "distinct_colours_4bit": 193,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "gyrobuild(32)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     3.0
+    ],
+    "world_units_per_repeat": 29.9
+   }
+  }
+ ]
+}

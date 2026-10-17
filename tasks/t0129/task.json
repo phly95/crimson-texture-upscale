@@ -1,0 +1,163 @@
+{
+ "task": "t0129",
+ "kind": "family",
+ "family": "ring",
+ "units": [
+  {
+   "uid": "ring_ap__a2291b6f",
+   "stem": "ring_ap",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 12.32,
+   "mean_rgb": [
+    195.1,
+    230.9,
+    41.7
+   ],
+   "distinct_colours_4bit": 21,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "ap_cracks(8)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 4.2
+   }
+  },
+  {
+   "uid": "ring_he__3cb95ec5",
+   "stem": "ring_he",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.64,
+   "mean_rgb": [
+    113.6,
+    99.8,
+    131.3
+   ],
+   "distinct_colours_4bit": 14,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 144,
+    "nodes": [
+     "he_ringer(144)"
+    ],
+    "surface": {
+     "ground_up": 0.11,
+     "ceiling_down": 0.0,
+     "wall_side": 0.89
+    },
+    "uv_repeat_median": [
+     0.35,
+     0.35
+    ],
+    "world_units_per_repeat": 8.8
+   }
+  },
+  {
+   "uid": "ring_sonic__7eaa639f",
+   "stem": "ring_sonic",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 1.07,
+   "mean_rgb": [
+    125.5,
+    166.3,
+    159.1
+   ],
+   "distinct_colours_4bit": 5,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 40,
+    "nodes": [
+     "sonic_ring(40)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 21.0
+   }
+  }
+ ]
+}

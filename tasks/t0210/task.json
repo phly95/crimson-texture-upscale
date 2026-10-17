@@ -1,0 +1,347 @@
+{
+ "task": "t0210",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "35hawgwild__803888d3",
+   "stem": "35hawgwild",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.25,
+   "mean_rgb": [
+    108.9,
+    107.9,
+    108.3
+   ],
+   "distinct_colours_4bit": 70,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "hill1_trans1__36e6bfec",
+   "stem": "hill1_trans1",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.5,
+   "mean_rgb": [
+    58.7,
+    73.9,
+    47.6
+   ],
+   "distinct_colours_4bit": 92,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 1,
+    "nodes": [
+     "g(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 82.1
+   }
+  },
+  {
+   "uid": "hilltrans2__be89e7a5",
+   "stem": "hilltrans2",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.19,
+   "mean_rgb": [
+    71.1,
+    83.8,
+    66.6
+   ],
+   "distinct_colours_4bit": 104,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 78,
+    "nodes": [
+     "g(64)",
+     "waterbottom(8)",
+     "land_dock(5)",
+     "tags(1)"
+    ],
+    "surface": {
+     "ground_up": 0.17,
+     "ceiling_down": 0.03,
+     "wall_side": 0.81
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.91
+    ],
+    "world_units_per_repeat": 85.8
+   }
+  },
+  {
+   "uid": "hkengine01__4d894736",
+   "stem": "hkengine01",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.99,
+   "mean_rgb": [
+    115.3,
+    118.0,
+    126.0
+   ],
+   "distinct_colours_4bit": 65,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 824,
+    "nodes": [
+     "part(738)",
+     "g(172)"
+    ],
+    "surface": {
+     "ground_up": 0.2,
+     "ceiling_down": 0.22,
+     "wall_side": 0.58
+    },
+    "uv_repeat_median": [
+     0.28,
+     0.16
+    ],
+    "world_units_per_repeat": 9.8
+   }
+  },
+  {
+   "uid": "09hknights_logo1__569cac44",
+   "stem": "09hknights_logo1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.15,
+   "mean_rgb": [
+    54.3,
+    59.3,
+    57.1
+   ],
+   "distinct_colours_4bit": 346,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "10hknights_logo2__14026771",
+   "stem": "10hknights_logo2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.16,
+   "mean_rgb": [
+    49.5,
+    44.8,
+    40.2
+   ],
+   "distinct_colours_4bit": 300,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "hollybomber01__9f829439",
+   "stem": "hollybomber01",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 6.21,
+   "mean_rgb": [
+    75.0,
+    85.3,
+    110.9
+   ],
+   "distinct_colours_4bit": 515,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "hollywood_sign__03563ffc",
+   "stem": "hollywood_sign",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.09,
+   "mean_rgb": [
+    254.5,
+    247.8,
+    242.9
+   ],
+   "distinct_colours_4bit": 7,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 44,
+    "nodes": [
+     "letter(29)",
+     "structure(21)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.55,
+     0.61
+    ],
+    "world_units_per_repeat": 20.3
+   }
+  }
+ ]
+}

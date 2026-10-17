@@ -1,0 +1,234 @@
+{
+ "task": "t0024",
+ "kind": "family",
+ "family": "bowlsi",
+ "units": [
+  {
+   "uid": "bowlsign00__59e3034c",
+   "stem": "bowlsign00",
+   "size": [
+    64,
+    16
+   ],
+   "target": [
+    512,
+    128
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.7,
+   "mean_rgb": [
+    109.5,
+    90.8,
+    87.8
+   ],
+   "distinct_colours_4bit": 39,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 10,
+    "nodes": [
+     "des_off(6)",
+     "des_on(4)"
+    ],
+    "surface": {
+     "ground_up": 0.2,
+     "ceiling_down": 0.2,
+     "wall_side": 0.6
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.0
+    ],
+    "world_units_per_repeat": 1.4
+   }
+  },
+  {
+   "uid": "bowlsign01__ecd0637e",
+   "stem": "bowlsign01",
+   "size": [
+    64,
+    16
+   ],
+   "target": [
+    512,
+    128
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.44,
+   "mean_rgb": [
+    184.9,
+    132.7,
+    124.7
+   ],
+   "distinct_colours_4bit": 97,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "des_on(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.4
+   }
+  },
+  {
+   "uid": "bowlsign02__ee9a8fb7",
+   "stem": "bowlsign02",
+   "size": [
+    64,
+    16
+   ],
+   "target": [
+    512,
+    128
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.99,
+   "mean_rgb": [
+    109.8,
+    100.9,
+    98.9
+   ],
+   "distinct_colours_4bit": 13,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 5,
+    "nodes": [
+     "pole_middle(5)"
+    ],
+    "surface": {
+     "ground_up": 0.2,
+     "ceiling_down": 0.0,
+     "wall_side": 0.8
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.7
+   }
+  },
+  {
+   "uid": "bowlsign03__ed4113c7",
+   "stem": "bowlsign03",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.7,
+   "mean_rgb": [
+    55.3,
+    52.9,
+    48.1
+   ],
+   "distinct_colours_4bit": 28,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 5,
+    "nodes": [
+     "pole_middle(3)",
+     "des_off(2)"
+    ],
+    "surface": {
+     "ground_up": 0.2,
+     "ceiling_down": 0.0,
+     "wall_side": 0.8
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 3.3
+   }
+  },
+  {
+   "uid": "bowlsignon03__7536c61e",
+   "stem": "bowlsignon03",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.7,
+   "mean_rgb": [
+    80.2,
+    78.1,
+    73.6
+   ],
+   "distinct_colours_4bit": 34,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "des_on(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 3.3
+   }
+  }
+ ]
+}

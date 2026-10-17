@@ -1,0 +1,30 @@
+{
+ "task": "t0228",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "15sacredtrust_logo1__fa46db7b",
+   "verdict": "suspect",
+   "problem": "Fit view keeps the Sacred Trust logo design, but the 1:1 centre crop is soft and blurry, with blocky shading in the wing and hand areas. It reads as mush rather than crisp posterised ink edges.",
+   "fix": "Sharpen the back-projected ink-map edges (less blur before posterising, or a smaller edge gaussian) so the black outline and colour boundaries stay crisp at 1:1. Keep the k=12 palette and the exact silhouette."
+  },
+  {
+   "uid": "sand128__f116a4f5",
+   "verdict": "suspect",
+   "problem": "Colour and mottling match the original sand, but the injected grit at 1:1 is a dense scatter of dark specks that reads as spotting or dirt rather than fine sand grain. It is also heavier than the 128px original.",
+   "fix": "Reduce the dark speckle density and contrast in the Ground101 grit layer, or use smaller grains with less contrast, so the surface reads as fine sand. Keep the colour-matched base."
+  },
+  {
+   "uid": "sandbag1__243acf73",
+   "verdict": "suspect",
+   "problem": "At 1:1 the hessian weave shows as a regular dot or grid pattern that looks stamped or halftone. The crop also drifts greyer and pinker than the tan-brown original, and seam_out (1.26) is worse than seam_orig (0.97).",
+   "fix": "Lower the weave amplitude and break its regularity (jitter or irregular phase) so it does not read as a grid. Pull the colour back toward the original tan-brown and re-check the seam with a tiling-aware blend."
+  },
+  {
+   "uid": "scaffold2__ba4938c6",
+   "verdict": "suspect",
+   "problem": "The hard cut-out triangle's sharp corners are rounded at 1:1, which changes the flat-graphic silhouette. The diagonal brace also has a soft dark halo along the magenta cut-out edge.",
+   "fix": "Keep the cut-out alpha hard with sharp corners (no corner rounding or blur in the alpha step). Remove the dark halo by limiting the edge dilation or bleed to the brace's inner pixels only."
+  }
+ ]
+}

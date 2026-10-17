@@ -1,0 +1,149 @@
+{
+ "task": "t0074",
+ "kind": "family",
+ "family": "gantry",
+ "units": [
+  {
+   "uid": "gantry_tracks__bf561a0c",
+   "stem": "gantry_tracks",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.22,
+   "mean_rgb": [
+    115.2,
+    106.1,
+    86.3
+   ],
+   "distinct_colours_4bit": 53,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 42,
+    "nodes": [
+     "g(19)",
+     "track(13)",
+     "a_detail(4)",
+     "rrtracks_city(4)",
+     "a(2)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     12.74,
+     3.98
+    ],
+    "world_units_per_repeat": 8.0
+   }
+  },
+  {
+   "uid": "gantry_tracks2__b0b1fd33",
+   "stem": "gantry_tracks2",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 7.02,
+   "mean_rgb": [
+    113.3,
+    104.4,
+    85.0
+   ],
+   "distinct_colours_4bit": 53,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 108,
+    "nodes": [
+     "g(59)",
+     "a(42)",
+     "rrtracks_city(7)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     11.21,
+     1.5
+    ],
+    "world_units_per_repeat": 7.1
+   }
+  },
+  {
+   "uid": "gantry_tracks3__b3bb7f6a",
+   "stem": "gantry_tracks3",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.03,
+   "mean_rgb": [
+    17.9,
+    17.1,
+    16.2
+   ],
+   "distinct_colours_4bit": 35,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 3,
+    "nodes": [
+     "a(2)",
+     "hangar_floor(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     7.54,
+     4.0
+    ],
+    "world_units_per_repeat": 7.9
+   }
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "task": "t0193",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "16colorado_logo1__e7385b11",
+   "verdict": "suspect",
+   "problem": "Logo design, colours and horse silhouette match the original. At 1:1 the horse outline is soft, with a slight blur where the drawn pixel edges should stay crisp.",
+   "fix": "Use a sharper edge reconstruction for this flat logo (hard or near-hard alpha and colour edges at the 8x boundaries). Keep the palette exact and avoid the unsharp halo on the purple/red fields."
+  },
+  {
+   "uid": "clock__50683c93",
+   "verdict": "suspect",
+   "problem": "Face, numerals and hand positions are correct. At 1:1 the hand edges are smeared into a grey motion-blur look, and the dial has a slight plastic softness.",
+   "fix": "Redraw or sharpen the hands as crisp shapes with a 1 to 2 px anti-aliased edge instead of a blurred soft-up. Keep the bezel and dial as they are."
+  },
+  {
+   "uid": "cobblestone_road__7cb4033a",
+   "verdict": "suspect",
+   "problem": "Grey colour, course scale and the left curb line match the original. The cobbles repeat as near-identical embossed stamps with a regular grid, and the right dark band picks up crack lines the original does not show.",
+   "fix": "Vary stone size, shape and tone across the tile so the stamps do not repeat. Reduce the emboss highlight and remove the crack lines from the dark band, or keep them very faint, so the band matches the original smooth dark strip."
+  },
+  {
+   "uid": "compassticks2__b0b9ed41",
+   "verdict": "suspect",
+   "problem": "Black field, white tick positions and count are correct. The tick edges are soft with a grey halo at 1:1, which is a fringe on a flat graphic.",
+   "fix": "Reconstruct this flat graphic with hard colour edges (nearest-neighbour scaling or a binary-edge pass) so the ticks are crisp and have no halo. Keep the black and magenta alpha exact."
+  }
+ ]
+}

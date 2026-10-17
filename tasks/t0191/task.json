@@ -1,0 +1,382 @@
+{
+ "task": "t0191",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "bwzeptail__04d73346",
+   "stem": "bwzeptail",
+   "size": [
+    256,
+    128
+   ],
+   "target": [
+    2048,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 7.27,
+   "mean_rgb": [
+    129.3,
+    131.0,
+    129.3
+   ],
+   "distinct_colours_4bit": 4,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "bw_nbase(4)",
+     "g(4)"
+    ],
+    "surface": {
+     "ground_up": 0.25,
+     "ceiling_down": 0.0,
+     "wall_side": 0.75
+    },
+    "uv_repeat_median": [
+     0.71,
+     0.77
+    ],
+    "world_units_per_repeat": 44.5
+   }
+  },
+  {
+   "uid": "cable_insulator__18b99394",
+   "stem": "cable_insulator",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 32,
+    "nodes": [
+     "g(32)",
+     "piece(32)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.5
+   }
+  },
+  {
+   "uid": "cam_wheel__584a323a",
+   "stem": "cam_wheel",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.06,
+   "mean_rgb": [
+    36.6,
+    26.6,
+    17.3
+   ],
+   "distinct_colours_4bit": 61,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "cart_boom(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.8
+   }
+  },
+  {
+   "uid": "camera__87d9470c",
+   "stem": "camera",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.98,
+   "mean_rgb": [
+    141.3,
+    140.0,
+    140.1
+   ],
+   "distinct_colours_4bit": 22,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 6,
+    "nodes": [
+     "cart_boom(12)"
+    ],
+    "surface": {
+     "ground_up": 0.33,
+     "ceiling_down": 0.0,
+     "wall_side": 0.67
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.6
+   }
+  },
+  {
+   "uid": "can1__97d23737",
+   "stem": "can1",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.41,
+   "mean_rgb": [
+    56.5,
+    30.2,
+    23.0
+   ],
+   "distinct_colours_4bit": 28,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 64,
+    "nodes": [
+     "healthy(64)",
+     "part(64)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.04
+    ],
+    "world_units_per_repeat": 1.7
+   }
+  },
+  {
+   "uid": "can2__def5b31f",
+   "stem": "can2",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.45,
+   "mean_rgb": [
+    53.5,
+    31.2,
+    24.8
+   ],
+   "distinct_colours_4bit": 31,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "healthy(8)",
+     "part(8)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.95,
+     1.0
+    ],
+    "world_units_per_repeat": 2.4
+   }
+  },
+  {
+   "uid": "cannonballchrome__f2f49140",
+   "stem": "cannonballchrome",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.24,
+   "mean_rgb": [
+    171.0,
+    177.6,
+    182.5
+   ],
+   "distinct_colours_4bit": 29,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 66,
+    "nodes": [
+     "cball(56)",
+     "glideb(10)"
+    ],
+    "surface": {
+     "ground_up": 0.18,
+     "ceiling_down": 0.03,
+     "wall_side": 0.79
+    },
+    "uv_repeat_median": [
+     1.9,
+     0.72
+    ],
+    "world_units_per_repeat": 1.1
+   }
+  },
+  {
+   "uid": "carriage01__8c830bf6",
+   "stem": "carriage01",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 4.57,
+   "mean_rgb": [
+    40.8,
+    50.4,
+    61.1
+   ],
+   "distinct_colours_4bit": 34,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 70,
+    "nodes": [
+     "hi_tower(36)",
+     "pod4_hi(18)",
+     "healthy(14)",
+     "pod4_lo(2)"
+    ],
+    "surface": {
+     "ground_up": 0.04,
+     "ceiling_down": 0.0,
+     "wall_side": 0.96
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 3.3
+   }
+  }
+ ]
+}

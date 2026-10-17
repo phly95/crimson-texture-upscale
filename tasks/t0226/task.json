@@ -1,0 +1,386 @@
+{
+ "task": "t0226",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "redrooftile__571d4b19",
+   "stem": "redrooftile",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.75,
+   "mean_rgb": [
+    83.7,
+    58.1,
+    57.4
+   ],
+   "distinct_colours_4bit": 5,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 35,
+    "nodes": [
+     "g(39)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     11.85,
+     5.0
+    ],
+    "world_units_per_repeat": 1.1
+   }
+  },
+  {
+   "uid": "reel__72203a45",
+   "stem": "reel",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.36,
+   "mean_rgb": [
+    70.7,
+    74.5,
+    73.3
+   ],
+   "distinct_colours_4bit": 53,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "cart_boom(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.98,
+     0.99
+    ],
+    "world_units_per_repeat": 0.6
+   }
+  },
+  {
+   "uid": "ripple__f5f90f25",
+   "stem": "ripple",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.52,
+   "mean_rgb": [
+    84.5,
+    85.3,
+    87.3
+   ],
+   "distinct_colours_4bit": 3,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 24,
+    "nodes": [
+     "ripple(24)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 15.1
+   }
+  },
+  {
+   "uid": "roadseg1__29f70488",
+   "stem": "roadseg1",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.96,
+   "mean_rgb": [
+    172.2,
+    172.8,
+    171.3
+   ],
+   "distinct_colours_4bit": 76,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 9,
+    "nodes": [
+     "g(9)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 64.0
+   }
+  },
+  {
+   "uid": "roadseg2__b0316597",
+   "stem": "roadseg2",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.78,
+   "mean_rgb": [
+    176.1,
+    176.8,
+    175.3
+   ],
+   "distinct_colours_4bit": 72,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "g(4)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 64.0
+   }
+  },
+  {
+   "uid": "rockbase__0a92b716",
+   "stem": "rockbase",
+   "size": [
+    256,
+    128
+   ],
+   "target": [
+    2048,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.03,
+   "mean_rgb": [
+    79.3,
+    88.8,
+    81.2
+   ],
+   "distinct_colours_4bit": 36,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 95,
+    "nodes": [
+     "g(85)",
+     "regter(4)",
+     "waterbottom(3)",
+     "rabter(2)",
+     "land_dock(1)"
+    ],
+    "surface": {
+     "ground_up": 0.36,
+     "ceiling_down": 0.0,
+     "wall_side": 0.64
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 92.3
+   }
+  },
+  {
+   "uid": "rocktop__4605b937",
+   "stem": "rocktop",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.85,
+   "mean_rgb": [
+    73.9,
+    84.7,
+    75.8
+   ],
+   "distinct_colours_4bit": 38,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 48,
+    "nodes": [
+     "g(48)"
+    ],
+    "surface": {
+     "ground_up": 0.29,
+     "ceiling_down": 0.08,
+     "wall_side": 0.62
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 107.7
+   }
+  },
+  {
+   "uid": "rocktop128__3e8072f2",
+   "stem": "rocktop128",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.82,
+   "mean_rgb": [
+    75.6,
+    86.7,
+    77.4
+   ],
+   "distinct_colours_4bit": 24,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B",
+    "C2B",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 117,
+    "nodes": [
+     "g(60)",
+     "polys(32)",
+     "ter_poly(6)",
+     "t_chamber(5)",
+     "regter(4)",
+     "rabter(4)"
+    ],
+    "surface": {
+     "ground_up": 0.58,
+     "ceiling_down": 0.06,
+     "wall_side": 0.36
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 45.5
+   }
+  }
+ ]
+}

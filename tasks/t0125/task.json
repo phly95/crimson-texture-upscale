@@ -1,0 +1,142 @@
+{
+ "task": "t0125",
+ "kind": "family",
+ "family": "propan",
+ "units": [
+  {
+   "uid": "propanetank1__db1a185f",
+   "stem": "propanetank1",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.05,
+   "mean_rgb": [
+    123.1,
+    118.4,
+    101.6
+   ],
+   "distinct_colours_4bit": 259,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "propane(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 13.1
+   }
+  },
+  {
+   "uid": "propanetank2__7045be94",
+   "stem": "propanetank2",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.6,
+   "mean_rgb": [
+    120.6,
+    116.9,
+    96.6
+   ],
+   "distinct_colours_4bit": 199,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "propane(2)"
+    ],
+    "surface": {
+     "ground_up": 0.5,
+     "ceiling_down": 0.5,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 11.5
+   }
+  },
+  {
+   "uid": "propanetank3__fe96f30a",
+   "stem": "propanetank3",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.66,
+   "mean_rgb": [
+    57.5,
+    60.9,
+    41.9
+   ],
+   "distinct_colours_4bit": 101,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "propane(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 7.4
+   }
+  }
+ ]
+}

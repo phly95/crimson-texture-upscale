@@ -1,0 +1,30 @@
+{
+ "task": "t0167",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "vostokeng1__63a56f91",
+   "verdict": "suspect",
+   "problem": "Original is a flat gold strip with a red band and a gold lower band (flat graphic). At 1:1 the result shows blocky, stair-stepped smeared streaks that read as digital artifacts rather than brushed or worn grain. The centre crop also misses the red band, so the design is only checked at the shrunk view.",
+   "fix": "Re-run the upscale without the blocky streak injection, or reduce the streak amplitude to a subtle, smooth grain. Keep the red band and gold edges at their original positions, and add a 1:1 crop that includes the red band to confirm them."
+  },
+  {
+   "uid": "vostokeng2__f58b6172",
+   "verdict": "suspect",
+   "problem": "Original is a blurred row of six eye-like gauges on gold. The result redraws them as crisp vector ovals with hard dark outlines and sharper pupils. This invents edges the blurry original never had, and the mean shift is high (11.8), so the look changes more than a faithful upscale would.",
+   "fix": "Keep the soft, blurred edges of the original. Use a smooth upscale (or the redraw with feathered outlines and matched blur), and reduce the outline contrast and pupil sharpness so the result reads like the original gauges."
+  },
+  {
+   "uid": "vostokskin1__80bbb1a9",
+   "verdict": "suspect",
+   "problem": "Original is a soft, blurred dark slate panel with lighter edges. At 1:1 the result adds a fine speckled, woven-looking grain that is stronger than the original's smooth surface and reads closer to sandpaper or fabric than to the source.",
+   "fix": "Lower the grain amplitude so the surface stays smooth and close to the original's soft slate tone. Keep the lighter edge falloff from the original."
+  },
+  {
+   "uid": "vostoktail__bbe3711b",
+   "verdict": "suspect",
+   "problem": "Yellow paint field carries vertical smear streaks at 1:1 that the flat original paint does not have, and the rivet and truss details in the lower band look mushy compared with the crisp red/yellow boundary.",
+   "fix": "Reduce the vertical streak amplitude in the yellow field, keep it as smooth paint with faint grain, and sharpen the truss members and rivets so they match the original's crisp linework."
+  }
+ ]
+}

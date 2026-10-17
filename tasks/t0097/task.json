@@ -1,0 +1,284 @@
+{
+ "task": "t0097",
+ "kind": "family",
+ "family": "lighth",
+ "units": [
+  {
+   "uid": "lighthouse01__5cdc9e7a",
+   "stem": "lighthouse01",
+   "size": [
+    32,
+    128
+   ],
+   "target": [
+    256,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 25.63,
+   "mean_rgb": [
+    247.5,
+    236.5,
+    218.0
+   ],
+   "distinct_colours_4bit": 39,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 10,
+    "nodes": [
+     "g(10)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.61,
+     0.26
+    ],
+    "world_units_per_repeat": 7.7
+   }
+  },
+  {
+   "uid": "lighthouse02__ec110acf",
+   "stem": "lighthouse02",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.73,
+   "mean_rgb": [
+    187.1,
+    118.0,
+    99.8
+   ],
+   "distinct_colours_4bit": 157,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "litehshealthy(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.01
+    ],
+    "world_units_per_repeat": 5.5
+   }
+  },
+  {
+   "uid": "lighthouse03__13870d9c",
+   "stem": "lighthouse03",
+   "size": [
+    16,
+    16
+   ],
+   "target": [
+    128,
+    128
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.05,
+   "mean_rgb": [
+    176.5,
+    19.9,
+    14.7
+   ],
+   "distinct_colours_4bit": 40,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 12,
+    "nodes": [
+     "g(10)",
+     "roof(2)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     8.12,
+     4.32
+    ],
+    "world_units_per_repeat": 2.4
+   }
+  },
+  {
+   "uid": "lighthouse04__6373537f",
+   "stem": "lighthouse04",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 8.92,
+   "mean_rgb": [
+    228.6,
+    217.8,
+    195.1
+   ],
+   "distinct_colours_4bit": 37,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 6,
+    "nodes": [
+     "hslitesoff(6)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.28,
+     0.6
+    ],
+    "world_units_per_repeat": 10.2
+   }
+  },
+  {
+   "uid": "lighthouse05__1352c61d",
+   "stem": "lighthouse05",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.84,
+   "mean_rgb": [
+    97.4,
+    63.3,
+    42.0
+   ],
+   "distinct_colours_4bit": 177,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 12,
+    "nodes": [
+     "litehsdestroyed(12)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.99
+    ],
+    "world_units_per_repeat": 5.5
+   }
+  },
+  {
+   "uid": "lighthouse06__dfdf48a4",
+   "stem": "lighthouse06",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 11.86,
+   "mean_rgb": [
+    240.1,
+    229.6,
+    202.0
+   ],
+   "distinct_colours_4bit": 44,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 6,
+    "nodes": [
+     "hsliteson(6)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.28,
+     0.6
+    ],
+    "world_units_per_repeat": 10.2
+   }
+  }
+ ]
+}

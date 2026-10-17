@@ -1,0 +1,18 @@
+{
+ "task": "t0236",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "treebark__21531280",
+   "verdict": "suspect",
+   "problem": "Reads as lumpy pebbles or cork with repeated round blobs and dark pits, not the fibrous diagonal streaks of the original bark.",
+   "fix": "Re-run with the grain direction from the original kept and the high-frequency blob injection reduced; check the 1:1 crop for stamp repetition."
+  },
+  {
+   "uid": "trestlegirder__08693075",
+   "verdict": "suspect",
+   "problem": "Imported greenish grime and a faint vertical seam line from the libcrop background show in the 512 result, and the plate border is darker than the original flat grey.",
+   "fix": "Colour-match the background to the original flat grey, remove the libcrop boundary seam by blending the edges, and keep the X and rivet design unchanged."
+  }
+ ]
+}

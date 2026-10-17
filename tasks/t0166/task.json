@@ -1,0 +1,203 @@
+{
+ "task": "t0166",
+ "kind": "family",
+ "family": "turret",
+ "units": [
+  {
+   "uid": "turret01__6465bb44",
+   "stem": "turret01",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.13,
+   "mean_rgb": [
+    62.2,
+    59.9,
+    55.4
+   ],
+   "distinct_colours_4bit": 42,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 24,
+    "nodes": [
+     "pt(15)",
+     "g(9)"
+    ],
+    "surface": {
+     "ground_up": 0.38,
+     "ceiling_down": 0.0,
+     "wall_side": 0.62
+    },
+    "uv_repeat_median": [
+     0.68,
+     0.42
+    ],
+    "world_units_per_repeat": 1.9
+   }
+  },
+  {
+   "uid": "turret02__1c928a39",
+   "stem": "turret02",
+   "size": [
+    16,
+    16
+   ],
+   "target": [
+    128,
+    128
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.62,
+   "mean_rgb": [
+    79.0,
+    68.4,
+    47.7
+   ],
+   "distinct_colours_4bit": 46,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 48,
+    "nodes": [
+     "pt(30)",
+     "g(18)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.0
+   }
+  },
+  {
+   "uid": "turret1__23df3e0d",
+   "stem": "turret1",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.86,
+   "mean_rgb": [
+    67.0,
+    65.0,
+    60.5
+   ],
+   "distinct_colours_4bit": 36,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 9,
+    "nodes": [
+     "g(9)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.33,
+     "wall_side": 0.67
+    },
+    "uv_repeat_median": [
+     0.36,
+     0.27
+    ],
+    "world_units_per_repeat": 1.4
+   }
+  },
+  {
+   "uid": "turret2__10fca0a9",
+   "stem": "turret2",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.19,
+   "mean_rgb": [
+    56.0,
+    54.4,
+    51.4
+   ],
+   "distinct_colours_4bit": 41,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 1,
+    "nodes": [
+     "g(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.0
+   }
+  }
+ ]
+}

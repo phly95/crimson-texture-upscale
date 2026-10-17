@@ -1,0 +1,18 @@
+{
+ "task": "t0181",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "armytruck03__5c8e11f3",
+   "verdict": "suspect",
+   "problem": "1:1 crop: green camo edges and wheel arch look smeared and soft; paint grain barely visible",
+   "fix": "Sharpen camo edges and raise paint-grain amplitude so the 1:1 crop reads as painted metal"
+  },
+  {
+   "uid": "ave_shadow__ca1355d6",
+   "verdict": "suspect",
+   "problem": "Thin darker rim along the silhouette edge reads as a dark fringe on a flat shadow decal",
+   "fix": "Remove the edge darkening and keep a flat fill with the hard thresholded alpha edge"
+  }
+ ]
+}

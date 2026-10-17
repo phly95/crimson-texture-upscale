@@ -1,0 +1,24 @@
+{
+ "task": "t0192",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "06cccp_logo1__43052a40",
+   "verdict": "suspect",
+   "problem": "Emblem edges are soft at 1:1: the gold outline and red/gold boundary blur over roughly 15-20 px into a halo, so the flat art loses its crisp silhouette.",
+   "fix": "Rebuild the edges as a thin antialiased ramp (about 1 result px) from a thresholded alpha/colour mask at 8x, instead of blurring the boundary. Keep flat red and gold fills exactly."
+  },
+  {
+   "uid": "cgcable1__172b8e79",
+   "verdict": "suspect",
+   "problem": "Cable strands are soft blurred dark bands with a blotchy interior and no twisted-rope read at 1:1. The original's thin, crisp diagonal strands are lost to mush.",
+   "fix": "Redraw each strand as a crisp alpha-cut line about 8x the original width, with a twisted-rope stripe running along the strand direction. Keep the original cross-pattern geometry and alpha."
+  },
+  {
+   "uid": "cgtail2__63cf6aed",
+   "verdict": "suspect",
+   "problem": "A regular woven-grid pattern appears at 1:1 that is absent from the original, which is a smooth light-grey panel with soft shading. This reads as an invented, repeated stamp, not the source material.",
+   "fix": "Remove the regular weave injection. Keep the original's smooth gradients and add only low-amplitude, irregular noise matching the original's fine grain."
+  }
+ ]
+}

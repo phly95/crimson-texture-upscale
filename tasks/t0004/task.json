@@ -1,0 +1,504 @@
+{
+ "task": "t0004",
+ "kind": "flipbook",
+ "family": "srf",
+ "units": [
+  {
+   "uid": "srf0001__0ee6c135",
+   "stem": "srf0001",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.34,
+   "mean_rgb": [
+    143.7,
+    143.4,
+    143.7
+   ],
+   "distinct_colours_4bit": 12,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B",
+    "C2"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": {
+    "polys": 461,
+    "nodes": [
+     "g(421)",
+     "surfsetup(40)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.12
+    ],
+    "world_units_per_repeat": 34.6
+   }
+  },
+  {
+   "uid": "srf0002__397b951e",
+   "stem": "srf0002",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.45,
+   "mean_rgb": [
+    143.7,
+    143.3,
+    143.7
+   ],
+   "distinct_colours_4bit": 12,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0003__4af143bf",
+   "stem": "srf0003",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.1,
+   "mean_rgb": [
+    143.3,
+    143.0,
+    143.3
+   ],
+   "distinct_colours_4bit": 12,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0004__c1ba37ae",
+   "stem": "srf0004",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.17,
+   "mean_rgb": [
+    143.3,
+    143.0,
+    143.3
+   ],
+   "distinct_colours_4bit": 10,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0005__ebc370ae",
+   "stem": "srf0005",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.34,
+   "mean_rgb": [
+    143.8,
+    143.6,
+    143.8
+   ],
+   "distinct_colours_4bit": 10,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0006__73f6d764",
+   "stem": "srf0006",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.23,
+   "mean_rgb": [
+    143.9,
+    143.6,
+    143.9
+   ],
+   "distinct_colours_4bit": 11,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0007__669ef4d4",
+   "stem": "srf0007",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.14,
+   "mean_rgb": [
+    144.5,
+    144.2,
+    144.5
+   ],
+   "distinct_colours_4bit": 11,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0008__6cd40cbc",
+   "stem": "srf0008",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 2.96,
+   "mean_rgb": [
+    144.5,
+    144.2,
+    144.5
+   ],
+   "distinct_colours_4bit": 11,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0009__86cb6006",
+   "stem": "srf0009",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.19,
+   "mean_rgb": [
+    144.8,
+    144.4,
+    144.8
+   ],
+   "distinct_colours_4bit": 10,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0010__15baa4b5",
+   "stem": "srf0010",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.17,
+   "mean_rgb": [
+    144.3,
+    143.9,
+    144.3
+   ],
+   "distinct_colours_4bit": 11,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0011__a78edae7",
+   "stem": "srf0011",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.33,
+   "mean_rgb": [
+    143.8,
+    143.5,
+    143.8
+   ],
+   "distinct_colours_4bit": 11,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0012__c8c6f4b0",
+   "stem": "srf0012",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.41,
+   "mean_rgb": [
+    143.8,
+    143.5,
+    143.8
+   ],
+   "distinct_colours_4bit": 10,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0013__e4dd8284",
+   "stem": "srf0013",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.94,
+   "mean_rgb": [
+    143.9,
+    143.6,
+    143.9
+   ],
+   "distinct_colours_4bit": 9,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0014__b94890b0",
+   "stem": "srf0014",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.9,
+   "mean_rgb": [
+    143.6,
+    143.3,
+    143.6
+   ],
+   "distinct_colours_4bit": 8,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0015__10b6c05e",
+   "stem": "srf0015",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 4.1,
+   "mean_rgb": [
+    143.7,
+    143.5,
+    143.7
+   ],
+   "distinct_colours_4bit": 10,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  },
+  {
+   "uid": "srf0016__57e300c1",
+   "stem": "srf0016",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 3.79,
+   "mean_rgb": [
+    143.8,
+    143.5,
+    143.8
+   ],
+   "distinct_colours_4bit": 10,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": "srf0001__0ee6c135",
+   "usage": null
+  }
+ ]
+}

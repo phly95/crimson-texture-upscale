@@ -1,0 +1,258 @@
+{
+ "task": "t0172",
+ "kind": "family",
+ "family": "yellow",
+ "units": [
+  {
+   "uid": "yellow_flare__11cdc82e",
+   "stem": "yellow_flare",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    77.1,
+    68.2,
+    7.2
+   ],
+   "distinct_colours_4bit": 4,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2",
+    "C3",
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 17,
+    "nodes": [
+     "fuellight(8)",
+     "yellow_security(8)",
+     "flashlight(5)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 3.6
+   }
+  },
+  {
+   "uid": "yellowhilite__7e8721a3",
+   "stem": "yellowhilite",
+   "size": [
+    32,
+    16
+   ],
+   "target": [
+    256,
+    128
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    255.0,
+    255.0,
+    0.0
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "puffertexture(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.0
+   }
+  },
+  {
+   "uid": "yellowindicator__f7591460",
+   "stem": "yellowindicator",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    217.9,
+    217.9,
+    0.0
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "puffertexture(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.0
+   }
+  },
+  {
+   "uid": "yellowmetal-rivited__9ec19157",
+   "stem": "yellowmetal-rivited",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.35,
+   "mean_rgb": [
+    165.7,
+    172.1,
+    92.7
+   ],
+   "distinct_colours_4bit": 75,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 61,
+    "nodes": [
+     "pt(38)",
+     "gun(8)",
+     "tank1_p(8)",
+     "tank2_p(8)",
+     "tank3_p(8)",
+     "g(6)"
+    ],
+    "surface": {
+     "ground_up": 0.1,
+     "ceiling_down": 0.03,
+     "wall_side": 0.87
+    },
+    "uv_repeat_median": [
+     0.5,
+     0.87
+    ],
+    "world_units_per_repeat": 4.7
+   }
+  },
+  {
+   "uid": "yellowpropcone1__6c286a28",
+   "stem": "yellowpropcone1",
+   "size": [
+    8,
+    8
+   ],
+   "target": [
+    64,
+    64
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    255.0,
+    223.0,
+    0.0
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1C",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "g(24)",
+     "part(4)"
+    ],
+    "surface": {
+     "ground_up": 0.38,
+     "ceiling_down": 0.12,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     1.06,
+     1.19
+    ],
+    "world_units_per_repeat": 2.3
+   }
+  }
+ ]
+}

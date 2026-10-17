@@ -1,0 +1,187 @@
+{
+ "task": "t0089",
+ "kind": "family",
+ "family": "hydrot",
+ "units": [
+  {
+   "uid": "hydrotank1__a723f0c5",
+   "stem": "hydrotank1",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.05,
+   "mean_rgb": [
+    125.1,
+    118.4,
+    104.0
+   ],
+   "distinct_colours_4bit": 220,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "healthy(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 19.6
+   }
+  },
+  {
+   "uid": "hydrotank2__00cf9a28",
+   "stem": "hydrotank2",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.51,
+   "mean_rgb": [
+    122.0,
+    115.0,
+    97.4
+   ],
+   "distinct_colours_4bit": 182,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "healthy(4)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 20.0
+   }
+  },
+  {
+   "uid": "hydrotank3__09741840",
+   "stem": "hydrotank3",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.75,
+   "mean_rgb": [
+    58.5,
+    59.2,
+    43.3
+   ],
+   "distinct_colours_4bit": 100,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "healthy(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 12.2
+   }
+  },
+  {
+   "uid": "hydrotank4__95642dae",
+   "stem": "hydrotank4",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.78,
+   "mean_rgb": [
+    47.3,
+    49.8,
+    45.1
+   ],
+   "distinct_colours_4bit": 109,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 20,
+    "nodes": [
+     "dbase(20)"
+    ],
+    "surface": {
+     "ground_up": 0.2,
+     "ceiling_down": 0.0,
+     "wall_side": 0.8
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 19.6
+   }
+  }
+ ]
+}

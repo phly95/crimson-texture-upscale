@@ -1,0 +1,24 @@
+{
+ "task": "t0231",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "slug_muzzle2__3461993a",
+   "verdict": "suspect",
+   "problem": "Flame tongues and spiky left edge from the 64x32 original are smeared into a soft blob at 1:1; the flame reads as fog, not fire.",
+   "fix": "Redo with an edge-preserving upscale or add a crisp 1-2px alpha edge on the flame tongues, so the spinflame silhouette keeps its spikes at 1:1."
+  },
+  {
+   "uid": "smallwheels01__8b4499a0",
+   "verdict": "suspect",
+   "problem": "Hard alpha cut-out leaves stair-stepped silhouette on the wheel and plate edges at 1:1; the AMO lettering is illegible; detail_gain 38 hints at over-sharpening or added high-frequency noise on the metal.",
+   "fix": "Anti-alias the alpha edge over about 1-2 px instead of a hard cut, reduce the sharpening on the plates, and check the lettering against the original glyphs."
+  },
+  {
+   "uid": "smallwheels02__bf226c6a",
+   "verdict": "suspect",
+   "problem": "Chrome cylinder and the face at the bottom are soft and smeared at 1:1, and the head silhouette has stepped magenta notches on the left edge.",
+   "fix": "Smooth the alpha edge on the head silhouette, restore some edge contrast on the face so its features read, and keep the cut-out edge continuous."
+  }
+ ]
+}

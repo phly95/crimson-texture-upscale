@@ -1,0 +1,146 @@
+{
+ "task": "t0171",
+ "kind": "family",
+ "family": "workma",
+ "units": [
+  {
+   "uid": "workman1__26d85dc7",
+   "stem": "workman1",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 3.1,
+   "mean_rgb": [
+    64.4,
+    59.6,
+    57.6
+   ],
+   "distinct_colours_4bit": 96,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 9,
+    "nodes": [
+     "g(10)",
+     "sign_off(2)",
+     "sign_on(2)"
+    ],
+    "surface": {
+     "ground_up": 0.22,
+     "ceiling_down": 0.0,
+     "wall_side": 0.78
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 2.8
+   }
+  },
+  {
+   "uid": "workman2__902caea9",
+   "stem": "workman2",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.79,
+   "mean_rgb": [
+    65.3,
+    61.4,
+    66.1
+   ],
+   "distinct_colours_4bit": 103,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "g(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 2.9
+   }
+  },
+  {
+   "uid": "workman3__7f9b723a",
+   "stem": "workman3",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.12,
+   "mean_rgb": [
+    33.8,
+    28.9,
+    28.2
+   ],
+   "distinct_colours_4bit": 105,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 6,
+    "nodes": [
+     "m_gerter(8)",
+     "g(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 3.1
+   }
+  }
+ ]
+}

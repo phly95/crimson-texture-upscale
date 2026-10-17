@@ -1,0 +1,42 @@
+{
+ "task": "t0004",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "srf0001__0ee6c135",
+   "verdict": "suspect",
+   "problem": "Upscale shows relief/emboss shading and thin straight vertical hairlines at the same x-positions as every other unit (about 75px and 170px in the 1:1 crop). Reads as a ruled seam or stamp, not grain.",
+   "fix": "Remove the fixed-column hairlines (check the flipbook seed/grain injection for a column-aligned pattern). Lower the emboss/relief contrast toward the original's flat speckle."
+  },
+  {
+   "uid": "srf0002__397b951e",
+   "verdict": "suspect",
+   "problem": "Same fixed-column vertical hairlines and emboss look as the rest of the set; the 1:1 crop looks relief-shaded rather than like the original's speckled grey.",
+   "fix": "Remove the column-aligned hairlines and reduce the relief shading so the grain stays flat, matching the original tone."
+  },
+  {
+   "uid": "srf0003__4af143bf",
+   "verdict": "suspect",
+   "problem": "Fixed-column vertical hairlines run the full height at 1:1, and the surface is embossed-looking rather than matching the original's speckle.",
+   "fix": "Remove the column-aligned hairlines; soften the emboss so the grain reads as the original's sand speckle."
+  },
+  {
+   "uid": "srf0004__c1ba37ae",
+   "verdict": "suspect",
+   "problem": "Vertical hairlines at fixed columns in the 1:1 crop, plus embossed relief highlights that read as plastic rather than the original's flat speckle.",
+   "fix": "Strip the column-aligned hairlines and reduce relief/emboss intensity toward the original's tonal range."
+  },
+  {
+   "uid": "srf0005__ebc370ae",
+   "verdict": "suspect",
+   "problem": "Fixed-column hairlines visible at 1:1 and an embossed, bumpy look that departs from the original's flat grey speckle.",
+   "fix": "Remove the column-aligned hairlines and flatten the emboss so the material matches the original."
+  },
+  {
+   "uid": "srf0010__15baa4b5",
+   "verdict": "suspect",
+   "problem": "Fixed-column hairlines plus relief highlights that do not match the original's flat grey speckle.",
+   "fix": "Strip the column-aligned hairlines and reduce relief/emboss contrast."
+  }
+ ]
+}

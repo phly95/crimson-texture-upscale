@@ -1,0 +1,24 @@
+{
+ "task": "t0180",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "airplane_body01__94fde4d5",
+   "verdict": "suspect",
+   "problem": "Horizontal brushed-metal streaks run over the yellow eye/character decal and the portholes at 1:1, so the decal edges smear and the rivets look soft. Composition and grey metal colour match the original.",
+   "fix": "Mask the brushed detail out of the saturated decal areas (the saturation mask is only applied to neutral grey, so check it covers the decal) or cut the lengthwise detail gain so decal edges stay crisp."
+  },
+  {
+   "uid": "aluminum_border2__693ac052",
+   "verdict": "suspect",
+   "problem": "At 1:1 the lengthwise brushed streaks dominate the rivet row, so the dark rivet dots look blurred and smeared. The shrunk view also shows stronger horizontal striping than the original's clean grey.",
+   "fix": "Lower the lengthwise brushed-metal detail gain on this unit, and protect the rivet dots (dark blobs) from the detail layer so they stay as sharp as the original."
+  },
+  {
+   "uid": "aluminum_border__09b92e93",
+   "verdict": "suspect",
+   "problem": "Arguable: the diamond lattice gets darker, thicker outlines than the original's softer shading, and the dark rivet dots look enlarged and slightly blurred at 1:1.",
+   "fix": "Reduce the sharpening or edge contrast on the diamond outlines, and keep the rivet dots at the original size and softness."
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "task": "t0206",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "gcoffee__a93d24f1",
+   "verdict": "suspect",
+   "problem": "Background of the Buzzes Coffee logo panel was given an invented brick course pattern; the original background is a plain grey-blue panel with no visible bricks. The red logo edges at 1:1 are also soft.",
+   "fix": "Drop the brick-inject on the background, or limit it to a very faint, low-contrast texture that matches the original's flat grey. Keep the logo pixels exactly as up-scaled and sharpen the red letter edges."
+  },
+  {
+   "uid": "genbldg3__f0b29b75",
+   "verdict": "suspect",
+   "problem": "Result reads as weathered, speckled wood siding with strong grain, while the original is a smoother grey painted board with banded light and dark courses. A faint dark vertical line also shows near the right edge of the tiled result, which may be a seam.",
+   "fix": "Reduce the speckle and grain amplitude toward the original's smooth painted look and keep the board band rhythm. Check the tile seam at the right edge and remove it if it is a real seam."
+  }
+ ]
+}

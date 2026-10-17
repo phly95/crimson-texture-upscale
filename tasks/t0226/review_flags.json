@@ -1,0 +1,24 @@
+{
+ "task": "t0226",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "redrooftile__571d4b19",
+   "verdict": "suspect",
+   "problem": "Clay-tile roof reads as vertical wood-plank streaks at 1:1; the original is a flat tile graphic with no directional grain.",
+   "fix": "Cut or weaken the directional streak injection and add tile-ridge shading that follows the tile courses, not the vertical grain."
+  },
+  {
+   "uid": "ripple__f5f90f25",
+   "verdict": "suspect",
+   "problem": "Soft ring alpha is blurred into a faint, smeared ghost at 1:1. The lumpy outline and inner ring detail are lost, and the centre crop is nearly empty.",
+   "fix": "Tighten the back-projected alpha edge so the lumpy outline stays crisp. Restore the faint inner ring, or accept the soft look as intentional for a water-ripple decal."
+  },
+  {
+   "uid": "rockbase__0a92b716",
+   "verdict": "suspect",
+   "problem": "The original's horizontal smear band at the magenta boundary is kept and reads as a ghost seam. The 1:1 dark blobs look smooth and airbrushed rather than rock. The magenta lower half is inherited from the original, so the engine must treat it as unused.",
+   "fix": "Remove or feather the smear band at the magenta edge. Check that the blobs come from the source, not lab-inject. Confirm the magenta region is transparent or unused in the engine before shipping."
+  }
+ ]
+}

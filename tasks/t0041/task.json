@@ -1,0 +1,197 @@
+{
+ "task": "t0041",
+ "kind": "family",
+ "family": "cement",
+ "units": [
+  {
+   "uid": "cement1__56878cf3",
+   "stem": "cement1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.59,
+   "mean_rgb": [
+    66.1,
+    66.4,
+    63.1
+   ],
+   "distinct_colours_4bit": 4,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 93,
+    "nodes": [
+     "g(94)",
+     "kellie(4)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     2.2,
+     1.49
+    ],
+    "world_units_per_repeat": 9.9
+   }
+  },
+  {
+   "uid": "cement2__a54e63e7",
+   "stem": "cement2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.83,
+   "mean_rgb": [
+    38.0,
+    38.5,
+    37.9
+   ],
+   "distinct_colours_4bit": 9,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 13,
+    "nodes": [
+     "g(12)",
+     "pt(8)",
+     "gun(5)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.86
+    ],
+    "world_units_per_repeat": 1.1
+   }
+  },
+  {
+   "uid": "cement_tile__611d080f",
+   "stem": "cement_tile",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.02,
+   "mean_rgb": [
+    155.6,
+    155.1,
+    155.3
+   ],
+   "distinct_colours_4bit": 19,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 52,
+    "nodes": [
+     "g(68)",
+     "h3_interior(1)",
+     "t_hut(1)"
+    ],
+    "surface": {
+     "ground_up": 0.62,
+     "ceiling_down": 0.0,
+     "wall_side": 0.38
+    },
+    "uv_repeat_median": [
+     2.03,
+     17.62
+    ],
+    "world_units_per_repeat": 3.4
+   }
+  },
+  {
+   "uid": "cement_tile2__77e0c3c0",
+   "stem": "cement_tile2",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.27,
+   "mean_rgb": [
+    150.1,
+    149.5,
+    150.5
+   ],
+   "distinct_colours_4bit": 31,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 20,
+    "nodes": [
+     "g(26)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     7.93,
+     6.64
+    ],
+    "world_units_per_repeat": 4.8
+   }
+  }
+ ]
+}

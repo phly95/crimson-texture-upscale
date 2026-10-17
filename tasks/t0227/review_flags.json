@@ -1,0 +1,24 @@
+{
+ "task": "t0227",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "rope_bridge__dd3e5983",
+   "verdict": "suspect",
+   "problem": "At 1:1 the truss member outlines ripple/wobble instead of running straight, and the light-green rivet dots blur into soft blobs with no crisp edge. Looks like edge-injection ripple on a flat graphic.",
+   "fix": "Re-run as a flat graphic: nearest-neighbour or hard-threshold upscale of the member and rivet masks, no lab-inject/detail injection on the edges, then smooth only the interior fill. Keep the rivets as crisp small discs."
+  },
+  {
+   "uid": "rotorblade__1df2af17",
+   "verdict": "suspect",
+   "problem": "The 1:1 centre crop is soft and mushy: the grey bands and the dark streaky lower section lose their grain and read as a gradient. The red tip stripe is outside the crop, so it was only checked in the shrunk panel.",
+   "fix": "Re-inject high-frequency streak detail along the blade's axis (lab-inject with a vertical-streak source) so the bands keep crisp edges at 1:1. Keep the red stripe and the silhouette unchanged."
+  },
+  {
+   "uid": "ruralbridg1__a1bc3f74",
+   "verdict": "suspect",
+   "problem": "Dark green truss members look smooth and plastic at 1:1, and the lighter rivet dots are blurred into soft discs with a faint halo instead of crisp rivets.",
+   "fix": "Use a hard-edged upscale for the member and rivet masks (no blur across the cutout), keep the rivet dots as sharp small shapes, and remove the soft halo around the dots."
+  }
+ ]
+}

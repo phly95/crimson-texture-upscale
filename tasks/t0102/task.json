@@ -1,0 +1,435 @@
+{
+ "task": "t0102",
+ "kind": "family",
+ "family": "missil",
+ "units": [
+  {
+   "uid": "missil00__8e1d22fb",
+   "stem": "missil00",
+   "size": [
+    128,
+    32
+   ],
+   "target": [
+    1024,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 8.05,
+   "mean_rgb": [
+    116.0,
+    112.5,
+    95.3
+   ],
+   "distinct_colours_4bit": 67,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 224,
+    "nodes": [
+     "g(168)",
+     "rapolys(56)"
+    ],
+    "surface": {
+     "ground_up": 0.32,
+     "ceiling_down": 0.07,
+     "wall_side": 0.61
+    },
+    "uv_repeat_median": [
+     0.7,
+     2.51
+    ],
+    "world_units_per_repeat": 0.9
+   }
+  },
+  {
+   "uid": "missil01__1ca876db",
+   "stem": "missil01",
+   "size": [
+    128,
+    32
+   ],
+   "target": [
+    1024,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.74,
+   "mean_rgb": [
+    85.2,
+    76.4,
+    64.1
+   ],
+   "distinct_colours_4bit": 51,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 496,
+    "nodes": [
+     "g(480)",
+     "flak_rocket(16)"
+    ],
+    "surface": {
+     "ground_up": 0.34,
+     "ceiling_down": 0.0,
+     "wall_side": 0.66
+    },
+    "uv_repeat_median": [
+     0.81,
+     0.72
+    ],
+    "world_units_per_repeat": 0.3
+   }
+  },
+  {
+   "uid": "missil02__0a713ce6",
+   "stem": "missil02",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 29.17,
+   "mean_rgb": [
+    171.7,
+    165.0,
+    158.7
+   ],
+   "distinct_colours_4bit": 16,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 944,
+    "nodes": [
+     "g(888)",
+     "rapolys(32)",
+     "atwings(24)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.53,
+     "wall_side": 0.47
+    },
+    "uv_repeat_median": [
+     0.88,
+     0.94
+    ],
+    "world_units_per_repeat": 0.1
+   }
+  },
+  {
+   "uid": "missil03__afb154ce",
+   "stem": "missil03",
+   "size": [
+    128,
+    32
+   ],
+   "target": [
+    1024,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 11.18,
+   "mean_rgb": [
+    106.6,
+    83.5,
+    67.9
+   ],
+   "distinct_colours_4bit": 88,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 48,
+    "nodes": [
+     "main(24)",
+     "g(24)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.33,
+     "wall_side": 0.67
+    },
+    "uv_repeat_median": [
+     0.91,
+     0.8
+    ],
+    "world_units_per_repeat": 0.6
+   }
+  },
+  {
+   "uid": "missil04__e07a959c",
+   "stem": "missil04",
+   "size": [
+    16,
+    16
+   ],
+   "target": [
+    128,
+    128
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    152.1,
+    140.6,
+    135.2
+   ],
+   "distinct_colours_4bit": 19,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 208,
+    "nodes": [
+     "g(136)",
+     "main(32)",
+     "smokebomb(24)",
+     "rapolys(16)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.79,
+     0.87
+    ],
+    "world_units_per_repeat": 0.1
+   }
+  },
+  {
+   "uid": "missil05__b98b06d3",
+   "stem": "missil05",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 28.05,
+   "mean_rgb": [
+    102.7,
+    98.2,
+    92.7
+   ],
+   "distinct_colours_4bit": 15,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 96,
+    "nodes": [
+     "main(64)",
+     "g(32)"
+    ],
+    "surface": {
+     "ground_up": 0.33,
+     "ceiling_down": 0.17,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     0.89,
+     0.94
+    ],
+    "world_units_per_repeat": 0.1
+   }
+  },
+  {
+   "uid": "missile_ap__18f98f95",
+   "stem": "missile_ap",
+   "size": [
+    128,
+    32
+   ],
+   "target": [
+    1024,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 7.25,
+   "mean_rgb": [
+    90.0,
+    87.8,
+    71.2
+   ],
+   "distinct_colours_4bit": 76,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 104,
+    "nodes": [
+     "smokebomb(56)",
+     "main(24)",
+     "g(24)"
+    ],
+    "surface": {
+     "ground_up": 0.15,
+     "ceiling_down": 0.08,
+     "wall_side": 0.77
+    },
+    "uv_repeat_median": [
+     0.44,
+     0.91
+    ],
+    "world_units_per_repeat": 0.6
+   }
+  },
+  {
+   "uid": "missile_he__55bc8683",
+   "stem": "missile_he",
+   "size": [
+    128,
+    32
+   ],
+   "target": [
+    1024,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 7.78,
+   "mean_rgb": [
+    111.9,
+    91.0,
+    67.9
+   ],
+   "distinct_colours_4bit": 91,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 264,
+    "nodes": [
+     "g(216)",
+     "beeper_plug(48)"
+    ],
+    "surface": {
+     "ground_up": 0.18,
+     "ceiling_down": 0.18,
+     "wall_side": 0.64
+    },
+    "uv_repeat_median": [
+     0.81,
+     0.83
+    ],
+    "world_units_per_repeat": 0.5
+   }
+  }
+ ]
+}

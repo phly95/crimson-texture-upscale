@@ -1,0 +1,246 @@
+{
+ "task": "t0150",
+ "kind": "family",
+ "family": "steelp",
+ "units": [
+  {
+   "uid": "steelplate__249bddfc",
+   "stem": "steelplate",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.1,
+   "mean_rgb": [
+    92.0,
+    100.2,
+    107.6
+   ],
+   "distinct_colours_4bit": 28,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "nose(1)",
+     "piece(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     7.54,
+     3.11
+    ],
+    "world_units_per_repeat": 0.1
+   }
+  },
+  {
+   "uid": "steelplate01__7e39f9ae",
+   "stem": "steelplate01",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.3,
+   "mean_rgb": [
+    140.8,
+    70.0,
+    64.4
+   ],
+   "distinct_colours_4bit": 63,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 34,
+    "nodes": [
+     "healthy(38)",
+     "part(14)",
+     "dbase(12)"
+    ],
+    "surface": {
+     "ground_up": 0.41,
+     "ceiling_down": 0.24,
+     "wall_side": 0.35
+    },
+    "uv_repeat_median": [
+     2.98,
+     1.0
+    ],
+    "world_units_per_repeat": 2.1
+   }
+  },
+  {
+   "uid": "steelplate01__59327029",
+   "stem": "steelplate01",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.85,
+   "mean_rgb": [
+    134.3,
+    76.7,
+    67.6
+   ],
+   "distinct_colours_4bit": 124,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 34,
+    "nodes": [
+     "healthy(38)",
+     "part(14)",
+     "dbase(12)"
+    ],
+    "surface": {
+     "ground_up": 0.41,
+     "ceiling_down": 0.24,
+     "wall_side": 0.35
+    },
+    "uv_repeat_median": [
+     2.98,
+     1.0
+    ],
+    "world_units_per_repeat": 2.1
+   }
+  },
+  {
+   "uid": "steelplate02__731b57e3",
+   "stem": "steelplate02",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.27,
+   "mean_rgb": [
+    111.3,
+    56.6,
+    52.3
+   ],
+   "distinct_colours_4bit": 67,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "healthy(1)",
+     "part(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.09,
+     1.0
+    ],
+    "world_units_per_repeat": 2.9
+   }
+  },
+  {
+   "uid": "steelplate03__711b1865",
+   "stem": "steelplate03",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.08,
+   "mean_rgb": [
+    143.6,
+    71.1,
+    65.4
+   ],
+   "distinct_colours_4bit": 59,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 6,
+    "nodes": [
+     "healthy(3)",
+     "part(3)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.09,
+     1.0
+    ],
+    "world_units_per_repeat": 2.5
+   }
+  }
+ ]
+}

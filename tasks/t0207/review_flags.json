@@ -1,0 +1,18 @@
+{
+ "task": "t0207",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "gon_tower3__56d98596",
+   "verdict": "suspect",
+   "problem": "Faint vertical lines at roughly 1/3 and 2/3 across the concrete read as stamp or panel seams in the 256 fit view. Concrete tone and frame silhouette otherwise match the original.",
+   "fix": "Check the libconcrete tile for a seam or joint line at the tile edge. Remove it or cross-fade the wrap seam, then re-run the seam check."
+  },
+  {
+   "uid": "grass1__ef8c468c",
+   "verdict": "suspect",
+   "problem": "The 1:1 crop shows light, stroke-like streaks that the original mottled olive ground does not have, so it reads closer to dry straw than soft grass in places.",
+   "fix": "Lower the lab-inject or bright-streak gain on libgrass, or blend more of the colormatched original low-frequency mottling back in, so the streaks sit closer to the original value range."
+  }
+ ]
+}

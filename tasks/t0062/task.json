@@ -1,0 +1,191 @@
+{
+ "task": "t0062",
+ "kind": "family",
+ "family": "fhunte",
+ "units": [
+  {
+   "uid": "07fhunter_logo1__a99ac0cb",
+   "stem": "07fhunter_logo1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.07,
+   "mean_rgb": [
+    66.9,
+    58.5,
+    43.3
+   ],
+   "distinct_colours_4bit": 373,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "08fhunter_logo2__3a518f57",
+   "stem": "08fhunter_logo2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.89,
+   "mean_rgb": [
+    100.5,
+    100.4,
+    100.5
+   ],
+   "distinct_colours_4bit": 77,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "fhunter_logo2__cbba6a35",
+   "stem": "fhunter_logo2",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.27,
+   "mean_rgb": [
+    62.9,
+    63.3,
+    62.6
+   ],
+   "distinct_colours_4bit": 76,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "panelleft(8)",
+     "panelright(8)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 16.0
+   }
+  },
+  {
+   "uid": "fhunter_logo4__dcc65088",
+   "stem": "fhunter_logo4",
+   "size": [
+    256,
+    128
+   ],
+   "target": [
+    2048,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.32,
+   "mean_rgb": [
+    83.7,
+    72.3,
+    52.5
+   ],
+   "distinct_colours_4bit": 506,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 64,
+    "nodes": [
+     "panelleft(16)",
+     "panelright(16)",
+     "pleftb1h(8)",
+     "pleftb1d(8)",
+     "prightb1h(8)",
+     "prightb1d(8)"
+    ],
+    "surface": {
+     "ground_up": 0.25,
+     "ceiling_down": 0.0,
+     "wall_side": 0.75
+    },
+    "uv_repeat_median": [
+     0.88,
+     0.33
+    ],
+    "world_units_per_repeat": 81.4
+   }
+  }
+ ]
+}

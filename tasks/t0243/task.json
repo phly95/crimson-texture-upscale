@@ -1,0 +1,100 @@
+{
+ "task": "t0243",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "zterminal01__75776f00",
+   "stem": "zterminal01",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    15.2,
+    15.7,
+    15.1
+   ],
+   "distinct_colours_4bit": 41,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 45,
+    "nodes": [
+     "zterminal_cover(34)",
+     "zt_airport(11)"
+    ],
+    "surface": {
+     "ground_up": 0.24,
+     "ceiling_down": 0.0,
+     "wall_side": 0.76
+    },
+    "uv_repeat_median": [
+     8.46,
+     1.0
+    ],
+    "world_units_per_repeat": 16.0
+   }
+  },
+  {
+   "uid": "zterminal02__303d8f0e",
+   "stem": "zterminal02",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    43.1,
+    72.9,
+    75.0
+   ],
+   "distinct_colours_4bit": 100,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 37,
+    "nodes": [
+     "zterminal_cover(24)",
+     "g(12)",
+     "cbx(2)"
+    ],
+    "surface": {
+     "ground_up": 0.68,
+     "ceiling_down": 0.0,
+     "wall_side": 0.32
+    },
+    "uv_repeat_median": [
+     9.2,
+     0.76
+    ],
+    "world_units_per_repeat": 35.2
+   }
+  }
+ ]
+}

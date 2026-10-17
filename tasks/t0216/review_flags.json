@@ -1,0 +1,36 @@
+{
+ "task": "t0216",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "38littlegreenmen__f29eebde",
+   "verdict": "suspect",
+   "problem": "Pixel-art cel outline and eyes are softened into blurred edges at 1:1; outline is not crisp, halos at the palette boundaries. Usage is null.",
+   "fix": "Re-run with hard-edged cel labels (no smoothing across label boundaries) or a nearest-based cel upscale with a 1-2 px sharpen on the outline only."
+  },
+  {
+   "uid": "lite_out__da12ceec",
+   "verdict": "suspect",
+   "problem": "Silhouette is softened: the spikes grow a light halo and the body edge goes blurry at 1:1, so the crisp flat-graphic design of the original is lost.",
+   "fix": "Use a hard alpha cut-out (as lightpole does) instead of soft_up for the spikes, keeping the soft glow only in the body colour."
+  },
+  {
+   "uid": "locklearhk__9ea55e78",
+   "verdict": "suspect",
+   "problem": "PROMISED LAND lettering edges are blurry at 1:1 (the SE glyphs look smeared), not crisp flat art.",
+   "fix": "Use a hard-edged alpha reconstruction for the text, or a sharper edge pass on the alpha channel only, keeping the exact ink colour (49,49,90)."
+  },
+  {
+   "uid": "lowalt__97dbc0d2",
+   "verdict": "suspect",
+   "problem": "LOW ALT letterforms and the box edge are soft at 1:1; the glow halo is kept, but the lettering reads blurred.",
+   "fix": "Keep the glow, but sharpen the glyph and box edges in the alpha so the text reads cleanly at 1:1."
+  },
+  {
+   "uid": "m__acd2107f",
+   "verdict": "suspect",
+   "problem": "Ringing and ghosting around the M strokes at fit size, bright blob artifacts at the top stroke ends, and a red/orange fringe at the bottom vertex. The letter reads correctly but the edges are not clean.",
+   "fix": "Re-run with a plain per-channel ibp without overshoot, clamp the output to the source min/max per cel, and remove the vertex fringe by constraining the colour of the bottom vertex to the original neighbourhood."
+  }
+ ]
+}

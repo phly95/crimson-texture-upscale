@@ -1,0 +1,239 @@
+{
+ "task": "t0045",
+ "kind": "family",
+ "family": "cliff",
+ "units": [
+  {
+   "uid": "cliff1_sidetrans__1ebb1644",
+   "stem": "cliff1_sidetrans",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.85,
+   "mean_rgb": [
+    54.5,
+    73.8,
+    40.3
+   ],
+   "distinct_colours_4bit": 108,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 43,
+    "nodes": [
+     "g(41)",
+     "tags(1)",
+     "polys(1)"
+    ],
+    "surface": {
+     "ground_up": 0.91,
+     "ceiling_down": 0.0,
+     "wall_side": 0.09
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 138.2
+   }
+  },
+  {
+   "uid": "cliff1_toptrans__747b9263",
+   "stem": "cliff1_toptrans",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.16,
+   "mean_rgb": [
+    55.4,
+    72.9,
+    40.7
+   ],
+   "distinct_colours_4bit": 106,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 122,
+    "nodes": [
+     "g(100)",
+     "ter_poly(11)",
+     "volcano(5)",
+     "polys(5)",
+     "tags(1)"
+    ],
+    "surface": {
+     "ground_up": 0.97,
+     "ceiling_down": 0.0,
+     "wall_side": 0.03
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 134.5
+   }
+  },
+  {
+   "uid": "cliff1_watertrans__cc7185e6",
+   "stem": "cliff1_watertrans",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.84,
+   "mean_rgb": [
+    98.4,
+    103.1,
+    88.0
+   ],
+   "distinct_colours_4bit": 229,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 45,
+    "nodes": [
+     "g(44)",
+     "tags(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 113.0
+   }
+  },
+  {
+   "uid": "cliff1_watertrans2__5ed4c8a2",
+   "stem": "cliff1_watertrans2",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.6,
+   "mean_rgb": [
+    91.0,
+    100.6,
+    78.2
+   ],
+   "distinct_colours_4bit": 267,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 177,
+    "nodes": [
+     "g(177)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 108.2
+   }
+  },
+  {
+   "uid": "cliff1_watertrans3__e152c232",
+   "stem": "cliff1_watertrans3",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 10.82,
+   "mean_rgb": [
+    163.5,
+    154.9,
+    124.6
+   ],
+   "distinct_colours_4bit": 276,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 36,
+    "nodes": [
+     "g(36)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 128.0
+   }
+  }
+ ]
+}

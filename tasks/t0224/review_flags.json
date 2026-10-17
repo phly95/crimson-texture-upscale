@@ -1,0 +1,24 @@
+{
+ "task": "t0224",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "q__6da46a08",
+   "verdict": "suspect",
+   "problem": "Small dark speckles and dark fringe dots appear along the outer right edge of the bowl and tail in the 128px result, a sharpening halo artifact from the luminance clamp-sharpen step.",
+   "fix": "Lower the clamp-sharpen strength on glyph edges or clamp the sharpen so it cannot push pixels darker than the local background; re-check the outline for dark dots."
+  },
+  {
+   "uid": "r__aac1ca97",
+   "verdict": "suspect",
+   "problem": "Same dark speckle and dark fringe dots along the leg and bowl edges of the R, from the glyph-edge clamp-sharpen step; the 1:1 crop is otherwise clean.",
+   "fix": "Same as q: reduce or clamp the edge sharpen so it does not create dark halo dots next to bright strokes."
+  },
+  {
+   "uid": "ramses__b63af1ea",
+   "verdict": "suspect",
+   "problem": "Statue silhouette and figure are preserved, but the 1:1 centre crop of the sandstone background is a blotchy violet-grey cloud texture with scratch lines and no visible block courses, so it has a cool colour cast against the warm tan original.",
+   "fix": "Re-run colormatch against the original's local warm tan chroma (or lower the libcrop sandstone weight) so the 1:1 background stays warm tan and keeps the original block rhythm."
+  }
+ ]
+}

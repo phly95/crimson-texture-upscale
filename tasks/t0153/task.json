@@ -1,0 +1,308 @@
+{
+ "task": "t0153",
+ "kind": "family",
+ "family": "studeb",
+ "units": [
+  {
+   "uid": "studebaker01__7d8c34b1",
+   "stem": "studebaker01",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.87,
+   "mean_rgb": [
+    145.1,
+    117.4,
+    93.4
+   ],
+   "distinct_colours_4bit": 305,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 363,
+    "nodes": [
+     "stude_chassis(165)",
+     "part(143)",
+     "stud(132)"
+    ],
+    "surface": {
+     "ground_up": 0.3,
+     "ceiling_down": 0.07,
+     "wall_side": 0.64
+    },
+    "uv_repeat_median": [
+     0.43,
+     0.51
+    ],
+    "world_units_per_repeat": 3.3
+   }
+  },
+  {
+   "uid": "studebaker02__15b2abe6",
+   "stem": "studebaker02",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 8.08,
+   "mean_rgb": [
+    135.6,
+    96.4,
+    66.4
+   ],
+   "distinct_colours_4bit": 105,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 129,
+    "nodes": [
+     "stude_chassis(75)",
+     "stud(60)",
+     "part(26)"
+    ],
+    "surface": {
+     "ground_up": 0.16,
+     "ceiling_down": 0.0,
+     "wall_side": 0.84
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.33
+    ],
+    "world_units_per_repeat": 2.0
+   }
+  },
+  {
+   "uid": "studebaker03__c0859698",
+   "stem": "studebaker03",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.31,
+   "mean_rgb": [
+    72.1,
+    77.9,
+    89.0
+   ],
+   "distinct_colours_4bit": 156,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 495,
+    "nodes": [
+     "part(261)",
+     "stude_truck(185)",
+     "stude1_chassis(93)",
+     "stude(72)"
+    ],
+    "surface": {
+     "ground_up": 0.21,
+     "ceiling_down": 0.04,
+     "wall_side": 0.75
+    },
+    "uv_repeat_median": [
+     0.4,
+     0.57
+    ],
+    "world_units_per_repeat": 3.2
+   }
+  },
+  {
+   "uid": "studebaker04__f6015e0b",
+   "stem": "studebaker04",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.68,
+   "mean_rgb": [
+    23.7,
+    30.0,
+    45.3
+   ],
+   "distinct_colours_4bit": 41,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 272,
+    "nodes": [
+     "part(165)",
+     "stude_truck(52)",
+     "g(32)",
+     "stude1_chassis(30)",
+     "stude(24)"
+    ],
+    "surface": {
+     "ground_up": 0.03,
+     "ceiling_down": 0.04,
+     "wall_side": 0.93
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.3
+    ],
+    "world_units_per_repeat": 1.9
+   }
+  },
+  {
+   "uid": "studebaker05__287ce5b5",
+   "stem": "studebaker05",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.34,
+   "mean_rgb": [
+    63.4,
+    99.7,
+    73.9
+   ],
+   "distinct_colours_4bit": 257,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 24,
+    "nodes": [
+     "stude(48)"
+    ],
+    "surface": {
+     "ground_up": 0.17,
+     "ceiling_down": 0.0,
+     "wall_side": 0.83
+    },
+    "uv_repeat_median": [
+     0.5,
+     0.7
+    ],
+    "world_units_per_repeat": 3.2
+   }
+  },
+  {
+   "uid": "studebaker06__a9805aa9",
+   "stem": "studebaker06",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.68,
+   "mean_rgb": [
+    16.0,
+    70.4,
+    27.0
+   ],
+   "distinct_colours_4bit": 59,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "stude(16)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.65
+    ],
+    "world_units_per_repeat": 1.9
+   }
+  }
+ ]
+}

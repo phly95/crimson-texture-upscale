@@ -1,0 +1,381 @@
+{
+ "task": "t0195",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "cranechain1__4d2a24af",
+   "stem": "cranechain1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 1.58,
+   "mean_rgb": [
+    2.3,
+    2.7,
+    2.7
+   ],
+   "distinct_colours_4bit": 10,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "healthy(4)",
+     "m_gerter(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 8.3
+   }
+  },
+  {
+   "uid": "cranehouse1__3c5cb154",
+   "stem": "cranehouse1",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.67,
+   "mean_rgb": [
+    43.8,
+    36.7,
+    23.9
+   ],
+   "distinct_colours_4bit": 24,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 7,
+    "nodes": [
+     "part(8)",
+     "healthy(6)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.59,
+     1.0
+    ],
+    "world_units_per_repeat": 4.0
+   }
+  },
+  {
+   "uid": "cranehouse2__4786c89e",
+   "stem": "cranehouse2",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.64,
+   "mean_rgb": [
+    48.1,
+    39.7,
+    25.0
+   ],
+   "distinct_colours_4bit": 19,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "healthy(6)",
+     "part(6)",
+     "database(2)",
+     "base(2)"
+    ],
+    "surface": {
+     "ground_up": 0.62,
+     "ceiling_down": 0.38,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.96
+    ],
+    "world_units_per_repeat": 5.0
+   }
+  },
+  {
+   "uid": "cranewheels1__64262fea",
+   "stem": "cranewheels1",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.44,
+   "mean_rgb": [
+    56.3,
+    35.4,
+    31.8
+   ],
+   "distinct_colours_4bit": 61,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "base(32)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.56,
+     1.0
+    ],
+    "world_units_per_repeat": 4.1
+   }
+  },
+  {
+   "uid": "crate01__9bff4430",
+   "stem": "crate01",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.44,
+   "mean_rgb": [
+    105.8,
+    85.0,
+    72.3
+   ],
+   "distinct_colours_4bit": 44,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 260,
+    "nodes": [
+     "part(370)",
+     "healthy(70)",
+     "boxes(26)",
+     "pt(19)",
+     "dbase(16)"
+    ],
+    "surface": {
+     "ground_up": 0.18,
+     "ceiling_down": 0.12,
+     "wall_side": 0.7
+    },
+    "uv_repeat_median": [
+     1.02,
+     0.98
+    ],
+    "world_units_per_repeat": 2.9
+   }
+  },
+  {
+   "uid": "crateredge__b9211298",
+   "stem": "crateredge",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.82,
+   "mean_rgb": [
+    65.7,
+    62.9,
+    58.6
+   ],
+   "distinct_colours_4bit": 191,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "volcano(3)",
+     "tags(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 141.8
+   }
+  },
+  {
+   "uid": "crop04__4818f512",
+   "stem": "crop04",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.6,
+   "mean_rgb": [
+    62.8,
+    90.7,
+    66.8
+   ],
+   "distinct_colours_4bit": 236,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 35,
+    "nodes": [
+     "g(31)",
+     "taged(3)",
+     "tag(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     2.0,
+     2.0
+    ],
+    "world_units_per_repeat": 256.0
+   }
+  },
+  {
+   "uid": "crop05__67f95a0e",
+   "stem": "crop05",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.05,
+   "mean_rgb": [
+    84.4,
+    94.5,
+    66.8
+   ],
+   "distinct_colours_4bit": 233,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 29,
+    "nodes": [
+     "g(27)",
+     "tag(1)",
+     "taged(1)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     2.0,
+     1.0
+    ],
+    "world_units_per_repeat": 256.0
+   }
+  }
+ ]
+}

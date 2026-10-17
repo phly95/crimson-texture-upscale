@@ -1,0 +1,437 @@
+{
+ "task": "t0026",
+ "kind": "family",
+ "family": "bri",
+ "units": [
+  {
+   "uid": "bri_engine__67cb4838",
+   "stem": "bri_engine",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.58,
+   "mean_rgb": [
+    21.4,
+    21.9,
+    20.4
+   ],
+   "distinct_colours_4bit": 20,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "nose(1)",
+     "g(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 1.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.7
+   }
+  },
+  {
+   "uid": "bri_flap__d238eccb",
+   "stem": "bri_flap",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.17,
+   "mean_rgb": [
+    84.9,
+    84.4,
+    64.3
+   ],
+   "distinct_colours_4bit": 54,
+   "look": "photo/painted-likely",
+   "also_named": [
+    "kes_flap"
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 21,
+    "nodes": [
+     "g(10)",
+     "r_elevator(3)",
+     "l_elevator(3)",
+     "r_aileron(3)",
+     "l_aileron(2)"
+    ],
+    "surface": {
+     "ground_up": 0.48,
+     "ceiling_down": 0.43,
+     "wall_side": 0.1
+    },
+    "uv_repeat_median": [
+     1.57,
+     1.0
+    ],
+    "world_units_per_repeat": 1.1
+   }
+  },
+  {
+   "uid": "bri_fusalagetop__3b786e69",
+   "stem": "bri_fusalagetop",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.69,
+   "mean_rgb": [
+    57.3,
+    51.5,
+    50.4
+   ],
+   "distinct_colours_4bit": 46,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "nose(4)",
+     "g(4)"
+    ],
+    "surface": {
+     "ground_up": 0.75,
+     "ceiling_down": 0.0,
+     "wall_side": 0.25
+    },
+    "uv_repeat_median": [
+     2.33,
+     0.38
+    ],
+    "world_units_per_repeat": 0.6
+   }
+  },
+  {
+   "uid": "bri_fuselage__8b85ea6a",
+   "stem": "bri_fuselage",
+   "size": [
+    256,
+    64
+   ],
+   "target": [
+    2048,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 15.55,
+   "mean_rgb": [
+    59.0,
+    68.9,
+    73.1
+   ],
+   "distinct_colours_4bit": 92,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 33,
+    "nodes": [
+     "g(22)",
+     "nose(11)"
+    ],
+    "surface": {
+     "ground_up": 0.06,
+     "ceiling_down": 0.21,
+     "wall_side": 0.73
+    },
+    "uv_repeat_median": [
+     0.36,
+     0.24
+    ],
+    "world_units_per_repeat": 3.8
+   }
+  },
+  {
+   "uid": "bri_reartop__6beee503",
+   "stem": "bri_reartop",
+   "size": [
+    128,
+    32
+   ],
+   "target": [
+    1024,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.74,
+   "mean_rgb": [
+    43.8,
+    55.7,
+    61.0
+   ],
+   "distinct_colours_4bit": 29,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 3,
+    "nodes": [
+     "g(3)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.82,
+     0.47
+    ],
+    "world_units_per_repeat": 1.2
+   }
+  },
+  {
+   "uid": "bri_spinner__1fd5e6e7",
+   "stem": "bri_spinner",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 42.1,
+   "mean_rgb": [
+    122.4,
+    130.0,
+    134.5
+   ],
+   "distinct_colours_4bit": 12,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "nosecone(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.52,
+     0.59
+    ],
+    "world_units_per_repeat": 1.2
+   }
+  },
+  {
+   "uid": "bri_wingbottom__e4c883e4",
+   "stem": "bri_wingbottom",
+   "size": [
+    256,
+    128
+   ],
+   "target": [
+    2048,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.38,
+   "mean_rgb": [
+    137.7,
+    137.4,
+    137.8
+   ],
+   "distinct_colours_4bit": 93,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "g(4)",
+     "pdp3_h(1)",
+     "pdp2_h(1)",
+     "pdp2i(1)",
+     "pdp3i(1)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 1.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.26,
+     0.52
+    ],
+    "world_units_per_repeat": 3.6
+   }
+  },
+  {
+   "uid": "bri_wingcenter__2bdfcc6f",
+   "stem": "bri_wingcenter",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.82,
+   "mean_rgb": [
+    69.5,
+    88.7,
+    98.7
+   ],
+   "distinct_colours_4bit": 81,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 23,
+    "nodes": [
+     "g(18)",
+     "nose(5)"
+    ],
+    "surface": {
+     "ground_up": 0.43,
+     "ceiling_down": 0.22,
+     "wall_side": 0.35
+    },
+    "uv_repeat_median": [
+     0.99,
+     0.86
+    ],
+    "world_units_per_repeat": 1.3
+   }
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "task": "t0039",
+ "kind": "family",
+ "family": "cargot",
+ "units": [
+  {
+   "uid": "cargotex1__f55fcf48",
+   "stem": "cargotex1",
+   "size": [
+    256,
+    64
+   ],
+   "target": [
+    2048,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.69,
+   "mean_rgb": [
+    63.9,
+    66.6,
+    49.0
+   ],
+   "distinct_colours_4bit": 132,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 51,
+    "nodes": [
+     "g(51)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.46,
+     0.8
+    ],
+    "world_units_per_repeat": 67.9
+   }
+  },
+  {
+   "uid": "cargotex2__41362294",
+   "stem": "cargotex2",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.65,
+   "mean_rgb": [
+    119.7,
+    122.8,
+    84.0
+   ],
+   "distinct_colours_4bit": 75,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 57,
+    "nodes": [
+     "g(57)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.32,
+     "wall_side": 0.68
+    },
+    "uv_repeat_median": [
+     1.0,
+     2.88
+    ],
+    "world_units_per_repeat": 16.2
+   }
+  },
+  {
+   "uid": "cargotex3__ea1a6a52",
+   "stem": "cargotex3",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.9,
+   "mean_rgb": [
+    106.3,
+    99.8,
+    95.7
+   ],
+   "distinct_colours_4bit": 31,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 76,
+    "nodes": [
+     "g(76)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.97
+    ],
+    "world_units_per_repeat": 4.8
+   }
+  },
+  {
+   "uid": "cargotex4__d502f417",
+   "stem": "cargotex4",
+   "size": [
+    256,
+    64
+   ],
+   "target": [
+    2048,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 2.65,
+   "mean_rgb": [
+    92.7,
+    92.4,
+    87.7
+   ],
+   "distinct_colours_4bit": 61,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 80,
+    "nodes": [
+     "g(80)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.46,
+     0.9
+    ],
+    "world_units_per_repeat": 67.9
+   }
+  },
+  {
+   "uid": "cargotex5__7b815b7b",
+   "stem": "cargotex5",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.61,
+   "mean_rgb": [
+    157.0,
+    157.0,
+    147.2
+   ],
+   "distinct_colours_4bit": 41,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 140,
+    "nodes": [
+     "g(140)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.43,
+     "wall_side": 0.57
+    },
+    "uv_repeat_median": [
+     1.0,
+     2.09
+    ],
+    "world_units_per_repeat": 17.0
+   }
+  }
+ ]
+}

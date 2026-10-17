@@ -1,0 +1,195 @@
+{
+ "task": "t0072",
+ "kind": "family",
+ "family": "fuel",
+ "units": [
+  {
+   "uid": "fuel_truck01__85a6faf6",
+   "stem": "fuel_truck01",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.74,
+   "mean_rgb": [
+    138.9,
+    109.5,
+    110.4
+   ],
+   "distinct_colours_4bit": 255,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 15,
+    "nodes": [
+     "chasis(15)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.29,
+     0.5
+    ],
+    "world_units_per_repeat": 2.5
+   }
+  },
+  {
+   "uid": "fuel_truck02__7e92dffb",
+   "stem": "fuel_truck02",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.9,
+   "mean_rgb": [
+    45.9,
+    20.7,
+    14.9
+   ],
+   "distinct_colours_4bit": 43,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 5,
+    "nodes": [
+     "chasis(5)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.2
+   }
+  },
+  {
+   "uid": "fuel_truck03__4b4234e5",
+   "stem": "fuel_truck03",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.55,
+   "mean_rgb": [
+    115.6,
+    50.0,
+    39.0
+   ],
+   "distinct_colours_4bit": 197,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 45,
+    "nodes": [
+     "chasis(45)"
+    ],
+    "surface": {
+     "ground_up": 0.89,
+     "ceiling_down": 0.0,
+     "wall_side": 0.11
+    },
+    "uv_repeat_median": [
+     0.28,
+     0.2
+    ],
+    "world_units_per_repeat": 4.2
+   }
+  },
+  {
+   "uid": "fuel_truck04__c7ad0a51",
+   "stem": "fuel_truck04",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.38,
+   "mean_rgb": [
+    83.0,
+    26.1,
+    16.0
+   ],
+   "distinct_colours_4bit": 117,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 10,
+    "nodes": [
+     "chasis(10)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.01,
+     0.99
+    ],
+    "world_units_per_repeat": 4.3
+   }
+  }
+ ]
+}

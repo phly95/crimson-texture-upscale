@@ -1,0 +1,187 @@
+{
+ "task": "t0101",
+ "kind": "family",
+ "family": "map",
+ "units": [
+  {
+   "uid": "map_c1m1__bcaa1c18",
+   "stem": "map_c1m1",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.62,
+   "mean_rgb": [
+    126.2,
+    141.8,
+    171.1
+   ],
+   "distinct_colours_4bit": 665,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1C"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "map(4)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.25,
+     1.0
+    ],
+    "world_units_per_repeat": 1.6
+   }
+  },
+  {
+   "uid": "map_c1m2__04932e95",
+   "stem": "map_c1m2",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.33,
+   "mean_rgb": [
+    144.7,
+    139.7,
+    134.2
+   ],
+   "distinct_colours_4bit": 427,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "map(4)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.25,
+     1.0
+    ],
+    "world_units_per_repeat": 1.6
+   }
+  },
+  {
+   "uid": "map_c1m3__672588c3",
+   "stem": "map_c1m3",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.23,
+   "mean_rgb": [
+    104.2,
+    97.2,
+    125.4
+   ],
+   "distinct_colours_4bit": 364,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "map(4)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.25,
+     1.0
+    ],
+    "world_units_per_repeat": 1.6
+   }
+  },
+  {
+   "uid": "map_c1m4__873b1b4a",
+   "stem": "map_c1m4",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 3.63,
+   "mean_rgb": [
+    144.9,
+    144.9,
+    137.8
+   ],
+   "distinct_colours_4bit": 350,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 4,
+    "nodes": [
+     "map(4)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.25,
+     1.0
+    ],
+    "world_units_per_repeat": 1.6
+   }
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "task": "t0002",
+ "kind": "flipbook",
+ "family": "splash",
+ "units": [
+  {
+   "uid": "splash01__9fbabe96",
+   "stem": "splash01",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 5.3,
+   "mean_rgb": [
+    86.7,
+    88.2,
+    88.6
+   ],
+   "distinct_colours_4bit": 54,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": "splash01__9fbabe96",
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "bsplsh_splash(8)",
+     "splash1_splash(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 0.2
+   }
+  },
+  {
+   "uid": "splash02__075a77d1",
+   "stem": "splash02",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 5.23,
+   "mean_rgb": [
+    96.5,
+    97.0,
+    97.5
+   ],
+   "distinct_colours_4bit": 63,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": "splash01__9fbabe96",
+   "usage": null
+  },
+  {
+   "uid": "splash03__0a101f39",
+   "stem": "splash03",
+   "size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 5.74,
+   "mean_rgb": [
+    105.5,
+    104.9,
+    105.5
+   ],
+   "distinct_colours_4bit": 62,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": "splash01__9fbabe96",
+   "usage": null
+  }
+ ]
+}

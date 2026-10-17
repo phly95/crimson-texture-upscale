@@ -1,0 +1,36 @@
+{
+ "task": "t0201",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "dxgun1__25b9f676",
+   "verdict": "suspect",
+   "problem": "Ring and plate colour match the original, but the 1:1 centre crop shows strong horizontal streaking across the whole plate. The method says isotropic grain, and the original plate has no such streaks.",
+   "fix": "Regenerate the grain as isotropic noise, or remove the horizontal anisotropy from the up_wrap step. Keep the ring as is."
+  },
+  {
+   "uid": "dxmid1__949a38b8",
+   "verdict": "suspect",
+   "problem": "The 1:1 crop is smeared horizontally and has a teal/green horizontal stripe that is not in the original. The dotted band and bright edges are softened into streaks.",
+   "fix": "Remove the teal from the lab-inject step, reduce the x-smear, and keep the dotted/rivet band and the wedge edges crisp at 1:1."
+  },
+  {
+   "uid": "dxmid2__e64944d6",
+   "verdict": "suspect",
+   "problem": "The 1:1 crop is horizontally smeared with a faint teal stripe absent from the original, and the bright metal sheen is blurred into horizontal bands.",
+   "fix": "Same fix as dxmid1: drop the teal cast, cut the x-smear in the metal-grit injection, and keep edges and sheen sharp."
+  },
+  {
+   "uid": "dxrear1__022b3c48",
+   "verdict": "suspect",
+   "problem": "The 1:1 crop shows horizontal banding and a teal stripe not in the original, and the dotted bright band is smeared.",
+   "fix": "Same fix as dxmid1: remove the teal from the injection, reduce the horizontal smear, and keep the dotted band crisp."
+  },
+  {
+   "uid": "dxrear2__3547f52e",
+   "verdict": "suspect",
+   "problem": "The 1:1 crop is heavily horizontally smeared with banding and a teal line, and the original's fine highlight detail is lost.",
+   "fix": "Same fix as dxmid1: no teal cast, lighter x-smear, keep the highlight and edge detail at 1:1."
+  }
+ ]
+}

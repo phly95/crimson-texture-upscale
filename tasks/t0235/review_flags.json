@@ -1,0 +1,30 @@
+{
+ "task": "t0235",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "team2logo__9fb80861",
+   "verdict": "suspect",
+   "problem": "Logo design and silhouette are kept, but at 1:1 the edges have bumpy, rounded lumps and grey speckle fringing outside the white strokes (stamp-like, not clean vector edges).",
+   "fix": "Smooth the thresholded alpha edge before the 0.5 cut (small Gaussian or morphological close/open) and remove isolated grey specks outside the ink; re-check the 1:1 crop."
+  },
+  {
+   "uid": "tether_field__aae1f1bd",
+   "verdict": "suspect",
+   "problem": "Shrunk view matches the original colours and composition, but the 1:1 crop is soft cloudy noise with pink/green chroma speckle; the dry-grass detail does not read as crisp grass blades.",
+   "fix": "Inject detail as luminance only (drop the chroma of the library grass), reduce the speckle amplitude, and sharpen the injected band so blades are visible at 1:1."
+  },
+  {
+   "uid": "thatched_wall__8b9a4366",
+   "verdict": "suspect",
+   "problem": "The result is vertical bamboo-style canes that match the original's colour and stripe direction, but the canes are very evenly spaced and a hard horizontal dark seam runs across mid-height. The name says thatch, and the usage is grasshut wall.",
+   "fix": "Confirm the in-game surface is bamboo cane and not thatch. If it is cane, jitter cane width and spacing per cane and soften the mid-height seam, which is a tile-edge artifact."
+  },
+  {
+   "uid": "tethershadow__51d15e60",
+   "verdict": "gate-fail",
+   "problem": "no real detail gain over a smooth enlargement (0.98x)",
+   "fix": "make it pass the gate honestly, or mark(...) it if it cannot"
+  }
+ ]
+}

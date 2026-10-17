@@ -1,0 +1,30 @@
+{
+ "task": "t0217",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "14medusa_logo1__d3d22538",
+   "verdict": "suspect",
+   "problem": "Flat logo posterised with blobby, stair-stepped contours at 1:1; thin snake-hair strands thicken and merge into the black mass, so the design silhouette drifts from the original.",
+   "fix": "Keep hair strands thin: trace contours at higher resolution with less gaussian smoothing (gs 2 to 0.5-1) and keep the hard cut-out edge crisp; check the red ring stays a clean continuous line."
+  },
+  {
+   "uid": "metal-rivited__80b3ceb3",
+   "verdict": "suspect",
+   "problem": "Heavy high-frequency lab-inject grain at 1:1 reads as film noise/sandpaper; orange-brown rivet dots turn into pale blobs and lose their colour.",
+   "fix": "Reduce the grain amplitude (sigma t/48 injection) and restore rivet hue by colour-matching the rivet pixels back to the original palette."
+  },
+  {
+   "uid": "metal-wall-b__4ae7859e",
+   "verdict": "suspect",
+   "problem": "At 1:1 the centre crop shows horizontal smearing/streaking across the panel, reading as a directional scan artifact and softening the recessed panel bevels.",
+   "fix": "Find the directional filter (sharpen or lab-inject kernel) causing the horizontal smear and switch to isotropic detail injection; keep bevel edges crisp."
+  },
+  {
+   "uid": "missile_sonic__8e2a82ca",
+   "verdict": "suspect",
+   "problem": "At 1:1 the rivet/port area shows horizontal streak banding and a smeared look, not isotropic metal detail; the fine grain overlay adds to it.",
+   "fix": "Remove the horizontal streaking (check the sharpen pass for directional bias) and reduce or make isotropic the Metal010 grain overlay."
+  }
+ ]
+}

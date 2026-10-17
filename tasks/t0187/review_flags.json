@@ -1,0 +1,42 @@
+{
+ "task": "t0187",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "bldgbrck__d844ec51",
+   "verdict": "suspect",
+   "problem": "Original is a nearly flat olive-grey; result adds ring-shaped blotch outlines and horizontal streaks that read as stamped stains, not in the original.",
+   "fix": "Lower the PaintedPlaster012 streak amplitude (.025) and remove or heavily soften the blotch stamps; keep the flat olive-grey base and the colour."
+  },
+  {
+   "uid": "bldgshadow1__08d05db2",
+   "verdict": "bad",
+   "problem": "Gate failed (no detail gain); not reviewed visually as passing.",
+   "fix": ""
+  },
+  {
+   "uid": "bldgshadow__54d55eeb",
+   "verdict": "bad",
+   "problem": "Gate failed (no detail gain); not reviewed visually as passing.",
+   "fix": ""
+  },
+  {
+   "uid": "bldgtrim2__532296e1",
+   "verdict": "suspect",
+   "problem": "Visible band in the last quarter of the tile (right edge) with crack lines and a different texture from the rest, seam-like; the original there is smooth brown.",
+   "fix": "Fix the up_wrap seam at the right edge or remove the crack detail in that strip and blend it into the rest of the tile."
+  },
+  {
+   "uid": "bldgshadow1__08d05db2",
+   "verdict": "gate-fail",
+   "problem": "no real detail gain over a smooth enlargement (0.88x)",
+   "fix": "make it pass the gate honestly, or mark(...) it if it cannot"
+  },
+  {
+   "uid": "bldgshadow__54d55eeb",
+   "verdict": "gate-fail",
+   "problem": "no real detail gain over a smooth enlargement (0.95x)",
+   "fix": "make it pass the gate honestly, or mark(...) it if it cannot"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "task": "t0243",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "zterminal02__303d8f0e",
+   "verdict": "suspect",
+   "problem": "Bottom metal-plate strip is not verified at 1:1; the centre crop shows only flat outline art, so the fine grain cannot be judged. Fit view is soft, matching original blur.",
+   "fix": "Add a 1:1 crop of the bottom strip (e.g. y 900-1024) to compare_zterminal02 and confirm grain is crisp with no stamped repeats or halos. Keep the arch art as is."
+  }
+ ]
+}

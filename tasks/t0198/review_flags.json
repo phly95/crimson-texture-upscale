@@ -1,0 +1,30 @@
+{
+ "task": "t0198",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "20dixie_logo1__71e7cc3b",
+   "verdict": "suspect",
+   "problem": "Design and silhouette are preserved, but at 1:1 the white stars and white stripe carry a soft grey halo, and the circular rim edge is slightly wavy.",
+   "fix": "Tighten the per-ink coverage edge so it falls back to the original hard edge; remove the halo band around the white inks and re-threshold the rim alpha."
+  },
+  {
+   "uid": "dev_wingflap__f3de99a7",
+   "verdict": "suspect",
+   "problem": "The 1:1 centre crop is near-featureless dark murk with little steel micro-grain. It reads smoother than the streaked original, and the lab-inject grain looks too weak to read as Metal028 at 1:1.",
+   "fix": "Raise the Metal028 grain injection (masked to the dark areas) so the 1:1 crop shows visible brushed grain, and keep the vertical streak direction and the bright sprite unchanged."
+  },
+  {
+   "uid": "dirtpatch__cbc927de",
+   "verdict": "suspect",
+   "problem": "At 1:1 the grey-tan gravel-mud decal shows repeated vertical oval stamps and smeared vertical streaks that are not in the original. The pattern reads as stamped, not as gravel-mud grit.",
+   "fix": "Reduce the up_wrap stamp repetition: use a non-repeating or offset Ground049C crop and weaken the vertical lab-inject, keeping the original tan colour and the pink alpha fade at the bottom edge."
+  },
+  {
+   "uid": "dirtpatch__d2104860",
+   "verdict": "suspect",
+   "problem": "Same defect as cbc927de: repeated vertical oval stamps and smeared streaks at 1:1 that the original gravel-mud decal does not have.",
+   "fix": "Apply the same fix as cbc927de: non-repeating or offset Ground049C crop, weaker vertical lab-inject, original colour and alpha edge kept."
+  }
+ ]
+}

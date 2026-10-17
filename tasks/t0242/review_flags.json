@@ -1,0 +1,24 @@
+{
+ "task": "t0242",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "zepint_15__5d43d171",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop is soft and cloudy with little crisp detail; the stretched surface reads as smeared rather than textured.",
+   "fix": "Add a fine high-frequency grain layer (as zepint_06 has) at low amplitude so the 1:1 crop shows real surface detail."
+  },
+  {
+   "uid": "zepwindow1__2dac9d5d",
+   "verdict": "suspect",
+   "problem": "Glass at 1:1 shows regular small dash-like speckles that read as scanline or stamped noise rather than glass texture.",
+   "fix": "Remove or greatly reduce the injected high-frequency pattern over the glass pane; keep the blue tone and diagonal reflections."
+  },
+  {
+   "uid": "zero__5050bf50",
+   "verdict": "suspect",
+   "problem": "The '0' digit edges are blurred with a soft grey halo at 8x, losing the crisp pixel-font silhouette of a flat graphic.",
+   "fix": "Upscale this flat-graphic glyph with nearest-neighbour or an edge-preserving pixel-art scaler so the outline stays hard-edged."
+  }
+ ]
+}

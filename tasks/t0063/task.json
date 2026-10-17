@@ -1,0 +1,322 @@
+{
+ "task": "t0063",
+ "kind": "family",
+ "family": "filmlo",
+ "units": [
+  {
+   "uid": "filmlot1__cdb7b6da",
+   "stem": "filmlot1",
+   "size": [
+    64,
+    128
+   ],
+   "target": [
+    512,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.25,
+   "mean_rgb": [
+    168.2,
+    169.2,
+    168.2
+   ],
+   "distinct_colours_4bit": 85,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 11,
+    "nodes": [
+     "g(13)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 90.5
+   }
+  },
+  {
+   "uid": "filmlot10__3af0dd96",
+   "stem": "filmlot10",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.33,
+   "mean_rgb": [
+    149.8,
+    149.8,
+    149.7
+   ],
+   "distinct_colours_4bit": 84,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 9,
+    "nodes": [
+     "g(9)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.93,
+     1.0
+    ],
+    "world_units_per_repeat": 128.0
+   }
+  },
+  {
+   "uid": "filmlot11__ca2789b7",
+   "stem": "filmlot11",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.41,
+   "mean_rgb": [
+    143.8,
+    144.8,
+    143.5
+   ],
+   "distinct_colours_4bit": 71,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 3,
+    "nodes": [
+     "g(3)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.81,
+     1.0
+    ],
+    "world_units_per_repeat": 127.9
+   }
+  },
+  {
+   "uid": "filmlot2__f554537c",
+   "stem": "filmlot2",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.53,
+   "mean_rgb": [
+    183.2,
+    184.8,
+    184.0
+   ],
+   "distinct_colours_4bit": 137,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 14,
+    "nodes": [
+     "g(14)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.75,
+     1.0
+    ],
+    "world_units_per_repeat": 128.0
+   }
+  },
+  {
+   "uid": "filmlot3__c1e88089",
+   "stem": "filmlot3",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.34,
+   "mean_rgb": [
+    177.5,
+    178.0,
+    175.4
+   ],
+   "distinct_colours_4bit": 92,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 12,
+    "nodes": [
+     "g(12)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.93,
+     0.8
+    ],
+    "world_units_per_repeat": 128.0
+   }
+  },
+  {
+   "uid": "filmlot4__b5e821e3",
+   "stem": "filmlot4",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.35,
+   "mean_rgb": [
+    186.5,
+    190.1,
+    188.1
+   ],
+   "distinct_colours_4bit": 82,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 6,
+    "nodes": [
+     "g(6)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.96,
+     0.93
+    ],
+    "world_units_per_repeat": 128.0
+   }
+  },
+  {
+   "uid": "filmlot5__f644457f",
+   "stem": "filmlot5",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.71,
+   "mean_rgb": [
+    189.4,
+    190.5,
+    189.1
+   ],
+   "distinct_colours_4bit": 10,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 77,
+    "nodes": [
+     "g(77)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.68,
+     0.54
+    ],
+    "world_units_per_repeat": 128.0
+   }
+  }
+ ]
+}

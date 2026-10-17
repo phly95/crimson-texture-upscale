@@ -1,0 +1,12 @@
+{
+ "task": "t0218",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "moulding__39c449c8",
+   "verdict": "suspect",
+   "problem": "Vertical streaking is much stronger than the source's soft mottled dark metal. It reads as wood or brushed steel, not the original weathering.",
+   "fix": "Halve the stretched-streak amplitude and match the source's low-contrast mottling. Keep the dark edge frames."
+  }
+ ]
+}

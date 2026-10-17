@@ -1,0 +1,383 @@
+{
+ "task": "t0077",
+ "kind": "family",
+ "family": "gmzeps",
+ "units": [
+  {
+   "uid": "gmzepskin1__95f69fa3",
+   "stem": "gmzepskin1",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.83,
+   "mean_rgb": [
+    198.3,
+    157.5,
+    3.3
+   ],
+   "distinct_colours_4bit": 8,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 37,
+    "nodes": [
+     "panelleft(15)",
+     "panelright(15)",
+     "panelleftb(5)",
+     "panelrightb(5)",
+     "g(2)",
+     "burnprb(1)"
+    ],
+    "surface": {
+     "ground_up": 0.32,
+     "ceiling_down": 0.08,
+     "wall_side": 0.59
+    },
+    "uv_repeat_median": [
+     1.0,
+     4.29
+    ],
+    "world_units_per_repeat": 22.3
+   }
+  },
+  {
+   "uid": "gmzepskin2__46896f49",
+   "stem": "gmzepskin2",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.06,
+   "mean_rgb": [
+    195.1,
+    153.7,
+    2.6
+   ],
+   "distinct_colours_4bit": 5,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 22,
+    "nodes": [
+     "panelrightb(6)",
+     "panelleftb(5)",
+     "pleftb1h(3)",
+     "pleftb1d(3)",
+     "prightb1h(3)",
+     "prightb1d(3)"
+    ],
+    "surface": {
+     "ground_up": 0.05,
+     "ceiling_down": 0.45,
+     "wall_side": 0.5
+    },
+    "uv_repeat_median": [
+     1.0,
+     6.22
+    ],
+    "world_units_per_repeat": 22.3
+   }
+  },
+  {
+   "uid": "gmzepskin3__05aa5fa7",
+   "stem": "gmzepskin3",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 8.8,
+   "mean_rgb": [
+    36.5,
+    51.2,
+    23.2
+   ],
+   "distinct_colours_4bit": 26,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "m_front(11)",
+     "l_front(5)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.38,
+     0.47
+    ],
+    "world_units_per_repeat": 20.1
+   }
+  },
+  {
+   "uid": "gmzepskin4__2c082299",
+   "stem": "gmzepskin4",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 6.18,
+   "mean_rgb": [
+    41.9,
+    57.5,
+    31.4
+   ],
+   "distinct_colours_4bit": 20,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 5,
+    "nodes": [
+     "m_front(3)",
+     "l_front(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.29
+    ],
+    "world_units_per_repeat": 24.0
+   }
+  },
+  {
+   "uid": "gmzepskin5__ebd4ae4d",
+   "stem": "gmzepskin5",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.89,
+   "mean_rgb": [
+    34.1,
+    47.5,
+    19.7
+   ],
+   "distinct_colours_4bit": 27,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 25,
+    "nodes": [
+     "m_front(17)",
+     "l_front(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.08,
+     "wall_side": 0.92
+    },
+    "uv_repeat_median": [
+     0.3,
+     0.47
+    ],
+    "world_units_per_repeat": 28.7
+   }
+  },
+  {
+   "uid": "gmzepskin6__d3ae6e0c",
+   "stem": "gmzepskin6",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 5.76,
+   "mean_rgb": [
+    35.5,
+    50.4,
+    21.1
+   ],
+   "distinct_colours_4bit": 21,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 11,
+    "nodes": [
+     "m_back(7)",
+     "l_back(4)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.51,
+     0.47
+    ],
+    "world_units_per_repeat": 17.7
+   }
+  },
+  {
+   "uid": "gmzepskin7__f23c9808",
+   "stem": "gmzepskin7",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 4.03,
+   "mean_rgb": [
+    39.6,
+    55.2,
+    30.1
+   ],
+   "distinct_colours_4bit": 20,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 5,
+    "nodes": [
+     "m_back(3)",
+     "l_back(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.29
+    ],
+    "world_units_per_repeat": 18.6
+   }
+  },
+  {
+   "uid": "gmzepskin8__c4ec4b44",
+   "stem": "gmzepskin8",
+   "size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 7.64,
+   "mean_rgb": [
+    35.7,
+    50.5,
+    21.2
+   ],
+   "distinct_colours_4bit": 20,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C2B"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 16,
+    "nodes": [
+     "m_back(11)",
+     "l_back(5)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.34,
+     0.5
+    ],
+    "world_units_per_repeat": 20.2
+   }
+  }
+ ]
+}

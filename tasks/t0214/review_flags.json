@@ -1,0 +1,24 @@
+{
+ "task": "t0214",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "ladder1__7c4b4c94",
+   "verdict": "suspect",
+   "problem": "Rail material reads as streaky dark metal and the grey edge highlights are lost; the 1:1 centre crop is entirely magenta, so fine detail is unverified.",
+   "fix": "Re-crop the 1:1 panel over a rail and a rung section; if the rails are still darker than the original, lift the lab-inject luminance toward the original rail grey."
+  },
+  {
+   "uid": "land_grs__5c81d17b",
+   "verdict": "suspect",
+   "problem": "Flat grey path becomes pebbly speckled stone, and the 1:1 crop shows a dark blurred fringe around the path edges (halo). Original path is flat graphic grey.",
+   "fix": "Keep the path region flat grey: exclude path pixels from lab-inject and grain, and remove the dark edge fringe by re-matching the path boundary colour to the original."
+  },
+  {
+   "uid": "large_steelpanel2__235be860",
+   "verdict": "suspect",
+   "problem": "At 1:1 the blue-grey tile panel looks smeared into vertical streaks; the crisp tile grid and red mortar lines from the original are blurred away.",
+   "fix": "Reduce vertical brushing strength on the tile grid, or re-inject the mortar grid lines at full contrast after brushing."
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "task": "t0222",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "18pacifica_logo1__8f431ff7",
+   "verdict": "suspect",
+   "problem": "Crown emblem and chain ring keep the design, but at 1:1 the gold crown edges are blocky and terraced (posterized contour steps) with dark fringes along the outlines, so the flat logo looks blobby rather than crisp.",
+   "fix": "Re-trace the flat inks with smoothed vector contours (or antialiased edges) at 8x instead of stepped flat_up regions; remove the dark fringe by matching edge colours to the inks on both sides."
+  },
+  {
+   "uid": "pacifica_icon__5882a78c",
+   "verdict": "suspect",
+   "problem": "Crown design is recognisable, but at 1:1 the crown reads as a smeared poster: large blotchy flat regions, mud-coloured outlines, and the chain ring is soft and faint. Mean colour shift is 12.7, so the gold/brown balance is also off from the original.",
+   "fix": "Use more inks or sharper contour tracing for the crown, keep outlines as thin crisp strokes rather than blobs, and recolour the result to match the original mean colour before shading."
+  },
+  {
+   "uid": "patrolboat1__71e6b169",
+   "verdict": "bad",
+   "problem": "Original is a flat-graphic sprite (21 colours) with a flat red hull band, but the result applies a PaintedMetal015 streaked overlay that turns the band into a hazy, low-contrast wash and leaves faint ghost lettering at 1:1 that is not in the original. The material and design both change.",
+   "fix": "Keep the flat red band and its original markings (no painted-metal overlay there); limit any metal texture to the grey upper strip, and remove the ghost letterforms and haze so the colours match the original."
+  }
+ ]
+}

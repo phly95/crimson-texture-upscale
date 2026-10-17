@@ -1,0 +1,30 @@
+{
+ "task": "t0183",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "00bbomber_logo1__e8ecc87a",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop is soft: outline and ray edges blurred, not crisp flat art, although silhouette and colours match.",
+   "fix": "Re-run with an edge-preserving sharpen or nearest-edge plus 1px AA pass instead of bilinear smoothing; keep palette exact."
+  },
+  {
+   "uid": "baseknee__10c769db",
+   "verdict": "suspect",
+   "problem": "Fine speckle reads as sandpaper noise rather than stone surface; dark blobs repeat at regular intervals and look stamped.",
+   "fix": "Lower the lab-inject high-frequency noise and break up the regular blob spacing; keep the dark mortar line and stone shapes."
+  },
+  {
+   "uid": "basetoe__3d3e1033",
+   "verdict": "suspect",
+   "problem": "Dark opening is smeared into a blurry blob at 1:1 and the stone edges around it are mushy.",
+   "fix": "Restore edge contrast on the opening (less smoothing in the colormatch or lab-inject step); keep the original opening position and size."
+  },
+  {
+   "uid": "basetop__e1f68a8c",
+   "verdict": "suspect",
+   "problem": "Diagonal scratch-like lines and smeared dark blobs read as artifacts rather than stone courses; tileable_guess is false, so seams are a risk.",
+   "fix": "Remove the diagonal streak artifacts from the streak-aligned crop and keep horizontal course lines; check the left and right edges for a seam."
+  }
+ ]
+}

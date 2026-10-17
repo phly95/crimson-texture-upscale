@@ -1,0 +1,18 @@
+{
+ "task": "t0200",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "dunes__01533c0b",
+   "verdict": "suspect",
+   "problem": "Ground surface (g(23), ground_up) at 1:1 is soft and low-contrast; the original's cracked ridge network reads as faint diffuse shading, and the fine grain looks like uniform stamped noise rather than real stone detail.",
+   "fix": "Keep the ridge/crack edges crisp at 1:1 (less blur in the colormatch or lab-inject step) and make the grain amplitude vary with the underlying shading instead of a uniform overlay. Re-check the 1:1 centre crop."
+  },
+  {
+   "uid": "dx_mgun1__3252d23e",
+   "verdict": "suspect",
+   "problem": "The barrel cylinder (upper half) shows heavy horizontal brushed-metal streaks at 1:1 that the original smooth grey barrel does not have, so the injected lab grain changes the material; the bottom blue-riveted panel is fine.",
+   "fix": "Reduce lab-inject amplitude on the smooth barrel region, or restrict grain to the panel area, so the barrel stays a smooth painted metal. Keep the hard cutout edges as they are."
+  }
+ ]
+}

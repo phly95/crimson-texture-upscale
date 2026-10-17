@@ -1,0 +1,24 @@
+{
+ "task": "t0197",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "cutwall__9b7f0f5e",
+   "verdict": "suspect",
+   "problem": "1:1 crop is smeared with low detail (detail_gain 5.9); horizontal streak field reads as wood boards rather than the original stone courses.",
+   "fix": "Weaken the hstreak field and restore stone-like grain/edge detail at 1:1; keep the horizontal course lines but drop the wood-plank look."
+  },
+  {
+   "uid": "d__f4e52ff8",
+   "verdict": "suspect",
+   "problem": "Flat letter strokes are thickened, outline edges are jagged with dark notches at lower-right of the D, and background bands are posterised.",
+   "fix": "Re-trace or use nearest-neighbour 8x with edge-aware smoothing so stroke width and silhouette match the 16px original; remove dark notch artifacts."
+  },
+  {
+   "uid": "de_damage__c1fad414",
+   "verdict": "suspect",
+   "problem": "Gauge decal loses soft rim glow and tick detail at 1:1; plane fill posterises into blocky camouflage blobs with wobbly edges.",
+   "fix": "Reduce the 8x smoothing on flat art; keep antialiased edges and the original rim glow and tick marks so the decal design stays exact."
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "task": "t0215",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "lhsideplate__527956b6",
+   "verdict": "suspect",
+   "problem": "Visible tile-seam grid: faint light lines at regular intervals across the whole plate in the 512 fit view and the 1:1 crop (seam_out 1.16 vs 0.39 orig). Used on bm_base wall side.",
+   "fix": "Re-tile with a seam-blended or offset-crossfade MetalPlates crop so the plate joints do not form a regular grid, or remove the seam lines by blending the tile edges before lab-inject."
+  },
+  {
+   "uid": "lightflare_red__04df366c",
+   "verdict": "suspect",
+   "problem": "Colour drift: the magenta background goes violet with darker corners (mean_shift 34.8) and the 1:1 crop shows speckled noise in the glow around the red star. Used on phut_light_source.",
+   "fix": "Re-run colour matching so the background matches the original magenta per channel, and denoise the glow (or add a light smoothing pass) before the lab-inject step."
+  }
+ ]
+}

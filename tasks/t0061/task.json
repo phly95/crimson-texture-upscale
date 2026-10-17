@@ -1,0 +1,196 @@
+{
+ "task": "t0061",
+ "kind": "family",
+ "family": "falls",
+ "units": [
+  {
+   "uid": "falls__3b3527f0",
+   "stem": "falls",
+   "size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    255.0,
+    255.0,
+    255.0
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 12,
+    "nodes": [
+     "wf01_water(6)",
+     "wf02_water(3)",
+     "wf03_water(3)"
+    ],
+    "surface": {
+     "ground_up": 0.67,
+     "ceiling_down": 0.0,
+     "wall_side": 0.33
+    },
+    "uv_repeat_median": [
+     1.0,
+     3.4
+    ],
+    "world_units_per_repeat": 8.4
+   }
+  },
+  {
+   "uid": "falls-128__6c17723a",
+   "stem": "falls-128",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.22,
+   "mean_rgb": [
+    52.3,
+    69.0,
+    40.7
+   ],
+   "distinct_colours_4bit": 119,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 22,
+    "nodes": [
+     "ter_poly(7)",
+     "polys(7)",
+     "g(6)",
+     "volcano(2)"
+    ],
+    "surface": {
+     "ground_up": 0.82,
+     "ceiling_down": 0.0,
+     "wall_side": 0.18
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 140.0
+   }
+  },
+  {
+   "uid": "falls1__faa2ebfd",
+   "stem": "falls1",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 2.69,
+   "mean_rgb": [
+    90.9,
+    101.9,
+    81.6
+   ],
+   "distinct_colours_4bit": 107,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "taged(2)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     0.5,
+     1.0
+    ],
+    "world_units_per_repeat": 92.7
+   }
+  },
+  {
+   "uid": "falls_edge__20658da3",
+   "stem": "falls_edge",
+   "size": [
+    16,
+    32
+   ],
+   "target": [
+    128,
+    256
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": true,
+   "tileable_guess": false,
+   "seam_ratio": 8.8,
+   "mean_rgb": [
+    213.7,
+    213.7,
+    213.7
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C4"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 20,
+    "nodes": [
+     "wf01_edge(10)",
+     "wf02_edge(5)",
+     "wf03_edge(5)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     3.3
+    ],
+    "world_units_per_repeat": 13.6
+   }
+  }
+ ]
+}

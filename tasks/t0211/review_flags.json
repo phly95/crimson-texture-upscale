@@ -1,0 +1,42 @@
+{
+ "task": "t0211",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "hollywoodlogo__7c9978a8",
+   "verdict": "suspect",
+   "problem": "Design and colours match the original, but at 1:1 the posterised ink edges are stair-stepped and the face/hand colour bands look blocky.",
+   "fix": "Smooth the k=8 cluster boundaries (vectorise or antialias the contours) before rasterising at 1024, rather than leaving nearest-style steps."
+  },
+  {
+   "uid": "horizonindicator__201ac6a6",
+   "verdict": "suspect",
+   "problem": "Gauge ring and layout are preserved, but at 1:1 the horizon bar and tick edges are soft and smeared, closer to mush than crisp decal art.",
+   "fix": "Use the flat_up path (or a sharpened edge pass) for the bar and tick marks so their edges stay hard at 1024."
+  },
+  {
+   "uid": "hotelvac__a03ed24b",
+   "verdict": "suspect",
+   "problem": "The VACANCY lettering is legible at fit size, but at 1:1 the strokes are blobby and broken, with dark stair-step outlines, so the text design is damaged.",
+   "fix": "Reduce the k=5 cluster merging or use a text-aware edge-preserving upscale so letter strokes keep their shape and hard edges."
+  },
+  {
+   "uid": "houseside1__f1707ccf",
+   "verdict": "suspect",
+   "problem": "Stucco wall, arch and window layout match the original, but at 1:1 the window panes and arch edges are smeared, reading as soft photo blur, and the plaster grit is very faint.",
+   "fix": "Raise the high-frequency plaster grit injection and sharpen the window and arch edges so they are crisp at 1:1."
+  },
+  {
+   "uid": "hut_decoration__60da9ba4",
+   "verdict": "suspect",
+   "problem": "The silhouette is preserved, but the outer edge is stair-stepped at 1:1 and the interior shows blocky cross-shaped patches from the k=4 clusters.",
+   "fix": "Antialias the silhouette from the alpha channel and use smoother interior colour (pchip or a blur on the cluster map) instead of hard k=4 patches."
+  },
+  {
+   "uid": "i__1985b9a2",
+   "verdict": "suspect",
+   "problem": "The bar is in the right place, but its end caps are rounded where the original is square, and a faint soft halo surrounds it.",
+   "fix": "Keep the square bar ends and hard edges, and remove the halo introduced by the upscale."
+  }
+ ]
+}

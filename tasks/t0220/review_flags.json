@@ -1,0 +1,30 @@
+{
+ "task": "t0220",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "oilbuild__bbd14858",
+   "verdict": "suspect",
+   "problem": "Irregular cloudy/cracked mottle overlays the green panel at 1:1 and reads as lichen or cracks; rivets look soft and dark-blurred.",
+   "fix": "Cut the mottle amplitude or drop its low-frequency component; keep only the fine grain. Sharpen the rivet edges slightly."
+  },
+  {
+   "uid": "oilfiller__625c6e9e",
+   "verdict": "suspect",
+   "problem": "Dense reddish rust speckle covers the whole grey panel, not just the orange band, so the material reads as rusty sheet rather than the clean grey original.",
+   "fix": "Restrict the rust speckle to the orange top band or cut its density and red chroma on the grey panel areas."
+  },
+  {
+   "uid": "oilref1__e0559daf",
+   "verdict": "suspect",
+   "problem": "At 1:1 the yellow chevron outline is soft and smeared, with thick blurred edges rather than the crisp thin decal line of the original.",
+   "fix": "Re-do the decal with an edge-preserving upscale (or nearest-edge plus light unsharp) so the outline stays a thin crisp line at 1:1."
+  },
+  {
+   "uid": "oilstorage__61c5c8a5",
+   "verdict": "suspect",
+   "problem": "Grain at 1:1 is scattered light dots, not the vertical brushed streaks the recipe describes, so it reads as grit rather than brushed sheet metal.",
+   "fix": "Replace the isotropic speckle with vertically elongated brushed grain, or lower the amplitude so it reads as subtle streaks."
+  }
+ ]
+}

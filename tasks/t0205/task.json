@@ -1,0 +1,374 @@
+{
+ "task": "t0205",
+ "kind": "misc",
+ "family": "misc",
+ "units": [
+  {
+   "uid": "fogmask__70dabcb7",
+   "stem": "fogmask",
+   "size": [
+    8,
+    64
+   ],
+   "target": [
+    64,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.0,
+   "mean_rgb": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "distinct_colours_4bit": 1,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 66,
+    "nodes": [
+     "g(66)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     0.99
+    ],
+    "world_units_per_repeat": 217.7
+   }
+  },
+  {
+   "uid": "footballfield__b8fc3762",
+   "stem": "footballfield",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.85,
+   "mean_rgb": [
+    102.9,
+    125.4,
+    98.7
+   ],
+   "distinct_colours_4bit": 95,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 3,
+    "nodes": [
+     "g(3)"
+    ],
+    "surface": {
+     "ground_up": 1.0,
+     "ceiling_down": 0.0,
+     "wall_side": 0.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 128.0
+   }
+  },
+  {
+   "uid": "forest1__10db004d",
+   "stem": "forest1",
+   "size": [
+    256,
+    256
+   ],
+   "target": [
+    2048,
+    2048
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.92,
+   "mean_rgb": [
+    53.4,
+    72.4,
+    38.7
+   ],
+   "distinct_colours_4bit": 122,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 131,
+    "nodes": [
+     "g(115)",
+     "polys(6)",
+     "ter_poly(5)",
+     "volcano(4)",
+     "tags(1)"
+    ],
+    "surface": {
+     "ground_up": 0.96,
+     "ceiling_down": 0.0,
+     "wall_side": 0.04
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 264.3
+   }
+  },
+  {
+   "uid": "forest1-128__e02e6bc9",
+   "stem": "forest1-128",
+   "size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 0.1,
+   "mean_rgb": [
+    50.7,
+    71.8,
+    36.9
+   ],
+   "distinct_colours_4bit": 78,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C3"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 257,
+    "nodes": [
+     "g(225)",
+     "volcano(14)",
+     "polys(13)",
+     "ter_poly(4)",
+     "tags(1)"
+    ],
+    "surface": {
+     "ground_up": 0.92,
+     "ceiling_down": 0.0,
+     "wall_side": 0.08
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 134.1
+   }
+  },
+  {
+   "uid": "four__6f06d360",
+   "stem": "four",
+   "size": [
+    16,
+    16
+   ],
+   "target": [
+    128,
+    128
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": true,
+   "seam_ratio": 1.36,
+   "mean_rgb": [
+    76.2,
+    78.1,
+    72.0
+   ],
+   "distinct_colours_4bit": 27,
+   "look": "flat-graphic-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 8,
+    "nodes": [
+     "puffertexture(8)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     1.0,
+     1.0
+    ],
+    "world_units_per_repeat": 1.0
+   }
+  },
+  {
+   "uid": "30fourofakind__e77afa1e",
+   "stem": "30fourofakind",
+   "size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": true,
+   "seam_ratio": 0.36,
+   "mean_rgb": [
+    82.8,
+    71.3,
+    63.9
+   ],
+   "distinct_colours_4bit": 180,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "flipbook_id": null,
+   "usage": null
+  },
+  {
+   "uid": "french_rowhouse__0aa105a1",
+   "stem": "french_rowhouse",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": false,
+   "alpha_class": "None",
+   "alpha_is_soft": null,
+   "tileable_guess": false,
+   "seam_ratio": 1.95,
+   "mean_rgb": [
+    78.0,
+    57.1,
+    46.9
+   ],
+   "distinct_colours_4bit": 174,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 2,
+    "nodes": [
+     "g(2)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     2.67,
+     1.01
+    ],
+    "world_units_per_repeat": 10.9
+   }
+  },
+  {
+   "uid": "french_rowhouse2__e687b5ed",
+   "stem": "french_rowhouse2",
+   "size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "has_alpha": true,
+   "alpha_class": "Full",
+   "alpha_is_soft": false,
+   "tileable_guess": false,
+   "seam_ratio": 5.3,
+   "mean_rgb": [
+    43.5,
+    33.0,
+    28.3
+   ],
+   "distinct_colours_4bit": 185,
+   "look": "photo/painted-likely",
+   "also_named": [],
+   "chapters": [
+    "C2"
+   ],
+   "flipbook_id": null,
+   "usage": {
+    "polys": 14,
+    "nodes": [
+     "g(14)"
+    ],
+    "surface": {
+     "ground_up": 0.0,
+     "ceiling_down": 0.0,
+     "wall_side": 1.0
+    },
+    "uv_repeat_median": [
+     0.5,
+     1.0
+    ],
+    "world_units_per_repeat": 13.1
+   }
+  }
+ ]
+}

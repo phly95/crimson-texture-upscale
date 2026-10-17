@@ -1,0 +1,5342 @@
+{
+  "1_circle.png": [
+    69,
+    49
+  ],
+  "rimage/1_circle.png": [
+    69,
+    49
+  ],
+  "2_circle.png": [
+    69,
+    49
+  ],
+  "rimage/2_circle.png": [
+    69,
+    49
+  ],
+  "3_circle.png": [
+    69,
+    49
+  ],
+  "rimage/3_circle.png": [
+    69,
+    49
+  ],
+  "4_circle.png": [
+    69,
+    49
+  ],
+  "rimage/4_circle.png": [
+    69,
+    49
+  ],
+  "alignment_point.png": [
+    32,
+    32
+  ],
+  "rimage/alignment_point.png": [
+    32,
+    32
+  ],
+  "arrow.png": [
+    35,
+    28
+  ],
+  "rimage/arrow.png": [
+    35,
+    28
+  ],
+  "balmoral.png": [
+    48,
+    48
+  ],
+  "rimage/balmoral.png": [
+    48,
+    48
+  ],
+  "c1m1.png": [
+    425,
+    316
+  ],
+  "rimage/c1m1.png": [
+    425,
+    316
+  ],
+  "confirm.png": [
+    392,
+    184
+  ],
+  "rimage/confirm.png": [
+    392,
+    184
+  ],
+  "dafinger.png": [
+    40,
+    40
+  ],
+  "rimage/dafinger.png": [
+    40,
+    40
+  ],
+  "daglove.png": [
+    40,
+    40
+  ],
+  "rimage/daglove.png": [
+    40,
+    40
+  ],
+  "darrow.png": [
+    36,
+    43
+  ],
+  "rimage/darrow.png": [
+    36,
+    43
+  ],
+  "dashline1.png": [
+    136,
+    126
+  ],
+  "rimage/dashline1.png": [
+    136,
+    126
+  ],
+  "dashline2.png": [
+    48,
+    34
+  ],
+  "rimage/dashline2.png": [
+    48,
+    34
+  ],
+  "devform-b.png": [
+    81,
+    78
+  ],
+  "rimage/devform-b.png": [
+    81,
+    78
+  ],
+  "devform.png": [
+    81,
+    78
+  ],
+  "rimage/devform.png": [
+    81,
+    78
+  ],
+  "donut.png": [
+    8,
+    8
+  ],
+  "rimage/donut.png": [
+    8,
+    8
+  ],
+  "donuts.png": [
+    8,
+    8
+  ],
+  "rimage/donuts.png": [
+    8,
+    8
+  ],
+  "donutx.png": [
+    8,
+    8
+  ],
+  "rimage/donutx.png": [
+    8,
+    8
+  ],
+  "edevform.png": [
+    81,
+    78
+  ],
+  "rimage/edevform.png": [
+    81,
+    78
+  ],
+  "epftr1.png": [
+    25,
+    24
+  ],
+  "rimage/epftr1.png": [
+    25,
+    24
+  ],
+  "escapemenu.png": [
+    640,
+    480
+  ],
+  "rimage/escapemenu.png": [
+    640,
+    480
+  ],
+  "fbalmoral.png": [
+    48,
+    48
+  ],
+  "rimage/fbalmoral.png": [
+    48,
+    48
+  ],
+  "fdevform.png": [
+    81,
+    78
+  ],
+  "rimage/fdevform.png": [
+    81,
+    78
+  ],
+  "frame2.png": [
+    200,
+    240
+  ],
+  "rimage/frame2.png": [
+    200,
+    240
+  ],
+  "ha-m1betty.png": [
+    184,
+    224
+  ],
+  "rimage/ha-m1betty.png": [
+    184,
+    224
+  ],
+  "ha-m1jack.png": [
+    184,
+    224
+  ],
+  "rimage/ha-m1jack.png": [
+    184,
+    224
+  ],
+  "ha-m1majesticpandora.png": [
+    296,
+    241
+  ],
+  "rimage/ha-m1majesticpandora.png": [
+    296,
+    241
+  ],
+  "ha-m1map.png": [
+    800,
+    600
+  ],
+  "rimage/ha-m1map.png": [
+    800,
+    600
+  ],
+  "ha-m1shot1.png": [
+    224,
+    190
+  ],
+  "rimage/ha-m1shot1.png": [
+    224,
+    190
+  ],
+  "ha-m1shot2.png": [
+    226,
+    190
+  ],
+  "rimage/ha-m1shot2.png": [
+    226,
+    190
+  ],
+  "ha-m1shot3.png": [
+    226,
+    190
+  ],
+  "rimage/ha-m1shot3.png": [
+    226,
+    190
+  ],
+  "ha-m1treasuremap.png": [
+    240,
+    200
+  ],
+  "rimage/ha-m1treasuremap.png": [
+    240,
+    200
+  ],
+  "ha-m2bflag2.png": [
+    230,
+    190
+  ],
+  "rimage/ha-m2bflag2.png": [
+    230,
+    190
+  ],
+  "ha-m2camp6.png": [
+    226,
+    190
+  ],
+  "rimage/ha-m2camp6.png": [
+    226,
+    190
+  ],
+  "ha-m2ddock3.png": [
+    230,
+    190
+  ],
+  "rimage/ha-m2ddock3.png": [
+    230,
+    190
+  ],
+  "ha-m2lowbase5.png": [
+    230,
+    190
+  ],
+  "rimage/ha-m2lowbase5.png": [
+    230,
+    190
+  ],
+  "ha-m2map.png": [
+    800,
+    600
+  ],
+  "rimage/ha-m2map.png": [
+    800,
+    600
+  ],
+  "ha-m2oubase1.png": [
+    226,
+    190
+  ],
+  "rimage/ha-m2oubase1.png": [
+    226,
+    190
+  ],
+  "ha-m2ubase4.png": [
+    226,
+    190
+  ],
+  "rimage/ha-m2ubase4.png": [
+    226,
+    190
+  ],
+  "ha-m4pandtreas.png": [
+    224,
+    190
+  ],
+  "rimage/ha-m4pandtreas.png": [
+    224,
+    190
+  ],
+  "ha-m5balmoral.png": [
+    224,
+    190
+  ],
+  "rimage/ha-m5balmoral.png": [
+    224,
+    190
+  ],
+  "ha-m5ciphermach.png": [
+    224,
+    190
+  ],
+  "rimage/ha-m5ciphermach.png": [
+    224,
+    190
+  ],
+  "ha-m5treasite.png": [
+    226,
+    190
+  ],
+  "rimage/ha-m5treasite.png": [
+    226,
+    190
+  ],
+  "high.png": [
+    131,
+    37
+  ],
+  "rimage/high.png": [
+    131,
+    37
+  ],
+  "hw-m1airstrip.png": [
+    226,
+    190
+  ],
+  "rimage/hw-m1airstrip.png": [
+    226,
+    190
+  ],
+  "hw-m1hughesstudio.png": [
+    230,
+    190
+  ],
+  "rimage/hw-m1hughesstudio.png": [
+    230,
+    190
+  ],
+  "hw-m1johnnyjohnson.png": [
+    210,
+    250
+  ],
+  "rimage/hw-m1johnnyjohnson.png": [
+    210,
+    250
+  ],
+  "hw-m1lanacooper.png": [
+    212,
+    254
+  ],
+  "rimage/hw-m1lanacooper.png": [
+    212,
+    254
+  ],
+  "hw-m1map.png": [
+    800,
+    600
+  ],
+  "rimage/hw-m1map.png": [
+    800,
+    600
+  ],
+  "hw-m2bettybathingsuit.png": [
+    212,
+    254
+  ],
+  "rimage/hw-m2bettybathingsuit.png": [
+    212,
+    254
+  ],
+  "hw-m2hangargate.png": [
+    230,
+    190
+  ],
+  "rimage/hw-m2hangargate.png": [
+    230,
+    190
+  ],
+  "hw-m2sprucegoose.png": [
+    230,
+    190
+  ],
+  "rimage/hw-m2sprucegoose.png": [
+    230,
+    190
+  ],
+  "hw-m3bswan7.png": [
+    212,
+    254
+  ],
+  "rimage/hw-m3bswan7.png": [
+    212,
+    254
+  ],
+  "hw-m3crawford4.png": [
+    212,
+    254
+  ],
+  "rimage/hw-m3crawford4.png": [
+    212,
+    254
+  ],
+  "hw-m3fury2.png": [
+    226,
+    190
+  ],
+  "rimage/hw-m3fury2.png": [
+    226,
+    190
+  ],
+  "hw-m3khan6.png": [
+    212,
+    254
+  ],
+  "rimage/hw-m3khan6.png": [
+    212,
+    254
+  ],
+  "hw-m3redman5.png": [
+    212,
+    254
+  ],
+  "rimage/hw-m3redman5.png": [
+    212,
+    254
+  ],
+  "hw-m3steele3.png": [
+    212,
+    254
+  ],
+  "rimage/hw-m3steele3.png": [
+    212,
+    254
+  ],
+  "hw-m4cannon.png": [
+    230,
+    190
+  ],
+  "rimage/hw-m4cannon.png": [
+    230,
+    190
+  ],
+  "hw-m4gemini.png": [
+    230,
+    190
+  ],
+  "rimage/hw-m4gemini.png": [
+    230,
+    190
+  ],
+  "hw-m4jjpaper.png": [
+    256,
+    212
+  ],
+  "rimage/hw-m4jjpaper.png": [
+    256,
+    212
+  ],
+  "hw-m4map.png": [
+    800,
+    600
+  ],
+  "rimage/hw-m4map.png": [
+    800,
+    600
+  ],
+  "hw-m4pissedoff.png": [
+    212,
+    254
+  ],
+  "rimage/hw-m4pissedoff.png": [
+    212,
+    254
+  ],
+  "hw-m5baslogo.png": [
+    230,
+    190
+  ],
+  "rimage/hw-m5baslogo.png": [
+    230,
+    190
+  ],
+  "hw-m5dmgpandora.png": [
+    230,
+    190
+  ],
+  "rimage/hw-m5dmgpandora.png": [
+    230,
+    190
+  ],
+  "hw-m5figarorecon.png": [
+    224,
+    190
+  ],
+  "rimage/hw-m5figarorecon.png": [
+    224,
+    190
+  ],
+  "hw-m5figarowreckage.png": [
+    230,
+    190
+  ],
+  "rimage/hw-m5figarowreckage.png": [
+    230,
+    190
+  ],
+  "hw-m5map.png": [
+    800,
+    600
+  ],
+  "rimage/hw-m5map.png": [
+    800,
+    600
+  ],
+  "hw-m5peacemakers.png": [
+    230,
+    190
+  ],
+  "rimage/hw-m5peacemakers.png": [
+    230,
+    190
+  ],
+  "hw_m4jpissedoff.png": [
+    212,
+    254
+  ],
+  "rimage/hw_m4jpissedoff.png": [
+    212,
+    254
+  ],
+  "ia_active.png": [
+    64,
+    32
+  ],
+  "rimage/ia_active.png": [
+    64,
+    32
+  ],
+  "ia_dactive.png": [
+    64,
+    32
+  ],
+  "rimage/ia_dactive.png": [
+    64,
+    32
+  ],
+  "ia_dinactive.png": [
+    64,
+    32
+  ],
+  "rimage/ia_dinactive.png": [
+    64,
+    32
+  ],
+  "ia_high.png": [
+    64,
+    32
+  ],
+  "rimage/ia_high.png": [
+    64,
+    32
+  ],
+  "ia_inactive.png": [
+    64,
+    32
+  ],
+  "rimage/ia_inactive.png": [
+    64,
+    32
+  ],
+  "impact_point.png": [
+    32,
+    32
+  ],
+  "rimage/impact_point.png": [
+    32,
+    32
+  ],
+  "inchigh.png": [
+    29,
+    36
+  ],
+  "rimage/inchigh.png": [
+    29,
+    36
+  ],
+  "incnorm.png": [
+    29,
+    36
+  ],
+  "rimage/incnorm.png": [
+    29,
+    36
+  ],
+  "larrow.png": [
+    43,
+    36
+  ],
+  "rimage/larrow.png": [
+    43,
+    36
+  ],
+  "loadframe.png": [
+    801,
+    601
+  ],
+  "rimage/loadframe.png": [
+    801,
+    601
+  ],
+  "loadframempt.png": [
+    800,
+    600
+  ],
+  "rimage/loadframempt.png": [
+    800,
+    600
+  ],
+  "loadframempt2.png": [
+    800,
+    600
+  ],
+  "rimage/loadframempt2.png": [
+    800,
+    600
+  ],
+  "loser.png": [
+    29,
+    38
+  ],
+  "rimage/loser.png": [
+    29,
+    38
+  ],
+  "mainmenu.png": [
+    640,
+    480
+  ],
+  "rimage/mainmenu.png": [
+    640,
+    480
+  ],
+  "mh-m1cabbiestaxi.png": [
+    224,
+    190
+  ],
+  "rimage/mh-m1cabbiestaxi.png": [
+    224,
+    190
+  ],
+  "mh-m1map.png": [
+    800,
+    600
+  ],
+  "rimage/mh-m1map.png": [
+    800,
+    600
+  ],
+  "mh-m1steinman.png": [
+    230,
+    190
+  ],
+  "rimage/mh-m1steinman.png": [
+    230,
+    190
+  ],
+  "mh-m1stilogo.png": [
+    216,
+    372
+  ],
+  "rimage/mh-m1stilogo.png": [
+    216,
+    372
+  ],
+  "mh-m1warehouse.png": [
+    230,
+    190
+  ],
+  "rimage/mh-m1warehouse.png": [
+    230,
+    190
+  ],
+  "mh-m2arcadia.png": [
+    230,
+    190
+  ],
+  "rimage/mh-m2arcadia.png": [
+    230,
+    190
+  ],
+  "mh-m2carneyid.png": [
+    270,
+    220
+  ],
+  "rimage/mh-m2carneyid.png": [
+    270,
+    220
+  ],
+  "mh-m2destroyedfreght.png": [
+    224,
+    190
+  ],
+  "rimage/mh-m2destroyedfreght.png": [
+    224,
+    190
+  ],
+  "mh-m3carneymug.png": [
+    224,
+    190
+  ],
+  "rimage/mh-m3carneymug.png": [
+    224,
+    190
+  ],
+  "mh-m3zep1.png": [
+    230,
+    190
+  ],
+  "rimage/mh-m3zep1.png": [
+    230,
+    190
+  ],
+  "mh-m3zep2.png": [
+    224,
+    190
+  ],
+  "rimage/mh-m3zep2.png": [
+    224,
+    190
+  ],
+  "mh-m3zep3.png": [
+    230,
+    190
+  ],
+  "rimage/mh-m3zep3.png": [
+    230,
+    190
+  ],
+  "mh-m4invitation.png": [
+    236,
+    180
+  ],
+  "rimage/mh-m4invitation.png": [
+    236,
+    180
+  ],
+  "mh-m4lucasmiles.png": [
+    184,
+    224
+  ],
+  "rimage/mh-m4lucasmiles.png": [
+    184,
+    224
+  ],
+  "mh-m4newsclipping.png": [
+    400,
+    310
+  ],
+  "rimage/mh-m4newsclipping.png": [
+    400,
+    310
+  ],
+  "miss_frame.png": [
+    200,
+    59
+  ],
+  "rimage/miss_frame.png": [
+    200,
+    59
+  ],
+  "miss_frame2.png": [
+    200,
+    59
+  ],
+  "rimage/miss_frame2.png": [
+    200,
+    59
+  ],
+  "mm_splashbackground.png": [
+    800,
+    600
+  ],
+  "rimage/mm_splashbackground.png": [
+    800,
+    600
+  ],
+  "momento_shad.png": [
+    300,
+    300
+  ],
+  "rimage/momento_shad.png": [
+    300,
+    300
+  ],
+  "momento_temp.png": [
+    242,
+    305
+  ],
+  "rimage/momento_temp.png": [
+    242,
+    305
+  ],
+  "mp-cannon.png": [
+    224,
+    190
+  ],
+  "rimage/mp-cannon.png": [
+    224,
+    190
+  ],
+  "mp-crash.png": [
+    224,
+    190
+  ],
+  "rimage/mp-crash.png": [
+    224,
+    190
+  ],
+  "mp-dangerzone2.png": [
+    230,
+    190
+  ],
+  "rimage/mp-dangerzone2.png": [
+    230,
+    190
+  ],
+  "mp-flagcapture.png": [
+    230,
+    190
+  ],
+  "rimage/mp-flagcapture.png": [
+    230,
+    190
+  ],
+  "mp-flagreturn.png": [
+    224,
+    190
+  ],
+  "rimage/mp-flagreturn.png": [
+    224,
+    190
+  ],
+  "mp-gasbag.png": [
+    230,
+    190
+  ],
+  "rimage/mp-gasbag.png": [
+    230,
+    190
+  ],
+  "mp-shotdown.png": [
+    230,
+    190
+  ],
+  "rimage/mp-shotdown.png": [
+    230,
+    190
+  ],
+  "mp-torpedo.png": [
+    230,
+    190
+  ],
+  "rimage/mp-torpedo.png": [
+    230,
+    190
+  ],
+  "mp-zepdown.png": [
+    224,
+    190
+  ],
+  "rimage/mp-zepdown.png": [
+    224,
+    190
+  ],
+  "ms_p_02_01_hawaiianprinces2.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_02_01_hawaiianprinces2.png": [
+    256,
+    256
+  ],
+  "ms_p_05_01_treasuregirl.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_05_01_treasuregirl.png": [
+    256,
+    256
+  ],
+  "ms_p_06_02_bswanportrait.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_06_02_bswanportrait.png": [
+    256,
+    256
+  ],
+  "ms_p_10_01_soldiergirl.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_10_01_soldiergirl.png": [
+    256,
+    256
+  ],
+  "ms_p_11_01_lanacooperglam.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_11_01_lanacooperglam.png": [
+    256,
+    256
+  ],
+  "ms_p_12_01_bettysscreentest2.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_12_01_bettysscreentest2.png": [
+    256,
+    256
+  ],
+  "ms_p_12_02_charlie.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_12_02_charlie.png": [
+    256,
+    256
+  ],
+  "ms_p_13_02_nathangetstrophy.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_13_02_nathangetstrophy.png": [
+    256,
+    256
+  ],
+  "ms_p_15_01_myshoe.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_15_01_myshoe.png": [
+    256,
+    256
+  ],
+  "ms_p_16_01_strip3.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_16_01_strip3.png": [
+    256,
+    256
+  ],
+  "ms_p_17_04_shangri-lapinup.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_17_04_shangri-lapinup.png": [
+    256,
+    256
+  ],
+  "ms_p_19_01_swanthemorningafter.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_19_01_swanthemorningafter.png": [
+    256,
+    256
+  ],
+  "ms_p_19_01_swanwelcomehome1.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_19_01_swanwelcomehome1.png": [
+    256,
+    256
+  ],
+  "ms_p_24_01_swanpinup.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_24_01_swanpinup.png": [
+    256,
+    256
+  ],
+  "ms_p_24_01_thefinalkiss.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_24_01_thefinalkiss.png": [
+    256,
+    256
+  ],
+  "ms_p_doggiephoto.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_doggiephoto.png": [
+    256,
+    256
+  ],
+  "ms_p_illsaandsparks.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_illsaandsparks.png": [
+    256,
+    256
+  ],
+  "ms_p_initialpinup1.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_initialpinup1.png": [
+    256,
+    256
+  ],
+  "ms_p_initialpinup3.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_initialpinup3.png": [
+    256,
+    256
+  ],
+  "ms_p_justinebattleax.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_justinebattleax.png": [
+    256,
+    256
+  ],
+  "ms_p_mom.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_mom.png": [
+    256,
+    256
+  ],
+  "ms_p_swan&nathanincabin.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_swan&nathanincabin.png": [
+    256,
+    256
+  ],
+  "ms_p_thefinalkiss.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_thefinalkiss.png": [
+    256,
+    256
+  ],
+  "ms_p_treasuregirl.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_treasuregirl.png": [
+    256,
+    256
+  ],
+  "ms_p_zacharyandplane.png": [
+    256,
+    256
+  ],
+  "rimage/ms_p_zacharyandplane.png": [
+    256,
+    256
+  ],
+  "normal.png": [
+    131,
+    37
+  ],
+  "rimage/normal.png": [
+    131,
+    37
+  ],
+  "northwestload.png": [
+    220,
+    355
+  ],
+  "rimage/northwestload.png": [
+    220,
+    355
+  ],
+  "nw-m1dockinghook.png": [
+    224,
+    190
+  ],
+  "rimage/nw-m1dockinghook.png": [
+    224,
+    190
+  ],
+  "nw-m1map.png": [
+    800,
+    600
+  ],
+  "rimage/nw-m1map.png": [
+    800,
+    600
+  ],
+  "nw-m1pda_icon.png": [
+    40,
+    149
+  ],
+  "rimage/nw-m1pda_icon.png": [
+    40,
+    149
+  ],
+  "nw-m1workervoyagezep.png": [
+    226,
+    190
+  ],
+  "rimage/nw-m1workervoyagezep.png": [
+    226,
+    190
+  ],
+  "nw-m1wv_icon.png": [
+    49,
+    165
+  ],
+  "rimage/nw-m1wv_icon.png": [
+    49,
+    165
+  ],
+  "nw-m1wv_icon2.png": [
+    84,
+    165
+  ],
+  "rimage/nw-m1wv_icon2.png": [
+    84,
+    165
+  ],
+  "nw-m2basemblem2.png": [
+    224,
+    190
+  ],
+  "rimage/nw-m2basemblem2.png": [
+    224,
+    190
+  ],
+  "nw-m2bloodhawk.png": [
+    226,
+    190
+  ],
+  "rimage/nw-m2bloodhawk.png": [
+    226,
+    190
+  ],
+  "nw-m2caboose.png": [
+    226,
+    190
+  ],
+  "rimage/nw-m2caboose.png": [
+    226,
+    190
+  ],
+  "nw-m2map.png": [
+    800,
+    600
+  ],
+  "rimage/nw-m2map.png": [
+    800,
+    600
+  ],
+  "nw-m3freighter.png": [
+    226,
+    190
+  ],
+  "rimage/nw-m3freighter.png": [
+    226,
+    190
+  ],
+  "nw-m3generator.png": [
+    226,
+    190
+  ],
+  "rimage/nw-m3generator.png": [
+    226,
+    190
+  ],
+  "nw-m3lighthouse.png": [
+    224,
+    190
+  ],
+  "rimage/nw-m3lighthouse.png": [
+    224,
+    190
+  ],
+  "nw-m3map.png": [
+    800,
+    600
+  ],
+  "rimage/nw-m3map.png": [
+    800,
+    600
+  ],
+  "nw-m4cannondoor.png": [
+    226,
+    190
+  ],
+  "rimage/nw-m4cannondoor.png": [
+    226,
+    190
+  ],
+  "nw-m4dockingclamp.png": [
+    226,
+    190
+  ],
+  "rimage/nw-m4dockingclamp.png": [
+    226,
+    190
+  ],
+  "nw-m4paladinblake.png": [
+    214,
+    250
+  ],
+  "rimage/nw-m4paladinblake.png": [
+    214,
+    250
+  ],
+  "nw-m4promisedland.png": [
+    224,
+    190
+  ],
+  "rimage/nw-m4promisedland.png": [
+    224,
+    190
+  ],
+  "nw-m4promlicon.png": [
+    49,
+    165
+  ],
+  "rimage/nw-m4promlicon.png": [
+    49,
+    165
+  ],
+  "nw-m4radiotower.png": [
+    224,
+    190
+  ],
+  "rimage/nw-m4radiotower.png": [
+    224,
+    190
+  ],
+  "nw-m5attackboat.png": [
+    230,
+    190
+  ],
+  "rimage/nw-m5attackboat.png": [
+    230,
+    190
+  ],
+  "nw-m5map.png": [
+    800,
+    600
+  ],
+  "rimage/nw-m5map.png": [
+    800,
+    600
+  ],
+  "nw_m1fassenbiender.png": [
+    212,
+    250
+  ],
+  "rimage/nw_m1fassenbiender.png": [
+    212,
+    250
+  ],
+  "nw_m2fassenbiender.png": [
+    212,
+    250
+  ],
+  "rimage/nw_m2fassenbiender.png": [
+    212,
+    250
+  ],
+  "nw_m2ilsafasid.png": [
+    280,
+    240
+  ],
+  "rimage/nw_m2ilsafasid.png": [
+    280,
+    240
+  ],
+  "obj_check1.png": [
+    25,
+    24
+  ],
+  "rimage/obj_check1.png": [
+    25,
+    24
+  ],
+  "parchment.png": [
+    240,
+    312
+  ],
+  "rimage/parchment.png": [
+    240,
+    312
+  ],
+  "pftr1.png": [
+    26,
+    25
+  ],
+  "rimage/pftr1.png": [
+    26,
+    25
+  ],
+  "pin1.png": [
+    76,
+    80
+  ],
+  "rimage/pin1.png": [
+    76,
+    80
+  ],
+  "pin2.png": [
+    76,
+    80
+  ],
+  "rimage/pin2.png": [
+    76,
+    80
+  ],
+  "pin3.png": [
+    76,
+    80
+  ],
+  "rimage/pin3.png": [
+    76,
+    80
+  ],
+  "pin4.png": [
+    76,
+    80
+  ],
+  "rimage/pin4.png": [
+    76,
+    80
+  ],
+  "pin5.png": [
+    76,
+    80
+  ],
+  "rimage/pin5.png": [
+    76,
+    80
+  ],
+  "pin6.png": [
+    76,
+    80
+  ],
+  "rimage/pin6.png": [
+    76,
+    80
+  ],
+  "pin6_1.png": [
+    76,
+    80
+  ],
+  "rimage/pin6_1.png": [
+    76,
+    80
+  ],
+  "pin7.png": [
+    76,
+    80
+  ],
+  "rimage/pin7.png": [
+    76,
+    80
+  ],
+  "pin8.png": [
+    76,
+    80
+  ],
+  "rimage/pin8.png": [
+    76,
+    80
+  ],
+  "prp0.png": [
+    45,
+    45
+  ],
+  "rimage/prp0.png": [
+    45,
+    45
+  ],
+  "prp15.png": [
+    45,
+    45
+  ],
+  "rimage/prp15.png": [
+    45,
+    45
+  ],
+  "prp22.png": [
+    45,
+    45
+  ],
+  "rimage/prp22.png": [
+    45,
+    45
+  ],
+  "prp30.png": [
+    45,
+    45
+  ],
+  "rimage/prp30.png": [
+    45,
+    45
+  ],
+  "prp37.png": [
+    45,
+    45
+  ],
+  "rimage/prp37.png": [
+    45,
+    45
+  ],
+  "prp7.png": [
+    45,
+    45
+  ],
+  "rimage/prp7.png": [
+    45,
+    45
+  ],
+  "rarrow.png": [
+    43,
+    36
+  ],
+  "rimage/rarrow.png": [
+    43,
+    36
+  ],
+  "rcircle.png": [
+    32,
+    36
+  ],
+  "rimage/rcircle.png": [
+    32,
+    36
+  ],
+  "rcircle_y.png": [
+    32,
+    36
+  ],
+  "rimage/rcircle_y.png": [
+    32,
+    36
+  ],
+  "rm-m1blackhat.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m1blackhat.png": [
+    230,
+    190
+  ],
+  "rm-m1map.png": [
+    800,
+    600
+  ],
+  "rimage/rm-m1map.png": [
+    800,
+    600
+  ],
+  "rm-m1rockyexpress.png": [
+    224,
+    190
+  ],
+  "rimage/rm-m1rockyexpress.png": [
+    224,
+    190
+  ],
+  "rm-m1sparks.png": [
+    190,
+    230
+  ],
+  "rimage/rm-m1sparks.png": [
+    190,
+    230
+  ],
+  "rm-m2blackhatbrigands.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m2blackhatbrigands.png": [
+    230,
+    190
+  ],
+  "rm-m2cloud9.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m2cloud9.png": [
+    230,
+    190
+  ],
+  "rm-m2hoplitehlogo.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m2hoplitehlogo.png": [
+    230,
+    190
+  ],
+  "rm-m2hoplitehughes.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m2hoplitehughes.png": [
+    230,
+    190
+  ],
+  "rm-m2lucas-zachary.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m2lucas-zachary.png": [
+    230,
+    190
+  ],
+  "rm-m2mccoy'sdiner.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m2mccoy'sdiner.png": [
+    230,
+    190
+  ],
+  "rm-m2shangri-la.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m2shangri-la.png": [
+    230,
+    190
+  ],
+  "rm-m2swiftjimmy.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m2swiftjimmy.png": [
+    230,
+    190
+  ],
+  "rm-m2ulyssesboothe.png": [
+    186,
+    224
+  ],
+  "rimage/rm-m2ulyssesboothe.png": [
+    186,
+    224
+  ],
+  "rm-m3bootheshotdown.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m3bootheshotdown.png": [
+    230,
+    190
+  ],
+  "rm-m3devilshorn.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m3devilshorn.png": [
+    230,
+    190
+  ],
+  "rm-m4bhmansion2.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m4bhmansion2.png": [
+    230,
+    190
+  ],
+  "rm-m4blackhatmansion.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m4blackhatmansion.png": [
+    230,
+    190
+  ],
+  "rm-m4hangar.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m4hangar.png": [
+    230,
+    190
+  ],
+  "rm-m4loadingdoc.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m4loadingdoc.png": [
+    230,
+    190
+  ],
+  "rm-m4loadingdoc2.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m4loadingdoc2.png": [
+    230,
+    190
+  ],
+  "rm-m4roofsupport.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m4roofsupport.png": [
+    230,
+    190
+  ],
+  "rm-m4traingenerator.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m4traingenerator.png": [
+    230,
+    190
+  ],
+  "rm-m5blackhatzep.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m5blackhatzep.png": [
+    230,
+    190
+  ],
+  "rm-m5brigandswarhawks.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m5brigandswarhawks.png": [
+    230,
+    190
+  ],
+  "rm-m5cargo-icon1.png": [
+    49,
+    165
+  ],
+  "rimage/rm-m5cargo-icon1.png": [
+    49,
+    165
+  ],
+  "rm-m5cargozep.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m5cargozep.png": [
+    230,
+    190
+  ],
+  "rm-m5fhtrounceblake.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m5fhtrounceblake.png": [
+    230,
+    190
+  ],
+  "rm-m5map.png": [
+    800,
+    600
+  ],
+  "rimage/rm-m5map.png": [
+    800,
+    600
+  ],
+  "rm-m5pmakersbhawks.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m5pmakersbhawks.png": [
+    230,
+    190
+  ],
+  "rm-m5silohette.png": [
+    230,
+    190
+  ],
+  "rimage/rm-m5silohette.png": [
+    230,
+    190
+  ],
+  "sgoose_path.png": [
+    129,
+    313
+  ],
+  "rimage/sgoose_path.png": [
+    129,
+    313
+  ],
+  "singledev.png": [
+    32,
+    32
+  ],
+  "rimage/singledev.png": [
+    32,
+    32
+  ],
+  "singlefur.png": [
+    32,
+    32
+  ],
+  "rimage/singlefur.png": [
+    32,
+    32
+  ],
+  "sml1.png": [
+    34,
+    38
+  ],
+  "rimage/sml1.png": [
+    34,
+    38
+  ],
+  "sml2.png": [
+    33,
+    38
+  ],
+  "rimage/sml2.png": [
+    33,
+    38
+  ],
+  "sml3.png": [
+    37,
+    37
+  ],
+  "rimage/sml3.png": [
+    37,
+    37
+  ],
+  "sml4.png": [
+    36,
+    38
+  ],
+  "rimage/sml4.png": [
+    36,
+    38
+  ],
+  "sml5.png": [
+    33,
+    36
+  ],
+  "rimage/sml5.png": [
+    33,
+    36
+  ],
+  "sml6.png": [
+    31,
+    34
+  ],
+  "rimage/sml6.png": [
+    31,
+    34
+  ],
+  "sml7.png": [
+    30,
+    35
+  ],
+  "rimage/sml7.png": [
+    30,
+    35
+  ],
+  "telegram.png": [
+    178,
+    238
+  ],
+  "rimage/telegram.png": [
+    178,
+    238
+  ],
+  "trailer.png": [
+    27,
+    80
+  ],
+  "rimage/trailer.png": [
+    27,
+    80
+  ],
+  "trailer_trail.png": [
+    299,
+    340
+  ],
+  "rimage/trailer_trail.png": [
+    299,
+    340
+  ],
+  "uarrow.png": [
+    36,
+    43
+  ],
+  "rimage/uarrow.png": [
+    36,
+    43
+  ],
+  "ACTIVEPOINTERZ.PNG": [
+    40,
+    40
+  ],
+  "rof/ASSETS/GRAPHICS/ACTIVEPOINTERZ.PNG": [
+    40,
+    40
+  ],
+  "AP_BACKGROUND.PNG": [
+    566,
+    366
+  ],
+  "rof/ASSETS/GRAPHICS/AP_BACKGROUND.PNG": [
+    566,
+    366
+  ],
+  "CM_BACKGROUND.PNG": [
+    408,
+    281
+  ],
+  "rof/ASSETS/GRAPHICS/CM_BACKGROUND.PNG": [
+    408,
+    281
+  ],
+  "CM_B_CANCEL.PNG": [
+    161,
+    136
+  ],
+  "rof/ASSETS/GRAPHICS/CM_B_CANCEL.PNG": [
+    161,
+    136
+  ],
+  "CM_B_DELETEPLAYER.PNG": [
+    188,
+    136
+  ],
+  "rof/ASSETS/GRAPHICS/CM_B_DELETEPLAYER.PNG": [
+    188,
+    136
+  ],
+  "CM_B_SCROLLBAR.PNG": [
+    16,
+    11
+  ],
+  "rof/ASSETS/GRAPHICS/CM_B_SCROLLBAR.PNG": [
+    16,
+    11
+  ],
+  "CM_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/CM_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "CM_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/CM_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "CM_B_START.PNG": [
+    113,
+    136
+  ],
+  "rof/ASSETS/GRAPHICS/CM_B_START.PNG": [
+    113,
+    136
+  ],
+  "CP_BACKGROUND.PNG": [
+    566,
+    306
+  ],
+  "rof/ASSETS/GRAPHICS/CP_BACKGROUND.PNG": [
+    566,
+    306
+  ],
+  "CP_B_KEYSANDBUTTONS.PNG": [
+    236,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/CP_B_KEYSANDBUTTONS.PNG": [
+    236,
+    168
+  ],
+  "CR_ABOUTMESSAGEBOX.PNG": [
+    505,
+    416
+  ],
+  "rof/ASSETS/GRAPHICS/CR_ABOUTMESSAGEBOX.PNG": [
+    505,
+    416
+  ],
+  "CR_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/CR_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "CR_B_ABOUT.PNG": [
+    113,
+    136
+  ],
+  "rof/ASSETS/GRAPHICS/CR_B_ABOUT.PNG": [
+    113,
+    136
+  ],
+  "DZ_ZOOMGRIMEFRAME.PNG": [
+    660,
+    500
+  ],
+  "rof/ASSETS/GRAPHICS/DZ_ZOOMGRIMEFRAME.PNG": [
+    660,
+    500
+  ],
+  "EM_B_LOADGAME.PNG": [
+    224,
+    176
+  ],
+  "rof/ASSETS/GRAPHICS/EM_B_LOADGAME.PNG": [
+    224,
+    176
+  ],
+  "EM_B_RESUME.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/EM_B_RESUME.PNG": [
+    221,
+    168
+  ],
+  "EM_B_SAVEGAME.PNG": [
+    224,
+    176
+  ],
+  "rof/ASSETS/GRAPHICS/EM_B_SAVEGAME.PNG": [
+    224,
+    176
+  ],
+  "FC_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/FC_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "FC_B_FLYMISSION.PNG": [
+    137,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/FC_B_FLYMISSION.PNG": [
+    137,
+    128
+  ],
+  "FC_B_PAPERBUTTON.PNG": [
+    117,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTON.PNG": [
+    117,
+    112
+  ],
+  "FC_B_PAPERBUTTONEXTRALARGE.PNG": [
+    162,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTONEXTRALARGE.PNG": [
+    162,
+    112
+  ],
+  "FC_B_PAPERBUTTONLARGE.PNG": [
+    147,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTONLARGE.PNG": [
+    147,
+    112
+  ],
+  "FC_B_PAPERBUTTONMEDIUM.PNG": [
+    132,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/FC_B_PAPERBUTTONMEDIUM.PNG": [
+    132,
+    112
+  ],
+  "FC_B_RETURNTOBRIEFING.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/FC_B_RETURNTOBRIEFING.PNG": [
+    200,
+    128
+  ],
+  "FC_B_SCROLLBAR.PNG": [
+    16,
+    12
+  ],
+  "rof/ASSETS/GRAPHICS/FC_B_SCROLLBAR.PNG": [
+    16,
+    12
+  ],
+  "FC_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/FC_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "FC_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/FC_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "GN_B_BUILDCUSTOMPLANE.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/GN_B_BUILDCUSTOMPLANE.PNG": [
+    200,
+    128
+  ],
+  "GN_B_CONTINUE.PNG": [
+    112,
+    136
+  ],
+  "rof/ASSETS/GRAPHICS/GN_B_CONTINUE.PNG": [
+    112,
+    136
+  ],
+  "GN_B_LISTBOXARROWDOWN.PNG": [
+    24,
+    96
+  ],
+  "rof/ASSETS/GRAPHICS/GN_B_LISTBOXARROWDOWN.PNG": [
+    24,
+    96
+  ],
+  "GN_B_LISTBOXARROWSMALLDOWN.PNG": [
+    16,
+    48
+  ],
+  "rof/ASSETS/GRAPHICS/GN_B_LISTBOXARROWSMALLDOWN.PNG": [
+    16,
+    48
+  ],
+  "GN_B_LISTBOXARROWSMALLUP.PNG": [
+    16,
+    48
+  ],
+  "rof/ASSETS/GRAPHICS/GN_B_LISTBOXARROWSMALLUP.PNG": [
+    16,
+    48
+  ],
+  "GN_B_LISTBOXARROWUP.PNG": [
+    24,
+    96
+  ],
+  "rof/ASSETS/GRAPHICS/GN_B_LISTBOXARROWUP.PNG": [
+    24,
+    96
+  ],
+  "GN_B_RETURNTOCABIN.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/GN_B_RETURNTOCABIN.PNG": [
+    200,
+    128
+  ],
+  "GN_B_RETURNTOGAME.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/GN_B_RETURNTOGAME.PNG": [
+    200,
+    128
+  ],
+  "GN_SLIDER.PNG": [
+    32,
+    31
+  ],
+  "rof/ASSETS/GRAPHICS/GN_SLIDER.PNG": [
+    32,
+    31
+  ],
+  "GN_SLIDERBACKGROUND.PNG": [
+    131,
+    38
+  ],
+  "rof/ASSETS/GRAPHICS/GN_SLIDERBACKGROUND.PNG": [
+    131,
+    38
+  ],
+  "GO_BACKGROUND.PNG": [
+    566,
+    289
+  ],
+  "rof/ASSETS/GRAPHICS/GO_BACKGROUND.PNG": [
+    566,
+    289
+  ],
+  "IA_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/IA_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "IA_B_EXITINSTANTACTION.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_EXITINSTANTACTION.PNG": [
+    200,
+    128
+  ],
+  "IA_B_FLYNEWMISSION.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_FLYNEWMISSION.PNG": [
+    200,
+    128
+  ],
+  "IA_B_LISTBOXARROWDOWN.PNG": [
+    15,
+    56
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_LISTBOXARROWDOWN.PNG": [
+    15,
+    56
+  ],
+  "IA_B_LISTBOXARROWDOWN2.PNG": [
+    15,
+    56
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_LISTBOXARROWDOWN2.PNG": [
+    15,
+    56
+  ],
+  "IA_B_LISTBOXARROWUP.PNG": [
+    15,
+    56
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_LISTBOXARROWUP.PNG": [
+    15,
+    56
+  ],
+  "IA_B_LISTBOXARROWUP2.PNG": [
+    15,
+    56
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_LISTBOXARROWUP2.PNG": [
+    15,
+    56
+  ],
+  "IA_B_PAPERBUTTON.PNG": [
+    132,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_PAPERBUTTON.PNG": [
+    132,
+    112
+  ],
+  "IA_B_PAPERBUTTONEXTRLARGE.PNG": [
+    162,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_PAPERBUTTONEXTRLARGE.PNG": [
+    162,
+    112
+  ],
+  "IA_B_PAPERBUTTONLARGE.PNG": [
+    147,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_PAPERBUTTONLARGE.PNG": [
+    147,
+    112
+  ],
+  "IA_B_SCROLLBAR.PNG": [
+    16,
+    11
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_SCROLLBAR.PNG": [
+    16,
+    11
+  ],
+  "IA_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "IA_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "IA_B_VIEWSTORY.PNG": [
+    117,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_VIEWSTORY.PNG": [
+    117,
+    112
+  ],
+  "IA_B_WEAPONLOADOUTFLYMISSION.PNG": [
+    132,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/IA_B_WEAPONLOADOUTFLYMISSION.PNG": [
+    132,
+    112
+  ],
+  "IA_STATSCREENBACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/IA_STATSCREENBACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "KB_BACKGROUND.PNG": [
+    788,
+    382
+  ],
+  "rof/ASSETS/GRAPHICS/KB_BACKGROUND.PNG": [
+    788,
+    382
+  ],
+  "KB_B_RESETTODEFAULT.PNG": [
+    236,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/KB_B_RESETTODEFAULT.PNG": [
+    236,
+    168
+  ],
+  "KB_B_SCROLLBAR.PNG": [
+    16,
+    11
+  ],
+  "rof/ASSETS/GRAPHICS/KB_B_SCROLLBAR.PNG": [
+    16,
+    11
+  ],
+  "KB_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/KB_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "KB_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/KB_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "LS_BACKGROUND.PNG": [
+    408,
+    281
+  ],
+  "rof/ASSETS/GRAPHICS/LS_BACKGROUND.PNG": [
+    408,
+    281
+  ],
+  "LS_B_DELETEGAME.PNG": [
+    188,
+    136
+  ],
+  "rof/ASSETS/GRAPHICS/LS_B_DELETEGAME.PNG": [
+    188,
+    136
+  ],
+  "LS_B_LOAD.PNG": [
+    112,
+    136
+  ],
+  "rof/ASSETS/GRAPHICS/LS_B_LOAD.PNG": [
+    112,
+    136
+  ],
+  "LS_B_SAVE.PNG": [
+    112,
+    136
+  ],
+  "rof/ASSETS/GRAPHICS/LS_B_SAVE.PNG": [
+    112,
+    136
+  ],
+  "MAINMENUBUTTONSSTRUCTURE.PNG": [
+    310,
+    344
+  ],
+  "rof/ASSETS/GRAPHICS/MAINMENUBUTTONSSTRUCTURE.PNG": [
+    310,
+    344
+  ],
+  "MB_BACKGROUND.PNG": [
+    410,
+    300
+  ],
+  "rof/ASSETS/GRAPHICS/MB_BACKGROUND.PNG": [
+    410,
+    300
+  ],
+  "MB_B_BUTTONS.PNG": [
+    62,
+    76
+  ],
+  "rof/ASSETS/GRAPHICS/MB_B_BUTTONS.PNG": [
+    62,
+    76
+  ],
+  "MB_B_ICON.PNG": [
+    43,
+    126
+  ],
+  "rof/ASSETS/GRAPHICS/MB_B_ICON.PNG": [
+    43,
+    126
+  ],
+  "MISSION_BACKGROUND.PNG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/MISSION_BACKGROUND.PNG": [
+    800,
+    600
+  ],
+  "MM_BACKGROUND.PNG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/MM_BACKGROUND.PNG": [
+    800,
+    600
+  ],
+  "MM_B_CAMPAIGN.PNG": [
+    242,
+    200
+  ],
+  "rof/ASSETS/GRAPHICS/MM_B_CAMPAIGN.PNG": [
+    242,
+    200
+  ],
+  "MM_B_CREDITS.PNG": [
+    197,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/MM_B_CREDITS.PNG": [
+    197,
+    168
+  ],
+  "MM_B_INSTANTACTION.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/MM_B_INSTANTACTION.PNG": [
+    221,
+    168
+  ],
+  "MM_B_MULTIPLAYER.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/MM_B_MULTIPLAYER.PNG": [
+    221,
+    168
+  ],
+  "MM_B_PREFERENCES.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/MM_B_PREFERENCES.PNG": [
+    221,
+    168
+  ],
+  "MM_B_QUIT.PNG": [
+    197,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/MM_B_QUIT.PNG": [
+    197,
+    168
+  ],
+  "MM_LOGO.PNG": [
+    544,
+    240
+  ],
+  "rof/ASSETS/GRAPHICS/MM_LOGO.PNG": [
+    544,
+    240
+  ],
+  "MM_SPLASHBACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/MM_SPLASHBACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "MP_B_CHECKBOX.PNG": [
+    11,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_CHECKBOX.PNG": [
+    11,
+    44
+  ],
+  "MP_B_EXITMULTIPLAYER.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_EXITMULTIPLAYER.PNG": [
+    200,
+    128
+  ],
+  "MP_B_LARGE.PNG": [
+    131,
+    148
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_LARGE.PNG": [
+    131,
+    148
+  ],
+  "MP_B_LISTBOXARROW.PNG": [
+    24,
+    24
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_LISTBOXARROW.PNG": [
+    24,
+    24
+  ],
+  "MP_B_MEDIUM.PNG": [
+    96,
+    148
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_MEDIUM.PNG": [
+    96,
+    148
+  ],
+  "MP_B_PLANESELECTLONGTAB.PNG": [
+    119,
+    46
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_PLANESELECTLONGTAB.PNG": [
+    119,
+    46
+  ],
+  "MP_B_RADIO.PNG": [
+    18,
+    72
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_RADIO.PNG": [
+    18,
+    72
+  ],
+  "MP_B_RADIOSMALL.PNG": [
+    12,
+    48
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_RADIOSMALL.PNG": [
+    12,
+    48
+  ],
+  "MP_B_READYCHECKBOX.PNG": [
+    30,
+    65
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_READYCHECKBOX.PNG": [
+    30,
+    65
+  ],
+  "MP_B_SCROLLBAR.PNG": [
+    16,
+    11
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_SCROLLBAR.PNG": [
+    16,
+    11
+  ],
+  "MP_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "MP_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "MP_B_SMALL.PNG": [
+    74,
+    148
+  ],
+  "rof/ASSETS/GRAPHICS/MP_B_SMALL.PNG": [
+    74,
+    148
+  ],
+  "MP_CREATETEAMBACKGROUND.PNG": [
+    336,
+    408
+  ],
+  "rof/ASSETS/GRAPHICS/MP_CREATETEAMBACKGROUND.PNG": [
+    336,
+    408
+  ],
+  "MP_ERRORMESSAGEBACKGROUND.JPG": [
+    380,
+    206
+  ],
+  "rof/ASSETS/GRAPHICS/MP_ERRORMESSAGEBACKGROUND.JPG": [
+    380,
+    206
+  ],
+  "MP_GAMEINFOBACKGROUND.PNG": [
+    376,
+    387
+  ],
+  "rof/ASSETS/GRAPHICS/MP_GAMEINFOBACKGROUND.PNG": [
+    376,
+    387
+  ],
+  "MP_GAMESALPHA.PNG": [
+    689,
+    341
+  ],
+  "rof/ASSETS/GRAPHICS/MP_GAMESALPHA.PNG": [
+    689,
+    341
+  ],
+  "MP_GAMESBACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/MP_GAMESBACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "MP_LOBBY_AMMO.PNG": [
+    463,
+    324
+  ],
+  "rof/ASSETS/GRAPHICS/MP_LOBBY_AMMO.PNG": [
+    463,
+    324
+  ],
+  "MP_LOBBY_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/MP_LOBBY_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "MP_LOBBY_MISSION.PNG": [
+    463,
+    324
+  ],
+  "rof/ASSETS/GRAPHICS/MP_LOBBY_MISSION.PNG": [
+    463,
+    324
+  ],
+  "MP_LOBBY_OUTLAWED.PNG": [
+    463,
+    324
+  ],
+  "rof/ASSETS/GRAPHICS/MP_LOBBY_OUTLAWED.PNG": [
+    463,
+    324
+  ],
+  "MP_LOBBY_OUTLAWEDTAB1.PNG": [
+    96,
+    48
+  ],
+  "rof/ASSETS/GRAPHICS/MP_LOBBY_OUTLAWEDTAB1.PNG": [
+    96,
+    48
+  ],
+  "MP_LOBBY_OUTLAWEDTAB2.PNG": [
+    80,
+    48
+  ],
+  "rof/ASSETS/GRAPHICS/MP_LOBBY_OUTLAWEDTAB2.PNG": [
+    80,
+    48
+  ],
+  "MP_LOBBY_PLANE.PNG": [
+    463,
+    324
+  ],
+  "rof/ASSETS/GRAPHICS/MP_LOBBY_PLANE.PNG": [
+    463,
+    324
+  ],
+  "MP_LOBBY_STATSCREEN.PNG": [
+    463,
+    324
+  ],
+  "rof/ASSETS/GRAPHICS/MP_LOBBY_STATSCREEN.PNG": [
+    463,
+    324
+  ],
+  "MP_LOBBY_TABLARGE.PNG": [
+    119,
+    92
+  ],
+  "rof/ASSETS/GRAPHICS/MP_LOBBY_TABLARGE.PNG": [
+    119,
+    92
+  ],
+  "MP_LOBBY_TABMEDIUM.PNG": [
+    80,
+    92
+  ],
+  "rof/ASSETS/GRAPHICS/MP_LOBBY_TABMEDIUM.PNG": [
+    80,
+    92
+  ],
+  "MP_LOBBY_TABSMALL.PNG": [
+    69,
+    92
+  ],
+  "rof/ASSETS/GRAPHICS/MP_LOBBY_TABSMALL.PNG": [
+    69,
+    92
+  ],
+  "MP_OPTIONSBACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/MP_OPTIONSBACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "MP_PLAYERINFOBACKGROUND.PNG": [
+    372,
+    381
+  ],
+  "rof/ASSETS/GRAPHICS/MP_PLAYERINFOBACKGROUND.PNG": [
+    372,
+    381
+  ],
+  "MS_BACKGROUND2.PNG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/MS_BACKGROUND2.PNG": [
+    800,
+    600
+  ],
+  "MS_B_ACCEPTCHANGES.PNG": [
+    182,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/MS_B_ACCEPTCHANGES.PNG": [
+    182,
+    128
+  ],
+  "MS_B_CANCELCHANGES.PNG": [
+    182,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/MS_B_CANCELCHANGES.PNG": [
+    182,
+    128
+  ],
+  "MS_B_DONE.PNG": [
+    136,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/MS_B_DONE.PNG": [
+    136,
+    128
+  ],
+  "MS_B_RETURNTOSCRAPBOOK.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/MS_B_RETURNTOSCRAPBOOK.PNG": [
+    200,
+    128
+  ],
+  "MS_HOURGLASS.PNG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/MS_HOURGLASS.PNG": [
+    415,
+    515
+  ],
+  "MS_REFLECTION2.PNG": [
+    370,
+    467
+  ],
+  "rof/ASSETS/GRAPHICS/MS_REFLECTION2.PNG": [
+    370,
+    467
+  ],
+  "OL_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/OL_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "OL_B_ACCEPTLOADOUT.PNG": [
+    182,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/OL_B_ACCEPTLOADOUT.PNG": [
+    182,
+    128
+  ],
+  "OL_B_CANCELLOADOUT.PNG": [
+    182,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/OL_B_CANCELLOADOUT.PNG": [
+    182,
+    128
+  ],
+  "PASSIVEPOINTERZ.PNG": [
+    40,
+    40
+  ],
+  "rof/ASSETS/GRAPHICS/PASSIVEPOINTERZ.PNG": [
+    40,
+    40
+  ],
+  "PC_BACKGROUND.PNG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/PC_BACKGROUND.PNG": [
+    800,
+    600
+  ],
+  "PC_B_CHANGEMEMENTO.PNG": [
+    182,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PC_B_CHANGEMEMENTO.PNG": [
+    182,
+    128
+  ],
+  "PC_B_NEXTMISSION.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/PC_B_NEXTMISSION.PNG": [
+    221,
+    168
+  ],
+  "PC_B_PLANECONSTRUCTION.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PC_B_PLANECONSTRUCTION.PNG": [
+    200,
+    128
+  ],
+  "PC_B_PREVIOUSMISSIONS.PNG": [
+    201,
+    129
+  ],
+  "rof/ASSETS/GRAPHICS/PC_B_PREVIOUSMISSIONS.PNG": [
+    201,
+    129
+  ],
+  "PC_B_RETURNMAINMENU.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PC_B_RETURNMAINMENU.PNG": [
+    200,
+    128
+  ],
+  "PC_B_SAVEGAME.PNG": [
+    182,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PC_B_SAVEGAME.PNG": [
+    182,
+    128
+  ],
+  "PC_MAPPINS.PNG": [
+    50,
+    100
+  ],
+  "rof/ASSETS/GRAPHICS/PC_MAPPINS.PNG": [
+    50,
+    100
+  ],
+  "PC_MEMENTOPICFRAME.PNG": [
+    93,
+    115
+  ],
+  "rof/ASSETS/GRAPHICS/PC_MEMENTOPICFRAME.PNG": [
+    93,
+    115
+  ],
+  "PC_PLANETEMP.PNG": [
+    728,
+    339
+  ],
+  "rof/ASSETS/GRAPHICS/PC_PLANETEMP.PNG": [
+    728,
+    339
+  ],
+  "PC_P_HANGAR0.JPG": [
+    720,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/PC_P_HANGAR0.JPG": [
+    720,
+    334
+  ],
+  "PC_P_HANGAR1.JPG": [
+    720,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/PC_P_HANGAR1.JPG": [
+    720,
+    334
+  ],
+  "PC_P_HANGAR10.JPG": [
+    720,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/PC_P_HANGAR10.JPG": [
+    720,
+    334
+  ],
+  "PC_P_HANGAR2.JPG": [
+    720,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/PC_P_HANGAR2.JPG": [
+    720,
+    334
+  ],
+  "PC_P_HANGAR3.JPG": [
+    720,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/PC_P_HANGAR3.JPG": [
+    720,
+    334
+  ],
+  "PC_P_HANGAR4.JPG": [
+    720,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/PC_P_HANGAR4.JPG": [
+    720,
+    334
+  ],
+  "PC_P_HANGAR5.JPG": [
+    720,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/PC_P_HANGAR5.JPG": [
+    720,
+    334
+  ],
+  "PC_P_HANGAR6.JPG": [
+    720,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/PC_P_HANGAR6.JPG": [
+    720,
+    334
+  ],
+  "PC_P_HANGAR7.JPG": [
+    720,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/PC_P_HANGAR7.JPG": [
+    720,
+    334
+  ],
+  "PC_P_HANGAR8.JPG": [
+    720,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/PC_P_HANGAR8.JPG": [
+    720,
+    334
+  ],
+  "PC_P_HANGAR9.JPG": [
+    720,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/PC_P_HANGAR9.JPG": [
+    720,
+    334
+  ],
+  "PF_BACKGROUND.PNG": [
+    566,
+    331
+  ],
+  "rof/ASSETS/GRAPHICS/PF_BACKGROUND.PNG": [
+    566,
+    331
+  ],
+  "PF_B_ACCEPTCHANGES.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/PF_B_ACCEPTCHANGES.PNG": [
+    221,
+    168
+  ],
+  "PF_B_AUDIO.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/PF_B_AUDIO.PNG": [
+    221,
+    168
+  ],
+  "PF_B_CANCELCHANGES.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/PF_B_CANCELCHANGES.PNG": [
+    221,
+    168
+  ],
+  "PF_B_CONTROLS.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/PF_B_CONTROLS.PNG": [
+    221,
+    168
+  ],
+  "PF_B_GAMEOPTIONS.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/PF_B_GAMEOPTIONS.PNG": [
+    221,
+    168
+  ],
+  "PF_B_MAINMENU.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/PF_B_MAINMENU.PNG": [
+    221,
+    168
+  ],
+  "PF_B_SLIDER.PNG": [
+    43,
+    21
+  ],
+  "rof/ASSETS/GRAPHICS/PF_B_SLIDER.PNG": [
+    43,
+    21
+  ],
+  "PF_B_VIDEO.PNG": [
+    221,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/PF_B_VIDEO.PNG": [
+    221,
+    168
+  ],
+  "PS_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/PS_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "PS_B_ACCEPTSELECTIONS.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PS_B_ACCEPTSELECTIONS.PNG": [
+    200,
+    128
+  ],
+  "PS_B_BUILDNEWPLANE.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PS_B_BUILDNEWPLANE.PNG": [
+    200,
+    128
+  ],
+  "PS_B_CANCELSELECTIONS.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PS_B_CANCELSELECTIONS.PNG": [
+    200,
+    128
+  ],
+  "PX_0_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/PX_0_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "PX_10_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/PX_10_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "PX_1_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/PX_1_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "PX_2_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/PX_2_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "PX_3_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/PX_3_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "PX_4_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/PX_4_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "PX_5_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/PX_5_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "PX_6_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/PX_6_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "PX_7_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/PX_7_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "PX_8_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/PX_8_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "PX_9_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/PX_9_BLUEPRINT.TGA": [
+    358,
+    335
+  ],
+  "PX_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/PX_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "PX_BARGRAPH.PNG": [
+    34,
+    16
+  ],
+  "rof/ASSETS/GRAPHICS/PX_BARGRAPH.PNG": [
+    34,
+    16
+  ],
+  "PX_B_CANCELEXPORT.PNG": [
+    182,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_CANCELEXPORT.PNG": [
+    182,
+    128
+  ],
+  "PX_B_CANCELPURCHASE.PNG": [
+    182,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_CANCELPURCHASE.PNG": [
+    182,
+    128
+  ],
+  "PX_B_CHECK.PNG": [
+    11,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_CHECK.PNG": [
+    11,
+    44
+  ],
+  "PX_B_EXPORTDESIGN.PNG": [
+    182,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_EXPORTDESIGN.PNG": [
+    182,
+    128
+  ],
+  "PX_B_OKCANCEL.PNG": [
+    77,
+    88
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_OKCANCEL.PNG": [
+    77,
+    88
+  ],
+  "PX_B_PURCHASENOW.PNG": [
+    159,
+    152
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_PURCHASENOW.PNG": [
+    159,
+    152
+  ],
+  "PX_B_READYTOEXPORT.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_READYTOEXPORT.PNG": [
+    200,
+    128
+  ],
+  "PX_B_READYTOPURCHASE.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_READYTOPURCHASE.PNG": [
+    200,
+    128
+  ],
+  "PX_B_SCROLLBAR.PNG": [
+    16,
+    12
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_SCROLLBAR.PNG": [
+    16,
+    12
+  ],
+  "PX_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_SCROLLDOWN.PNG": [
+    16,
+    44
+  ],
+  "PX_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_SCROLLUP.PNG": [
+    16,
+    44
+  ],
+  "PX_B_SELLPLANES.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/PX_B_SELLPLANES.PNG": [
+    200,
+    128
+  ],
+  "PX_PLANEICONS.PNG": [
+    316,
+    297
+  ],
+  "rof/ASSETS/GRAPHICS/PX_PLANEICONS.PNG": [
+    316,
+    297
+  ],
+  "PX_PLANENAMEBACKGROUND.PNG": [
+    264,
+    177
+  ],
+  "rof/ASSETS/GRAPHICS/PX_PLANENAMEBACKGROUND.PNG": [
+    264,
+    177
+  ],
+  "PX_SCROLLBOX1-5.PNG": [
+    341,
+    165
+  ],
+  "rof/ASSETS/GRAPHICS/PX_SCROLLBOX1-5.PNG": [
+    341,
+    165
+  ],
+  "PX_SCROLLBOX6.PNG": [
+    341,
+    102
+  ],
+  "rof/ASSETS/GRAPHICS/PX_SCROLLBOX6.PNG": [
+    341,
+    102
+  ],
+  "PX_TAB.PNG": [
+    115,
+    144
+  ],
+  "rof/ASSETS/GRAPHICS/PX_TAB.PNG": [
+    115,
+    144
+  ],
+  "SB_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SB_BACKGROUND.JPG": [
+    800,
+    600
+  ],
+  "SB_BACKGROUNDTOC.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SB_BACKGROUNDTOC.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_BZOOMNEWS.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SB_BG_BZOOMNEWS.JPG": [
+    800,
+    600
+  ],
+  "SB_B_BACK_TAB.PNG": [
+    96,
+    192
+  ],
+  "rof/ASSETS/GRAPHICS/SB_B_BACK_TAB.PNG": [
+    96,
+    192
+  ],
+  "SB_B_CURRENTMISSIONTAB.PNG": [
+    114,
+    160
+  ],
+  "rof/ASSETS/GRAPHICS/SB_B_CURRENTMISSIONTAB.PNG": [
+    114,
+    160
+  ],
+  "SB_B_EXPORTTODESKTOP.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/SB_B_EXPORTTODESKTOP.PNG": [
+    200,
+    128
+  ],
+  "SB_B_MORE_TAB.PNG": [
+    96,
+    192
+  ],
+  "rof/ASSETS/GRAPHICS/SB_B_MORE_TAB.PNG": [
+    96,
+    192
+  ],
+  "SB_B_PAPERBUTTON.PNG": [
+    130,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/SB_B_PAPERBUTTON.PNG": [
+    130,
+    112
+  ],
+  "SB_B_PAPERBUTTONEXTRALARGE.PNG": [
+    162,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/SB_B_PAPERBUTTONEXTRALARGE.PNG": [
+    162,
+    112
+  ],
+  "SB_B_PAPERBUTTONLARGE.PNG": [
+    147,
+    112
+  ],
+  "rof/ASSETS/GRAPHICS/SB_B_PAPERBUTTONLARGE.PNG": [
+    147,
+    112
+  ],
+  "SB_B_STATCARDTAB.PNG": [
+    128,
+    124
+  ],
+  "rof/ASSETS/GRAPHICS/SB_B_STATCARDTAB.PNG": [
+    128,
+    124
+  ],
+  "SB_B_VIEWALLMISSIONS.PNG": [
+    200,
+    128
+  ],
+  "rof/ASSETS/GRAPHICS/SB_B_VIEWALLMISSIONS.PNG": [
+    200,
+    128
+  ],
+  "SB_P_CARD.PNG": [
+    354,
+    480
+  ],
+  "rof/ASSETS/GRAPHICS/SB_P_CARD.PNG": [
+    354,
+    480
+  ],
+  "VP_BACKGROUND.PNG": [
+    788,
+    382
+  ],
+  "rof/ASSETS/GRAPHICS/VP_BACKGROUND.PNG": [
+    788,
+    382
+  ],
+  "ZOOMPOINTER.PNG": [
+    64,
+    64
+  ],
+  "rof/ASSETS/GRAPHICS/ZOOMPOINTER.PNG": [
+    64,
+    64
+  ],
+  "DZ_GENERIC_CORNERS.PNG": [
+    169,
+    136
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/DZ_GENERIC_CORNERS.PNG": [
+    169,
+    136
+  ],
+  "MS_P_02_01_HAWAIIANPRINCES2.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_02_01_HAWAIIANPRINCES2.JPG": [
+    415,
+    515
+  ],
+  "MS_P_02_01_HAWAIIANPRINCES2.PNG": [
+    215,
+    250
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_02_01_HAWAIIANPRINCES2.PNG": [
+    215,
+    250
+  ],
+  "MS_P_02_01_HAWAIIANPRINCES2.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_02_01_HAWAIIANPRINCES2.TIF": [
+    256,
+    256
+  ],
+  "MS_P_05_01_TREASUREGIRL.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_05_01_TREASUREGIRL.JPG": [
+    415,
+    515
+  ],
+  "MS_P_05_01_TREASUREGIRL.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_05_01_TREASUREGIRL.TIF": [
+    256,
+    256
+  ],
+  "MS_P_06_02_BSWANPORTRAIT.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_06_02_BSWANPORTRAIT.JPG": [
+    415,
+    515
+  ],
+  "MS_P_06_02_BSWANPORTRAIT.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_06_02_BSWANPORTRAIT.TIF": [
+    256,
+    256
+  ],
+  "MS_P_10_01_SOLDIERGIRL.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_10_01_SOLDIERGIRL.JPG": [
+    415,
+    515
+  ],
+  "MS_P_10_01_SOLDIERGIRL.PNG": [
+    227,
+    263
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_10_01_SOLDIERGIRL.PNG": [
+    227,
+    263
+  ],
+  "MS_P_10_01_SOLDIERGIRL.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_10_01_SOLDIERGIRL.TIF": [
+    256,
+    256
+  ],
+  "MS_P_11_01_LANACOOPERGLAM.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_11_01_LANACOOPERGLAM.JPG": [
+    415,
+    515
+  ],
+  "MS_P_11_01_LANACOOPERGLAM.PNG": [
+    206,
+    240
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_11_01_LANACOOPERGLAM.PNG": [
+    206,
+    240
+  ],
+  "MS_P_11_01_LANACOOPERGLAM.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_11_01_LANACOOPERGLAM.TIF": [
+    256,
+    256
+  ],
+  "MS_P_12_01_BETTYSSCREENTEST2.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_12_01_BETTYSSCREENTEST2.JPG": [
+    415,
+    515
+  ],
+  "MS_P_12_01_BETTYSSCREENTEST2.PNG": [
+    195,
+    227
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_12_01_BETTYSSCREENTEST2.PNG": [
+    195,
+    227
+  ],
+  "MS_P_12_01_BETTYSSCREENTEST2.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_12_01_BETTYSSCREENTEST2.TIF": [
+    256,
+    256
+  ],
+  "MS_P_12_02_CHARLIE.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_12_02_CHARLIE.JPG": [
+    415,
+    515
+  ],
+  "MS_P_12_02_CHARLIE.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_12_02_CHARLIE.TIF": [
+    256,
+    256
+  ],
+  "MS_P_13_02_NATHANGETSTROPHY.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_13_02_NATHANGETSTROPHY.JPG": [
+    415,
+    515
+  ],
+  "MS_P_13_02_NATHANGETSTROPHY.PNG": [
+    225,
+    258
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_13_02_NATHANGETSTROPHY.PNG": [
+    225,
+    258
+  ],
+  "MS_P_13_02_NATHANGETSTROPHY.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_13_02_NATHANGETSTROPHY.TIF": [
+    256,
+    256
+  ],
+  "MS_P_15_01_MYSHOE.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_15_01_MYSHOE.JPG": [
+    415,
+    515
+  ],
+  "MS_P_15_01_MYSHOE.PNG": [
+    249,
+    289
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_15_01_MYSHOE.PNG": [
+    249,
+    289
+  ],
+  "MS_P_15_01_MYSHOE.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_15_01_MYSHOE.TIF": [
+    256,
+    256
+  ],
+  "MS_P_16_01_STRIP3.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_16_01_STRIP3.JPG": [
+    415,
+    515
+  ],
+  "MS_P_16_01_STRIP3.PNG": [
+    205,
+    249
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_16_01_STRIP3.PNG": [
+    205,
+    249
+  ],
+  "MS_P_16_01_STRIP3.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_16_01_STRIP3.TIF": [
+    256,
+    256
+  ],
+  "MS_P_17_04_SHANGRI-LAPINUP.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_17_04_SHANGRI-LAPINUP.JPG": [
+    415,
+    515
+  ],
+  "MS_P_17_04_SHANGRI-LAPINUP.PNG": [
+    257,
+    300
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_17_04_SHANGRI-LAPINUP.PNG": [
+    257,
+    300
+  ],
+  "MS_P_17_04_SHANGRI-LAPINUP.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_17_04_SHANGRI-LAPINUP.TIF": [
+    256,
+    256
+  ],
+  "MS_P_19_01_SWANTHEMORNINGAFTER.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANTHEMORNINGAFTER.JPG": [
+    415,
+    515
+  ],
+  "MS_P_19_01_SWANTHEMORNINGAFTER.PNG": [
+    254,
+    292
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANTHEMORNINGAFTER.PNG": [
+    254,
+    292
+  ],
+  "MS_P_19_01_SWANTHEMORNINGAFTER.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANTHEMORNINGAFTER.TIF": [
+    256,
+    256
+  ],
+  "MS_P_19_01_SWANWELCOMEHOME.PNG": [
+    227,
+    270
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANWELCOMEHOME.PNG": [
+    227,
+    270
+  ],
+  "MS_P_19_01_SWANWELCOMEHOME1.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANWELCOMEHOME1.JPG": [
+    415,
+    515
+  ],
+  "MS_P_19_01_SWANWELCOMEHOME1.PNG": [
+    227,
+    270
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANWELCOMEHOME1.PNG": [
+    227,
+    270
+  ],
+  "MS_P_19_01_SWANWELCOMEHOME1.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_19_01_SWANWELCOMEHOME1.TIF": [
+    256,
+    256
+  ],
+  "MS_P_24_01_SWANPINUP.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_24_01_SWANPINUP.JPG": [
+    415,
+    515
+  ],
+  "MS_P_24_01_SWANPINUP.PNG": [
+    215,
+    214
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_24_01_SWANPINUP.PNG": [
+    215,
+    214
+  ],
+  "MS_P_24_01_SWANPINUP.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_24_01_SWANPINUP.TIF": [
+    256,
+    256
+  ],
+  "MS_P_24_01_THEFINALKISS.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_24_01_THEFINALKISS.JPG": [
+    415,
+    515
+  ],
+  "MS_P_24_01_THEFINALKISS.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_24_01_THEFINALKISS.TIF": [
+    256,
+    256
+  ],
+  "MS_P_DOGGIEPHOTO.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_DOGGIEPHOTO.JPG": [
+    415,
+    515
+  ],
+  "MS_P_DOGGIEPHOTO.PNG": [
+    254,
+    292
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_DOGGIEPHOTO.PNG": [
+    254,
+    292
+  ],
+  "MS_P_DOGGIEPHOTO.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_DOGGIEPHOTO.TIF": [
+    256,
+    256
+  ],
+  "MS_P_ILLSAANDSPARKS.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_ILLSAANDSPARKS.JPG": [
+    415,
+    515
+  ],
+  "MS_P_ILSAANDSPARKS.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_ILSAANDSPARKS.TIF": [
+    256,
+    256
+  ],
+  "MS_P_INITIALPINUP1.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP1.JPG": [
+    415,
+    515
+  ],
+  "MS_P_INITIALPINUP1.PNG": [
+    203,
+    249
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP1.PNG": [
+    203,
+    249
+  ],
+  "MS_P_INITIALPINUP1.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP1.TIF": [
+    256,
+    256
+  ],
+  "MS_P_INITIALPINUP3.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP3.JPG": [
+    415,
+    515
+  ],
+  "MS_P_INITIALPINUP3.PNG": [
+    220,
+    264
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP3.PNG": [
+    220,
+    264
+  ],
+  "MS_P_INITIALPINUP3.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_INITIALPINUP3.TIF": [
+    256,
+    256
+  ],
+  "MS_P_JUSTINEBATTLEAX.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_JUSTINEBATTLEAX.JPG": [
+    415,
+    515
+  ],
+  "MS_P_JUSTINEBATTLEAX.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_JUSTINEBATTLEAX.TIF": [
+    256,
+    256
+  ],
+  "MS_P_MOM.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_MOM.JPG": [
+    415,
+    515
+  ],
+  "MS_P_MOM.PNG": [
+    241,
+    281
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_MOM.PNG": [
+    241,
+    281
+  ],
+  "MS_P_MOM.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_MOM.TIF": [
+    256,
+    256
+  ],
+  "MS_P_SWAN&NATHANINCABIN.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_SWAN&NATHANINCABIN.JPG": [
+    415,
+    515
+  ],
+  "MS_P_SWAN&NATHANINCABIN.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_SWAN&NATHANINCABIN.TIF": [
+    256,
+    256
+  ],
+  "MS_P_THEFINALKISS.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_THEFINALKISS.JPG": [
+    415,
+    515
+  ],
+  "MS_P_THEFINALKISS.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_THEFINALKISS.TIF": [
+    256,
+    256
+  ],
+  "MS_P_TREASUREGIRL.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_TREASUREGIRL.JPG": [
+    415,
+    515
+  ],
+  "MS_P_TREASUREGIRL.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_TREASUREGIRL.TIF": [
+    256,
+    256
+  ],
+  "MS_P_ZACHARYANDPLANE.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_ZACHARYANDPLANE.JPG": [
+    415,
+    515
+  ],
+  "MS_P_ZACHARYANDPLANE.TIF": [
+    256,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/MS_P_ZACHARYANDPLANE.TIF": [
+    256,
+    256
+  ],
+  "NT_02_01_BPBALMORAL.PNG": [
+    278,
+    336
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_02_01_BPBALMORAL.PNG": [
+    278,
+    336
+  ],
+  "NT_07_01_BPBLOODHAWK.PNG": [
+    192,
+    218
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_07_01_BPBLOODHAWK.PNG": [
+    192,
+    218
+  ],
+  "NT_07_01_BPNITRO.PNG": [
+    211,
+    224
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_07_01_BPNITRO.PNG": [
+    211,
+    224
+  ],
+  "NT_13_01_BPFURY.PNG": [
+    263,
+    303
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_13_01_BPFURY.PNG": [
+    263,
+    303
+  ],
+  "NT_16_01_BPBEEP.PNG": [
+    356,
+    237
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_16_01_BPBEEP.PNG": [
+    356,
+    237
+  ],
+  "NT_17_01_BPHOPLITE.PNG": [
+    235,
+    251
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_17_01_BPHOPLITE.PNG": [
+    235,
+    251
+  ],
+  "NT_19_01_BPTORPEDO.PNG": [
+    245,
+    283
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_19_01_BPTORPEDO.PNG": [
+    245,
+    283
+  ],
+  "NT_19_01_BPWARHAWK.PNG": [
+    336,
+    422
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/NT_19_01_BPWARHAWK.PNG": [
+    336,
+    422
+  ],
+  "SB_00_00_DOC1.PNG": [
+    336,
+    329
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_DOC1.PNG": [
+    336,
+    329
+  ],
+  "SB_00_00_DOC2.PNG": [
+    341,
+    339
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_DOC2.PNG": [
+    341,
+    339
+  ],
+  "SB_00_00_FHLOGO.JPG": [
+    456,
+    502
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_FHLOGO.JPG": [
+    456,
+    502
+  ],
+  "SB_00_00_FHLOGO.PNG": [
+    289,
+    320
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_FHLOGO.PNG": [
+    289,
+    320
+  ],
+  "SB_00_00_MAG1.PNG": [
+    353,
+    415
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_MAG1.PNG": [
+    353,
+    415
+  ],
+  "SB_00_00_MAG1S.PNG": [
+    448,
+    551
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_MAG1S.PNG": [
+    448,
+    551
+  ],
+  "SB_00_00_NEWS1.PNG": [
+    408,
+    308
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_NEWS1.PNG": [
+    408,
+    308
+  ],
+  "SB_00_00_NEWS2.PNG": [
+    417,
+    255
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_00_00_NEWS2.PNG": [
+    417,
+    255
+  ],
+  "SB_01_00_DZ.PNG": [
+    339,
+    482
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_00_DZ.PNG": [
+    339,
+    482
+  ],
+  "SB_01_01_COIN.JPG": [
+    448,
+    473
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_COIN.JPG": [
+    448,
+    473
+  ],
+  "SB_01_01_COIN.PNG": [
+    175,
+    186
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_COIN.PNG": [
+    175,
+    186
+  ],
+  "SB_01_01_DOC2.PNG": [
+    286,
+    328
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_DOC2.PNG": [
+    286,
+    328
+  ],
+  "SB_01_01_DOC3.PNG": [
+    309,
+    378
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_DOC3.PNG": [
+    309,
+    378
+  ],
+  "SB_01_01_NEWS3.PNG": [
+    340,
+    256
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_NEWS3.PNG": [
+    340,
+    256
+  ],
+  "SB_01_01_WANTED1.JPG": [
+    584,
+    598
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_WANTED1.JPG": [
+    584,
+    598
+  ],
+  "SB_01_01_WANTED1.PNG": [
+    331,
+    340
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_WANTED1.PNG": [
+    331,
+    340
+  ],
+  "SB_01_01_WANTED1S.PNG": [
+    582,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_01_WANTED1S.PNG": [
+    582,
+    600
+  ],
+  "SB_01_02_MAG2.PNG": [
+    277,
+    377
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_01_02_MAG2.PNG": [
+    277,
+    377
+  ],
+  "SB_02_01_MEDAL.JPG": [
+    318,
+    577
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_02_01_MEDAL.JPG": [
+    318,
+    577
+  ],
+  "SB_02_01_MEDAL.PNG": [
+    115,
+    218
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_02_01_MEDAL.PNG": [
+    115,
+    218
+  ],
+  "SB_02_01_NEWS4.PNG": [
+    380,
+    295
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_02_01_NEWS4.PNG": [
+    380,
+    295
+  ],
+  "SB_02_01_NEWS5.PNG": [
+    125,
+    276
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_02_01_NEWS5.PNG": [
+    125,
+    276
+  ],
+  "SB_02_01_NEWS6.PNG": [
+    395,
+    298
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_02_01_NEWS6.PNG": [
+    395,
+    298
+  ],
+  "SB_03_01_BASE.JPG": [
+    640,
+    480
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_BASE.JPG": [
+    640,
+    480
+  ],
+  "SB_03_01_BASE.PNG": [
+    280,
+    226
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_BASE.PNG": [
+    280,
+    226
+  ],
+  "SB_03_01_DOC5.PNG": [
+    220,
+    270
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_DOC5.PNG": [
+    220,
+    270
+  ],
+  "SB_03_01_JACK.JPG": [
+    401,
+    500
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_JACK.JPG": [
+    401,
+    500
+  ],
+  "SB_03_01_JACK.PNG": [
+    140,
+    170
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_JACK.PNG": [
+    140,
+    170
+  ],
+  "SB_03_01_PRINCESS.PNG": [
+    239,
+    285
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_03_01_PRINCESS.PNG": [
+    239,
+    285
+  ],
+  "SB_04_01_CRANE.PNG": [
+    273,
+    359
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_04_01_CRANE.PNG": [
+    273,
+    359
+  ],
+  "SB_04_01_LIFESAVER.JPG": [
+    670,
+    510
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_04_01_LIFESAVER.JPG": [
+    670,
+    510
+  ],
+  "SB_04_01_LIFESAVER.PNG": [
+    407,
+    351
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_04_01_LIFESAVER.PNG": [
+    407,
+    351
+  ],
+  "SB_05_01_CARTOON.JPG": [
+    579,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_05_01_CARTOON.JPG": [
+    579,
+    600
+  ],
+  "SB_05_01_CARTOON.PNG": [
+    270,
+    277
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_05_01_CARTOON.PNG": [
+    270,
+    277
+  ],
+  "SB_05_01_TCHEST.JPG": [
+    520,
+    500
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_05_01_TCHEST.JPG": [
+    520,
+    500
+  ],
+  "SB_05_01_TCHEST.PNG": [
+    300,
+    290
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_05_01_TCHEST.PNG": [
+    300,
+    290
+  ],
+  "SB_06_01_NEWS7.PNG": [
+    100,
+    192
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_06_01_NEWS7.PNG": [
+    100,
+    192
+  ],
+  "SB_06_01_NEWS8.PNG": [
+    393,
+    310
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_06_01_NEWS8.PNG": [
+    393,
+    310
+  ],
+  "SB_06_01_NEWS9.PNG": [
+    371,
+    286
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_06_01_NEWS9.PNG": [
+    371,
+    286
+  ],
+  "SB_06_01_SWANNOTE.PNG": [
+    253,
+    168
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_06_01_SWANNOTE.PNG": [
+    253,
+    168
+  ],
+  "SB_07_01_HANGAR COPY.JPG": [
+    415,
+    515
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_HANGAR COPY.JPG": [
+    415,
+    515
+  ],
+  "SB_07_01_HANGER.JPG": [
+    411,
+    498
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_HANGER.JPG": [
+    411,
+    498
+  ],
+  "SB_07_01_HANGER.PNG": [
+    223,
+    271
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_HANGER.PNG": [
+    223,
+    271
+  ],
+  "SB_07_01_ILSAID.JPG": [
+    307,
+    239
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_ILSAID.JPG": [
+    307,
+    239
+  ],
+  "SB_07_01_ILSAID.PNG": [
+    216,
+    194
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_ILSAID.PNG": [
+    216,
+    194
+  ],
+  "SB_07_01_ILSANOTE.PNG": [
+    266,
+    326
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_ILSANOTE.PNG": [
+    266,
+    326
+  ],
+  "SB_07_01_NEWS10.PNG": [
+    160,
+    280
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS10.PNG": [
+    160,
+    280
+  ],
+  "SB_07_01_NEWS11.PNG": [
+    302,
+    152
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS11.PNG": [
+    302,
+    152
+  ],
+  "SB_07_01_NEWS12.PNG": [
+    187,
+    286
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS12.PNG": [
+    187,
+    286
+  ],
+  "SB_07_01_NEWS13.PNG": [
+    324,
+    380
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS13.PNG": [
+    324,
+    380
+  ],
+  "SB_07_01_NEWS14.PNG": [
+    404,
+    241
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_07_01_NEWS14.PNG": [
+    404,
+    241
+  ],
+  "SB_08_01_MANIFEST.PNG": [
+    262,
+    337
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_MANIFEST.PNG": [
+    262,
+    337
+  ],
+  "SB_08_01_NEWS14.PNG": [
+    411,
+    272
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_NEWS14.PNG": [
+    411,
+    272
+  ],
+  "SB_08_01_VODKA.JPG": [
+    342,
+    527
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_VODKA.JPG": [
+    342,
+    527
+  ],
+  "SB_08_01_VODKA.PNG": [
+    265,
+    328
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_08_01_VODKA.PNG": [
+    265,
+    328
+  ],
+  "SB_09_01_CRAWPIC.JPG": [
+    432,
+    508
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_CRAWPIC.JPG": [
+    432,
+    508
+  ],
+  "SB_09_01_CRAWPIC.PNG": [
+    194,
+    221
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_CRAWPIC.PNG": [
+    194,
+    221
+  ],
+  "SB_09_01_INJURED.JPG": [
+    509,
+    510
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_INJURED.JPG": [
+    509,
+    510
+  ],
+  "SB_09_01_INJURED.PNG": [
+    228,
+    228
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_INJURED.PNG": [
+    228,
+    228
+  ],
+  "SB_09_01_NEWS15.PNG": [
+    417,
+    313
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_NEWS15.PNG": [
+    417,
+    313
+  ],
+  "SB_09_01_NEWS16.PNG": [
+    183,
+    258
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_NEWS16.PNG": [
+    183,
+    258
+  ],
+  "SB_09_01_TELEGRAM1.PNG": [
+    209,
+    290
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_TELEGRAM1.PNG": [
+    209,
+    290
+  ],
+  "SB_09_01_TELEGRAM2.PNG": [
+    232,
+    308
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_09_01_TELEGRAM2.PNG": [
+    232,
+    308
+  ],
+  "SB_10_01_NEWS17.PNG": [
+    173,
+    310
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_10_01_NEWS17.PNG": [
+    173,
+    310
+  ],
+  "SB_10_01_NEWS18.PNG": [
+    412,
+    361
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_10_01_NEWS18.PNG": [
+    412,
+    361
+  ],
+  "SB_11_01_HAG.JPG": [
+    520,
+    320
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_HAG.JPG": [
+    520,
+    320
+  ],
+  "SB_11_01_HAG.PNG": [
+    169,
+    117
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_HAG.PNG": [
+    169,
+    117
+  ],
+  "SB_11_01_MAG3.PNG": [
+    258,
+    310
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_MAG3.PNG": [
+    258,
+    310
+  ],
+  "SB_11_01_MAG4.PNG": [
+    257,
+    317
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_MAG4.PNG": [
+    257,
+    317
+  ],
+  "SB_11_01_NEWS20.PNG": [
+    416,
+    321
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_11_01_NEWS20.PNG": [
+    416,
+    321
+  ],
+  "SB_12_01_BETTYSSCREENTEST2.PNG": [
+    195,
+    227
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_BETTYSSCREENTEST2.PNG": [
+    195,
+    227
+  ],
+  "SB_12_01_CHARLIEGLAM.PNG": [
+    332,
+    368
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_CHARLIEGLAM.PNG": [
+    332,
+    368
+  ],
+  "SB_12_01_CHARLIEGLAM1.PNG": [
+    164,
+    223
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_CHARLIEGLAM1.PNG": [
+    164,
+    223
+  ],
+  "SB_12_01_CHARLIEWING.JPG": [
+    458,
+    552
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_CHARLIEWING.JPG": [
+    458,
+    552
+  ],
+  "SB_12_01_CHARLIEWING.PNG": [
+    221,
+    254
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_CHARLIEWING.PNG": [
+    221,
+    254
+  ],
+  "SB_12_01_FENCE.PNG": [
+    238,
+    312
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_FENCE.PNG": [
+    238,
+    312
+  ],
+  "SB_12_01_GNP.JPG": [
+    572,
+    487
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_GNP.JPG": [
+    572,
+    487
+  ],
+  "SB_12_01_GNP.PNG": [
+    233,
+    195
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_GNP.PNG": [
+    233,
+    195
+  ],
+  "SB_12_01_NEWS19.PNG": [
+    402,
+    289
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_12_01_NEWS19.PNG": [
+    402,
+    289
+  ],
+  "SB_13_01_NEWS21.PNG": [
+    412,
+    299
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_13_01_NEWS21.PNG": [
+    412,
+    299
+  ],
+  "SB_13_01_RECORD.PNG": [
+    254,
+    321
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_13_01_RECORD.PNG": [
+    254,
+    321
+  ],
+  "SB_13_01_RELEASE.PNG": [
+    302,
+    366
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_13_01_RELEASE.PNG": [
+    302,
+    366
+  ],
+  "SB_13_01_RIBBON3RD.JPG": [
+    351,
+    518
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_13_01_RIBBON3RD.JPG": [
+    351,
+    518
+  ],
+  "SB_13_01_RIBBON3RD.PNG": [
+    199,
+    307
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_13_01_RIBBON3RD.PNG": [
+    199,
+    307
+  ],
+  "SB_14_01_MAG5.PNG": [
+    260,
+    316
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_14_01_MAG5.PNG": [
+    260,
+    316
+  ],
+  "SB_14_01_NEWS22.PNG": [
+    416,
+    318
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_14_01_NEWS22.PNG": [
+    416,
+    318
+  ],
+  "SB_14_01_TELEGRAM3.PNG": [
+    241,
+    314
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_14_01_TELEGRAM3.PNG": [
+    241,
+    314
+  ],
+  "SB_15_01_CAPNOTE.PNG": [
+    277,
+    307
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_15_01_CAPNOTE.PNG": [
+    277,
+    307
+  ],
+  "SB_15_01_NEWS23.PNG": [
+    417,
+    291
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_15_01_NEWS23.PNG": [
+    417,
+    291
+  ],
+  "SB_16_01_MINE.PNG": [
+    211,
+    280
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_16_01_MINE.PNG": [
+    211,
+    280
+  ],
+  "SB_16_01_SPARKSNOTE.PNG": [
+    218,
+    250
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_16_01_SPARKSNOTE.PNG": [
+    218,
+    250
+  ],
+  "SB_17_01_BILL.PNG": [
+    270,
+    319
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_BILL.PNG": [
+    270,
+    319
+  ],
+  "SB_17_01_KAHNWANTED.JPG": [
+    460,
+    595
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_KAHNWANTED.JPG": [
+    460,
+    595
+  ],
+  "SB_17_01_KAHNWANTED.PNG": [
+    279,
+    396
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_KAHNWANTED.PNG": [
+    279,
+    396
+  ],
+  "SB_17_01_MENU.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_MENU.JPG": [
+    800,
+    600
+  ],
+  "SB_17_01_MENU.PNG": [
+    265,
+    330
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_MENU.PNG": [
+    265,
+    330
+  ],
+  "SB_17_01_NEWS24.PNG": [
+    415,
+    329
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_17_01_NEWS24.PNG": [
+    415,
+    329
+  ],
+  "SB_18_01_CREWTOAST.JPG": [
+    478,
+    564
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_18_01_CREWTOAST.JPG": [
+    478,
+    564
+  ],
+  "SB_18_01_CREWTOAST.PNG": [
+    258,
+    303
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_18_01_CREWTOAST.PNG": [
+    258,
+    303
+  ],
+  "SB_18_01_SCOUT.PNG": [
+    311,
+    401
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_18_01_SCOUT.PNG": [
+    311,
+    401
+  ],
+  "SB_19_01_DRINK.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_DRINK.JPG": [
+    800,
+    600
+  ],
+  "SB_19_01_DRINK.PNG": [
+    334,
+    291
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_DRINK.PNG": [
+    334,
+    291
+  ],
+  "SB_19_01_SNZBAR.JPG": [
+    464,
+    555
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_SNZBAR.JPG": [
+    464,
+    555
+  ],
+  "SB_19_01_SNZBAR.PNG": [
+    271,
+    308
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_SNZBAR.PNG": [
+    271,
+    308
+  ],
+  "SB_19_01_ZPJCOVER.JPG": [
+    554,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_ZPJCOVER.JPG": [
+    554,
+    600
+  ],
+  "SB_19_01_ZPJCOVER.PNG": [
+    316,
+    368
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_19_01_ZPJCOVER.PNG": [
+    316,
+    368
+  ],
+  "SB_20_01_BABES.PNG": [
+    372,
+    389
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_20_01_BABES.PNG": [
+    372,
+    389
+  ],
+  "SB_20_01_NEWS26.PNG": [
+    214,
+    305
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_20_01_NEWS26.PNG": [
+    214,
+    305
+  ],
+  "SB_20_01_NEWS27.PNG": [
+    192,
+    335
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_20_01_NEWS27.PNG": [
+    192,
+    335
+  ],
+  "SB_20_01_NEWS28.PNG": [
+    152,
+    311
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_20_01_NEWS28.PNG": [
+    152,
+    311
+  ],
+  "SB_21_01_5BILL.JPG": [
+    576,
+    308
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_5BILL.JPG": [
+    576,
+    308
+  ],
+  "SB_21_01_5BILL.PNG": [
+    245,
+    409
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_5BILL.PNG": [
+    245,
+    409
+  ],
+  "SB_21_01_BILLBILL.PNG": [
+    300,
+    368
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_BILLBILL.PNG": [
+    300,
+    368
+  ],
+  "SB_21_01_CONLETTER.PNG": [
+    268,
+    250
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_CONLETTER.PNG": [
+    268,
+    250
+  ],
+  "SB_21_01_CRAWNOTE.PNG": [
+    290,
+    333
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_CRAWNOTE.PNG": [
+    290,
+    333
+  ],
+  "SB_21_01_MAG7.PNG": [
+    281,
+    332
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_MAG7.PNG": [
+    281,
+    332
+  ],
+  "SB_21_01_NEWS30.PNG": [
+    403,
+    306
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_NEWS30.PNG": [
+    403,
+    306
+  ],
+  "SB_21_01_NEWS31.PNG": [
+    408,
+    356
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_21_01_NEWS31.PNG": [
+    408,
+    356
+  ],
+  "SB_22_01_COMICOVER.PNG": [
+    361,
+    421
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_22_01_COMICOVER.PNG": [
+    361,
+    421
+  ],
+  "SB_22_01_NEWS33.PNG": [
+    424,
+    330
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_22_01_NEWS33.PNG": [
+    424,
+    330
+  ],
+  "SB_22_01_RICHLETTER.PNG": [
+    301,
+    334
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_22_01_RICHLETTER.PNG": [
+    301,
+    334
+  ],
+  "SB_23_01_NEWS34.PNG": [
+    415,
+    313
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_23_01_NEWS34.PNG": [
+    415,
+    313
+  ],
+  "SB_23_01_NEWS35.PNG": [
+    401,
+    309
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_23_01_NEWS35.PNG": [
+    401,
+    309
+  ],
+  "SB_23_01_NEWS36.PNG": [
+    411,
+    307
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_23_01_NEWS36.PNG": [
+    411,
+    307
+  ],
+  "SB_23_01_NEWS37.PNG": [
+    412,
+    330
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_23_01_NEWS37.PNG": [
+    412,
+    330
+  ],
+  "SB_23_01_NEWS38.PNG": [
+    404,
+    316
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_23_01_NEWS38.PNG": [
+    404,
+    316
+  ],
+  "SB_24_01_CRAWNOTE2.PNG": [
+    231,
+    285
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_CRAWNOTE2.PNG": [
+    231,
+    285
+  ],
+  "SB_24_01_DINNER.JPG": [
+    377,
+    456
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_DINNER.JPG": [
+    377,
+    456
+  ],
+  "SB_24_01_DINNER.PNG": [
+    225,
+    267
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_DINNER.PNG": [
+    225,
+    267
+  ],
+  "SB_24_01_MOVIEPOSTER.JPG": [
+    366,
+    530
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_MOVIEPOSTER.JPG": [
+    366,
+    530
+  ],
+  "SB_24_01_MOVIEPOSTER.PNG": [
+    233,
+    219
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_MOVIEPOSTER.PNG": [
+    233,
+    219
+  ],
+  "SB_24_01_NEWS39.PNG": [
+    400,
+    351
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_NEWS39.PNG": [
+    400,
+    351
+  ],
+  "SB_24_01_NEWS40.PNG": [
+    397,
+    292
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_NEWS40.PNG": [
+    397,
+    292
+  ],
+  "SB_24_01_PREPORT.PNG": [
+    288,
+    259
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_PREPORT.PNG": [
+    288,
+    259
+  ],
+  "SB_24_01_TUX.JPG": [
+    280,
+    398
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_TUX.JPG": [
+    280,
+    398
+  ],
+  "SB_24_01_TUX.PNG": [
+    141,
+    187
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_24_01_TUX.PNG": [
+    141,
+    187
+  ],
+  "SB_BG_A.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_A.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_B.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_B.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_BZOOMNEWS.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_C.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_C.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_D.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_D.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_E.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_E.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_F.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_F.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_G.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_G.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_H.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_H.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_I.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_I.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_J.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_J.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_K.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_K.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_L.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_L.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_M.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_M.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_N.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_N.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_O.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_O.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_P.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_P.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_Q.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_Q.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_R.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_R.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_S.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_S.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_T.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_T.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_U.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_U.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_V.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_V.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_W.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_W.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_X.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_X.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_Y.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_Y.JPG": [
+    800,
+    600
+  ],
+  "SB_BG_Z.JPG": [
+    800,
+    600
+  ],
+  "rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_Z.JPG": [
+    800,
+    600
+  ]
+}

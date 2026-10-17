@@ -1,0 +1,12 @@
+{
+ "task": "t0179",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "49ace_star2__07a45a09",
+   "verdict": "suspect",
+   "problem": "Star and disc look smoothed and mushy at 1:1 compared with the mottled maroon texture of the original; the dark specks and the dark blotch at lower-left are reduced or enlarged, and a faint green tint sits at the right star tip. Gate SSIM is only 0.808.",
+   "fix": "Keep the painted residual's high-frequency detail instead of smoothing it, and reproduce the original's dark speckles and lower-left blotch at their original positions. Remove the green tint at the right star tip. Re-check SSIM and 1:1 crop after the change."
+  }
+ ]
+}

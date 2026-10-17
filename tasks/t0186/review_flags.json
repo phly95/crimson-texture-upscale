@@ -1,0 +1,18 @@
+{
+ "task": "t0186",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "26biscuit__09e3b186",
+   "verdict": "suspect",
+   "problem": "1:1 centre crop is blotchy and posterised: cow fur and shading break into jagged camo-like dark blobs, and the yellow AIRBISCUIT lettering edges go stair-stepped. Looks like posterisation mush rather than painted detail.",
+   "fix": "Lower posterise ink count (k=12 is too many for this art) or add edge-aware smoothing before back-projection; keep text/outline edges crisp and antialiased; re-check the 1:1 crop."
+  },
+  {
+   "uid": "bldgbank__b5375c37",
+   "verdict": "suspect",
+   "problem": "Injected high-frequency speckle is uniform across the wall and reads as sandpaper at 1:1 rather than plaster mottling; the original has only low-contrast tonal variation there. Repetition at uv_repeat 2.0 may also become visible.",
+   "fix": "Reduce the lum-freq-inject amplitude or move it to a lower, irregular mid-frequency mottle that matches the original tonal variation; keep the window and ledge edges as they are; check tiling at 2x repeat."
+  }
+ ]
+}

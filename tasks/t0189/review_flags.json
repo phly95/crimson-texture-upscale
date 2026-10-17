@@ -1,0 +1,24 @@
+{
+ "task": "t0189",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "05bswan_logo1__77fe9326",
+   "verdict": "suspect",
+   "problem": "Swan outline and wing-stripe edges are soft and haloed at 1:1 (cubic upscale), not crisp flat-art edges.",
+   "fix": "Redraw the swan silhouette as vector or edge-snap the outline (as done for 04british), then keep the crisp black/white edge."
+  },
+  {
+   "uid": "brushedmetal__42b360a4",
+   "verdict": "suspect",
+   "problem": "A thin magenta/pink line runs along the top edge of the result, carried over from the original; the streak texture itself reads well.",
+   "fix": "Check the top 1-2 rows for magenta or pink pixels (alpha or colour). If they are real texels, fill them from the neighbouring rows so no pink stripe tiles in game."
+  },
+  {
+   "uid": "bs_dcan1__904fc641",
+   "verdict": "suspect",
+   "problem": "Grit injection looks like uniform speckle noise on the flat grey plate and zigzag areas at 1:1, not the smoother original paint.",
+   "fix": "Reduce Metal046B grit amplitude on the flat plate areas, keep it only on the rusty upper section, and re-run the 1:1 check."
+  }
+ ]
+}

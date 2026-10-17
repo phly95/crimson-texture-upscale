@@ -1,0 +1,28 @@
+# Python & environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Secrets, keys and local tokens
+*.key
+gemini_api.key
+gallery.token
+.env
+*.pem
+
+# Logs and outputs
+*.log
+*.out
+*.err
+*.tmp
+
+# System & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~

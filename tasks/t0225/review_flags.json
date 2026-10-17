@@ -1,0 +1,24 @@
+{
+ "task": "t0225",
+ "note": "flags from an independent visual reviewer who looked at the compare images",
+ "flags": [
+  {
+   "uid": "redcross09__4295bac4",
+   "verdict": "suspect",
+   "problem": "Strong wood-grain streaks on propeller blades; detail_gain 124.85 (others 0.7-29) suggests over-injected Wood051 texture, unlike the original's mottled surface.",
+   "fix": "Reduce detail injection strength to roughly the other units' range, colour-match from the original only, and drop or weaken the Wood051 grain."
+  },
+  {
+   "uid": "redhole01__1539384f",
+   "verdict": "suspect",
+   "problem": "Speckled, serrated rim around the dark disc with stray light specks at the edge, from grain bleeding into the mask boundary.",
+   "fix": "Keep the fitted AA circle edge clean: exclude the grain from a band of about 1px at the rim and smooth the mask ramp."
+  },
+  {
+   "uid": "redrivet__0d85d402",
+   "verdict": "suspect",
+   "problem": "At 1:1 the rivet is soft and out of focus; the highlight mottle is lost and the dark ring and halo are blurred wider than the original (detail_gain 0.73). Note usage is null, so it is not placed in the world.",
+   "fix": "Sharpen the rim alpha ramp, restore the highlight mottle from the original, and keep the halo falloff close to the original's. Confirm it is needed before shipping."
+  }
+ ]
+}
