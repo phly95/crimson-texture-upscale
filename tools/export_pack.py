@@ -1,6 +1,6 @@
-"""export_pack.py: build the v1.0.1 release folders from the review decisions (replaces export_winners.py for the world pack).
+"""export_pack.py: build the v2.0.0 release folders from the review decisions (replaces export_winners.py for the world pack).
 
-  venv/bin/python tools/export_pack.py [OUT]       default OUT = release_v101/   (world_textures/, ui_textures/)
+  venv/bin/python tools/export_pack.py [OUT]       default OUT = release_v200/   (world_textures/, ui_textures/)
 
 World pack (CSVM HdTextures lookup: a bare name applies to every chapter, <CH>/<tier>/<name> beats it in that chapter only):
   * a name with one picture in every chapter -> world_textures/<name>.png
@@ -169,4 +169,4 @@ def run(out_dir):
 
 
 if __name__ == "__main__":
-    run(sys.argv[1] if len(sys.argv) > 1 else ROOT / "release_v101")
+    run(sys.argv[1] if len(sys.argv) > 1 else ROOT / "release_v200")

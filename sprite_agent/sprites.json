@@ -1,0 +1,676 @@
+{
+ "order": [
+  "ripple",
+  "splashbase",
+  "armourpiercetip",
+  "fire_f02",
+  "fire_f04",
+  "fire104",
+  "splash_spraylg",
+  "splash02",
+  "splash03",
+  "dumhit",
+  "cpit_bullethole1",
+  "cpit_bullethole2",
+  "falls",
+  "srf0002",
+  "srf0011",
+  "srf0014",
+  "wakefront2",
+  "wakefront5",
+  "thin_shadow",
+  "abld_shadow",
+  "firetruck_shadow",
+  "mptrailer_shadow",
+  "agyro_busshadow",
+  "bridge_cables",
+  "bbridgecables",
+  "lightpole",
+  "cable_insulator",
+  "cnine_wire1",
+  "rail1",
+  "doublewire",
+  "ladder_01",
+  "rope_bridge",
+  "zep_cable01",
+  "grate01",
+  "eiffel1"
+ ],
+ "sprites": {
+  "ripple": {
+   "uid": "ripple__f5f90f25",
+   "orig_size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "splashbase": {
+   "uid": "splashbase__c73e5bc0",
+   "orig_size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "armourpiercetip": {
+   "uid": "armourpiercetip__b1eb62a1",
+   "orig_size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "fire_f02": {
+   "uid": "fire_f02__604e32fd",
+   "orig_size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "fire_f04": {
+   "uid": "fire_f04__d7b4736e",
+   "orig_size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "fire104": {
+   "uid": "fire104__1cf0f48a",
+   "orig_size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "splash_spraylg": {
+   "uid": "splash_spraylg__9b6f5a52",
+   "orig_size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "splash02": {
+   "uid": "splash02__075a77d1",
+   "orig_size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "splash03": {
+   "uid": "splash03__0a101f39",
+   "orig_size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "dumhit": {
+   "uid": "dumhit__ab90b0d6",
+   "orig_size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "cpit_bullethole1": {
+   "uid": "cpit_bullethole1__728a696b",
+   "orig_size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "cpit_bullethole2": {
+   "uid": "cpit_bullethole2__a9078fbd",
+   "orig_size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "falls": {
+   "uid": "falls__3b3527f0",
+   "orig_size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "chapters": [
+    "C1",
+    "C4"
+   ]
+  },
+  "srf0002": {
+   "uid": "srf0002__397b951e",
+   "orig_size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "chapters": [
+    "C1B"
+   ]
+  },
+  "srf0011": {
+   "uid": "srf0011__a78edae7",
+   "orig_size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "chapters": [
+    "C1B"
+   ]
+  },
+  "srf0014": {
+   "uid": "srf0014__b94890b0",
+   "orig_size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "chapters": [
+    "C1B"
+   ]
+  },
+  "wakefront2": {
+   "uid": "wakefront2__5b42b7c7",
+   "orig_size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "chapters": [
+    "C1B"
+   ]
+  },
+  "wakefront5": {
+   "uid": "wakefront5__6b1686c8",
+   "orig_size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "chapters": [
+    "C1B"
+   ]
+  },
+  "thin_shadow": {
+   "uid": "thin_shadow__73a3d90a",
+   "orig_size": [
+    16,
+    16
+   ],
+   "target": [
+    128,
+    128
+   ],
+   "chapters": [
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "abld_shadow": {
+   "uid": "abld_shadow__1bebe804",
+   "orig_size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "chapters": [
+    "C1"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "firetruck_shadow": {
+   "uid": "firetruck_shadow__e4ae407e",
+   "orig_size": [
+    128,
+    64
+   ],
+   "target": [
+    1024,
+    512
+   ],
+   "chapters": [
+    "C5"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "mptrailer_shadow": {
+   "uid": "mptrailer_shadow__3ebbb531",
+   "orig_size": [
+    32,
+    64
+   ],
+   "target": [
+    256,
+    512
+   ],
+   "chapters": [
+    "C2"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "agyro_busshadow": {
+   "uid": "agyro_busshadow__3ebd33c5",
+   "orig_size": [
+    64,
+    32
+   ],
+   "target": [
+    512,
+    256
+   ],
+   "chapters": [
+    "C5"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "bridge_cables": {
+   "uid": "bridge_cables__4bd4e0ab",
+   "orig_size": [
+    128,
+    128
+   ],
+   "target": [
+    1024,
+    1024
+   ],
+   "chapters": [
+    "C2",
+    "C4",
+    "C5"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "bbridgecables": {
+   "uid": "bbridgecables__85cbae39",
+   "orig_size": [
+    16,
+    8
+   ],
+   "target": [
+    128,
+    64
+   ],
+   "chapters": [
+    "C5"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "lightpole": {
+   "uid": "lightpole__a4055231",
+   "orig_size": [
+    32,
+    128
+   ],
+   "target": [
+    256,
+    1024
+   ],
+   "chapters": [
+    "C1",
+    "C4",
+    "C5"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "cable_insulator": {
+   "uid": "cable_insulator__18b99394",
+   "orig_size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "chapters": [
+    "C1"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "cnine_wire1": {
+   "uid": "cnine_wire1__f08c322e",
+   "orig_size": [
+    16,
+    16
+   ],
+   "target": [
+    128,
+    128
+   ],
+   "chapters": [
+    "C4"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "rail1": {
+   "uid": "rail1__807fe640",
+   "orig_size": [
+    16,
+    16
+   ],
+   "target": [
+    128,
+    128
+   ],
+   "chapters": [
+    "C4"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "doublewire": {
+   "uid": "doublewire__674931fe",
+   "orig_size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "ladder_01": {
+   "uid": "ladder_01__313c356a",
+   "orig_size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "rope_bridge": {
+   "uid": "rope_bridge__dd3e5983",
+   "orig_size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "chapters": [
+    "C2"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "zep_cable01": {
+   "uid": "zep_cable01__eedcb537",
+   "orig_size": [
+    16,
+    16
+   ],
+   "target": [
+    128,
+    128
+   ],
+   "chapters": [
+    "C1",
+    "C1B",
+    "C1C",
+    "C2",
+    "C2B",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "grate01": {
+   "uid": "grate01__fef0907e",
+   "orig_size": [
+    32,
+    32
+   ],
+   "target": [
+    256,
+    256
+   ],
+   "chapters": [
+    "C4"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  },
+  "eiffel1": {
+   "uid": "eiffel1__0db87cc5",
+   "orig_size": [
+    64,
+    64
+   ],
+   "target": [
+    512,
+    512
+   ],
+   "chapters": [
+    "C2",
+    "C4"
+   ],
+   "group": "structures",
+   "iou_min": 0.7
+  }
+ }
+}

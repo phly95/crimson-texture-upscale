@@ -1,0 +1,10 @@
+{
+ "src": "/home/deck/Games/CSVM/extracted/rof/ASSETS/GRAPHICS/SCRAPBOOK/SB_BG_K.JPG",
+ "hint": "This is a detail crop of a larger picture. Redraw only what is visible in this crop; never add anything that is not already in the crop. It contains no lettering.",
+ "sigma_l": 4.0,
+ "sigma_ab": 12.0,
+ "tile": 1024,
+ "overlap": 256,
+ "seed": 100,
+ "auto_flat": true
+}

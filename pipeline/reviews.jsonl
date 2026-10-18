@@ -3426,3 +3426,120 @@
 {"uid": "wtr00005__87c4d87c", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1"], "issues": [], "text": "water set approved with frame 0", "ts": 1792289204.0014021}
 {"uid": "wtr00006__ff876afb", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1"], "issues": [], "text": "water set approved with frame 0", "ts": 1792289204.0014157}
 {"uid": "wtr00007__db463e58", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1"], "issues": [], "text": "water set approved with frame 0", "ts": 1792289204.001429}
+{"uid": "gfx_IA_B_VIEWSTORY__640e4577", "decision": "approve", "chosen": "custom:1", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792290312.1705754}
+{"uid": "gfx_IA_B_WEAPONLOADOUTFLYMISSION__21cd85df", "decision": "approve", "chosen": "custom:1", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792290323.6977878}
+{"uid": "gfx_MAINMENUBUTTONSSTRUCTURE__5cdb823d", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792290427.8392987}
+{"uid": "scrap_SB_BG_U__a0929c48", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792297539.3805094}
+{"uid": "rimage_loadframempt__7a3dfd39", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792297633.997896}
+{"uid": "gfx_FC_BACKGROUND__46616808", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "", "ts": 1792297652.4599178}
+{"uid": "rimage_loadframempt2__35e0af20", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792297680.0692885}
+{"uid": "rimage_ha-m1map__19e9ba9f", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792297843.17696}
+{"uid": "rimage_loadframempt2__35e0af20", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792297844.573248}
+{"uid": "rimage_ha-m1map__19e9ba9f", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792297845.506967}
+{"uid": "gfx_MS_BACKGROUND2__af78809c", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792331641.880865}
+{"uid": "rimage_loadframempt__7a3dfd39", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792331652.7322989}
+{"uid": "scrap_SB_BG_H__669aa048", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792331659.863588}
+{"uid": "gfx_MP_OPTIONSBACKGROUND__f9ece7ce", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792331669.1027002}
+{"uid": "rimage_nw-m5map__b7671a1b", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "", "ts": 1792331821.2479744}
+{"uid": "gfx_IA_STATSCREENBACKGROUND__b2d4b065", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792331918.9625182}
+{"uid": "gfx_PS_BACKGROUND__6105e891", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792332021.2491581}
+{"uid": "gfx_PC_P_HANGAR4__81bd2c96", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332114.1553986}
+{"uid": "gfx_OL_BACKGROUND__f63c77fd", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792332119.3939915}
+{"uid": "scrap_SB_BG_K__4edf6069", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332122.6955268}
+{"uid": "scrap_SB_BG_B__fe0556ec", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792332130.1571462}
+{"uid": "scrap_SB_BG_L__c0bc4f1c", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792332180.1186123}
+{"uid": "scrap_SB_BG_G__093e42a4", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332183.978354}
+{"uid": "gfx_MP_LOBBY_BACKGROUND__e701d673", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332192.3196523}
+{"uid": "rimage_loadframe__69c901c6", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792332197.0423286}
+{"uid": "gfx_PC_P_HANGAR1__67dcc507", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332205.5976498}
+{"uid": "gfx_PC_P_HANGAR3__bbc759c7", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332214.8548868}
+{"uid": "gfx_IA_BACKGROUND__7602c920", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792332228.3268452}
+{"uid": "gfx_PC_PLANETEMP__d75aca4e", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332234.1271157}
+{"uid": "scrap_SB_BG_T__a0b06d7f", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332240.7072473}
+{"uid": "gfx_PX_BACKGROUND__a1cbf0f4", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792332268.3887594}
+{"uid": "scrap_SB_BG_Q__4d6d2eeb", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332272.1604536}
+{"uid": "scrap_SB_BG_M__d9d60d80", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332276.6122315}
+{"uid": "scrap_SB_BG_A__6eb73d7d", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792332286.276109}
+{"uid": "gfx_SB_BACKGROUNDTOC__f75ee10d", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792332297.7636213}
+{"uid": "rimage_mm_splashbackground__f9c828d0", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792332335.14776}
+{"uid": "gfx_SB_BACKGROUND__aa303657", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332388.2346828}
+{"uid": "scrap_SB_BG_BZOOMNEWS__6024d318", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792332436.9452717}
+{"uid": "scrap_SB_BG_R__7564060a", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792332443.796406}
+{"uid": "rimage_rm-m1map__567d2eaf", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "", "ts": 1792332521.2929862}
+{"uid": "rimage_hw-m4map__a97d4a3c", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "", "ts": 1792332557.3331528}
+{"uid": "rimage_hw-m1map__16c9c41f", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "", "ts": 1792332566.8044891}
+{"uid": "gfx_PC_P_HANGAR7__2d09aaa0", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332570.8006237}
+{"uid": "rimage_mh-m1map__4576859c", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "", "ts": 1792332581.879129}
+{"uid": "gfx_MP_GAMESBACKGROUND__701167e8", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332586.5129268}
+{"uid": "gfx_PC_P_HANGAR0__09b5acab", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332589.2874818}
+{"uid": "rimage_rm-m5map__f9e76f66", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "", "ts": 1792332591.8111384}
+{"uid": "gfx_PC_P_HANGAR9__e5e7bfe2", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332595.591621}
+{"uid": "scrap_SB_BG_S__e8429927", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332599.1243064}
+{"uid": "gfx_MM_SPLASHBACKGROUND__488faba6", "decision": "approve", "chosen": "custom:4", "seen": ["custom:4", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1", "custom:2", "custom:3"], "issues": [], "text": "", "ts": 1792332633.798691}
+{"uid": "gfx_PC_P_HANGAR6__27824018", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332635.6693885}
+{"uid": "rimage_hw-m5map__7c5b651d", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "", "ts": 1792332638.340784}
+{"uid": "gfx_SB_BG_BZOOMNEWS__6024d318", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332645.1680598}
+{"uid": "gfx_PC_P_HANGAR5__541c480a", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332647.9475884}
+{"uid": "rimage_nw-m3map__09009b0a", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "", "ts": 1792332773.8762004}
+{"uid": "gfx_PC_P_HANGAR10__50dbc3bb", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332776.20918}
+{"uid": "rimage_ha-m2map__8343163e", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792332778.6108472}
+{"uid": "gfx_PC_P_HANGAR2__5417b171", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332780.7632637}
+{"uid": "gfx_PC_P_HANGAR8__eab83fdf", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792332783.0061078}
+{"uid": "rimage_nw-m2map__d5d6870a", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792332786.4841256}
+{"uid": "gfx_PS_BACKGROUND__6105e891", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "", "ts": 1792332792.811375}
+{"uid": "gfx_MS_BACKGROUND2__af78809c", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792333813.6819644}
+{"uid": "scrap_SB_BG_G__093e42a4", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792333816.1107688}
+{"uid": "gfx_SB_BACKGROUND__aa303657", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792333818.2649682}
+{"uid": "gfx_OL_BACKGROUND__f63c77fd", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792333866.1412623}
+{"uid": "rimage_loadframe__69c901c6", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792333868.9543219}
+{"uid": "scrap_SB_BG_A__6eb73d7d", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792333870.457514}
+{"uid": "rimage_mm_splashbackground__f9c828d0", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1", "custom:2"], "issues": [], "text": "", "ts": 1792333888.3184114}
+{"uid": "rimage_loadframempt2__35e0af20", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792333893.2067966}
+{"uid": "rimage_ha-m1map__19e9ba9f", "decision": "unsure", "chosen": "custom:3", "seen": [], "issues": [], "text": "", "ts": 1792333899.4593525}
+{"uid": "rimage_ha-m1map__19e9ba9f", "decision": "undo", "chosen": null, "seen": [], "issues": [], "text": "", "ts": 1792333900.922147}
+{"uid": "rimage_ha-m1map__19e9ba9f", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3", "klein:1", "klein:2", "custom:1", "custom:2"], "issues": [], "text": "", "ts": 1792333902.399637}
+{"uid": "gfx_OL_BACKGROUND__f63c77fd", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792333907.9898574}
+{"uid": "rimage_loadframe__69c901c6", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792333908.7880125}
+{"uid": "scrap_SB_BG_A__6eb73d7d", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792333909.4617062}
+{"uid": "rimage_loadframempt2__35e0af20", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792333910.4185324}
+{"uid": "gfx_OL_BACKGROUND__f63c77fd", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792333938.1097765}
+{"uid": "rimage_loadframe__69c901c6", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792333939.1398597}
+{"uid": "scrap_SB_BG_A__6eb73d7d", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792333940.3541372}
+{"uid": "rimage_loadframempt2__35e0af20", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792333943.8181033}
+{"uid": "scrap_SB_BG_H__669aa048", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792334039.4397733}
+{"uid": "gfx_PS_BACKGROUND__6105e891", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1", "custom:2"], "issues": [], "text": "", "ts": 1792335027.4974098}
+{"uid": "scrap_SB_BG_K__4edf6069", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792335029.714358}
+{"uid": "gfx_OL_BACKGROUND__f63c77fd", "decision": "approve", "chosen": "custom:4", "seen": ["custom:4", "klein:1", "klein:2", "custom:1", "custom:2", "custom:3"], "issues": [], "text": "", "ts": 1792335037.617137}
+{"uid": "scrap_SB_BG_A__6eb73d7d", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792335039.7207808}
+{"uid": "scrap_SB_BG_L__c0bc4f1c", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792335098.4051275}
+{"uid": "rimage_loadframempt2__35e0af20", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3", "klein:1", "klein:2", "custom:1", "custom:2"], "issues": [], "text": "", "ts": 1792335186.3504791}
+{"uid": "scrap_SB_BG_M__d9d60d80", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792337146.2351756}
+{"uid": "scrap_SB_BG_S__e8429927", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792337149.838227}
+{"uid": "gfx_PC_BACKGROUND__cfc7c089", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792337160.6413195}
+{"uid": "rimage_loadframe__69c901c6", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792337193.0875432}
+{"uid": "scrap_SB_BG_T__a0b06d7f", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792339156.1149964}
+{"uid": "scrap_SB_BG_O__6b4dc633", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792339159.775494}
+{"uid": "scrap_SB_BG_Z__496250aa", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792339164.8117406}
+{"uid": "rimage_loadframe__69c901c6", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1", "custom:2"], "issues": [], "text": "", "ts": 1792339174.9547017}
+{"uid": "scrap_SB_BG_R__7564060a", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3", "klein:1", "klein:2", "custom:1", "custom:2"], "issues": [], "text": "", "ts": 1792339187.3977013}
+{"uid": "scrap_SB_BG_P__f378a773", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792340259.2931867}
+{"uid": "scrap_SB_BG_V__3f863bb0", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792340265.214993}
+{"uid": "gfx_CR_BACKGROUND__d1f7b293", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792340268.6644032}
+{"uid": "gfx_VP_BACKGROUND__45976173", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "", "ts": 1792340270.9786625}
+{"uid": "scrap_SB_BG_W__0dc4e5bd", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792342614.3101704}
+{"uid": "scrap_SB_BG_X__3bbc7352", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792342620.4103882}
+{"uid": "scrap_SB_BG_C__21ced3cb", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792342628.3357935}
+{"uid": "scrap_SB_BG_Y__e101dcaf", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792342632.4187195}
+{"uid": "scrap_SB_17_01_MENU__e4f7f634", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792345129.1780787}
+{"uid": "scrap_SB_BG_F__a98b9929", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792345132.6217299}
+{"uid": "scrap_SB_BG_D__a82e4ec0", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792345138.5546312}
+{"uid": "scrap_SB_BG_I__553be25d", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792345146.0772624}
+{"uid": "scrap_SB_BG_E__c90ec7f3", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2", "retry:1", "retry:2"], "issues": [], "text": "", "ts": 1792345151.2514246}
+{"uid": "gfx_PC_BACKGROUND__cfc7c089", "decision": "unsure", "chosen": "custom:3", "seen": [], "issues": [], "text": "", "ts": 1792347951.2457843}
+{"uid": "scrap_SB_19_01_DRINK__71ab96b2", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3", "klein:1", "klein:2", "custom:1", "custom:2"], "issues": [], "text": "", "ts": 1792348150.0074508}
+{"uid": "scrap_SB_19_01_DRINK__71ab96b2", "decision": "approve", "chosen": "custom:5", "seen": ["custom:5", "klein:1", "klein:2", "custom:1", "custom:2", "custom:3", "custom:4"], "issues": [], "text": "", "ts": 1792349613.1507063}
+{"uid": "gfx_PC_BACKGROUND__cfc7c089", "decision": "approve", "chosen": "custom:5", "seen": ["custom:5", "klein:1", "klein:2", "custom:1", "custom:2", "custom:3", "custom:4"], "issues": [], "text": "", "ts": 1792350659.6151161}
+{"uid": "rimage_nw-m1map__fb82b2f3", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "custom:1"], "issues": [], "text": "", "ts": 1792351033.6692994}
+{"uid": "gfx_KB_BACKGROUND__f740f5a4", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "custom:1"], "issues": [], "text": "", "ts": 1792351035.3955152}
+{"uid": "scrap_SB_BG_J__6082c9fc", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1"], "issues": [], "text": "", "ts": 1792351039.997219}
+{"uid": "scrap_SB_BG_N__fd9f1701", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1"], "issues": [], "text": "", "ts": 1792351043.709809}

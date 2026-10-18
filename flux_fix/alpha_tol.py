@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def unit_of(stem):
+    if (ROOT / "pipeline" / "units" / stem).is_dir():          # a full uid (UI units, e.g. gfx_MAINMENUBUTTONSSTRUCTURE__5cdb823d)
+        return stem
     cat = json.load(open(ROOT / "catalog.json"))
     for uid, u in cat["units"].items():
         if u["stem"] == stem and not u["is_mip"]:

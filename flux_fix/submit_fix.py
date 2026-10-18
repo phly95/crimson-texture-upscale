@@ -23,4 +23,12 @@ shutil.copy(a.cand, cd / f"up{n}.png")
 im = Image.open(a.cand).convert("RGBA")
 items.append({"id": f"custom:{n}", "file": f"up{n}.png", "rgba": bool(np.asarray(im.getchannel("A")).min() < 250), "alpha": "FLUX redraw, alpha checked against the original", "size": list(im.size),
               "ts": time.time(), "replaces": "klein:1", "sha1": h, "label": a.label})
-jp.write_text(json.dumps({"items": items}, indent=2)); print(f"submitted as custom:{n}", json.dumps(m))
+jp.write_text(json.dumps({"items": items}, indent=2))
+hp = HERE.parent / "pipeline" / "hidden.json"                                    # a unit held out of the review while it is being redone comes back with its new version
+try:
+    hd = json.loads(hp.read_text())
+    if uid in hd.get("uids", []):
+        hd["uids"] = [u for u in hd["uids"] if u != uid]; hp.write_text(json.dumps(hd, indent=1))
+except (OSError, ValueError):
+    pass
+print(f"submitted as custom:{n}", json.dumps(m))

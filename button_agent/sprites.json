@@ -1,0 +1,1186 @@
+{
+ "order": [
+  "CM_B_CANCEL",
+  "CM_B_DELETEPLAYER",
+  "CM_B_START",
+  "CR_B_ABOUT",
+  "EM_B_LOADGAME",
+  "EM_B_RESUME",
+  "EM_B_SAVEGAME",
+  "FC_B_FLYMISSION",
+  "FC_B_RETURNTOBRIEFING",
+  "GN_B_BUILDCUSTOMPLANE",
+  "GN_B_CONTINUE",
+  "GN_B_RETURNTOCABIN",
+  "GN_B_RETURNTOGAME",
+  "IA_B_EXITINSTANTACTION",
+  "IA_B_FLYNEWMISSION",
+  "IA_B_VIEWSTORY",
+  "IA_B_WEAPONLOADOUTFLYMISSION",
+  "KB_B_RESETTODEFAULT",
+  "LS_B_DELETEGAME",
+  "LS_B_LOAD",
+  "LS_B_SAVE",
+  "MM_B_CAMPAIGN",
+  "MM_B_CREDITS",
+  "MM_B_INSTANTACTION",
+  "MM_B_MULTIPLAYER",
+  "MM_B_PREFERENCES",
+  "MM_B_QUIT",
+  "MP_B_EXITMULTIPLAYER",
+  "MS_B_ACCEPTCHANGES",
+  "MS_B_CANCELCHANGES",
+  "MS_B_DONE",
+  "MS_B_RETURNTOSCRAPBOOK",
+  "OL_B_ACCEPTLOADOUT",
+  "OL_B_CANCELLOADOUT",
+  "PC_B_CHANGEMEMENTO",
+  "PC_B_NEXTMISSION",
+  "PC_B_PLANECONSTRUCTION",
+  "PC_B_PREVIOUSMISSIONS",
+  "PC_B_RETURNMAINMENU",
+  "PC_B_SAVEGAME",
+  "PF_B_ACCEPTCHANGES",
+  "PF_B_AUDIO",
+  "PF_B_CANCELCHANGES",
+  "PF_B_CONTROLS",
+  "PF_B_GAMEOPTIONS",
+  "PF_B_MAINMENU",
+  "PF_B_VIDEO",
+  "PS_B_ACCEPTSELECTIONS",
+  "PS_B_BUILDNEWPLANE",
+  "PS_B_CANCELSELECTIONS",
+  "PX_B_CANCELEXPORT",
+  "PX_B_CANCELPURCHASE",
+  "PX_B_EXPORTDESIGN",
+  "PX_B_PURCHASENOW",
+  "PX_B_READYTOEXPORT",
+  "PX_B_READYTOPURCHASE",
+  "PX_B_SELLPLANES",
+  "SB_B_EXPORTTODESKTOP",
+  "SB_B_VIEWALLMISSIONS"
+ ],
+ "sprites": {
+  "CM_B_CANCEL": {
+   "uid": "gfx_CM_B_CANCEL__733f11a3",
+   "orig_size": [
+    161,
+    136
+   ],
+   "target": [
+    805,
+    680
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 34,
+   "label": "CANCEL",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/CM_B_CANCEL.PNG"
+  },
+  "CM_B_DELETEPLAYER": {
+   "uid": "gfx_CM_B_DELETEPLAYER__c103dd55",
+   "orig_size": [
+    188,
+    136
+   ],
+   "target": [
+    940,
+    680
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 34,
+   "label": "DELETEPLAYER",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/CM_B_DELETEPLAYER.PNG"
+  },
+  "CM_B_START": {
+   "uid": "gfx_CM_B_START__8833dff1",
+   "orig_size": [
+    113,
+    136
+   ],
+   "target": [
+    565,
+    680
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 34,
+   "label": "START",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/CM_B_START.PNG"
+  },
+  "CR_B_ABOUT": {
+   "uid": "gfx_CR_B_ABOUT__6875073b",
+   "orig_size": [
+    113,
+    136
+   ],
+   "target": [
+    565,
+    680
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 34,
+   "label": "ABOUT",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/CR_B_ABOUT.PNG"
+  },
+  "EM_B_LOADGAME": {
+   "uid": "gfx_EM_B_LOADGAME__815d1639",
+   "orig_size": [
+    224,
+    176
+   ],
+   "target": [
+    1120,
+    880
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 44,
+   "label": "LOADGAME",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/EM_B_LOADGAME.PNG"
+  },
+  "EM_B_RESUME": {
+   "uid": "gfx_EM_B_RESUME__ed7b014e",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "RESUME",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/EM_B_RESUME.PNG"
+  },
+  "EM_B_SAVEGAME": {
+   "uid": "gfx_EM_B_SAVEGAME__4454de83",
+   "orig_size": [
+    224,
+    176
+   ],
+   "target": [
+    1120,
+    880
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 44,
+   "label": "SAVEGAME",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/EM_B_SAVEGAME.PNG"
+  },
+  "FC_B_FLYMISSION": {
+   "uid": "gfx_FC_B_FLYMISSION__b5341a02",
+   "orig_size": [
+    137,
+    128
+   ],
+   "target": [
+    685,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "FLYMISSION",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_FLYMISSION.PNG"
+  },
+  "FC_B_RETURNTOBRIEFING": {
+   "uid": "gfx_FC_B_RETURNTOBRIEFING__54463e2e",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "RETURNTOBRIEFING",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/FC_B_RETURNTOBRIEFING.PNG"
+  },
+  "GN_B_BUILDCUSTOMPLANE": {
+   "uid": "gfx_GN_B_BUILDCUSTOMPLANE__ffdd26c6",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "BUILDCUSTOMPLANE",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_BUILDCUSTOMPLANE.PNG"
+  },
+  "GN_B_CONTINUE": {
+   "uid": "gfx_GN_B_CONTINUE__b1ede9eb",
+   "orig_size": [
+    112,
+    136
+   ],
+   "target": [
+    560,
+    680
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 34,
+   "label": "CONTINUE",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_CONTINUE.PNG"
+  },
+  "GN_B_RETURNTOCABIN": {
+   "uid": "gfx_GN_B_RETURNTOCABIN__9ca958c4",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "RETURNTOCABIN",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_RETURNTOCABIN.PNG"
+  },
+  "GN_B_RETURNTOGAME": {
+   "uid": "gfx_GN_B_RETURNTOGAME__6961ef8c",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "RETURNTOGAME",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/GN_B_RETURNTOGAME.PNG"
+  },
+  "IA_B_EXITINSTANTACTION": {
+   "uid": "gfx_IA_B_EXITINSTANTACTION__cf61446c",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "EXITINSTANTACTION",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_EXITINSTANTACTION.PNG"
+  },
+  "IA_B_FLYNEWMISSION": {
+   "uid": "gfx_IA_B_FLYNEWMISSION__3bb2ef6f",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "FLYNEWMISSION",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_FLYNEWMISSION.PNG"
+  },
+  "IA_B_VIEWSTORY": {
+   "uid": "gfx_IA_B_VIEWSTORY__640e4577",
+   "orig_size": [
+    117,
+    112
+   ],
+   "target": [
+    585,
+    560
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 28,
+   "label": "VIEWSTORY",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_VIEWSTORY.PNG"
+  },
+  "IA_B_WEAPONLOADOUTFLYMISSION": {
+   "uid": "gfx_IA_B_WEAPONLOADOUTFLYMISSION__21cd85df",
+   "orig_size": [
+    132,
+    112
+   ],
+   "target": [
+    660,
+    560
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 28,
+   "label": "WEAPONLOADOUTFLYMISSION",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/IA_B_WEAPONLOADOUTFLYMISSION.PNG"
+  },
+  "KB_B_RESETTODEFAULT": {
+   "uid": "gfx_KB_B_RESETTODEFAULT__f19bf57f",
+   "orig_size": [
+    236,
+    168
+   ],
+   "target": [
+    1180,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "RESETTODEFAULT",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/KB_B_RESETTODEFAULT.PNG"
+  },
+  "LS_B_DELETEGAME": {
+   "uid": "gfx_LS_B_DELETEGAME__16f973f3",
+   "orig_size": [
+    188,
+    136
+   ],
+   "target": [
+    940,
+    680
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 34,
+   "label": "DELETEGAME",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/LS_B_DELETEGAME.PNG"
+  },
+  "LS_B_LOAD": {
+   "uid": "gfx_LS_B_LOAD__0cf777be",
+   "orig_size": [
+    112,
+    136
+   ],
+   "target": [
+    560,
+    680
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 34,
+   "label": "LOAD",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/LS_B_LOAD.PNG"
+  },
+  "LS_B_SAVE": {
+   "uid": "gfx_LS_B_SAVE__2890a508",
+   "orig_size": [
+    112,
+    136
+   ],
+   "target": [
+    560,
+    680
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 34,
+   "label": "SAVE",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/LS_B_SAVE.PNG"
+  },
+  "MM_B_CAMPAIGN": {
+   "uid": "gfx_MM_B_CAMPAIGN__21a26806",
+   "orig_size": [
+    242,
+    200
+   ],
+   "target": [
+    1210,
+    1000
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 50,
+   "label": "CAMPAIGN",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_CAMPAIGN.PNG"
+  },
+  "MM_B_CREDITS": {
+   "uid": "gfx_MM_B_CREDITS__c18eac20",
+   "orig_size": [
+    197,
+    168
+   ],
+   "target": [
+    985,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "CREDITS",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_CREDITS.PNG"
+  },
+  "MM_B_INSTANTACTION": {
+   "uid": "gfx_MM_B_INSTANTACTION__fd0deff0",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "INSTANTACTION",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_INSTANTACTION.PNG"
+  },
+  "MM_B_MULTIPLAYER": {
+   "uid": "gfx_MM_B_MULTIPLAYER__896d698f",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "MULTIPLAYER",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_MULTIPLAYER.PNG"
+  },
+  "MM_B_PREFERENCES": {
+   "uid": "gfx_MM_B_PREFERENCES__f6180e86",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "PREFERENCES",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_PREFERENCES.PNG"
+  },
+  "MM_B_QUIT": {
+   "uid": "gfx_MM_B_QUIT__15e16f38",
+   "orig_size": [
+    197,
+    168
+   ],
+   "target": [
+    985,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "QUIT",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/MM_B_QUIT.PNG"
+  },
+  "MP_B_EXITMULTIPLAYER": {
+   "uid": "gfx_MP_B_EXITMULTIPLAYER__04dbbfe5",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "EXITMULTIPLAYER",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/MP_B_EXITMULTIPLAYER.PNG"
+  },
+  "MS_B_ACCEPTCHANGES": {
+   "uid": "gfx_MS_B_ACCEPTCHANGES__9f38681e",
+   "orig_size": [
+    182,
+    128
+   ],
+   "target": [
+    910,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "ACCEPTCHANGES",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/MS_B_ACCEPTCHANGES.PNG"
+  },
+  "MS_B_CANCELCHANGES": {
+   "uid": "gfx_MS_B_CANCELCHANGES__6562576d",
+   "orig_size": [
+    182,
+    128
+   ],
+   "target": [
+    910,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "CANCELCHANGES",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/MS_B_CANCELCHANGES.PNG"
+  },
+  "MS_B_DONE": {
+   "uid": "gfx_MS_B_DONE__b66f7825",
+   "orig_size": [
+    136,
+    128
+   ],
+   "target": [
+    680,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "DONE",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/MS_B_DONE.PNG"
+  },
+  "MS_B_RETURNTOSCRAPBOOK": {
+   "uid": "gfx_MS_B_RETURNTOSCRAPBOOK__0676d167",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "RETURNTOSCRAPBOOK",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/MS_B_RETURNTOSCRAPBOOK.PNG"
+  },
+  "OL_B_ACCEPTLOADOUT": {
+   "uid": "gfx_OL_B_ACCEPTLOADOUT__0b01fd75",
+   "orig_size": [
+    182,
+    128
+   ],
+   "target": [
+    910,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "ACCEPTLOADOUT",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/OL_B_ACCEPTLOADOUT.PNG"
+  },
+  "OL_B_CANCELLOADOUT": {
+   "uid": "gfx_OL_B_CANCELLOADOUT__8a65151d",
+   "orig_size": [
+    182,
+    128
+   ],
+   "target": [
+    910,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "CANCELLOADOUT",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/OL_B_CANCELLOADOUT.PNG"
+  },
+  "PC_B_CHANGEMEMENTO": {
+   "uid": "gfx_PC_B_CHANGEMEMENTO__c5d764e8",
+   "orig_size": [
+    182,
+    128
+   ],
+   "target": [
+    910,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "CHANGEMEMENTO",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_CHANGEMEMENTO.PNG"
+  },
+  "PC_B_NEXTMISSION": {
+   "uid": "gfx_PC_B_NEXTMISSION__5269534c",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "NEXTMISSION",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_NEXTMISSION.PNG"
+  },
+  "PC_B_PLANECONSTRUCTION": {
+   "uid": "gfx_PC_B_PLANECONSTRUCTION__ca5e8a80",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "PLANECONSTRUCTION",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_PLANECONSTRUCTION.PNG"
+  },
+  "PC_B_PREVIOUSMISSIONS": {
+   "uid": "gfx_PC_B_PREVIOUSMISSIONS__e037531a",
+   "orig_size": [
+    201,
+    129
+   ],
+   "target": [
+    1005,
+    645
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "PREVIOUSMISSIONS",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_PREVIOUSMISSIONS.PNG"
+  },
+  "PC_B_RETURNMAINMENU": {
+   "uid": "gfx_PC_B_RETURNMAINMENU__3fc4120f",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "RETURNMAINMENU",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_RETURNMAINMENU.PNG"
+  },
+  "PC_B_SAVEGAME": {
+   "uid": "gfx_PC_B_SAVEGAME__eee57003",
+   "orig_size": [
+    182,
+    128
+   ],
+   "target": [
+    910,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "SAVEGAME",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PC_B_SAVEGAME.PNG"
+  },
+  "PF_B_ACCEPTCHANGES": {
+   "uid": "gfx_PF_B_ACCEPTCHANGES__113c2a85",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "ACCEPTCHANGES",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_ACCEPTCHANGES.PNG"
+  },
+  "PF_B_AUDIO": {
+   "uid": "gfx_PF_B_AUDIO__2ded3062",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "AUDIO",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_AUDIO.PNG"
+  },
+  "PF_B_CANCELCHANGES": {
+   "uid": "gfx_PF_B_CANCELCHANGES__09cd628b",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "CANCELCHANGES",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_CANCELCHANGES.PNG"
+  },
+  "PF_B_CONTROLS": {
+   "uid": "gfx_PF_B_CONTROLS__1812d97f",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "CONTROLS",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_CONTROLS.PNG"
+  },
+  "PF_B_GAMEOPTIONS": {
+   "uid": "gfx_PF_B_GAMEOPTIONS__882f65d6",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "GAMEOPTIONS",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_GAMEOPTIONS.PNG"
+  },
+  "PF_B_MAINMENU": {
+   "uid": "gfx_PF_B_MAINMENU__e9d287ae",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "MAINMENU",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_MAINMENU.PNG"
+  },
+  "PF_B_VIDEO": {
+   "uid": "gfx_PF_B_VIDEO__6650d56f",
+   "orig_size": [
+    221,
+    168
+   ],
+   "target": [
+    1105,
+    840
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 42,
+   "label": "VIDEO",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/PF_B_VIDEO.PNG"
+  },
+  "PS_B_ACCEPTSELECTIONS": {
+   "uid": "gfx_PS_B_ACCEPTSELECTIONS__acbfb683",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "ACCEPTSELECTIONS",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PS_B_ACCEPTSELECTIONS.PNG"
+  },
+  "PS_B_BUILDNEWPLANE": {
+   "uid": "gfx_PS_B_BUILDNEWPLANE__e596f64d",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "BUILDNEWPLANE",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PS_B_BUILDNEWPLANE.PNG"
+  },
+  "PS_B_CANCELSELECTIONS": {
+   "uid": "gfx_PS_B_CANCELSELECTIONS__6fa4e0d9",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "CANCELSELECTIONS",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PS_B_CANCELSELECTIONS.PNG"
+  },
+  "PX_B_CANCELEXPORT": {
+   "uid": "gfx_PX_B_CANCELEXPORT__b488505e",
+   "orig_size": [
+    182,
+    128
+   ],
+   "target": [
+    910,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "CANCELEXPORT",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_CANCELEXPORT.PNG"
+  },
+  "PX_B_CANCELPURCHASE": {
+   "uid": "gfx_PX_B_CANCELPURCHASE__c88314b2",
+   "orig_size": [
+    182,
+    128
+   ],
+   "target": [
+    910,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "CANCELPURCHASE",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_CANCELPURCHASE.PNG"
+  },
+  "PX_B_EXPORTDESIGN": {
+   "uid": "gfx_PX_B_EXPORTDESIGN__f24e1e8d",
+   "orig_size": [
+    182,
+    128
+   ],
+   "target": [
+    910,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "EXPORTDESIGN",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_EXPORTDESIGN.PNG"
+  },
+  "PX_B_PURCHASENOW": {
+   "uid": "gfx_PX_B_PURCHASENOW__1b4a1590",
+   "orig_size": [
+    159,
+    152
+   ],
+   "target": [
+    795,
+    760
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 38,
+   "label": "PURCHASENOW",
+   "iou_min": 0.9,
+   "de_max": 10,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_PURCHASENOW.PNG"
+  },
+  "PX_B_READYTOEXPORT": {
+   "uid": "gfx_PX_B_READYTOEXPORT__39884307",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "READYTOEXPORT",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_READYTOEXPORT.PNG"
+  },
+  "PX_B_READYTOPURCHASE": {
+   "uid": "gfx_PX_B_READYTOPURCHASE__0f555dc7",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "READYTOPURCHASE",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_READYTOPURCHASE.PNG"
+  },
+  "PX_B_SELLPLANES": {
+   "uid": "gfx_PX_B_SELLPLANES__ec8b3d7e",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "SELLPLANES",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/PX_B_SELLPLANES.PNG"
+  },
+  "SB_B_EXPORTTODESKTOP": {
+   "uid": "gfx_SB_B_EXPORTTODESKTOP__a9b045d9",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "EXPORTTODESKTOP",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_B_EXPORTTODESKTOP.PNG"
+  },
+  "SB_B_VIEWALLMISSIONS": {
+   "uid": "gfx_SB_B_VIEWALLMISSIONS__4e718a60",
+   "orig_size": [
+    200,
+    128
+   ],
+   "target": [
+    1000,
+    640
+   ],
+   "chapters": [],
+   "group": "buttons",
+   "states": 4,
+   "state_h": 32,
+   "label": "VIEWALLMISSIONS",
+   "iou_min": 0.9,
+   "de_max": 18,
+   "ui_src": "rof/ASSETS/GRAPHICS/SB_B_VIEWALLMISSIONS.PNG"
+  }
+ }
+}

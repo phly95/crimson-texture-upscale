@@ -8,6 +8,7 @@ This repository contains:
 3. **The AI Upscaling Pipeline**: Automated VLM prompt generation, FLUX.2 image editing, frequency-separation color matching, chroma-keying, and review tools.
 4. **The Mobile Review Web App**: A mobile-friendly swipe review interface with live undo/redo, auto-crop, alpha-fix, and reject-priority queueing.
 5. **Fix-up tooling**: alpha-tolerance gate, FLUX shape-fix workflow (`flux_fix/`), coherent water sets (`water_job/`), and the agent-driven redraws of buttons and soft effect sprites.
+6. **The 4K tiled redraw of the big pictures** (v2.0.0): 62 fullscreen pictures (scrapbook pages, menu and loading backdrops, the mission maps, the hangar frames) re-rendered at 3200x2400 by tiled FLUX with per-tile prompts (`tile_job/`, `tools/tile_*.py`).
 (The old CSVM engine patch is obsolete: CSVM loads the pack natively.)
 
 ---
@@ -41,7 +42,8 @@ Rather than relying on naive ESRGAN-style sharpening—which blurs text, halluci
   - **32** flat utility/shadow assets intentionally kept at pristine original values.
 - **UI & Menu Art (668 unique assets)**:
   - **576** upgraded with crisp vector SVG renders and high-resolution redraws.
-  - **92** fullscreen backgrounds (≥ 720 px) and flat color elements preserved.
+  - **62** fullscreen pictures (800x600 originals: scrapbook pages, menu/loading backdrops, maps, hangar frames) re-rendered at **4x (3200x2400)** by tiled FLUX (v2.0.0).
+  - The remaining large flat or already-high-resolution elements are preserved.
 - **Vector Reconstruction (216 packages)**:
   - Instrument dials (altimeter, horizon indicator, speedometer, nitro, fuel gauges).
   - Damage status indicators for all player and enemy aircraft.
@@ -62,7 +64,14 @@ Rather than relying on naive ESRGAN-style sharpening—which blurs text, halluci
 ├── tools/
 │   ├── build_pack.py       # Assembles loose-folder chapter tiers (rtextureN) for CSVM
 │   ├── export_winners.py   # Older flat export (kept for reference)
-│   ├── export_pack.py      # v1.0.1 export: per-chapter entries, cutout clean-up, tolerance gate
+│   ├── export_pack.py      # v2.0.0 export: per-chapter entries, cutout clean-up, tolerance gate
+│   ├── tile_upscale.py     # Tiled FLUX 2x stage (1024 px tiles, 256 overlap, Lab colour lock, locked klein client)
+│   ├── tile_job.py         # Per-tile, prompt-refinable job: new / gen / view / assemble / next / final
+│   ├── tile_batch.py       # Unattended runs for material-only pictures (neutral hint, flat-area guard, alpha restore, submit)
+│   ├── tile_best.py, tile_stitch.py, polish_text_tiles.py  # best-of-N seeds scored by OCR, words stitched across seeds
+│   ├── tile_hangar.py      # Hangar frames: one shared background plus per-frame diffs
+│   ├── textlayer.py, tile_text_batch.py  # Text-removal-first route (works on plain paper sheets, worse on maps)
+│   ├── suppress_invented.py, blackfix.py, edgefix.py, seam_assemble2.py, autoseam_sb.py  # guards and seam tools
 │   ├── alpha_audit.py      # Alpha coverage audit against the originals (the #214 metric)
 │   ├── fringe.py           # Edge colour / rim shift measurement
 │   ├── agents/             # Launcher for headless Gemini subagents, feedback dispatcher, sprite verifier
@@ -84,7 +93,8 @@ Rather than relying on naive ESRGAN-style sharpening—which blurs text, halluci
 │       └── klein.sh        # CLI invocation for stable-diffusion.cpp
 ├── flux_fix/               # Alpha-tolerance (tol.py) and guided FLUX redraw/submit scripts for shape fixes
 ├── water_job/              # Coherent 16-frame sea sets per chapter group + checks (seam, flicker, colour)
-├── edit_jobs/              # Scripted 2D edits (compass strip typesetting, wire thickness)
+├── edit_jobs/              # Scripted 2D edits (compass strip typesetting, wire thickness, menu structure lens)
+├── tile_job/               # 4K tiled redraw: AGENT.md method brief, per-picture NOTES.md, prompts.json (per-tile prompts), seams and configs
 ├── button_agent/, sprite_agent/  # Agent briefs and tools for the lettered buttons and soft effect sprites
 ├── tasks/                  # Task definitions and original low-resolution reference PNGs
 ├── patches/
@@ -103,7 +113,7 @@ Rather than relying on naive ESRGAN-style sharpening—which blurs text, halluci
 
 [CSVM](https://github.com/Laeresh/CSVM) (current `main`) loads this pack natively; no engine patch, symlinks or `art_sizes.json` are needed any more.
 
-1. Download `crimson_hd_chosen_world_textures.zip` and `crimson_hd_chosen_ui_textures.zip` from the [latest release](https://github.com/phly95/crimson-texture-upscale/releases).
+1. Download `crimson_hd_chosen_world_textures.zip` and `crimson_hd_chosen_ui_textures.zip` from the [latest release](https://github.com/phly95/crimson-texture-upscale/releases) (v2.0.0). The raw candidates are separate downloads: v1.0.0 holds the original 15 GB archives, `v2.0.0-candidates` holds everything produced since.
 2. Drop both zips, unextracted, into `<dataRoot>/HD/` (next to the game's `extracted/` data, e.g. `~/Games/CSVM/HD/`).
 3. Start the game. CSVM reads entries minus the top folder, matches names case- and extension-insensitively and sizes every HD picture to the original's layout size.
 
@@ -118,11 +128,23 @@ Names that differ between chapters (45, e.g. `cliff01`, `cloud1`, `river1`, `sky
 
 Rebuilding from this repository (the folders under `textures/chosen/` are the exact zip contents):
 ```bash
-python3 tools/export_pack.py release_v101     # needs the working tree of the pipeline (catalog, reviews, pipeline/units)
+python3 tools/export_pack.py release_v200     # needs the working tree of the pipeline (catalog, reviews, pipeline/units)
 ```
 `export_pack.py` also cleans cutouts on the way out: colour under fully transparent pixels is bled from the nearest opaque pixel (no green key colour left to fringe when filtered), and a soft glow/feather band that the redraw's crisp key removed is restored from the original alpha. It prints a tolerance gate afterwards: every shipped cutout is compared with its original on a 32x32 box-averaged alpha (mean difference <= 0.12, coverage change <= 0.15).
 
 > **Obsolete:** `patches/csvm_hd_ui_support.patch`, `patches/art_sizes.json`, `tools/build_pack.py install` and `tools/link_ui_art.py` were for engines without HD support. They are kept for reference only.
+
+## The 4K tiled redraw (v2.0.0)
+
+The 800x600 fullscreen pictures cannot go through the single-pass 1024 px pipeline without losing detail, so they are redrawn in tiles (`tools/tile_job.py`): Lanczos 2x, overlapping 1024 px tiles edited by FLUX.2 klein with the tile itself as reference image, a Lab colour lock that pulls each tile's broad tone back to the source, a cosine-feathered or seam-switched blend; then the same again to 3200x2400.
+
+What made it work (details in `tile_job/AGENT.md` and each picture's `NOTES.md`):
+- **Per-tile prompts** that quote the exact lettering visible in that tile (digit by digit for numbers, cut words as fragments) or say that it holds none; the global hint is neutral (never scene words: they get drawn).
+- **Best-of-N seeds** scored by OCR against the quoted words, then **word stitching** from the other seeds' draws.
+- **Guards**: a flat-area guard against invented marks on plain paper (`suppress_invented.py`), NLM pre-clean for near-black scans, pure-black restore for transparent windows, seams placed where the two tiles agree, original alpha restored on submit.
+- **Typesetting** of faint small text that the guards erase (fitted font, perspective-matched), e.g. the blueprint lettering on the planning desk.
+- Hangar frames share one upscaled background; maps and lettered sheets were polished tile by tile.
+Text that the 800x600 originals do not make legible was inferred from context and the game's own strings; a few tiny map labels still contain slips.
 
 ## How the Pipeline Works
 
