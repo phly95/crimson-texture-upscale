@@ -528,8 +528,8 @@ def process_reject_feedback():
             continue
     fb = load_feedback(); changed = False
     for ruid, r in last.items():
-        if r.get("decision") != "reject" or (ruid in fb and fb[ruid].get("ts", 0) >= r["ts"]):
-            continue
+        if r.get("decision") != "reject" or r.get("route") == "agent" or (ruid in fb and fb[ruid].get("ts", 0) >= r["ts"]):
+            continue                                           # route == agent: a drawing agent redoes it (tools/agents/dispatch_feedback.py)
         m0 = read_meta(ruid)
         issues = list(r.get("issues") or [])
         entry = {"issues": issues, "text": r.get("text") or "", "ts": r["ts"]}

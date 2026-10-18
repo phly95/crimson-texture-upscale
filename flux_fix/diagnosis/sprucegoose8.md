@@ -1,0 +1,4 @@
+# sprucegoose8
+Diagnosis: registration decal 'NX37802' (64x16, unit has lift 0.3): thin-ish black strokes (alpha 0.5-1.0 on blurred strokes) spanning the full width and height, mean alpha 0.35. Old redraw (retry:1) was fine as text but its letter geometry (heavier strokes, different letter widths/positions) differs from the original strokes in the 32x32 box average (diff 0.17, iou 0.52); the review only complained about stencil bridges (the retry prompt fixed that).
+Fix: hard guide thresholded at 0.55 (guides/sprucegoose8_hard2.png: black letters on green in the unit's lifted space; black/green are unaffected by the lift) + prompt that fixes 'same letter positions/widths, strokes about 4% of width, not bold, no stencil'. a1 (thr 0.4, bold) passed barely (diff 0.10-0.115, cov 0.43); a2 better: diff 0.087-0.101, cov 0.34-0.36.
+Result: a2 seed 1 (diff 0.087). Pure FLUX.

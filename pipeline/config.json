@@ -102,7 +102,7 @@
   ],
   "cloud_writer": {
     "enabled": true,
-    "url": "http://127.0.0.1:20128/v1/chat/completions",
+    "url": "http://100.117.72.11:20128/v1/chat/completions",
     "model": "ag/gemini-3.8-flash-medium",
     "key_file": "gemini_api.key",
     "extra": {},

@@ -1,0 +1,270 @@
+[
+ {
+  "stem": "bliteoff",
+  "uid": "bliteoff__a2f278ad",
+  "chapters": [
+   "C5"
+  ],
+  "diff": 0.3515893220901489,
+  "cov_orig": 0.797,
+  "cov_hd": 0.445,
+  "chosen": "retry:2"
+ },
+ {
+  "stem": "sprucegooseb1",
+  "uid": "sprucegooseb1__02d29c9d",
+  "chapters": [
+   "C2",
+   "C5"
+  ],
+  "diff": 0.32925859093666077,
+  "cov_orig": 0.57,
+  "cov_hd": 0.449,
+  "chosen": "retry:2"
+ },
+ {
+  "stem": "war_canopy",
+  "uid": "war_canopy__f26afa9f",
+  "chapters": [
+   "C1",
+   "C1B",
+   "C1C",
+   "C2",
+   "C2B",
+   "C3",
+   "C4",
+   "C5"
+  ],
+  "diff": 0.2509612441062927,
+  "cov_orig": 0.506,
+  "cov_hd": 0.415,
+  "chosen": "klein:1"
+ },
+ {
+  "stem": "wheels01",
+  "uid": "wheels01__1155e2b8",
+  "chapters": [
+   "C4"
+  ],
+  "diff": 0.24723881483078003,
+  "cov_orig": 0.885,
+  "cov_hd": 0.638,
+  "chosen": "klein:1"
+ },
+ {
+  "stem": "woodlegs01",
+  "uid": "woodlegs01__70ce22df",
+  "chapters": [
+   "C4"
+  ],
+  "diff": 0.24681755900382996,
+  "cov_orig": 0.615,
+  "cov_hd": 0.426,
+  "chosen": "retry:1"
+ },
+ {
+  "stem": "shore1",
+  "uid": "shore1__ec13d16c",
+  "chapters": [
+   "C3"
+  ],
+  "diff": 0.24403339624404907,
+  "cov_orig": 0.639,
+  "cov_hd": 0.867,
+  "chosen": "retry:1"
+ },
+ {
+  "stem": "arcroad01",
+  "uid": "arcroad01__ccd8e972",
+  "chapters": [
+   "C1"
+  ],
+  "diff": 0.24268153309822083,
+  "cov_orig": 0.556,
+  "cov_hd": 0.599,
+  "chosen": "klein:2"
+ },
+ {
+  "stem": "jim_sign1",
+  "uid": "jim_sign1__31252b7f",
+  "chapters": [
+   "C4"
+  ],
+  "diff": 0.21351486444473267,
+  "cov_orig": 0.656,
+  "cov_hd": 0.479,
+  "chosen": "klein:1"
+ },
+ {
+  "stem": "shore_trans",
+  "uid": "shore_trans__73459260",
+  "chapters": [
+   "C3"
+  ],
+  "diff": 0.19509419798851013,
+  "cov_orig": 0.64,
+  "cov_hd": 0.825,
+  "chosen": "klein:2"
+ },
+ {
+  "stem": "chuteman1",
+  "uid": "chuteman1__9239a48a",
+  "chapters": [
+   "C1",
+   "C1B",
+   "C1C",
+   "C2",
+   "C2B",
+   "C3",
+   "C4",
+   "C5"
+  ],
+  "diff": 0.18702128529548645,
+  "cov_orig": 0.532,
+  "cov_hd": 0.362,
+  "chosen": "retry:1"
+ },
+ {
+  "stem": "shore2",
+  "uid": "shore2__e343a766",
+  "chapters": [
+   "C3"
+  ],
+  "diff": 0.1766582429409027,
+  "cov_orig": 0.639,
+  "cov_hd": 0.75,
+  "chosen": "klein:2"
+ },
+ {
+  "stem": "shipwreck8",
+  "uid": "shipwreck8__c447d679",
+  "chapters": [
+   "C3"
+  ],
+  "diff": 0.17450213432312012,
+  "cov_orig": 0.457,
+  "cov_hd": 0.624,
+  "chosen": "klein:2"
+ },
+ {
+  "stem": "sprucegoose8",
+  "uid": "sprucegoose8__a81cb549",
+  "chapters": [
+   "C2",
+   "C5"
+  ],
+  "diff": 0.1724647730588913,
+  "cov_orig": 0.353,
+  "cov_hd": 0.348,
+  "chosen": "retry:1"
+ },
+ {
+  "stem": "drydock",
+  "uid": "drydock__a1f23c3b",
+  "chapters": [
+   "C3"
+  ],
+  "diff": 0.16568243503570557,
+  "cov_orig": 0.381,
+  "cov_hd": 0.546,
+  "chosen": "retry:1"
+ },
+ {
+  "stem": "23bighairy",
+  "uid": "23bighairy__c395966a",
+  "chapters": [
+   "C1",
+   "C1B",
+   "C1C",
+   "C2",
+   "C2B",
+   "C3",
+   "C4",
+   "C5"
+  ],
+  "diff": 0.1554993838071823,
+  "cov_orig": 0.623,
+  "cov_hd": 0.597,
+  "chosen": "retry:1"
+ },
+ {
+  "stem": "oilpipe2",
+  "uid": "oilpipe2__0f786560",
+  "chapters": [
+   "C1"
+  ],
+  "diff": 0.14712008833885193,
+  "cov_orig": 0.805,
+  "cov_hd": 0.662,
+  "chosen": "klein:2"
+ },
+ {
+  "stem": "dirtpatch",
+  "uid": "dirtpatch__cbc927de",
+  "chapters": [
+   "C2"
+  ],
+  "diff": 0.14476102590560913,
+  "cov_orig": 0.536,
+  "cov_hd": 0.642,
+  "chosen": "klein:1"
+ },
+ {
+  "stem": "lk_ngun2",
+  "uid": "lk_ngun2__fa4ae658",
+  "chapters": [
+   "C1"
+  ],
+  "diff": 0.12210477888584137,
+  "cov_orig": 0.424,
+  "cov_hd": 0.353,
+  "chosen": "klein:1"
+ },
+ {
+  "stem": "steinmann12",
+  "uid": "steinmann12__90508d85",
+  "chapters": [
+   "C5"
+  ],
+  "diff": 0.12182903289794922,
+  "cov_orig": 0.576,
+  "cov_hd": 0.498,
+  "chosen": "klein:1"
+ },
+ {
+  "stem": "compasstxt",
+  "uid": "compasstxt__4a1a6169",
+  "chapters": [
+   "C1",
+   "C1B",
+   "C1C",
+   "C2",
+   "C2B",
+   "C3",
+   "C4",
+   "C5"
+  ],
+  "diff": 0.12149204313755035,
+  "cov_orig": 0.436,
+  "cov_hd": 0.357,
+  "chosen": "retry:2"
+ },
+ {
+  "stem": "agwindow2",
+  "uid": "agwindow2__696a3ed6",
+  "chapters": [
+   "C1",
+   "C1B",
+   "C1C",
+   "C2",
+   "C2B",
+   "C3",
+   "C4",
+   "C5"
+  ],
+  "diff": 0.12011335790157318,
+  "cov_orig": 0.23,
+  "cov_hd": 0.325,
+  "chosen": "retry:2"
+ }
+]

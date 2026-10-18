@@ -1,0 +1,608 @@
+{
+ "A_C1B_C2_C2B": {
+  "chapters": [
+   "C1B",
+   "C2",
+   "C2B"
+  ],
+  "frames": {
+   "wtr00000": {
+    "uid": "wtr00000__f1ae7783",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00001": {
+    "uid": "wtr00001__bc0aa3a0",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00002": {
+    "uid": "wtr00002__54ecd2a3",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00003": {
+    "uid": "wtr00003__63f7074d",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00004": {
+    "uid": "wtr00004__54e96035",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00005": {
+    "uid": "wtr00005__603270c1",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00006": {
+    "uid": "wtr00006__0e9f90af",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00007": {
+    "uid": "wtr00007__105ef391",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00008": {
+    "uid": "wtr00000__f1ae7783",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00009": {
+    "uid": "wtr00001__bc0aa3a0",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00010": {
+    "uid": "wtr00002__54ecd2a3",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00011": {
+    "uid": "wtr00003__63f7074d",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00012": {
+    "uid": "wtr00004__54e96035",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00013": {
+    "uid": "wtr00005__603270c1",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00014": {
+    "uid": "wtr00006__0e9f90af",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00015": {
+    "uid": "wtr00007__105ef391",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   }
+  }
+ },
+ "C3": {
+  "chapters": [
+   "C3"
+  ],
+  "frames": {
+   "wtr00000": {
+    "uid": "wtr00000__4a649651",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00001": {
+    "uid": "wtr00001__ea532061",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00002": {
+    "uid": "wtr00002__0d8728c5",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00003": {
+    "uid": "wtr00003__e3105ea8",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00004": {
+    "uid": "wtr00004__743cbbe3",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00005": {
+    "uid": "wtr00005__e59f8b97",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00006": {
+    "uid": "wtr00006__89655144",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00007": {
+    "uid": "wtr00007__e9007adf",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00008": {
+    "uid": "wtr00000__4a649651",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00009": {
+    "uid": "wtr00001__ea532061",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00010": {
+    "uid": "wtr00002__0d8728c5",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00011": {
+    "uid": "wtr00003__e3105ea8",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00012": {
+    "uid": "wtr00004__743cbbe3",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00013": {
+    "uid": "wtr00005__e59f8b97",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00014": {
+    "uid": "wtr00006__89655144",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00015": {
+    "uid": "wtr00007__e9007adf",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   }
+  }
+ },
+ "C4": {
+  "chapters": [
+   "C4"
+  ],
+  "frames": {
+   "wtr00000": {
+    "uid": "wtr00000__ceb16854",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00001": {
+    "uid": "wtr00001__be00ab59",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00002": {
+    "uid": "wtr00002__65b6a304",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00003": {
+    "uid": "wtr00003__02e18c43",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00004": {
+    "uid": "wtr00004__d15870c6",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00005": {
+    "uid": "wtr00005__fd599031",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00006": {
+    "uid": "wtr00006__ad97f05e",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00007": {
+    "uid": "wtr00007__3149d2b0",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00008": {
+    "uid": "wtr00000__ceb16854",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00009": {
+    "uid": "wtr00001__be00ab59",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00010": {
+    "uid": "wtr00002__65b6a304",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00011": {
+    "uid": "wtr00003__02e18c43",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00012": {
+    "uid": "wtr00004__d15870c6",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00013": {
+    "uid": "wtr00005__fd599031",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00014": {
+    "uid": "wtr00006__ad97f05e",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00015": {
+    "uid": "wtr00007__3149d2b0",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   }
+  }
+ },
+ "C5": {
+  "chapters": [
+   "C5"
+  ],
+  "frames": {
+   "wtr00000": {
+    "uid": "wtr00000__94312d07",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00001": {
+    "uid": "wtr00001__0a5d814a",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00002": {
+    "uid": "wtr00002__aa387dc8",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00003": {
+    "uid": "wtr00003__ad721f6a",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00004": {
+    "uid": "wtr00004__357d36bc",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00005": {
+    "uid": "wtr00005__87c4d87c",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00006": {
+    "uid": "wtr00006__ff876afb",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00007": {
+    "uid": "wtr00007__db463e58",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00008": {
+    "uid": "wtr00000__94312d07",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00009": {
+    "uid": "wtr00001__0a5d814a",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00010": {
+    "uid": "wtr00002__aa387dc8",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00011": {
+    "uid": "wtr00003__ad721f6a",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00012": {
+    "uid": "wtr00004__357d36bc",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00013": {
+    "uid": "wtr00005__87c4d87c",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00014": {
+    "uid": "wtr00006__ff876afb",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   },
+   "wtr00015": {
+    "uid": "wtr00007__db463e58",
+    "decision": "approve",
+    "chosen": "klein:2",
+    "target": [
+     512,
+     512
+    ]
+   }
+  }
+ }
+}

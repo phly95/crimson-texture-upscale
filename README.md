@@ -7,7 +7,8 @@ This repository contains:
 2. **Handcrafted Vector Sources (SVG)**: Pixel-perfect vector reconstructions of dials, gauges, buttons, blueprint schematics, map pins, and HUD elements.
 3. **The AI Upscaling Pipeline**: Automated VLM prompt generation, FLUX.2 image editing, frequency-separation color matching, chroma-keying, and review tools.
 4. **The Mobile Review Web App**: A mobile-friendly swipe review interface with live undo/redo, auto-crop, alpha-fix, and reject-priority queueing.
-5. **CSVM Engine Patch**: Minimal patch and metadata manifest enabling high-res UI & HUD elements in CSVM without layout distortion.
+5. **Fix-up tooling**: alpha-tolerance gate, FLUX shape-fix workflow (`flux_fix/`), coherent water sets (`water_job/`), and the agent-driven redraws of buttons and soft effect sprites.
+(The old CSVM engine patch is obsolete: CSVM loads the pack natively.)
 
 ---
 
@@ -60,7 +61,11 @@ Rather than relying on naive ESRGAN-style sharpening—which blurs text, halluci
 │   └── vectors/            # 216 vector packages: source .svg, .png render, and custom.json
 ├── tools/
 │   ├── build_pack.py       # Assembles loose-folder chapter tiers (rtextureN) for CSVM
-│   ├── export_winners.py   # Extracts all approved winner textures into clean folders
+│   ├── export_winners.py   # Older flat export (kept for reference)
+│   ├── export_pack.py      # v1.0.1 export: per-chapter entries, cutout clean-up, tolerance gate
+│   ├── alpha_audit.py      # Alpha coverage audit against the originals (the #214 metric)
+│   ├── fringe.py           # Edge colour / rim shift measurement
+│   ├── agents/             # Launcher for headless Gemini subagents, feedback dispatcher, sprite verifier
 │   ├── link_ui_art.py      # Deploys HD UI art to CSVM with automatic .orig_bak backups
 │   ├── serve_gallery.py    # Multi-threaded web review server (swipe review, crop tool)
 │   ├── pipeline/
@@ -77,6 +82,10 @@ Rather than relying on naive ESRGAN-style sharpening—which blurs text, halluci
 │       ├── vlm_review.py   # Automated VLM review pass
 │       ├── klein_server.py # Persistent Vulkan sd-server manager for FLUX.2 klein 9B
 │       └── klein.sh        # CLI invocation for stable-diffusion.cpp
+├── flux_fix/               # Alpha-tolerance (tol.py) and guided FLUX redraw/submit scripts for shape fixes
+├── water_job/              # Coherent 16-frame sea sets per chapter group + checks (seam, flicker, colour)
+├── edit_jobs/              # Scripted 2D edits (compass strip typesetting, wire thickness)
+├── button_agent/, sprite_agent/  # Agent briefs and tools for the lettered buttons and soft effect sprites
 ├── tasks/                  # Task definitions and original low-resolution reference PNGs
 ├── patches/
 │   ├── csvm_hd_ui_support.patch # Engine patch for CSVM (Godot 4) to support HD UI/HUD
@@ -92,57 +101,28 @@ Rather than relying on naive ESRGAN-style sharpening—which blurs text, halluci
 
 ## How to Install & Play in CSVM
 
-[CSVM](https://github.com/Laeresh/CSVM) is the open-source Linux/Windows reimplementation of Crimson Skies. It prefers loose unpacked folders over archive zips, making texture replacement non-destructive.
+[CSVM](https://github.com/Laeresh/CSVM) (current `main`) loads this pack natively; no engine patch, symlinks or `art_sizes.json` are needed any more.
 
-### 1. In-World HD Texture Pack
+1. Download `crimson_hd_chosen_world_textures.zip` and `crimson_hd_chosen_ui_textures.zip` from the [latest release](https://github.com/phly95/crimson-texture-upscale/releases).
+2. Drop both zips, unextracted, into `<dataRoot>/HD/` (next to the game's `extracted/` data, e.g. `~/Games/CSVM/HD/`).
+3. Start the game. CSVM reads entries minus the top folder, matches names case- and extension-insensitively and sizes every HD picture to the original's layout size.
 
-To build and install the in-world textures directly into your game installation:
-
-```bash
-# 1. Build the chapter packs from approved winners (creates pack/C1 ... pack/C5)
-python3 tools/build_pack.py build
-
-# 2. Symlink the top-tier texture directory for each chapter into CSVM
-python3 tools/build_pack.py install
+How the world zip is laid out (CSVM `HdTextures`):
 ```
+world_textures/cloud1.png                  <- every chapter without its own entry
+world_textures/C1/rtexture15/cloud1.png    <- C1 only (beats the bare file)
+world_textures/C2B/rtexture9/cloud1.png    <- C2B only
+```
+Names that differ between chapters (45, e.g. `cliff01`, `cloud1`, `river1`, `sky1`, the `wtr000NN` sea flipbooks) get one bare file (the version most chapters share) plus a chapter entry for every other chapter, including the original where that chapter kept it.
+`tools/export_pack.py` produces both zips' folders from the review decisions.
 
-This creates clean symlinks in your extracted game directory:
-- `~/Games/CSVM/extracted/C1/rtexture15  -> pack/C1/rtexture15`
-- `~/Games/CSVM/extracted/C1B/rtexture11 -> pack/C1B/rtexture11`
-- `~/Games/CSVM/extracted/C1C/rtexture10 -> pack/C1C/rtexture10`
-- `~/Games/CSVM/extracted/C2/rtexture14  -> pack/C2/rtexture14`
-- `~/Games/CSVM/extracted/C2B/rtexture9   -> pack/C2B/rtexture9`
-- `~/Games/CSVM/extracted/C3/rtexture12  -> pack/C3/rtexture12`
-- `~/Games/CSVM/extracted/C4/rtexture14  -> pack/C4/rtexture14`
-- `~/Games/CSVM/extracted/C5/rtexture14  -> pack/C5/rtexture14`
+Rebuilding from this repository (the folders under `textures/chosen/` are the exact zip contents):
+```bash
+python3 tools/export_pack.py release_v101     # needs the working tree of the pipeline (catalog, reviews, pipeline/units)
+```
+`export_pack.py` also cleans cutouts on the way out: colour under fully transparent pixels is bled from the nearest opaque pixel (no green key colour left to fringe when filtered), and a soft glow/feather band that the redraw's crisp key removed is restored from the original alpha. It prints a tolerance gate afterwards: every shipped cutout is compared with its original on a 32x32 box-averaged alpha (mean difference <= 0.12, coverage change <= 0.15).
 
-*To uninstall at any time:* `python3 tools/build_pack.py uninstall` safely removes only the symlinks.
-
-### 2. High-Resolution UI & HUD (with CSVM Engine Patch)
-
-In the retail 2000 engine, 2D menus were authored on an $800 \times 600$ layout grid (`LAYOUT.CSV`). Because widget dimensions were not authored in the CSV, the engine inferred widget bounding boxes directly from bitmap pixel dimensions.
-
-To use high-resolution (8×) UI textures without inflating buttons or hitboxes:
-
-1. **Apply the Engine Patch**:
-   Copy `patches/csvm_hd_ui_support.patch` to your CSVM source tree and apply it:
-   ```bash
-   cd path/to/CSVM
-   git apply /path/to/crimson-texture-upscale/patches/csvm_hd_ui_support.patch
-   dotnet build CSVM/CSVM.csproj -c Release
-   ```
-2. **Deploy the Art Manifest**:
-   Copy `patches/art_sizes.json` to your extracted game directory:
-   ```bash
-   cp patches/art_sizes.json ~/Games/CSVM/extracted/rof/art_sizes.json
-   ```
-3. **Install the HD UI Assets**:
-   ```bash
-   python3 tools/link_ui_art.py install
-   ```
-   *(This tool backs up any replaced retail file with an `.orig_bak` extension. Running `python3 tools/link_ui_art.py uninstall` restores all original files).*
-
----
+> **Obsolete:** `patches/csvm_hd_ui_support.patch`, `patches/art_sizes.json`, `tools/build_pack.py install` and `tools/link_ui_art.py` were for engines without HD support. They are kept for reference only.
 
 ## How the Pipeline Works
 

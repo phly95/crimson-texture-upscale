@@ -33,6 +33,54 @@ def cloud_mode():
         return False
 
 
+def agent_held():
+    """uids a drawing agent is working on right now: out of the review until redone. (a) feedback sent to an agent that the dispatcher has not finished
+    (agent_status.json queued/working); (b) units on an agent's work list that are not SUBMITTED yet while that agent's session is running."""
+    out = set()
+    try:
+        for uid, e in json.loads((PIPE / "agent_status.json").read_text()).items():
+            if e.get("state") in ("queued", "working"):
+                out.add(uid)
+    except (OSError, ValueError, AttributeError):
+        pass
+    import uuid
+    for wdir, session in (("sprite_agent", "sprites"), ("button_agent", "buttons")):
+        d = ROOT / wdir
+        try:
+            sid = str(uuid.uuid5(uuid.NAMESPACE_URL, session + str(d.resolve())))
+            if subprocess.run(["pgrep", "-f", "claude .*" + sid], capture_output=True).returncode != 0:
+                continue                                       # the agent is not running: nothing in its list is being worked on
+            work = json.loads((d / "sprites.json").read_text())["sprites"]
+            st = json.loads((d / "state.json").read_text()) if (d / "state.json").exists() else {}
+        except (OSError, ValueError, KeyError):
+            continue
+        for name, m in work.items():
+            if st.get(name, {}).get("status") != "SUBMITTED":
+                out.add(m["uid"])
+    import hashlib                                             # (c) submitted but not yet added to the unit's custom versions (the dispatcher does that within seconds)
+    for wdir in ("sprite_agent", "button_agent"):
+        d = ROOT / wdir
+        try:
+            work = json.loads((d / "sprites.json").read_text())["sprites"]
+            st = json.loads((d / "state.json").read_text())
+        except (OSError, ValueError, KeyError):
+            continue
+        for name, e in st.items():
+            if e.get("status") != "SUBMITTED" or name not in work:
+                continue
+            try:
+                h = hashlib.sha1((d / "out" / f"{name}.png").read_bytes()).hexdigest()
+            except OSError:
+                continue
+            try:
+                items = json.loads((PIPE / "units" / work[name]["uid"] / "custom" / "custom.json").read_text()).get("items", [])
+            except (OSError, ValueError):
+                items = []
+            if not any(it.get("sha1") == h for it in items):
+                out.add(work[name]["uid"])
+    return out
+
+
 def held_units():
     """uids whose result is about to be replaced: a config redo token above the unit's own, or review feedback newer than the unit's last update"""
     out = set()
@@ -68,8 +116,64 @@ def held_units():
         m = meta(uid)
         if m and m.get("status") == "done" and m.get("t_update", 0) <= e.get("ts", 0):
             out.add(uid)
+    try:                                                       # a magenta-screen redo is waiting or running: out of the review until it is redone
+        last = {}
+        for ln in (PIPE / "magenta_requests.jsonl").read_text().splitlines():
+            try:
+                q = json.loads(ln); last[q["uid"]] = max(last.get(q["uid"], 0), q.get("ts", 0))
+            except (ValueError, KeyError):
+                continue
+        for uid, ts in last.items():
+            mg = (meta(uid) or {}).get("magenta") or {}
+            if mg.get("t", 0) < ts or (mg.get("status") == "running" and time.time() - mg.get("t", 0) < 900):
+                out.add(uid)
+    except OSError:
+        pass
+    out |= agent_held()
+    try:                                                       # units parked on purpose (pipeline/hidden.json), e.g. a superseded pass
+        out |= set(json.loads((PIPE / "hidden.json").read_text()).get("uids", []))
+    except (OSError, ValueError, AttributeError):
+        pass
     return sorted(out)
 
+
+
+def fresh_units():
+    """uids whose latest decision is approve/original but that have a version made after it which the reviewer has not seen
+    (a new klein/retry/magenta/photo redraw or a custom picture added later): they re-enter the review queue"""
+    last = {}
+    try:
+        for ln in REVIEWS.read_text().splitlines():
+            try:
+                r = json.loads(ln); last[r["uid"]] = r
+            except (ValueError, KeyError):
+                continue
+    except OSError:
+        return []
+    out = []
+    for uid, r in last.items():
+        if r.get("decision") not in ("approve", "original", "reject"):
+            continue
+        d = PIPE / "units" / uid
+        if not d.is_dir():
+            continue
+        seen, ts, new = set(r.get("seen") or []), r.get("ts", 0), False
+        for sub, kind in (("", "klein"), ("retry", "retry"), ("magenta", "magenta"), ("photo", "photo")):
+            dd = d / sub if sub else d
+            if dd.is_dir():
+                for f in dd.glob("klein_s*.png"):
+                    m = re.fullmatch(r"klein_s(\d+)\.png", f.name)
+                    if m and f"{kind}:{m.group(1)}" not in seen and f.stat().st_mtime > ts:
+                        new = True
+        try:
+            for it in json.loads((d / "custom" / "custom.json").read_text()).get("items", []):
+                if it.get("id") not in seen and it.get("ts", 0) > ts:
+                    new = True
+        except (OSError, ValueError):
+            pass
+        if new:
+            out.append(uid)
+    return sorted(out)
 
 
 MAX_UP = 40 * 1024 * 1024
@@ -338,6 +442,8 @@ class H(http.server.SimpleHTTPRequestHandler):
                 except (ValueError, KeyError):
                     continue
             return self._json(200, out)
+        if path == f"/{token}/live/api/fresh":                    # approved/original units with a newer unseen version: back in the review queue
+            return self._json(200, fresh_units())
         if path == f"/{token}/live/api/held":                     # units waiting for a redo: they must not show up in the swipe review
             return self._json(200, held_units())
         super().do_GET()
@@ -490,9 +596,14 @@ class H(http.server.SimpleHTTPRequestHandler):
             if not isinstance(text, str):
                 return self._json(400, {"error": "bad text"})
             rec = {"uid": uid, "decision": dec, "chosen": chosen, "seen": seen, "issues": issues, "text": text[:1500], "ts": time.time()}
+            if dec == "reject" and b.get("route") == "agent":
+                rec["route"] = "agent"                         # redone by a drawing agent (tools/agents/dispatch_feedback.py), not by the FLUX pipeline
             with LOCK:
                 with open(REVIEWS, "a") as f:
                     f.write(json.dumps(rec) + "\n"); f.flush(); os.fsync(f.fileno())
+                if rec.get("route") == "agent":
+                    with open(PIPE / "agent_inbox.jsonl", "a") as f:
+                        f.write(json.dumps({"uid": uid, "version": chosen, "issues": issues, "text": rec["text"], "ts": rec["ts"]}) + "\n")
             return self._json(200, {"ok": True, "ts": rec["ts"]})
         except (ValueError, OSError):
             return self._json(400, {"error": "bad request"})

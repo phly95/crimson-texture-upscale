@@ -1,0 +1,3 @@
+# shipwreck8  (HYBRID: old FLUX shape/colours + original translucency level)
+Diagnosis: original (128x128) is tattered sailcloth whose alpha is a flat ~0.7 translucent level over the whole cloth (mean 0.456), with a few holes and the dangling shreds. The old redraw (klein:2) matches the shape very well (iou50 0.95) but is fully opaque (cov 0.62, diff 0.175): the translucency of the cloth was lost, nothing else is wrong. No new generation is needed: FLUX (green-screen keyed) can only give 0/1 alpha.
+Fix: alpha_tools.modulate: keep the redraw's own crisp fibrous shape, multiply its alpha by the original's local translucency (normalised blur, sigma 12 of the original alpha over its cloth, extended outward). diff 0.022, cov 0.435 vs 0.456, edges stay crisp/frayed, no halos.

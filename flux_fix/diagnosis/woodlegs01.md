@@ -1,0 +1,4 @@
+# woodlegs01
+Diagnosis: original (32x32) = full-width top beam (top 19%) with two dark round marks, and below it two big SOLID wedge-shaped wooden panels filling the left and right sides to the frame edges, with a single inverted-trapezoid gap (30-70% wide at the top, ~10-90% at the bottom). cov 0.615. Old redraw (retry:1) read 'diagonal timber struts' literally: thin splayed legs, green outside them, beam shrunk with margin above (cov 0.43). The prompt (from the writer model) called them struts.
+Fix: hard guide + prompt describing 'big solid wedge-shaped panels (not thin struts) reaching the frame edges and the bottom', gap as inverted trapezoid with percentages, no outline/bolts.
+Result: a1 all 3 pass (diff 0.014-0.021, iou 0.97). Chosen seed 1 (mottled warm brown most like the original). Pure FLUX.

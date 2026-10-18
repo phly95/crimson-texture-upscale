@@ -1,0 +1,4 @@
+# compasstxt
+Diagnosis: 'NESESWNW' compass strip (128x32): bold condensed letters filling the full height with a beige->silver vertical gradient, a translucent black bar flush at the right edge (lower half), mean alpha 0.44. Old redraw (retry:2): thin letters, tiny detached black square for the bar, shorter text block (cov 0.36 vs 0.44, iou 0.70, diff 0.121 borderline).
+Fix: hard guide (thr 0.6 so the letter counters stay open) + prompt: 'medium-bold, fill full height, left edge to ~90% of width, black bar 3% wide from 45 to 95% height flush right'.
+Result: a1 all 3 pass (diff 0.071-0.079, iou 0.80-0.83); letters are slightly goopy/melted at the bottom like the blurry original but legible. Chosen seed 2. Pure FLUX. (Weakest of the batch visually; the bar is shorter than the original's translucent gradient bar.)

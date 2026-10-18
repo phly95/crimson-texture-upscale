@@ -29,7 +29,8 @@ a{color:var(--accent)}
 .stage .card{position:absolute;inset:0;transition:transform .18s ease,opacity .18s ease}
 .stage .card>img,.stage .card>canvas{width:100%;height:100%;object-fit:contain;display:block}
 .stage .card>img.px,.stage .card>canvas.px{image-rendering:pixelated}
-.capbar{display:flex;align-items:center;gap:8px;margin:0 0 6px;font-size:13px;color:var(--dim);min-height:22px}
+.capbar{display:flex;align-items:center;gap:8px;margin:0 0 6px;font-size:13px;color:var(--dim);height:24px;overflow:hidden;white-space:nowrap}
+.capbar b{flex:none}.capbar span{min-width:0;overflow:hidden;text-overflow:ellipsis}   /* one fixed-height line: a longer caption must not resize the picture below it when you flip original/upscale */
 .capbar b{font-size:12px;letter-spacing:.06em;padding:2px 9px;border-radius:7px;color:#fff;background:var(--accent)}
 .capbar b.o{background:#5d6d86}
 .hint{position:absolute;right:8px;bottom:8px;background:#000a;color:#fff;font-size:12px;padding:2px 8px;border-radius:7px;pointer-events:none}
@@ -127,7 +128,7 @@ textarea{width:100%;min-height:72px;background:var(--bg);color:var(--fg);border:
   <h2>What's wrong?</h2><p>Tap everything that applies. It is used to redo this one.</p>
   <div class="chips" id="chips"></div>
   <textarea id="txt" placeholder="Anything else? (optional)" maxlength="1500"></textarea>
-  <div class="btns"><button id="cancel">Cancel</button><button class="go" id="send" disabled>Send &amp; next</button></div>
+  <div class="btns"><button id="cancel">Cancel</button><button class="go" id="send" disabled>Redraw with FLUX</button><button class="go" id="sendagent" disabled title="A Gemini drawing agent redoes it in code and re-checks it against the original">Send to agent</button></div>
 </div></div>
 <script>
 const $=s=>document.querySelector(s);
@@ -156,10 +157,12 @@ async function post(body){
 }
 
 /* ---------- queue ---------- */
-function pending(u){const d=S.dec[u.uid];if(!d||d.decision==="undo"||d.decision==="unsure")return true;if((d.decision==="reject"||d.decision==="redraw")&&u.t>d.ts)return true;return false;}
+function pending(u){const d=S.dec[u.uid];if(S.fresh&&S.fresh.has(u.uid))return true;if(!d||d.decision==="undo"||d.decision==="unsure")return true;if((d.decision==="reject"||d.decision==="redraw")&&u.t>d.ts)return true;return false;}
 async function loadAll(){
-  const [idx,dec,held,st]=await Promise.all([jget("../index.json"),jget(API+"decisions").catch(()=>({})),jget(API+"held").catch(()=>[]),jget("../state.json").catch(()=>null)]);
+  const [idx,dec,held,st,fresh]=await Promise.all([jget("../index.json"),jget(API+"decisions").catch(()=>({})),jget(API+"held").catch(()=>[]),jget("../state.json").catch(()=>null),jget(API+"fresh").catch(()=>[])]);
+  S.fresh=new Set(fresh);                                                  // approved before, but a newer version exists: review again
   S.dec=dec;S.idx=idx;S.st=st;
+  S.heldN=held.length;
   const hold=new Set(held);                                                // waiting for a redo: not shown until the new result is ready
   const done=(idx.units||[]).filter(u=>(
     (u.status==="done" && (u.seeds||[]).length) ||
@@ -252,6 +255,7 @@ async function lockCall(body){
 async function checkBack(){
   const HOURS=5,now=Date.now()/1000,units=(S.idx&&S.idx.units)||[],st=S.st||{};
   const left=st.pending!=null?st.pending:null;                              // units the pipeline still has to do
+  if(S.heldN>0){S.lockedUntil=0;return S.heldN+" picture"+(S.heldN===1?" is":"s are")+" being redone right now (by a drawing agent or waiting for a redraw). They come back here when ready; this page checks again on its own.";}
   if(left===0){S.lockedUntil=0;lockCall({action:"clear"}).catch(()=>{});return "The pipeline has finished everything. Nothing more is coming.";}
   const recent=units.filter(u=>u.status==="done"&&u.t>now-3*3600).length;
   let perHour=recent/3;                                                    // the last 3 hours of finished units
@@ -314,7 +318,7 @@ async function afCall(body){
 }
 async function requestMagenta(btn){
   const c=S.cur;if(!c)return;
-  try{await afCall0("magenta",{uid:c.uid});btn.textContent="Magenta queued";btn.disabled=true;toast("Queued: a magenta-screen redraw of "+c.stem+" (a few minutes). It comes back into the review with the magenta versions first.");}
+  try{await afCall0("magenta",{uid:c.uid});toast("Queued: a magenta-screen redraw of "+c.stem+" (a few minutes). It leaves the review now and comes back with the magenta versions first.");S.i++;await show();}
   catch(e){toast("Could not queue it: "+e.message);}
 }
 async function requestGeminiRedo(btn){
@@ -460,11 +464,11 @@ async function decide(decision,extra){
   const rec=Object.assign({uid:c.uid,decision,chosen:v.id,seen:c.versions.map(x=>x.id)},extra||{});
   try{
     const r=await post(rec);
-    S.dec[c.uid]={decision,ts:r.ts||Date.now()/1000,chosen:v.id};
+    S.dec[c.uid]={decision,ts:r.ts||Date.now()/1000,chosen:v.id};if(S.fresh)S.fresh.delete(c.uid);
     if(decision!=="photo"&&decision!=="redraw")S.counts[decision==="approve"?"a":decision==="original"?"o":"r"]++;
     S.stack.push({uid:c.uid,decision,i:S.i});
     S.i++;await show();
-    toast((decision==="approve"?"Approved ":decision==="original"?"Keeping the original for ":decision==="photo"?"Photo search requested for ":decision==="redraw"?"Will be redrawn: ":"Sent ")+c.stem,true);
+    toast((decision==="approve"?"Approved ":decision==="original"?"Keeping the original for ":decision==="photo"?"Photo search requested for ":decision==="redraw"?"Will be redrawn: ":(extra&&extra.route==="agent"?"Sent to the agent: ":"Sent to FLUX: "))+c.stem,true);
   }catch(e){toast("Could not save: "+e.message);}
   S.busy=false;
 }
@@ -473,7 +477,7 @@ async function doUnsure(){
   try{
     await post({uid:c.uid,decision:"unsure",chosen:c.versions[S.vi].id});
     const was=S.dec[c.uid]&&S.dec[c.uid].decision==="unsure";
-    S.dec[c.uid]={decision:"unsure",ts:Date.now()/1000};if(!was)S.counts.u++;
+    S.dec[c.uid]={decision:"unsure",ts:Date.now()/1000};if(S.fresh)S.fresh.delete(c.uid);if(!was)S.counts.u++;
     const i0=S.i,u=S.queue.splice(S.i,1)[0];S.queue.push(u);          // back of the line
     S.stack.push({uid:c.uid,decision:"unsure",i:i0,was});
     await show();toast("Skipped "+c.stem+" (comes back later)",true);
@@ -498,12 +502,13 @@ function openSheet(){
     b.onclick=()=>{if(S.sel.has(id)){S.sel.delete(id);b.setAttribute("aria-pressed","false");}else{S.sel.add(id);b.setAttribute("aria-pressed","true");}upd();};ch.appendChild(b);}
   $("#sheet").classList.add("on");
 }
-const upd=()=>{$("#send").disabled=!(S.sel.size||$("#txt").value.trim());};
+const upd=()=>{const off=!(S.sel.size||$("#txt").value.trim());$("#send").disabled=off;$("#sendagent").disabled=off;};
 $("#txt").addEventListener("input",upd);
 $("#no").onclick=openSheet;
 $("#cancel").onclick=()=>$("#sheet").classList.remove("on");
 $("#sheet").addEventListener("click",e=>{if(e.target.id==="sheet")$("#sheet").classList.remove("on");});
 $("#send").onclick=async()=>{const issues=[...S.sel],text=$("#txt").value.trim();$("#sheet").classList.remove("on");await decide("reject",{issues,text});};
+$("#sendagent").onclick=async()=>{const issues=[...S.sel],text=$("#txt").value.trim();$("#sheet").classList.remove("on");await decide("reject",{issues,text,route:"agent"});};
 $("#key").onclick=()=>{S.key=!S.key;$("#key").setAttribute("aria-pressed",S.key);try{localStorage.setItem("rv_key",S.key?"1":"0");}catch(e){}if(S.cur)drawAll();};
 
 /* ---------- tap = flip, swipe = decide ---------- */
