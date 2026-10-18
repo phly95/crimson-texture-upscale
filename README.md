@@ -94,6 +94,7 @@ Rather than relying on naive ESRGAN-style sharpening—which blurs text, halluci
 ├── flux_fix/               # Alpha-tolerance (tol.py) and guided FLUX redraw/submit scripts for shape fixes
 ├── water_job/              # Coherent 16-frame sea sets per chapter group + checks (seam, flicker, colour)
 ├── edit_jobs/              # Scripted 2D edits (compass strip typesetting, wire thickness, menu structure lens)
+├── face_audit/             # Face detection/embedding audit (YuNet + SFace) and the head/face/legs/emblem/shoe fix tools used on the pinup and portrait pictures
 ├── tile_job/               # 4K tiled redraw: AGENT.md method brief, per-picture NOTES.md, prompts.json (per-tile prompts), seams and configs
 ├── button_agent/, sprite_agent/  # Agent briefs and tools for the lettered buttons and soft effect sprites
 ├── tasks/                  # Task definitions and original low-resolution reference PNGs
@@ -145,6 +146,9 @@ What made it work (details in `tile_job/AGENT.md` and each picture's `NOTES.md`)
 - **Typesetting** of faint small text that the guards erase (fitted font, perspective-matched), e.g. the blueprint lettering on the planning desk.
 - Hangar frames share one upscaled background; maps and lettered sheets were polished tile by tile.
 Text that the 800x600 originals do not make legible was inferred from context and the game's own strings; a few tiny map labels still contain slips.
+
+### Face consistency pass (after v2.0.0)
+`face_audit/` finds every face in the UI pictures (OpenCV YuNet + SFace; the two ONNX models come from the OpenCV zoo and are not stored here), compares the redraws with the originals and with the other copies of the same photo (the `rimage_` and `scrap_` variants), and repairs the disagreeing ones: the face of the best-matching copy is carried into the others (landmark-aligned, pyramid-blended), or its head, or the whole photo content, registered through the originals (SIFT homography). Smaller fix tools: `legs.py` (tone lift), `frame_fix.py` (paper frame), `emblem.py` and `shoe.py` (seeded klein redraws of one detail, blended back), `wisps.py`.
 
 ## How the Pipeline Works
 
