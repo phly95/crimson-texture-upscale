@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Emblems</title>
+<style>
+:root{color-scheme:dark;--bg:#161412;--panel:#221f1c;--fg:#ece7e1;--muted:#a1988e;--accent:#e0584a;--line:#38332e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.4 system-ui,sans-serif;padding:16px max(16px,env(safe-area-inset-right)) 40px max(16px,env(safe-area-inset-left))}
+h1{font:600 24px/1.1 "Arial Narrow",sans-serif;text-transform:uppercase;letter-spacing:.03em;margin:0 0 4px}p{color:var(--muted);margin:0 0 14px}
+h2{font:600 13px/1 sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:26px 0 10px}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:6px}
+input{background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:10px;font-size:16px;min-width:0;flex:1 1 200px}
+label{color:var(--muted);font-size:14px;display:flex;gap:6px;align-items:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+.c{background:var(--panel);border:1px solid var(--line);border-radius:4px;overflow:hidden;cursor:pointer}
+.pair{display:grid;grid-template-columns:1fr 1fr}
+.pair div,.one div{aspect-ratio:1;background:repeating-conic-gradient(#3a3631 0 25%,#2c2925 0 50%) 0 0/16px 16px;display:flex;align-items:center;justify-content:center;position:relative}
+.pair img,.one img{max-width:100%;max-height:100%;display:block;image-rendering:auto}
+.tag{position:absolute;left:3px;top:3px;font-size:10px;background:#000a;padding:1px 4px;border-radius:2px;color:#ddd}
+.cap{padding:6px 8px 8px;font-size:12.5px;overflow-wrap:anywhere}.cap b{display:block;font-size:13px}.cap i{font-style:normal;color:var(--muted)}
+.c:focus-visible{outline:3px solid var(--accent)}
+#vw{position:fixed;inset:0;background:#000e;display:none;flex-direction:column;z-index:9}#vw.on{display:flex}
+#vw .t{padding:12px 16px;display:flex;justify-content:space-between;gap:10px;align-items:center}
+#vw .st{flex:1;min-height:0;display:flex;gap:8px;justify-content:center;align-items:center;padding:0 8px;overflow:auto}
+#vw .st div{flex:1;height:100%;display:flex;align-items:center;justify-content:center;background:repeating-conic-gradient(#3a3631 0 25%,#2c2925 0 50%) 0 0/16px 16px;position:relative;min-width:0}
+#vw img{max-width:100%;max-height:100%;object-fit:contain;image-rendering:auto}
+button{background:#2d2926;color:#f1ece6;border:1px solid #4a443e;border-radius:4px;padding:10px 14px;font-size:14px;min-height:44px}
+.nav{display:flex;gap:10px;justify-content:center;padding:10px}
+</style></head><body>
+<h1>Emblems</h1><p>Every emblem, logo and nose-art picture of the pack: original on the left, the version in the pack on the right. Tap to enlarge.</p>
+<div class="bar"><input id="q" type="search" placeholder="Filter by name, e.g. bigstink, hairy, fhunter" aria-label="Filter"><label><input id="chg" type="checkbox" style="flex:none;min-width:0;width:auto"> only changed</label></div>
+<h2 id="h-x">Fortune Hunters nose art on the ZACHARYANDPLANE photo (48gypsy crystal ball)</h2><div class="grid one" id="gx"></div>
+<h2>All emblem textures <span id="n" style="letter-spacing:0;text-transform:none;font-weight:400"></span></h2><div class="grid" id="g"></div>
+<div id="vw"><div class="t"><div><b id="vt"></b><br><span id="vs" style="color:#b9b0a6;font-size:13px"></span></div><button id="vx">Close</button></div><div class="st" id="st"></div><div class="nav"><button id="vp">Prev</button><button id="vq">Next</button></div></div>
+<script>
+fetch("data.json").then(r=>r.json()).then(D=>{
+const rows=D.rows,ex=D.extra;let list=[];
+const g=document.getElementById("g"),gx=document.getElementById("gx");
+function tile(it,parent,idx,list){const b=document.createElement("button");b.className="c";b.style.cssText="all:unset;display:block;box-sizing:border-box;background:var(--panel);border:1px solid var(--line);border-radius:4px;overflow:hidden;cursor:pointer";
+b.innerHTML=it.pair?`<div class="pair"><div><img alt="" src="${it.o}"><span class="tag">orig</span></div><div>${it.n?`<img alt="" src="${it.n}"><span class="tag">pack</span>`:'<span class="tag">same</span>'}</div></div>`:`<div class="one"><div><img alt="" src="${it.o}"></div></div>`;
+const cap=document.createElement("span");cap.className="cap";cap.style.display="block";cap.innerHTML="<b></b><i></i>";cap.querySelector("b").textContent=it.title;cap.querySelector("i").textContent=it.sub;b.appendChild(cap);
+b.onclick=()=>show(list,idx);parent.appendChild(b)}
+const exl=ex.map(([t,f])=>({title:t,sub:"",o:f,pair:false}));
+exl.forEach((it,i)=>tile(it,gx,i,exl));
+function render(){g.innerHTML="";const q=document.getElementById("q").value.toLowerCase(),ch=document.getElementById("chg").checked;
+list=rows.filter(r=>(!q||r.stem.toLowerCase().includes(q))&&(!ch||r.n)).map(r=>({title:r.stem,sub:r.osz+(r.nsz?" to "+r.nsz:"")+" "+r.ver,o:r.o,n:r.n,pair:true}));
+list.forEach((it,i)=>tile(it,g,i,list));document.getElementById("n").textContent="("+list.length+")"}
+q.oninput=render;chg.onchange=render;render();
+let L=[],cur=0;const vw=document.getElementById("vw");
+function show(l,i){L=l;cur=(i+L.length)%L.length;const it=L[cur];vt.textContent=it.title;vs.textContent=it.sub+" ("+(cur+1)+"/"+L.length+")";
+st.innerHTML=`<div><img alt="" src="${it.o}"></div>`+(it.pair&&it.n?`<div><img alt="" src="${it.n}"></div>`:"");vw.classList.add("on")}
+vx.onclick=()=>vw.classList.remove("on");vp.onclick=()=>show(L,cur-1);vq.onclick=()=>show(L,cur+1);
+document.addEventListener("keydown",e=>{if(!vw.classList.contains("on"))return;if(e.key=="Escape")vx.click();if(e.key=="ArrowLeft")vp.click();if(e.key=="ArrowRight")vq.click()})});
+</script></body></html>

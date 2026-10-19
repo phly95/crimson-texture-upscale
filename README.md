@@ -150,6 +150,9 @@ Text that the 800x600 originals do not make legible was inferred from context an
 ### Face consistency pass (after v2.0.0)
 `face_audit/` finds every face in the UI pictures (OpenCV YuNet + SFace; the two ONNX models come from the OpenCV zoo and are not stored here), compares the redraws with the originals and with the other copies of the same photo (the `rimage_` and `scrap_` variants), and repairs the disagreeing ones: the face of the best-matching copy is carried into the others (landmark-aligned, pyramid-blended), or its head, or the whole photo content, registered through the originals (SIFT homography). Smaller fix tools: `legs.py` (tone lift), `frame_fix.py` (paper frame), `emblem.py` and `shoe.py` (seeded klein redraws of one detail, blended back), `wisps.py`.
 
+### Nose-art emblem on the ZACHARYANDPLANE photo (v2.0.2)
+The emblem on the plane is the `48gypsy` crystal-ball texture, wrapped around the fuselage; the plain redraws had invented a skull. `face_audit/zach_guides.py` turns two baselines and the oval edge, drawn by hand on the original, into picture coordinates; `zach_tip.py` fits the flat HD texture to them (an affine for the lettering baselines plus a local thin-plate correction at the pointed tip) and FLUX.2 klein then wraps it onto the metal; `zach_apply.py` / `zach_recomp.py` carry the result and the head into the other copies of the photo. `tools/emblem_gallery.py` writes a thumbnail page of every emblem texture (original beside the packed version) into `gallery/site/emblems/`.
+
 ## How the Pipeline Works
 
 ```
