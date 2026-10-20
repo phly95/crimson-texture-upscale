@@ -3600,3 +3600,65 @@
 {"uid": "scrap_MS_P_15_01_MYSHOE__1b92aa7f", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792361243.2525988}
 {"uid": "rimage_ms_p_15_01_myshoe__0d7277e6", "decision": "approve", "chosen": "custom:1", "seen": ["custom:1", "klein:1", "klein:2"], "issues": [], "text": "", "ts": 1792361245.6644568}
 {"uid": "scrap_MS_P_INITIALPINUP1__46ce2bcb", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2", "klein:1", "klein:2", "custom:1"], "issues": [], "text": "", "ts": 1792361247.4197001}
+{"uid": "scrap_MS_P_ZACHARYANDPLANE__3ad54545", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1", "custom:2"], "issues": [], "text": "", "ts": 1792379669.8117692}
+{"uid": "scrap_MS_P_ZACHARYANDPLANE__6b4b3dd2", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1", "custom:2"], "issues": [], "text": "", "ts": 1792379671.5087597}
+{"uid": "rimage_ms_p_zacharyandplane__d947fbd6", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3", "klein:1", "klein:2", "retry:1", "retry:2", "custom:1", "custom:2"], "issues": [], "text": "", "ts": 1792379672.3256369}
+{"uid": "woman1__b695e0f6", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475174.1041248}
+{"uid": "fbsuit128_01__5e721ec0", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475185.2739437}
+{"uid": "womanhead__dff96d1d", "decision": "unsure", "chosen": "custom:4", "seen": [], "issues": [], "text": "", "ts": 1792475190.4535372}
+{"uid": "fbsuit128_02__71ee8e0f", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475193.3916173}
+{"uid": "womanchest__12dd29c4", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475196.5674105}
+{"uid": "womanface__8056dfba", "decision": "unsure", "chosen": "custom:3", "seen": [], "issues": [], "text": "", "ts": 1792475205.9718297}
+{"uid": "cphead__ba5c62c5", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792475210.9480815}
+{"uid": "fbhead1__2b8d4127", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792475262.8790092}
+{"uid": "cphead02__e4b5d451", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475264.353269}
+{"uid": "womanarm__d555fe04", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792475284.3110685}
+{"uid": "woman1__b695e0f6", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475287.398212}
+{"uid": "fbsuit128_01__5e721ec0", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475288.6539943}
+{"uid": "womanhead__dff96d1d", "decision": "unsure", "chosen": "custom:4", "seen": [], "issues": [], "text": "", "ts": 1792475289.5292733}
+{"uid": "fbsuit128_02__71ee8e0f", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475290.162084}
+{"uid": "womanchest__12dd29c4", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475290.7003312}
+{"uid": "womanface__8056dfba", "decision": "unsure", "chosen": "custom:3", "seen": [], "issues": [], "text": "", "ts": 1792475291.2309527}
+{"uid": "cphead__ba5c62c5", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792475291.7229614}
+{"uid": "fbhead1__2b8d4127", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792475292.339248}
+{"uid": "cphead02__e4b5d451", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475292.916918}
+{"uid": "womanarm__d555fe04", "decision": "unsure", "chosen": "custom:2", "seen": [], "issues": [], "text": "", "ts": 1792475293.5111527}
+{"uid": "woman1__b695e0f6", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475294.1354468}
+{"uid": "fbsuit128_01__5e721ec0", "decision": "unsure", "chosen": "custom:1", "seen": [], "issues": [], "text": "", "ts": 1792475294.7224004}
+{"uid": "cphead__ba5c62c5", "decision": "approve", "chosen": "custom:3", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "cphead02__e4b5d451", "decision": "approve", "chosen": "custom:2", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "cpsuit128__9c383862", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "cpsuit128_01__349ff8d1", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "cpsuit128_02__d26f3269", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "womanhead__dff96d1d", "decision": "approve", "chosen": "custom:5", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "womanface__8056dfba", "decision": "approve", "chosen": "custom:3", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "womanarm__d555fe04", "decision": "approve", "chosen": "custom:2", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "womanchest__12dd29c4", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "woman1__b695e0f6", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "fbhead1__2b8d4127", "decision": "approve", "chosen": "custom:2", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "fbsuit128_01__5e721ec0", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "fbsuit128_02__71ee8e0f", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "gloves__a420c163", "decision": "approve", "chosen": "custom:2", "seen": [], "issues": [], "text": "character textures release v2.1.0: user asked in chat to publish these; latest custom version", "ts": 1792476895.0381289}
+{"uid": "rope_bridge__dd3e5983", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "eiffel1__0db87cc5", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "poster03__67e526da", "decision": "approve", "chosen": "custom:3", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "clock__50683c93", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "nitrogauge__690ce0df", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "ladder_01__313c356a", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "grate01__fef0907e", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "gungauge__002f8073", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "doublewire__674931fe", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "altimeter__c9a48d2d", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "lightpole__a4055231", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "rimage_ia_inactive__0de35993", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "gfx_PX_B_PURCHASENOW__1b4a1590", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "rimage_ia_high__5fcc2cd2", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "rimage_ia_active__85947262", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "rimage_prp37__142902f7", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "rimage_prp22__0d668f54", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "gfx_IA_B_VIEWSTORY__640e4577", "decision": "approve", "chosen": "custom:2", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "rimage_prp30__68fc77bb", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "rimage_prp15__f9e52efc", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "gfx_IA_B_WEAPONLOADOUTFLYMISSION__21cd85df", "decision": "approve", "chosen": "custom:2", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "rimage_prp0__bd53599f", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
+{"uid": "rimage_prp7__0f7d53b0", "decision": "approve", "chosen": "custom:1", "seen": [], "issues": [], "text": "user said 'approve all' in chat (2026-10-20): newest custom version", "ts": 1792476934.9338384}
