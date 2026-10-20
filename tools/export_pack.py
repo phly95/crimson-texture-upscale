@@ -28,11 +28,14 @@ import export_winners as ew
 import tol
 
 SOFT_LO, SOFT_HI = 8 / 255, 247 / 255
+FAINT = 32                                                      # hard-edged cutouts: alpha below this is key-colour haze, not part of the picture
+OFF = 40                                                        # mean RGB distance from the nearest solid pixel's colour that marks an edge pixel as key-colour leak
+SOLID = 224                                                     # ... and colour under anything less opaque than this is taken from the nearest solid pixel
 
 
-def bleed(rgb, a):
-    """rgb of pixels with alpha 0 := nearest pixel with alpha > 0 (so no key colour survives under transparency)"""
-    hole = a == 0
+def bleed(rgb, a, solid=1):
+    """rgb of pixels with alpha < solid (default: alpha 0) := nearest pixel with alpha >= solid (so no key colour survives under transparency)"""
+    hole = a < solid
     if not hole.any() or hole.all():
         return rgb
     _, lab = cv2.distanceTransformWithLabels(hole.astype(np.uint8), cv2.DIST_L2, 3, labelType=cv2.DIST_LABEL_PIXEL)
@@ -73,6 +76,7 @@ def clean_cutout(hd_path, orig_path):
     notes = []
     loss, wmask = soft_loss(np.asarray(og.getchannel("A")), hd[..., 3])
     rgb, a = hd[..., :3].copy(), hd[..., 3].copy()
+    band = np.zeros((H, W), bool)                              # pixels whose soft alpha / colour were restored from the original (left alone below)
     if loss > 0.4:
         up = og.resize((W, H), Image.BICUBIC)
         oa = np.asarray(up.getchannel("A"), np.float32) / 255
@@ -85,7 +89,36 @@ def clean_cutout(hd_path, orig_path):
         rgb = (base * (1 - w) + orgb * w).astype(np.uint8)
         a = (newa * 255 + .5).astype(np.uint8)
         notes.append(f"soft band restored (loss {loss:.2f})")
-    rgb = bleed(rgb, a)
+    if (a >= SOLID).any():
+        # The redraw's keyed edge can keep a haze / fringe in the key colour at low alpha (near-white or magenta); mipmaps and filtering pull it into the
+        # leaves as a pale outline, and bleeding from alpha > 0 copied it under the transparent pixels too. Only pixels whose colour is clearly off
+        # against the nearest solid pixel are touched (honest shadows, glass, antialiasing and the restored soft bands stay).
+        hard = wide_soft(np.asarray(og.getchannel("A"), np.float32) / 255).sum() < max(8, 0.004 * og.width * og.height)
+        haze = np.zeros((H, W), bool)
+        kx, ky = -(-W // og.width), -(-H // og.height)
+        if hard:                                                    # hard-edged original (trees, wire, signs): faint off-colour alpha is haze, and its empty edge texels stay empty
+            haze = (a > 0) & (a < FAINT) & (np.abs(rgb.astype(np.int16) - bleed(rgb, a, SOLID).astype(np.int16)).mean(-1) > OFF)
+            a[haze] = 0
+            oa = np.asarray(og.getchannel("A"))
+            for side, line, strip in (("l", oa[:, 0], (slice(None), slice(0, kx))), ("r", oa[:, -1], (slice(None), slice(W - kx, W))),
+                                      ("t", oa[0, :], (slice(0, ky), slice(None))), ("b", oa[-1, :], (slice(H - ky, H), slice(None)))):
+                faint = a[strip] < 128
+                if line.max() <= 4 and (a[strip][faint] > 0).any():  # the thin line seen on a tiled/clamped sprite
+                    a[strip] = np.where(faint, 0, a[strip]); notes.append(f"cleared {side} edge strip")
+        ref = bleed(rgb, a, SOLID)
+        rgb = bleed(rgb, a)
+        near_hole = cv2.dilate((a == 0).astype(np.uint8), np.ones((3, 3), np.uint8), iterations=max(2, kx)) > 0
+        r16, g16, b16 = (rgb[..., k].astype(np.int16) for k in range(3))
+        keylike = (np.minimum(r16, b16) - g16 > 50) | ((g16 > 180) & (r16 < 90) & (b16 < 90))      # magenta / pure green key colour
+        off = np.abs(rgb.astype(np.int16) - ref.astype(np.int16)).mean(-1) > OFF
+        # translucent areas (glass, splashes, wire shadows) are never repainted; under fully transparent pixels (invisible, only filtering sees them) a
+        # hard-edged cutout takes the solid neighbour's colour wherever it is off, a soft one only where it is key-coloured
+        fix = (a < SOLID) & near_hole & ~band & keylike | (a == 0) & (off if hard else keylike)
+        rgb = np.where(fix[..., None], ref, rgb)
+        if haze.any() or fix.any():
+            notes.append(f"defringed (haze {int(haze.sum())} px, {int(fix.sum())} off-colour edge/under-alpha px recoloured)")
+    else:
+        rgb = bleed(rgb, a)
     return Image.fromarray(np.dstack([rgb, a]), "RGBA"), notes
 
 
