@@ -29,7 +29,7 @@ import tol
 
 SOFT_LO, SOFT_HI = 8 / 255, 247 / 255
 FAINT = 32                                                      # hard-edged cutouts: alpha below this is key-colour haze, not part of the picture
-LEAK_MAX = 600                                                  # largest bright-green blob (px at 1024) still treated as missed key colour
+LEAK_MAX = 60                                                   # largest bright-green speck (px at 1024) still treated as missed key colour
 OFF = 40                                                        # mean RGB distance from the nearest solid pixel's colour that marks an edge pixel as key-colour leak
 SOLID = 224                                                     # ... and colour under anything less opaque than this is taken from the nearest solid pixel
 
@@ -90,9 +90,9 @@ def clean_cutout(hd_path, orig_path):
         rgb = (base * (1 - w) + orgb * w).astype(np.uint8)
         a = (newa * 255 + .5).astype(np.uint8)
         notes.append(f"soft band restored (loss {loss:.2f})")
-    # Key green missed by the keyer: bright lime specks and blobs between leaves (brush4, palm1-3, bush1/2 ...). The original has no such colour, so a small
-    # bright-green component in a redraw of it is leftover background: transparent in a foliage-like cutout (most of the picture is empty), painted over from
-    # its neighbours in a mostly solid picture. Big green areas (nose art, flares) and pictures whose original has green are left alone.
+    # Key green missed by the keyer: bright lime specks between leaves (palm1-3, bush1/2, brush3/4 ...). The original has no such colour, so a tiny bright-green
+    # component in a redraw of it is leftover background and is painted over from its neighbours (never made transparent: bigger lime shapes are sunlit
+    # leaves the redraw drew on purpose). Pictures whose original has green, and anything larger than a speck, are left alone.
     r16, g16, b16 = (rgb[..., k].astype(np.int16) for k in range(3))
     leak = ((a >= 64) & (g16 > 150) & (g16 - np.maximum(r16, b16) > 70)).astype(np.uint8)
     ogc = np.asarray(og, np.int16)
@@ -103,11 +103,8 @@ def clean_cutout(hd_path, orig_path):
         if core.any():
             rim = cv2.dilate(core.astype(np.uint8), np.ones((3, 3), np.uint8), iterations=2) > 0
             drop = core | (rim & (a > 0) & (g16 > 100) & (g16 - np.maximum(r16, b16) > 35))
-            if (a < 32).mean() >= 0.15:
-                a[drop] = 0
-            else:
-                rgb = cv2.inpaint(rgb, drop.astype(np.uint8) * 255, 3, cv2.INPAINT_TELEA)
-            notes.append(f"key green removed ({int(core.sum())} px)")
+            rgb = cv2.inpaint(rgb, drop.astype(np.uint8) * 255, 3, cv2.INPAINT_TELEA)
+            notes.append(f"key green specks painted over ({int(core.sum())} px)")
     if (a >= SOLID).any():
         # The redraw's keyed edge can keep a haze / fringe in the key colour at low alpha (near-white or magenta); mipmaps and filtering pull it into the
         # leaves as a pale outline, and bleeding from alpha > 0 copied it under the transparent pixels too. Only pixels whose colour is clearly off
