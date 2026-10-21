@@ -30,6 +30,8 @@ import tol
 SOFT_LO, SOFT_HI = 8 / 255, 247 / 255
 FAINT = 32                                                      # hard-edged cutouts: alpha below this is key-colour haze, not part of the picture
 FOLIAGE = re.compile(r"tree|spruce(?!goose)|palm|brush|bush|terpat|shipwreck|cliff0\d_trans|grass|leaf|vine|ivy|moss|hedge|shrub", re.I)   # pictures that can hold green-screen specks
+CONIFER = re.compile(r"tree|spruce(?!goose)", re.I)                 # needle trees: a lighter-than-inside edge is a halo (palms, thistles and grass have genuinely pale leaves)
+RIM = 14                                                        # foliage edge band (px at 1024) in which a lighter-than-inside rim is pulled towards the foliage colour
 LEAK_MAX = 150                                                  # largest saturated-green speck (px at 1024) still treated as missed key colour
 OFF = 40                                                        # mean RGB distance from the nearest solid pixel's colour that marks an edge pixel as key-colour leak
 SOLID = 224                                                     # ... and colour under anything less opaque than this is taken from the nearest solid pixel
@@ -155,12 +157,25 @@ def clean_cutout(hd_path, orig_path):
         off = np.abs(rgb.astype(np.int16) - ref.astype(np.int16)).mean(-1) > OFF
         # translucent areas (glass, splashes, wire shadows) are never repainted; under fully transparent pixels (invisible, only filtering sees them) a
         # hard-edged cutout takes the solid neighbour's colour wherever it is off, a soft one only where it is key-coloured
-        fix = (a < SOLID) & near_hole & ~band & keylike | (a == 0) & (off if hard else keylike)
+        if foliage:                                                  # foliage has no translucent glass: every non-solid pixel at the edge takes its solid neighbour's colour (classic edge bleed), so no pale rim shows on dark backdrops
+            near_fringe = cv2.dilate((a == 0).astype(np.uint8), np.ones((3, 3), np.uint8), iterations=max(6, 3 * kx)) > 0
+            fix = (a < SOLID) & near_fringe & ~band | (a == 0) & (off if hard else keylike)
+        else:
+            fix = (a < SOLID) & near_hole & ~band & keylike | (a == 0) & (off if hard else keylike)
         rgb = np.where(fix[..., None], ref, rgb)
-        if haze.any() or fix.any():
-            notes.append(f"defringed (haze {int(haze.sum())} px, {int(fix.sum())} off-colour edge/under-alpha px recoloured)")
-    else:
-        rgb = bleed(rgb, a)
+        if CONIFER.search(Path(orig_path).stem):
+            # The magenta redraws of the conifers come out with a pale, feathered rim (grey-lilac, up to ~20 px wide at 1024) around the needles and leaves: klein paints a light glow
+            # at the screen edge and the key keeps it. It shows as a white outline on a dark backdrop, which the originals do not have. In the edge band (RIM px at
+            # 1024) every pixel that is lighter than the foliage inside is pulled towards the colour of that foliage; darker detail is left alone.
+            band_w = max(6, round(RIM * max(W, H) / 1024))
+            dist = cv2.distanceTransform((a >= 32).astype(np.uint8), cv2.DIST_L2, 3)       # px to the nearest empty pixel
+            inner = (a >= SOLID) & (dist > band_w)
+            if inner.any():
+                deep = bleed(rgb, np.where(inner, 255, 0).astype(np.uint8), 1).astype(np.float32)
+                ring = (a > 0) & (dist <= band_w) & ~band
+                ex = rgb.astype(np.float32).mean(-1) - deep.mean(-1)
+                pull = np.where(ring, np.clip((ex - 8) / 30, 0, 1), 0)[..., None]
+                rgb = np.clip(rgb * (1 - pull) + deep * pull + .5, 0, 255).astype(np.uint8)
     return Image.fromarray(np.dstack([rgb, a]), "RGBA"), notes
 
 
