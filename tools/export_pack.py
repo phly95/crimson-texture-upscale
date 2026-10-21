@@ -134,11 +134,12 @@ def clean_cutout(hd_path, orig_path):
         # The redraw's keyed edge can keep a haze / fringe in the key colour at low alpha (near-white or magenta); mipmaps and filtering pull it into the
         # leaves as a pale outline, and bleeding from alpha > 0 copied it under the transparent pixels too. Only pixels whose colour is clearly off
         # against the nearest solid pixel are touched (honest shadows, glass, antialiasing and the restored soft bands stay).
-        hard = wide_soft(np.asarray(og.getchannel("A"), np.float32) / 255).sum() < max(8, 0.004 * og.width * og.height)
+        soft_orig = wide_soft(np.asarray(og.getchannel("A"), np.float32) / 255).sum() >= max(8, 0.004 * og.width * og.height)
+        hard = not soft_orig or foliage                              # foliage pictures: haze and edge clean-up even when the original has a soft shadow band
         haze = np.zeros((H, W), bool)
         kx, ky = -(-W // og.width), -(-H // og.height)
         if hard:                                                    # hard-edged original (trees, wire, signs): faint off-colour alpha is haze, and its empty edge texels stay empty
-            haze = (a > 0) & (a < FAINT) & (np.abs(rgb.astype(np.int16) - bleed(rgb, a, SOLID).astype(np.int16)).mean(-1) > OFF)
+            haze = (a > 0) & (a < FAINT) & ~band & (np.abs(rgb.astype(np.int16) - bleed(rgb, a, SOLID).astype(np.int16)).mean(-1) > OFF)
             a[haze] = 0
             oa = np.asarray(og.getchannel("A"))
             for side, line, strip in (("l", oa[:, 0], (slice(None), slice(0, kx))), ("r", oa[:, -1], (slice(None), slice(W - kx, W))),
