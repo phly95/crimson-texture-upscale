@@ -143,6 +143,11 @@ def clean_cutout(hd_path, orig_path):
         if hard:                                                    # hard-edged original (trees, wire, signs): faint off-colour alpha is haze, and its empty edge texels stay empty
             haze = (a > 0) & (a < FAINT) & ~band & (np.abs(rgb.astype(np.int16) - bleed(rgb, a, SOLID).astype(np.int16)).mean(-1) > OFF)
             a[haze] = 0
+            # faint patches far from any real foliage (dark smudges the keyer left in the empty area) are stray: anything under 64/255 opacity that is not within
+            # a few px of foliage goes transparent. The restored soft shadow band is excluded.
+            near_solid = cv2.dilate((a >= 64).astype(np.uint8), np.ones((3, 3), np.uint8), iterations=max(6, 2 * kx)) > 0
+            stray = (a > 0) & (a < 64) & ~near_solid & ~band
+            a[stray] = 0
             oa = np.asarray(og.getchannel("A"))
             for side, line, strip in (("l", oa[:, 0], (slice(None), slice(0, kx))), ("r", oa[:, -1], (slice(None), slice(W - kx, W))),
                                       ("t", oa[0, :], (slice(0, ky), slice(None))), ("b", oa[-1, :], (slice(H - ky, H), slice(None)))):
