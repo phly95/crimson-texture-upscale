@@ -13,7 +13,7 @@ Cutouts get two clean-ups on the way out (flux_fix tolerance is checked afterwar
     alpha = max(redraw, original soft alpha resized) within a short distance of the redraw's silhouette, with the original's colour there
 UI pack: ui_textures/<original folder>/<name>.png as before (chosen version, else the game's original).
 """
-import json, os, shutil, sys
+import json, os, re, shutil, sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -29,7 +29,8 @@ import tol
 
 SOFT_LO, SOFT_HI = 8 / 255, 247 / 255
 FAINT = 32                                                      # hard-edged cutouts: alpha below this is key-colour haze, not part of the picture
-LEAK_MAX = 60                                                   # largest bright-green speck (px at 1024) still treated as missed key colour
+FOLIAGE = re.compile(r"tree|spruce(?!goose)|palm|brush|bush|terpat|shipwreck|cliff0\d_trans|grass|leaf|vine|ivy|moss|hedge|shrub", re.I)   # pictures that can hold green-screen specks
+LEAK_MAX = 150                                                  # largest saturated-green speck (px at 1024) still treated as missed key colour
 OFF = 40                                                        # mean RGB distance from the nearest solid pixel's colour that marks an edge pixel as key-colour leak
 SOLID = 224                                                     # ... and colour under anything less opaque than this is taken from the nearest solid pixel
 
@@ -90,20 +91,44 @@ def clean_cutout(hd_path, orig_path):
         rgb = (base * (1 - w) + orgb * w).astype(np.uint8)
         a = (newa * 255 + .5).astype(np.uint8)
         notes.append(f"soft band restored (loss {loss:.2f})")
-    # Key green missed by the keyer: bright lime specks between leaves (palm1-3, bush1/2, brush3/4 ...). The original has no such colour, so a tiny bright-green
-    # component in a redraw of it is leftover background and is painted over from its neighbours (never made transparent: bigger lime shapes are sunlit
-    # leaves the redraw drew on purpose). Pictures whose original has green, and anything larger than a speck, are left alone.
-    r16, g16, b16 = (rgb[..., k].astype(np.int16) for k in range(3))
-    leak = ((a >= 64) & (g16 > 150) & (g16 - np.maximum(r16, b16) > 70)).astype(np.uint8)
-    ogc = np.asarray(og, np.int16)
-    og_green = ((ogc[..., 3] >= 64) & (ogc[..., 1] > 150) & (ogc[..., 1] - np.maximum(ogc[..., 0], ogc[..., 2]) > 70)).mean()
-    if leak.any() and og_green < 1e-4 and leak.mean() < 0.01:
-        k_, lab, stt, _ = cv2.connectedComponentsWithStats(leak, connectivity=8)
-        core = np.isin(lab, [i for i in range(1, k_) if stt[i, cv2.CC_STAT_AREA] <= LEAK_MAX])
+    # Key green missed by the keyer: small saturated-green specks and clusters between leaves and needles (firtree1/2, palm1-3, bush1/2, brush3/4 ...). The
+    # original has next to none, so a speck (a green-dominant component of at most LEAK_MAX px) in a redraw of it is leftover background colour. It and the
+    # greenish pixels around it are painted over from the neutral foliage around them. Never made transparent: bigger lime shapes are sunlit leaves the
+    # redraw drew on purpose. Only foliage pictures (by name), only where the original has green of its own, and anything larger than a speck, are left alone.
+    def greeny(img, thr):
+        c = img.astype(np.int16)
+        return (c[..., 3] >= 128) & (c[..., 1] - np.maximum(c[..., 0], c[..., 2]) > thr)
+    seeds = greeny(np.dstack([rgb, a]), 40).astype(np.uint8)
+    og_arr = np.asarray(og)
+    foliage = FOLIAGE.search(Path(orig_path).stem) is not None
+    if foliage and seeds.any() and greeny(og_arr, 40).mean() < 2e-4 and seeds.mean() < 0.02:
+        k_, lab, stt, _ = cv2.connectedComponentsWithStats(seeds, connectivity=8)
+        c16 = rgb.astype(np.int16)
+        sat = c16[..., 1] - np.maximum(c16[..., 0], c16[..., 2])                      # how green-dominant each pixel is
+        calm = (a >= 128) & (seeds == 0) & (sat < 25)                                  # ordinary needle / leaf pixels
+        core = np.zeros((H, W), bool)
+        for i in range(1, k_):
+            x0, y0, bw, bh, area = stt[i]
+            if area > LEAK_MAX:
+                continue
+            ys, xs = slice(max(0, y0 - 6), y0 + bh + 6), slice(max(0, x0 - 6), x0 + bw + 6)
+            m = lab[ys, xs] == i
+            ring = (cv2.dilate(m.astype(np.uint8), np.ones((3, 3), np.uint8), iterations=4) > 0) & ~m & (a[ys, xs] >= 128) & (seeds[ys, xs] == 0)
+            # a speck is vividly green (neon) and sits in calm foliage; a green leaf (or part of one) is duller and has green around it
+            if ring.sum() >= 6 and np.percentile(sat[ys, xs][m], 90) >= 50 and sat[ys, xs][ring].mean() < 22:
+                core[ys, xs] |= m
         if core.any():
-            rim = cv2.dilate(core.astype(np.uint8), np.ones((3, 3), np.uint8), iterations=2) > 0
-            drop = core | (rim & (a > 0) & (g16 > 100) & (g16 - np.maximum(r16, b16) > 35))
-            rgb = cv2.inpaint(rgb, drop.astype(np.uint8) * 255, 3, cv2.INPAINT_TELEA)
+            near = cv2.dilate(core.astype(np.uint8), np.ones((3, 3), np.uint8), iterations=3) > 0
+            drop = core | (near & greeny(np.dstack([rgb, a]), 18))
+            # paint over from calm opaque neighbours only (normalised blur; transparent pixels carry key colour and must not be sampled)
+            valid = ((a >= 200) & ~drop & (sat < 14)).astype(np.float32)
+            filled = rgb.astype(np.float32); done = np.zeros((H, W), bool)
+            for sg in (2, 4, 8):
+                den = cv2.GaussianBlur(valid, (0, 0), sg)
+                num = np.stack([cv2.GaussianBlur(rgb[..., k].astype(np.float32) * valid, (0, 0), sg) for k in range(3)], -1)
+                ok = drop & ~done & (den > 0.03)
+                filled[ok] = num[ok] / den[ok][:, None]; done |= ok
+            rgb = np.where(done[..., None], np.clip(filled + .5, 0, 255).astype(np.uint8), rgb)
             notes.append(f"key green specks painted over ({int(core.sum())} px)")
     if (a >= SOLID).any():
         # The redraw's keyed edge can keep a haze / fringe in the key colour at low alpha (near-white or magenta); mipmaps and filtering pull it into the
