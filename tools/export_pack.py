@@ -172,15 +172,24 @@ def clean_cutout(hd_path, orig_path):
             # The magenta redraws of the conifers come out with a pale, feathered rim (grey-lilac, up to ~20 px wide at 1024) around the needles and leaves: klein paints a light glow
             # at the screen edge and the key keeps it. It shows as a white outline on a dark backdrop, which the originals do not have. In the edge band (RIM px at
             # 1024) every pixel that is lighter than the foliage inside is pulled towards the colour of that foliage; darker detail is left alone.
-            band_w = max(6, round(RIM * max(W, H) / 1024))
+            band_w = max(6, round(1.5 * RIM * max(W, H) / 1024))
             dist = cv2.distanceTransform((a >= 32).astype(np.uint8), cv2.DIST_L2, 3)       # px to the nearest empty pixel
             inner = (a >= SOLID) & (dist > band_w)
             if inner.any():
                 deep = bleed(rgb, np.where(inner, 255, 0).astype(np.uint8), 1).astype(np.float32)
-                ring = (a > 0) & (dist <= band_w) & ~band
-                ex = rgb.astype(np.float32).mean(-1) - deep.mean(-1)
+                ring = (a > 0) & (dist <= band_w)                              # includes the restored shadow band: dark there, so a hue pull does not show, but pale needle tips in it do
+                cur = rgb.astype(np.float32)
+                # the key also leaves the rim greyer / bluer than the foliage (the magenta is un-mixed to neutral, and klein draws the outer needle sprays pale blue-grey):
+                # the rim takes the tree's overall hue (median colour of the deep foliage) at its own brightness
+                core = (a >= SOLID) & (dist > 1.5 * band_w)
+                gref = np.median(cur[core], axis=0) if core.sum() > 500 else deep[inner].mean(0)
+                tint = (gref[1] - gref[2]) - (cur[..., 1] - cur[..., 2])                       # > 0: bluer / greyer than the tree overall
+                ph = np.where(ring, np.clip((tint - 6) / 20, 0, 1), 0)[..., None]
+                hue = gref[None, None, :] * np.clip(cur.mean(-1) / max(float(gref.mean()), 1.0), 0.2, 3.0)[..., None]
+                cur = cur * (1 - ph) + np.clip(hue, 0, 255) * ph
+                ex = cur.mean(-1) - deep.mean(-1)
                 pull = np.where(ring, np.clip((ex - 8) / 30, 0, 1), 0)[..., None]
-                rgb = np.clip(rgb * (1 - pull) + deep * pull + .5, 0, 255).astype(np.uint8)
+                rgb = np.clip(cur * (1 - pull) + deep * pull + .5, 0, 255).astype(np.uint8)
     return Image.fromarray(np.dstack([rgb, a]), "RGBA"), notes
 
 
