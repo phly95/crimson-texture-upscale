@@ -11,7 +11,9 @@ Cutouts get two clean-ups on the way out (flux_fix tolerance is checked afterwar
   * colour under alpha 0 is bled from the nearest opaque pixel (the redraws kept the green key colour there, which fringes when filtered)
   * soft edge band restore: where the original had a soft alpha band (glow disk, feathered rim) that the redraw's crisp key removed,
     alpha = max(redraw, original soft alpha resized) within a short distance of the redraw's silhouette, with the original's colour there
-UI pack: ui_textures/<original folder>/<name>.png as before (chosen version, else the game's original).
+UI pack: ui_textures/<original folder>/<name>.png as before (chosen version, else the game's original). The memento polaroids (rimage/ms_p_*, momento_temp) are
+fitted to the original's outline and momento_shad (the sheet stack under them) is the original smoothly upscaled, see outline_fit.py. SB_KILLMARKERCOMBINED
+(the kill-tally stamps) is tile_job/killmarkers/atlas.png from tile_stamps.py.
 """
 import json, os, re, shutil, sys
 from collections import defaultdict
@@ -26,6 +28,7 @@ sys.path.insert(0, str(ROOT / "tools")); sys.path.insert(0, str(ROOT / "flux_fix
 import build_pack as bp
 import export_winners as ew
 import tol
+import outline_fit as of
 
 SOFT_LO, SOFT_HI = 8 / 255, 247 / 255
 FAINT = 32                                                      # hard-edged cutouts: alpha below this is key-colour haze, not part of the picture
@@ -33,6 +36,7 @@ FOLIAGE = re.compile(r"tree|spruce(?!goose)|palm|brush|bush|terpat|shipwreck|cli
 CONIFER = re.compile(r"tree|spruce(?!goose)", re.I)                 # needle trees: a lighter-than-inside edge is a halo (palms, thistles and grass have genuinely pale leaves)
 RIM = 14                                                        # foliage edge band (px at 1024) in which a lighter-than-inside rim is pulled towards the foliage colour
 LEAK_MAX = 150                                                  # largest saturated-green speck (px at 1024) still treated as missed key colour
+JPG_DEFAULT = re.compile(r"^(ms_p_|sb_03_01_base$|sb_03_01_jack$|sb_04_01_lifesaver$)", re.I)    # PNG/JPG scrapbook pairs where the JPG is a photograph with a plain white border: it serves the page's small copy too
 OFF = 40                                                        # mean RGB distance from the nearest solid pixel's colour that marks an edge pixel as key-colour leak
 SOLID = 224                                                     # ... and colour under anything less opaque than this is taken from the nearest solid pixel
 
@@ -259,16 +263,55 @@ def run(out_dir):
     for b in sorted(bad, key=lambda x: -x[1]):
         print("   ", *b)
 
-    # --- UI (unchanged logic)
+    # --- UI. Scrapbook items often exist as a .PNG (the small cut-out on the page), a .JPG (the large picture the zoom shows) and a .TIF; the engine matches an HD file by
+    # name without extension and draws it at the matching original's size, so one file per stem is stretched over the other variant (SB_03_01_BASE's zoom drew the redraw of
+    # its rotated thumbnail at 4:3). Where both a PNG and a JPG original exist both are shipped under their own extension, for an engine that keys by extension; for the
+    # engine as it is, the later zip entry wins, and ui_default_last.json (read by zip_pack.py) says which one that is: the JPG for photographs with a plain white border and wherever the two originals' aspect ratios differ by more than 25 percent (the zoom is the large picture, and the one a wrong aspect ruins),
+    # the PNG for the other cut-outs, whose JPG carries a desk backdrop. The TIF is not used by any screen.
     X = Path(os.path.expanduser("~/Games/CSVM/extracted")); n_ui = 0
+    groups = defaultdict(dict)                                  # (folder, stem lower) -> {ext: uid}
+    for uid, u in ui_cat["units"].items():
+        rel = Path(u["ui_src"]); groups[(str(rel.parent), rel.stem.lower())][rel.suffix.lower()] = uid
+    default_last = {}
     for uid, u in ui_cat["units"].items():
         r = decs.get(uid, {}); rel = Path(u["ui_src"]); d = out / "ui_textures" / rel.parent; d.mkdir(parents=True, exist_ok=True)
         src = ew.get_chosen_file(uid, r["chosen"]) if r.get("decision") == "approve" and r.get("chosen") else None
-        if src and src.exists():
+        src = src if src and src.exists() else None
+        ext = rel.suffix.lower(); stem = rel.stem.lower()
+        variants = groups[(str(rel.parent), stem)]
+        both = ".png" in variants and ".jpg" in variants
+        if both and ext not in (".png", ".jpg"):
+            continue
+        if len(variants) > 1 and not both and ext not in (".png", ".jpg") and (".png" in variants or ".jpg" in variants):
+            continue
+        if rel.parent.name == "rimage" and (stem.startswith("ms_p_") or stem == "momento_temp") and src:
+            o = np.asarray(Image.open(X / rel).convert("RGBA"))
+            Image.fromarray(of.polaroid_fit(np.asarray(Image.open(src).convert("RGBA")), o)).save(d / f"{rel.stem}.png")
+        elif rel.parent.name == "rimage" and stem == "momento_shad":
+            o = np.asarray(Image.open(X / rel).convert("RGBA"))
+            Image.fromarray(of.shadow_from_orig(o, Image.open(src).size if src else (1024, 1024))).save(d / f"{rel.stem}.png")
+        elif both and ext == ".jpg":
+            if src:
+                im = Image.open(src); im = im.convert("RGB") if im.mode != "RGB" else im
+                im.save(d / f"{rel.stem}.jpg", quality=95, subsampling=0)
+            else:
+                shutil.copy2(X / rel, d / f"{rel.stem}.jpg")
+            pr = decs.get(variants[".png"], {})
+            png_redrawn = pr.get("decision") == "approve" and pr.get("chosen")
+            sizes = [Image.open(X / Path(ui_cat["units"][variants[e]]["ui_src"])).size for e in (".png", ".jpg")]
+            ratio = max(sizes[0][0] / sizes[0][1] / (sizes[1][0] / sizes[1][1]), sizes[1][0] / sizes[1][1] / (sizes[0][0] / sizes[0][1]))
+            default_last[f"{rel.parent}/{rel.stem}"] = "jpg" if (JPG_DEFAULT.search(rel.stem) or not png_redrawn or ratio > 1.25) and src else "png"
+        elif src:
             shutil.copy2(src, d / f"{rel.stem}.png")
         else:
             shutil.copy2(X / rel, d / rel.name)
         n_ui += 1
+    (out / "ui_default_last.json").write_text(json.dumps(default_last, indent=1))
+    # the kill-tally stamp atlas has no unit (an atlas is not run through the pipeline): tile_stamps.py makes it, frame by frame, at 7x
+    atlas = ROOT / "tile_job" / "killmarkers" / "atlas.png"
+    if atlas.exists():
+        d = out / "ui_textures" / "rof/ASSETS/GRAPHICS"; d.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(atlas, d / "SB_KILLMARKERCOMBINED.png"); n_ui += 1
     print(f"ui: {n_ui} files")
 
 
