@@ -1,0 +1,260 @@
+{
+ "cover": "MAG3",
+ "uid": "scrap_SB_11_01_MAG3__174eaf47",
+ "size": [
+  1032,
+  1240
+ ],
+ "alpha": "alpha.png",
+ "orig": "orig.png",
+ "parts": [
+  {
+   "id": "page",
+   "name": "Page (approved redraw)",
+   "kind": "background",
+   "z": 0,
+   "file": "parts/page.png",
+   "x": 0,
+   "y": 0,
+   "w": 1032,
+   "h": 1240,
+   "source": {
+    "type": "upscaled",
+    "method": "deskew, tiled FLUX Klein 4x, cleanup (earlier rounds)",
+    "tool": "tools/tile_mags_rot.py + tools/mag_finish.py"
+   },
+   "status": "fine",
+   "qa": {
+    "result": "pass",
+    "note": "base: masthead, HOLLYWOOD, 13c badge, date, body column, red caption, backdrop. Checked at 1:1."
+   }
+  },
+  {
+   "id": "plane",
+   "name": "Motion-blurred aeroplane photo",
+   "kind": "photo",
+   "z": 10,
+   "file": "parts/plane.png",
+   "x": 384,
+   "y": 416,
+   "w": 576,
+   "h": 576,
+   "source": {
+    "type": "orig-crop",
+    "method": "the original's own pixels (gold lettering, text fragments and icons inpainted out): NL-means denoise at original size, Lanczos 4x, light unsharp, grain. A redraw was tried and rejected: it turned the blur into a different, invented biplane",
+    "tool": "tools/parts_mag3.py plane",
+    "orig_box": [
+     96,
+     104,
+     240,
+     248
+    ]
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "The original's own pixels (denoised, 4x): the aeroplane is a motion-blurred photograph, so it stays soft rather than invented. Crease scratch from the original kept."
+   }
+  },
+  {
+   "id": "portrait",
+   "name": "Small portrait photo (Nathan Zachary in cap, goggles and scarf)",
+   "kind": "figure",
+   "z": 10,
+   "file": "parts/portrait.png",
+   "x": 40,
+   "y": 264,
+   "w": 192,
+   "h": 192,
+   "source": {
+    "type": "upscaled",
+    "method": "the thumbnail alone through FLUX Klein 2 x 2x (seed 62) for pose, goggles and scarf; face re-matched to the ORIGINAL MAG1 portrait (multi-reference pass, seed 2); sepia projection, tone match; alpha = the photo's outline from the original",
+    "tool": "tools/parts_mag3.py portrait",
+    "orig_box": [
+     10,
+     66,
+     58,
+     114
+    ]
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "Thumbnail portrait, facing camera in cap, goggles and scarf (no hand: the original shows none); face matched to the ORIGINAL MAG1 portrait; sepia, matted to the photo's outline."
+   }
+  },
+  {
+   "id": "headline",
+   "name": "Cover lines: Air Pirate Nathan Zachary Wows Audiences!",
+   "kind": "text",
+   "z": 20,
+   "file": "parts/headline.png",
+   "x": 357,
+   "y": 269,
+   "w": 527,
+   "h": 288,
+   "source": {
+    "type": "retyped",
+    "method": "Times, gold, set along the baselines/extents measured on the original's gold strokes (20 deg tilt); the page below is wiped of gold inside the box",
+    "tool": "tools/parts_mag3.py headline"
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "Retyped in Times, gold, along measured baselines; no ghost copy through 'Wows'."
+   },
+   "wipe_gold": [
+    [
+     [
+      351,
+      263
+     ],
+     [
+      890,
+      263
+     ],
+     [
+      890,
+      563
+     ],
+     [
+      351,
+      563
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "icon_backdrop",
+   "name": "Backdrop under the icons (original's, old icons inpainted out)",
+   "kind": "decor",
+   "z": 25,
+   "file": "parts/icon_backdrop.png",
+   "x": 818,
+   "y": 826,
+   "w": 184,
+   "h": 334,
+   "source": {
+    "type": "orig-crop",
+    "method": "the original's own black cloth with the old icons inpainted out at original resolution, Lanczos 4x",
+    "tool": "mag_parts.backdrop_patch"
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pending",
+    "note": ""
+   }
+  },
+  {
+   "id": "badge",
+   "name": "13\u00a2 price badge",
+   "kind": "emblem",
+   "z": 30,
+   "file": "parts/badge.png",
+   "x": 812,
+   "y": 60,
+   "w": 140,
+   "h": 132,
+   "source": {
+    "type": "orig-crop",
+    "method": "the original's own pixels (the cent sign is right there; the redraw turned it into a c): Lanczos 4x, unsharp, edge steepening, clipped to the circle",
+    "tool": "mag_parts.box_part",
+    "orig_box": [
+     203,
+     15,
+     238,
+     48
+    ]
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "Original's pixels: reads 13\u00a2 with a cent sign."
+   }
+  },
+  {
+   "id": "cards",
+   "name": "Playing-card fan icon",
+   "kind": "emblem",
+   "z": 30,
+   "file": "parts/cards.png",
+   "x": 840,
+   "y": 846,
+   "w": 139,
+   "h": 100,
+   "source": {
+    "type": "vector",
+    "method": "shared vector icon (tools/mag_icons.py), fitted to the original by template match (scale 1.00, angle 0, NCC 0.88), tinted to this cover's darker colours",
+    "tool": "tools/mag_icons.py",
+    "shared": "_shared/cards.png",
+    "orig_box": [
+     196,
+     203,
+     258,
+     243
+    ]
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "Vector icon, clipped so the page curl stays over it."
+   }
+  },
+  {
+   "id": "skull",
+   "name": "Skull and crossbones icon",
+   "kind": "emblem",
+   "z": 30,
+   "file": "parts/skull.png",
+   "x": 877,
+   "y": 1034,
+   "w": 100,
+   "h": 108,
+   "source": {
+    "type": "vector",
+    "method": "shared vector icon (tools/mag_icons.py), fitted to the original by template match (scale 0.87, angle 4, NCC 0.84), tinted to this cover's darker colours",
+    "tool": "tools/mag_icons.py",
+    "shared": "_shared/skull.png",
+    "orig_box": [
+     216,
+     258,
+     246,
+     292
+    ]
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "Vector icon, clipped so the page curl stays over it."
+   }
+  },
+  {
+   "id": "star",
+   "name": "Gold star icon",
+   "kind": "emblem",
+   "z": 30,
+   "file": "parts/star.png",
+   "x": 874,
+   "y": 943,
+   "w": 88,
+   "h": 87,
+   "source": {
+    "type": "vector",
+    "method": "shared vector icon (tools/mag_icons.py), fitted to the original by template match (scale 1.01, angle 4, NCC 0.96), tinted to this cover's darker colours",
+    "tool": "tools/mag_icons.py",
+    "shared": "_shared/star.png",
+    "orig_box": [
+     216,
+     235,
+     244,
+     262
+    ]
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "Vector icon, clipped so the page curl stays over it."
+   }
+  }
+ ]
+}

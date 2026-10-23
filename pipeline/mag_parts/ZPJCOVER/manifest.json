@@ -1,0 +1,60 @@
+{
+ "cover": "ZPJCOVER",
+ "uid": "scrap_SB_19_01_ZPJCOVER__9b658f3c",
+ "size": [
+  1264,
+  1472
+ ],
+ "alpha": "alpha.png",
+ "orig": "orig.png",
+ "parts": [
+  {
+   "id": "page",
+   "name": "Page (approved redraw)",
+   "kind": "background",
+   "z": 0,
+   "file": "parts/page.png",
+   "x": 0,
+   "y": 0,
+   "w": 1264,
+   "h": 1472,
+   "source": {
+    "type": "upscaled",
+    "method": "deskew, tiled FLUX Klein 4x, cleanup (earlier rounds)",
+    "tool": "tools/tile_mags_rot.py + tools/mag_finish.py"
+   },
+   "status": "fine",
+   "qa": {
+    "result": "pass",
+    "note": "base: photo with the zeppelins, planes and factory (redraw reading of the original's soft shapes, same positions), cover lines, script, date ribbon, border. Checked at 1:1."
+   }
+  },
+  {
+   "id": "masthead",
+   "name": "Masthead block: Zeppelin lettering and airship, 10c, Pilot's Journal bar, chevron emblem and rules",
+   "kind": "emblem",
+   "z": 10,
+   "file": "parts/masthead.png",
+   "x": 136,
+   "y": 48,
+   "w": 1056,
+   "h": 552,
+   "source": {
+    "type": "orig-crop",
+    "method": "the original's own pixels (the print is crisp and graphic): Lanczos 4x, unsharp, edge steepening; replaces the redraw's invented airship panelling and emblem detail",
+    "tool": "mag_parts.box_part",
+    "orig_box": [
+     34,
+     12,
+     298,
+     150
+    ]
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "Original pixels: crisp, same letters, airship, bar and chevron emblem; no invented panelling."
+   }
+  }
+ ]
+}

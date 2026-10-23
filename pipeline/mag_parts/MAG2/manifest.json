@@ -1,0 +1,33 @@
+{
+ "cover": "MAG2",
+ "uid": "scrap_SB_01_02_MAG2__12bf7da1",
+ "size": [
+  1108,
+  1508
+ ],
+ "alpha": "alpha.png",
+ "orig": "orig.png",
+ "parts": [
+  {
+   "id": "page",
+   "name": "Page (approved redraw)",
+   "kind": "background",
+   "z": 0,
+   "file": "parts/page.png",
+   "x": 0,
+   "y": 0,
+   "w": 1108,
+   "h": 1508,
+   "source": {
+    "type": "upscaled",
+    "method": "deskew, tiled FLUX Klein 4x, cleanup (earlier rounds)",
+    "tool": "tools/tile_mags_rot.py + tools/mag_finish.py"
+   },
+   "status": "fine",
+   "qa": {
+    "result": "pass",
+    "note": "Approved earlier, checked again: lettering fixed (VOLUME/NUMBER), no ghosts; kept unchanged."
+   }
+  }
+ ]
+}

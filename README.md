@@ -258,6 +258,9 @@ python3 tools/pipeline/run.py
 ### Scrapbook, mementos, stamps and letters (v2.1.4)
 Issues #3 to #7. `SB_BG_B` and `SB_BG_Q` (the Aloha Daily zoom page and a blank page) are redrawn without the invented leather streaks. `SB_KILLMARKERCOMBINED` (the 22 kill-tally stamps) is redrawn frame by frame at 7x (`tools/tile_stamps.py`). `momento_shad` and the memento polaroids follow the originals' outlines (`tools/outline_fit.py`). Letters, telegrams, handwritten notes, the manifest, the police report, the pardon and the Aloha Daily column are re-set from the game's own strings and fonts (`tools/typeset_*.py`); where a thumbnail has labels with no string, plausible ones were written. The scrapbook uses a small PNG on the page and a large JPG in the zoom for the same item, and the engine matches HD files without the extension, so the pack ships both files for such items and `tools/zip_pack.py` orders the zip so the default is registered last. The engine limit is reported at Laeresh/CSVM#255.
 
+### Magazine covers rebuilt from parts (v2.1.5)
+The eight scrapbook magazine covers are composites of separately made parts (`pipeline/mag_parts/<COVER>/manifest.json`, parts in `parts/`, shared vector icons in `_shared/`; `tools/mag_parts.py`, `mag_compose.py`, `mag_register.py`, `parts_*.py`). Figures and photos are upscaled on their own (`plate_up`), small emblems and icons are the original's pixels or vectors (`mag_icons.py`), and lettering is retyped from the game's strings. The builders reuse cached Klein plates in each cover's `work/` folder, which is not committed.
+
 ---
 
 ## License & Credits

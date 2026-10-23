@@ -1,0 +1,150 @@
+{
+ "cover": "MAG7",
+ "uid": "scrap_SB_21_01_MAG7__6c9a2cef",
+ "size": [
+  1124,
+  1328
+ ],
+ "alpha": "alpha.png",
+ "orig": "orig.png",
+ "parts": [
+  {
+   "id": "page",
+   "name": "Page (approved redraw)",
+   "kind": "background",
+   "z": 0,
+   "file": "parts/page.png",
+   "x": 0,
+   "y": 0,
+   "w": 1124,
+   "h": 1328,
+   "source": {
+    "type": "upscaled",
+    "method": "deskew, tiled FLUX Klein 4x, cleanup (earlier rounds)",
+    "tool": "tools/tile_mags_rot.py + tools/mag_finish.py"
+   },
+   "status": "fine",
+   "qa": {
+    "result": "pass",
+    "note": "base: logo, price, slogan, date band, stripes, backdrop; checked at 1:1."
+   }
+  },
+  {
+   "id": "photo",
+   "name": "Cover photograph (woman in the gale, flying boat, skyline)",
+   "kind": "photo",
+   "z": 10,
+   "file": "parts/photo.png",
+   "x": 133,
+   "y": 289,
+   "w": 991,
+   "h": 1018,
+   "source": {
+    "type": "upscaled",
+    "method": "the photograph cut from the deskewed original (caption and body text inpainted out), alone through FLUX Klein 2 x 2x (seed 72), colour lock, sepia projection, tone match, rotated back to the page frame",
+    "tool": "tools/parts_mag7.py photo",
+    "orig_box_upright": [
+     75,
+     116,
+     291,
+     340
+    ]
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "Photo alone through Klein; the flying-wing region is the original's own pixels (the redraw had given it cockpit windows and nacelles)."
+   }
+  },
+  {
+   "id": "text_backing",
+   "name": "Pale patches under the caption and pull quote",
+   "kind": "decor",
+   "z": 15,
+   "file": "parts/text_backing.png",
+   "x": 182,
+   "y": 659,
+   "w": 551,
+   "h": 669,
+   "source": {
+    "type": "orig-colour",
+    "method": "soft patches in the original's own pale street/sky colour (percentile of the original under each block), as the print has behind its text",
+    "tool": "tools/parts_mag7.py backing"
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "Pale patches as the print has behind its text."
+   }
+  },
+  {
+   "id": "caption",
+   "name": "White caption over the skyline: POLICE HARASS CITIZENS!",
+   "kind": "text",
+   "z": 20,
+   "file": "parts/caption.png",
+   "x": 222,
+   "y": 687,
+   "w": 371,
+   "h": 91,
+   "source": {
+    "type": "retyped",
+    "method": "Arial Bold, white, set along the original's own line (upright frame, rotated to the page)",
+    "tool": "tools/parts_mag7.py caption"
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "POLICE HARASS CITIZENS! retyped with a soft halo; legible."
+   }
+  },
+  {
+   "id": "body",
+   "name": "Pull quote column (Kurt Edwards) over the street",
+   "kind": "text",
+   "z": 21,
+   "file": "parts/body.png",
+   "x": 250,
+   "y": 913,
+   "w": 360,
+   "h": 368,
+   "source": {
+    "type": "retyped",
+    "method": "Bell MT at the print's measure, light ink (the print is pale and soft); wording as printed on the cover",
+    "tool": "tools/parts_mag7.py body"
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "Pull quote retyped; legible on the pale patch."
+   }
+  },
+  {
+   "id": "target",
+   "name": "Target emblem (white disc, arc, red ring and line)",
+   "kind": "emblem",
+   "z": 30,
+   "file": "parts/target.png",
+   "x": 64,
+   "y": 208,
+   "w": 232,
+   "h": 216,
+   "source": {
+    "type": "vector",
+    "method": "drawn as a vector (4x supersampled) from geometry measured on the original; the original's brightness decides where logo/slogan overlap the disc",
+    "tool": "tools/parts_mag7.py target",
+    "orig_box": [
+     16,
+     52,
+     74,
+     106
+    ]
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pass",
+    "note": "Vector target emblem matching the original."
+   }
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "cover": "COMICOVER",
+ "uid": "scrap_SB_22_01_COMICOVER__2c0858c3",
+ "size": [
+  1444,
+  1684
+ ],
+ "alpha": "alpha.png",
+ "orig": "orig.png",
+ "parts": [
+  {
+   "id": "page",
+   "name": "Page (approved redraw)",
+   "kind": "background",
+   "z": 0,
+   "file": "parts/page.png",
+   "x": 0,
+   "y": 0,
+   "w": 1444,
+   "h": 1684,
+   "source": {
+    "type": "upscaled",
+    "method": "deskew, tiled FLUX Klein 4x, cleanup (earlier rounds)",
+    "tool": "tools/tile_mags_rot.py + tools/mag_finish.py"
+   },
+   "status": "fine",
+   "qa": {
+    "result": "pass",
+    "note": "hidden under the art part (kept for reference)"
+   }
+  },
+  {
+   "id": "art",
+   "name": "Cover art, title, badge and lettering (original pixels)",
+   "kind": "figure",
+   "z": 10,
+   "file": "parts/art.png",
+   "x": 0,
+   "y": 0,
+   "w": 1444,
+   "h": 1684,
+   "source": {
+    "type": "orig-crop",
+    "method": "the original's own pixels, deskewed: bilateral smooth + unsharp + edge steepening at 4x (flat comic art needs no redraw; Klein only added glow and invented ladder/boot detail); slogan and blurb wiped and retyped from the game strings (Arial Bold on the printed baselines)",
+    "tool": "tools/parts_comi.py (mag_parts.flat_up, mag_sb_22_01_comicover.fix_slogan/fix_blurb)"
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pending",
+    "note": ""
+   }
+  },
+  {
+   "id": "badge",
+   "name": "Price badge with diagonal band",
+   "kind": "emblem",
+   "z": 30,
+   "file": "parts/badge.png",
+   "x": 400,
+   "y": 0,
+   "w": 168,
+   "h": 168,
+   "source": {
+    "type": "orig-crop",
+    "method": "the original's own pixels in the page frame: Lanczos 4x, unsharp, edge steepening, clipped to the torn paper edge",
+    "tool": "mag_parts.box_part",
+    "orig_box": [
+     100,
+     0,
+     142,
+     42
+    ]
+   },
+   "status": "problem",
+   "qa": {
+    "result": "pending",
+    "note": ""
+   }
+  }
+ ]
+}

@@ -3779,3 +3779,39 @@
 {"uid": "scrap_SB_13_01_RECORD__2be3e116", "decision": "approve", "chosen": "custom:1", "seen": ["klein:1", "klein:2", "retry:1", "retry:2", "custom:1"], "issues": [], "text": "agent pick for GitHub issue #6; not yet seen by the user", "ts": 1792617427.5235538}
 {"uid": "scrap_SB_24_01_PREPORT__d5853374", "decision": "approve", "chosen": "custom:1", "seen": ["retry:1", "klein:1", "klein:2", "retry:2", "custom:1"], "issues": [], "text": "agent pick for GitHub issue #6; not yet seen by the user", "ts": 1792617428.050451}
 {"uid": "scrap_SB_02_01_NEWS4__a61fceae", "decision": "approve", "chosen": "custom:1", "seen": ["retry:2", "klein:1", "klein:2", "retry:1", "custom:1"], "issues": [], "text": "agent pick for GitHub issue #4: newspaper column re-set from the game string; not yet seen by the user", "ts": 1792618423.9138258}
+{"uid": "scrap_SB_00_00_MAG1__37e18d0c", "decision": "approve", "chosen": "custom:2", "seen": ["klein:1", "custom:1", "custom:2"], "issues": [], "text": "", "ts": 1792726558}
+{"uid": "scrap_SB_00_00_MAG1__37e18d0c", "decision": "approve", "chosen": "custom:4", "seen": ["custom:4"], "issues": [], "text": "", "ts": 1792732547}
+{"uid": "scrap_SB_01_02_MAG2__12bf7da1", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2"], "issues": [], "text": "", "ts": 1792732547}
+{"uid": "scrap_SB_14_01_MAG5__b1523eb3", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2"], "issues": [], "text": "", "ts": 1792733010}
+{"uid": "scrap_SB_19_01_ZPJCOVER__9b658f3c", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2"], "issues": [], "text": "", "ts": 1792733020}
+{"uid": "scrap_SB_22_01_COMICOVER__2c0858c3", "decision": "approve", "chosen": "custom:2", "seen": ["custom:2"], "issues": [], "text": "", "ts": 1792733020}
+{"uid": "scrap_SB_11_01_MAG3__174eaf47", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3"], "issues": [], "text": "", "ts": 1792734380}
+{"uid": "scrap_SB_11_01_MAG4__39635161", "decision": "approve", "chosen": "custom:4", "seen": ["custom:4"], "issues": [], "text": "", "ts": 1792734380}
+{"uid": "scrap_SB_21_01_MAG7__6c9a2cef", "decision": "approve", "chosen": "custom:3", "seen": ["custom:3"], "issues": [], "text": "", "ts": 1792734578}
+{"uid": "scrap_SB_00_00_MAG1__37e18d0c", "decision": "approve", "chosen": "custom:5", "seen": ["custom:4"], "issues": [], "text": "", "ts": 1792762008.8374417}
+{"uid": "scrap_SB_01_02_MAG2__12bf7da1", "decision": "approve", "chosen": "custom:3", "seen": ["custom:2"], "issues": [], "text": "", "ts": 1792762008.8374596}
+{"uid": "scrap_SB_11_01_MAG3__174eaf47", "decision": "approve", "chosen": "custom:4", "seen": ["custom:3"], "issues": [], "text": "", "ts": 1792762008.8374686}
+{"uid": "scrap_SB_11_01_MAG4__39635161", "decision": "approve", "chosen": "custom:5", "seen": ["custom:4"], "issues": [], "text": "", "ts": 1792762008.8374743}
+{"uid": "scrap_SB_14_01_MAG5__b1523eb3", "decision": "approve", "chosen": "custom:3", "seen": ["custom:2"], "issues": [], "text": "", "ts": 1792762008.8374782}
+{"uid": "scrap_SB_21_01_MAG7__6c9a2cef", "decision": "approve", "chosen": "custom:4", "seen": ["custom:3"], "issues": [], "text": "", "ts": 1792762008.8374822}
+{"uid": "scrap_SB_19_01_ZPJCOVER__9b658f3c", "decision": "approve", "chosen": "custom:3", "seen": ["custom:2"], "issues": [], "text": "", "ts": 1792762008.8374856}
+{"uid": "scrap_SB_22_01_COMICOVER__2c0858c3", "decision": "approve", "chosen": "custom:3", "seen": ["custom:2"], "issues": [], "text": "", "ts": 1792762008.8374898}
+{"uid": "scrap_SB_00_00_MAG1__37e18d0c", "decision": "approve", "chosen": "custom:6", "seen": ["custom:4"], "issues": [], "text": "", "ts": 1792771278.954664}
+{"uid": "scrap_SB_11_01_MAG3__174eaf47", "decision": "approve", "chosen": "custom:5", "seen": ["custom:3"], "issues": [], "text": "", "ts": 1792771278.954679}
+{"uid": "scrap_SB_11_01_MAG4__39635161", "decision": "approve", "chosen": "custom:6", "seen": ["custom:4"], "issues": [], "text": "", "ts": 1792771278.954687}
+{"uid": "scrap_SB_14_01_MAG5__b1523eb3", "decision": "approve", "chosen": "custom:5", "seen": ["custom:2"], "issues": [], "text": "", "ts": 1792771278.9546912}
+{"uid": "scrap_SB_21_01_MAG7__6c9a2cef", "decision": "approve", "chosen": "custom:6", "seen": ["custom:3"], "issues": [], "text": "", "ts": 1792771278.9546938}
+{"uid": "scrap_SB_19_01_ZPJCOVER__9b658f3c", "decision": "approve", "chosen": "custom:5", "seen": ["custom:2"], "issues": [], "text": "", "ts": 1792771278.9546964}
+{"uid": "scrap_SB_22_01_COMICOVER__2c0858c3", "decision": "approve", "chosen": "custom:5", "seen": ["custom:2"], "issues": [], "text": "", "ts": 1792771278.9546993}
+{"uid": "scrap_SB_00_00_MAG1__37e18d0c", "decision": "approve", "chosen": "custom:7", "seen": ["custom:7"], "issues": [], "text": "", "ts": 1792776728.5702093}
+{"uid": "scrap_SB_11_01_MAG4__39635161", "decision": "approve", "chosen": "custom:7", "seen": ["custom:7"], "issues": [], "text": "", "ts": 1792777225.7805545}
+{"uid": "scrap_SB_11_01_MAG3__174eaf47", "decision": "approve", "chosen": "custom:6", "seen": ["custom:6"], "issues": [], "text": "", "ts": 1792777775.5925682}
+{"uid": "scrap_SB_21_01_MAG7__6c9a2cef", "decision": "approve", "chosen": "custom:7", "seen": ["custom:7"], "issues": [], "text": "", "ts": 1792778191.2134163}
+{"uid": "scrap_SB_19_01_ZPJCOVER__9b658f3c", "decision": "approve", "chosen": "custom:6", "seen": ["custom:6"], "issues": [], "text": "", "ts": 1792778250.3462958}
+{"uid": "scrap_SB_22_01_COMICOVER__2c0858c3", "decision": "approve", "chosen": "custom:6", "seen": ["custom:6"], "issues": [], "text": "", "ts": 1792778317.6077168}
+{"uid": "scrap_SB_00_00_MAG1__37e18d0c", "decision": "approve", "chosen": "custom:8", "seen": ["custom:8"], "issues": [], "text": "", "ts": 1792779498.0207808}
+{"uid": "scrap_SB_11_01_MAG3__174eaf47", "decision": "approve", "chosen": "custom:7", "seen": ["custom:7"], "issues": [], "text": "", "ts": 1792779498.7696319}
+{"uid": "scrap_SB_11_01_MAG4__39635161", "decision": "approve", "chosen": "custom:8", "seen": ["custom:8"], "issues": [], "text": "", "ts": 1792779499.500127}
+{"uid": "scrap_SB_21_01_MAG7__6c9a2cef", "decision": "approve", "chosen": "custom:8", "seen": ["custom:8"], "issues": [], "text": "", "ts": 1792779500.209653}
+{"uid": "scrap_SB_22_01_COMICOVER__2c0858c3", "decision": "approve", "chosen": "custom:7", "seen": ["custom:7"], "issues": [], "text": "", "ts": 1792779501.174106}
+{"uid": "scrap_SB_22_01_COMICOVER__2c0858c3", "decision": "approve", "chosen": "custom:8", "seen": ["custom:8"], "issues": [], "text": "", "ts": 1792779664.9327447}
